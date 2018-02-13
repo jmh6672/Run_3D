@@ -1,0 +1,16258 @@
+﻿#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+#include <cstring>
+#include <string.h>
+#include <stdio.h>
+#include <cmath>
+#include <limits>
+#include <assert.h>
+
+// GooglePlayGames.Native.Cwrapper.QuestManager/QuestUICallback
+struct QuestUICallback_t124;
+// System.Object
+struct Object_t;
+// System.IAsyncResult
+struct IAsyncResult_t73;
+// System.AsyncCallback
+struct AsyncCallback_t74;
+// GooglePlayGames.Native.Cwrapper.QuestManager/FetchListCallback
+struct FetchListCallback_t121;
+// GooglePlayGames.Native.Cwrapper.QuestManager/AcceptCallback
+struct AcceptCallback_t122;
+// GooglePlayGames.Native.Cwrapper.QuestManager/ClaimMilestoneCallback
+struct ClaimMilestoneCallback_t123;
+// System.String
+struct String_t;
+// GooglePlayGames.Native.Cwrapper.QuestManager/FetchCallback
+struct FetchCallback_t120;
+// System.Text.StringBuilder
+struct StringBuilder_t361;
+// System.Byte[]
+struct ByteU5BU5D_t20;
+// GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper/OnRoomStatusChangedCallback
+struct OnRoomStatusChangedCallback_t127;
+// GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper/OnRoomConnectedSetChangedCallback
+struct OnRoomConnectedSetChangedCallback_t128;
+// GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper/OnP2PConnectedCallback
+struct OnP2PConnectedCallback_t129;
+// GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper/OnP2PDisconnectedCallback
+struct OnP2PDisconnectedCallback_t130;
+// GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper/OnParticipantStatusChangedCallback
+struct OnParticipantStatusChangedCallback_t131;
+// GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper/OnDataReceivedCallback
+struct OnDataReceivedCallback_t132;
+// GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/RealTimeRoomCallback
+struct RealTimeRoomCallback_t134;
+// GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/LeaveRoomCallback
+struct LeaveRoomCallback_t135;
+// GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/SendReliableMessageCallback
+struct SendReliableMessageCallback_t136;
+// GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/RoomInboxUICallback
+struct RoomInboxUICallback_t137;
+// GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/PlayerSelectUICallback
+struct PlayerSelectUICallback_t138;
+// GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/WaitingRoomUICallback
+struct WaitingRoomUICallback_t139;
+// GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/FetchInvitationsCallback
+struct FetchInvitationsCallback_t140;
+// System.IntPtr[]
+struct IntPtrU5BU5D_t443;
+// GooglePlayGames.Native.Cwrapper.SnapshotManager/FetchAllCallback
+struct FetchAllCallback_t149;
+// GooglePlayGames.Native.Cwrapper.SnapshotManager/OpenCallback
+struct OpenCallback_t150;
+// GooglePlayGames.Native.Cwrapper.SnapshotManager/CommitCallback
+struct CommitCallback_t151;
+// GooglePlayGames.Native.Cwrapper.SnapshotManager/ReadCallback
+struct ReadCallback_t152;
+// GooglePlayGames.Native.Cwrapper.SnapshotManager/SnapshotSelectUICallback
+struct SnapshotSelectUICallback_t153;
+// GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager/TurnBasedMatchCallback
+struct TurnBasedMatchCallback_t172;
+// GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager/MultiplayerStatusCallback
+struct MultiplayerStatusCallback_t173;
+// GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager/TurnBasedMatchesCallback
+struct TurnBasedMatchesCallback_t174;
+// GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager/MatchInboxUICallback
+struct MatchInboxUICallback_t175;
+// GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager/PlayerSelectUICallback
+struct PlayerSelectUICallback_t176;
+// GooglePlayGames.Native.NativeClient/<HandleAuthTransition>c__AnonStoreyF
+struct U3CHandleAuthTransitionU3Ec__AnonStoreyF_t200;
+// GooglePlayGames.Native.PInvoke.AchievementManager/FetchAllResponse
+struct FetchAllResponse_t334;
+// GooglePlayGames.Native.PlayerManager/FetchSelfResponse
+struct FetchSelfResponse_t364;
+// GooglePlayGames.Native.NativeClient/<UnlockAchievement>c__AnonStorey10
+struct U3CUnlockAchievementU3Ec__AnonStorey10_t202;
+// GooglePlayGames.BasicApi.Achievement
+struct Achievement_t1;
+// GooglePlayGames.Native.NativeClient/<RevealAchievement>c__AnonStorey11
+struct U3CRevealAchievementU3Ec__AnonStorey11_t203;
+// GooglePlayGames.Native.NativeClient/<UpdateAchievement>c__AnonStorey12
+struct U3CUpdateAchievementU3Ec__AnonStorey12_t204;
+// GooglePlayGames.Native.PInvoke.AchievementManager/FetchResponse
+struct FetchResponse_t332;
+// GooglePlayGames.Native.NativeClient/<IncrementAchievement>c__AnonStorey13
+struct U3CIncrementAchievementU3Ec__AnonStorey13_t205;
+// GooglePlayGames.Native.NativeClient/<ShowAchievementsUI>c__AnonStorey14
+struct U3CShowAchievementsUIU3Ec__AnonStorey14_t206;
+// GooglePlayGames.Native.NativeClient/<ShowLeaderboardUI>c__AnonStorey15
+struct U3CShowLeaderboardUIU3Ec__AnonStorey15_t208;
+// GooglePlayGames.Native.NativeClient/<RegisterInvitationDelegate>c__AnonStorey16
+struct U3CRegisterInvitationDelegateU3Ec__AnonStorey16_t209;
+// GooglePlayGames.BasicApi.Multiplayer.Invitation
+struct Invitation_t8;
+// GooglePlayGames.Native.NativeClient
+struct NativeClient_t201;
+// GooglePlayGames.Native.PInvoke.GameServices
+struct GameServices_t210;
+// System.Action`1<System.Boolean>
+struct Action_1_t66;
+// GooglePlayGames.Native.AppStateClient
+struct AppStateClient_t219;
+// GooglePlayGames.Native.PInvoke.MultiplayerInvitation
+struct MultiplayerInvitation_t280;
+// GooglePlayGames.Native.PInvoke.PlatformConfiguration
+struct PlatformConfiguration_t348;
+// System.Predicate`1<GooglePlayGames.BasicApi.Achievement>
+struct Predicate_1_t215;
+// System.Action`1<GooglePlayGames.BasicApi.Achievement>
+struct Action_1_t444;
+// System.Action`1<GooglePlayGames.BasicApi.UIStatus>
+struct Action_1_t207;
+// System.Action`1<GooglePlayGames.Native.Cwrapper.CommonErrorStatus/UIStatus>
+struct Action_1_t340;
+// GooglePlayGames.BasicApi.OnStateLoadedListener
+struct OnStateLoadedListener_t425;
+// GooglePlayGames.BasicApi.Multiplayer.IRealTimeMultiplayerClient
+struct IRealTimeMultiplayerClient_t426;
+// GooglePlayGames.BasicApi.Multiplayer.ITurnBasedMultiplayerClient
+struct ITurnBasedMultiplayerClient_t427;
+// GooglePlayGames.BasicApi.SavedGame.ISavedGameClient
+struct ISavedGameClient_t216;
+// GooglePlayGames.BasicApi.Events.IEventsClient
+struct IEventsClient_t217;
+// GooglePlayGames.BasicApi.Quests.IQuestsClient
+struct IQuestsClient_t218;
+// GooglePlayGames.BasicApi.InvitationReceivedDelegate
+struct InvitationReceivedDelegate_t33;
+// System.Action`2<GooglePlayGames.BasicApi.Multiplayer.Invitation,System.Boolean>
+struct Action_2_t213;
+// System.Action`2<System.Object,System.Boolean>
+struct Action_2_t514;
+// GooglePlayGames.Native.PInvoke.NativeTurnBasedMatch
+struct NativeTurnBasedMatch_t359;
+// GooglePlayGames.Native.NativeEventClient/<FetchAllEvents>c__AnonStorey17
+struct U3CFetchAllEventsU3Ec__AnonStorey17_t220;
+// GooglePlayGames.Native.PInvoke.EventManager/FetchAllResponse
+struct FetchAllResponse_t342;
+// System.Collections.Generic.IEnumerable`1<GooglePlayGames.BasicApi.Events.IEvent>
+struct IEnumerable_1_t515;
+// System.Collections.IEnumerable
+struct IEnumerable_t516;
+// System.Collections.Generic.IEnumerable`1<System.Object>
+struct IEnumerable_1_t508;
+// System.Collections.Generic.List`1<GooglePlayGames.BasicApi.Events.IEvent>
+struct List_1_t511;
+// System.Collections.Generic.List`1<System.Object>
+struct List_1_t517;
+// GooglePlayGames.Native.NativeEventClient/<FetchEvent>c__AnonStorey18
+struct U3CFetchEventU3Ec__AnonStorey18_t222;
+// GooglePlayGames.Native.PInvoke.EventManager/FetchResponse
+struct FetchResponse_t341;
+// GooglePlayGames.Native.NativeEventClient
+struct NativeEventClient_t224;
+// GooglePlayGames.Native.PInvoke.EventManager
+struct EventManager_t225;
+// System.Action`2<GooglePlayGames.BasicApi.ResponseStatus,System.Collections.Generic.List`1<GooglePlayGames.BasicApi.Events.IEvent>>
+struct Action_2_t221;
+// System.Action`2<GooglePlayGames.BasicApi.ResponseStatus,System.Object>
+struct Action_2_t518;
+// System.Action`2<GooglePlayGames.BasicApi.ResponseStatus,GooglePlayGames.BasicApi.Events.IEvent>
+struct Action_2_t223;
+// GooglePlayGames.Native.NativeQuestClient/<Fetch>c__AnonStorey19
+struct U3CFetchU3Ec__AnonStorey19_t226;
+// GooglePlayGames.Native.PInvoke.QuestManager/FetchResponse
+struct FetchResponse_t368;
+// GooglePlayGames.Native.NativeQuestClient/<FetchMatchingState>c__AnonStorey1A
+struct U3CFetchMatchingStateU3Ec__AnonStorey1A_t228;
+// GooglePlayGames.Native.PInvoke.QuestManager/FetchListResponse
+struct FetchListResponse_t369;
+// System.Collections.Generic.IEnumerable`1<GooglePlayGames.BasicApi.Quests.IQuest>
+struct IEnumerable_1_t519;
+// System.Collections.Generic.List`1<GooglePlayGames.BasicApi.Quests.IQuest>
+struct List_1_t513;
+// GooglePlayGames.Native.NativeQuestClient/<FromQuestUICallback>c__AnonStorey1B
+struct U3CFromQuestUICallbackU3Ec__AnonStorey1B_t230;
+// GooglePlayGames.Native.PInvoke.QuestManager/QuestUIResponse
+struct QuestUIResponse_t372;
+// GooglePlayGames.Native.NativeQuestClient/<Accept>c__AnonStorey1C
+struct U3CAcceptU3Ec__AnonStorey1C_t232;
+// GooglePlayGames.Native.PInvoke.QuestManager/AcceptResponse
+struct AcceptResponse_t371;
+// GooglePlayGames.Native.NativeQuestClient/<ClaimMilestone>c__AnonStorey1D
+struct U3CClaimMilestoneU3Ec__AnonStorey1D_t234;
+// GooglePlayGames.Native.PInvoke.QuestManager/ClaimMilestoneResponse
+struct ClaimMilestoneResponse_t370;
+// GooglePlayGames.Native.NativeQuestClient
+struct NativeQuestClient_t236;
+// GooglePlayGames.Native.PInvoke.QuestManager
+struct QuestManager_t237;
+// System.Action`2<GooglePlayGames.BasicApi.ResponseStatus,GooglePlayGames.BasicApi.Quests.IQuest>
+struct Action_2_t227;
+// System.Action`2<GooglePlayGames.BasicApi.ResponseStatus,System.Collections.Generic.List`1<GooglePlayGames.BasicApi.Quests.IQuest>>
+struct Action_2_t229;
+// System.Action`3<GooglePlayGames.BasicApi.Quests.QuestUiResult,GooglePlayGames.BasicApi.Quests.IQuest,GooglePlayGames.BasicApi.Quests.IQuestMilestone>
+struct Action_3_t231;
+// System.Action`3<GooglePlayGames.BasicApi.Quests.QuestUiResult,System.Object,System.Object>
+struct Action_3_t520;
+// GooglePlayGames.BasicApi.Quests.IQuest
+struct IQuest_t446;
+// System.Action`1<GooglePlayGames.Native.PInvoke.QuestManager/QuestUIResponse>
+struct Action_1_t445;
+// System.Action`2<GooglePlayGames.BasicApi.Quests.QuestAcceptStatus,GooglePlayGames.BasicApi.Quests.IQuest>
+struct Action_2_t233;
+// System.Action`2<GooglePlayGames.BasicApi.Quests.QuestAcceptStatus,System.Object>
+struct Action_2_t521;
+// GooglePlayGames.BasicApi.Quests.IQuestMilestone
+struct IQuestMilestone_t447;
+// System.Action`3<GooglePlayGames.BasicApi.Quests.QuestClaimMilestoneStatus,GooglePlayGames.BasicApi.Quests.IQuest,GooglePlayGames.BasicApi.Quests.IQuestMilestone>
+struct Action_3_t235;
+// System.Action`3<GooglePlayGames.BasicApi.Quests.QuestClaimMilestoneStatus,System.Object,System.Object>
+struct Action_3_t522;
+// GooglePlayGames.Native.NativeRealtimeMultiplayerClient/NoopListener
+struct NoopListener_t238;
+// GooglePlayGames.BasicApi.Multiplayer.Participant
+struct Participant_t9;
+// System.String[]
+struct StringU5BU5D_t246;
+// GooglePlayGames.Native.NativeRealtimeMultiplayerClient/RoomSession
+struct RoomSession_t239;
+// GooglePlayGames.Native.PInvoke.RealtimeManager
+struct RealtimeManager_t241;
+// GooglePlayGames.BasicApi.Multiplayer.RealTimeMultiplayerListener
+struct RealTimeMultiplayerListener_t250;
+// GooglePlayGames.Native.NativeRealtimeMultiplayerClient/OnGameThreadForwardingListener
+struct OnGameThreadForwardingListener_t240;
+// GooglePlayGames.Native.NativeRealtimeMultiplayerClient/State
+struct State_t242;
+// System.Action
+struct Action_t267;
+// GooglePlayGames.Native.PInvoke.NativeRealTimeRoom
+struct NativeRealTimeRoom_t252;
+// GooglePlayGames.Native.PInvoke.MultiplayerParticipant
+struct MultiplayerParticipant_t350;
+// GooglePlayGames.Native.PInvoke.RealtimeManager/RealTimeRoomResponse
+struct RealTimeRoomResponse_t375;
+// System.Collections.Generic.List`1<GooglePlayGames.BasicApi.Multiplayer.Participant>
+struct List_1_t21;
+// GooglePlayGames.Native.NativeRealtimeMultiplayerClient/OnGameThreadForwardingListener/<RoomSetupProgress>c__AnonStorey2E
+struct U3CRoomSetupProgressU3Ec__AnonStorey2E_t243;
+// GooglePlayGames.Native.NativeRealtimeMultiplayerClient/OnGameThreadForwardingListener/<RoomConnected>c__AnonStorey2F
+struct U3CRoomConnectedU3Ec__AnonStorey2F_t244;
+// GooglePlayGames.Native.NativeRealtimeMultiplayerClient/OnGameThreadForwardingListener/<PeersConnected>c__AnonStorey30
+struct U3CPeersConnectedU3Ec__AnonStorey30_t245;
+// GooglePlayGames.Native.NativeRealtimeMultiplayerClient/OnGameThreadForwardingListener/<PeersDisconnected>c__AnonStorey31
+struct U3CPeersDisconnectedU3Ec__AnonStorey31_t247;
+
+#include "class-internals.h"
+#include "codegen/il2cpp-codegen.h"
+#include "mscorlib_System_Array.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_QuestManag_3.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_QuestManag_3MethodDeclarations.h"
+#include "mscorlib_System_IntPtr.h"
+#include "mscorlib_System_Void.h"
+#include "mscorlib_System_Object.h"
+#include "mscorlib_System_AsyncCallback.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_QuestManag_4.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_QuestManag_4MethodDeclarations.h"
+#include "mscorlib_System_Runtime_InteropServices_HandleRef.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types_Data.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_QuestManag_0.h"
+#include "mscorlib_System_Int32.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_QuestManag_1.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_QuestManag_2.h"
+#include "mscorlib_System_String.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_QuestManag.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_CommonErro_1.h"
+#include "mscorlib_System_UIntPtr.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_CommonErro_4.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_CommonErro_5.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_CommonErro.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_QuestMiles.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_QuestMilesMethodDeclarations.h"
+#include "mscorlib_System_Text_StringBuilder.h"
+#include "mscorlib_System_UInt64.h"
+#include "mscorlib_ArrayTypes.h"
+#include "mscorlib_System_Byte.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types_Ques_0.h"
+#include "mscorlib_System_Boolean.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_RealTimeEv.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_RealTimeEvMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_RealTimeEv_0.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_RealTimeEv_0MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_RealTimeEv_1.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_RealTimeEv_1MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_RealTimeEv_2.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_RealTimeEv_2MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_RealTimeEv_3.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_RealTimeEv_3MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_RealTimeEv_4.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_RealTimeEv_4MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_RealTimeEv_5.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_RealTimeEv_5MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_RealTimeMu.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_RealTimeMuMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_RealTimeMu_0.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_RealTimeMu_0MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_RealTimeMu_1.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_RealTimeMu_1MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_CommonErro_3.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_RealTimeMu_2.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_RealTimeMu_2MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_RealTimeMu_3.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_RealTimeMu_3MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_RealTimeMu_4.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_RealTimeMu_4MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_RealTimeMu_5.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_RealTimeMu_5MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_RealTimeMu_6.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_RealTimeMu_6MethodDeclarations.h"
+#include "mscorlib_System_UInt32.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_RealTimeRo.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_RealTimeRoMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types_Real.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_RealTimeRo_0.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_RealTimeRo_0MethodDeclarations.h"
+#include "mscorlib_System_Int64.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_RealTimeRo_1.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_RealTimeRo_1MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Score.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_ScoreMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_ScorePage.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_ScorePageMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types_Lead_1.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types_Lead_2.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types_Lead_0.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_ScoreSumma.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_ScoreSummaMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Sentinels.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_SentinelsMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_SnapshotMa.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_SnapshotMaMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_SnapshotMa_0.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_SnapshotMa_0MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_SnapshotMa_1.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_SnapshotMa_1MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_SnapshotMa_2.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_SnapshotMa_2MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_SnapshotMa_3.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_SnapshotMa_3MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_SnapshotMa_4.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_SnapshotMa_4MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types_Snap.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_CommonErro_6.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_SnapshotMe.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_SnapshotMeMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_SnapshotMe_0.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_SnapshotMe_0MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_SnapshotMe_1.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_SnapshotMe_1MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Status_Res.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Status_ResMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Status_Flu.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Status_FluMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Status_Aut.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Status_AutMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Status_UIS.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Status_UISMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Status_Mul.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Status_MulMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Status_Que.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Status_QueMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Status_Que_0.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Status_Que_0MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Status_Com.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Status_ComMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Status_Sna.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Status_SnaMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Status.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_StatusMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_SymbolLoca.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_SymbolLocaMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_TurnBasedM.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_TurnBasedMMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types_Matc_0.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_TurnBasedM_0.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_TurnBasedM_0MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_TurnBasedM_1.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_TurnBasedM_1MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_TurnBasedM_2.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_TurnBasedM_2MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_TurnBasedM_3.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_TurnBasedM_3MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_TurnBasedM_4.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_TurnBasedM_4MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_TurnBasedM_5.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_TurnBasedM_5MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_TurnBasedM_6.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_TurnBasedM_6MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_TurnBasedM_7.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_TurnBasedM_7MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types_DataMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types_LogL.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types_LogLMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types_Auth.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types_AuthMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types_Imag.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types_ImagMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types_Achi.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types_AchiMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types_Achi_0.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types_Achi_0MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types_Even.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types_EvenMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types_Lead.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types_LeadMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types_Lead_0MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types_Lead_1MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types_Lead_2MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types_Part.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types_PartMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types_Matc.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types_MatcMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types_Matc_0MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types_Ques.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types_QuesMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types_Ques_0MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types_Mult.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types_MultMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types_Mult_0.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types_Mult_0MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types_RealMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types_SnapMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_Types.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_TypesMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeClient_AuthSt.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeClient_AuthStMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeClient_U3CHan.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeClient_U3CHanMethodDeclarations.h"
+#include "mscorlib_System_ObjectMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_Achievement_0.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeClientMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeClient.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PlayerManager_Fetch.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeClient_U3CUnl.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeClient_U3CUnlMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_BasicApi_Achievement.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_BasicApi_AchievementMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_GameServiceMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_Achievement_1MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_GameService.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_Achievement_1.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeClient_U3CRev.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeClient_U3CRevMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeClient_U3CUpd.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeClient_U3CUpdMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_Achievement.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_AchievementMethodDeclarations.h"
+#include "mscorlib_System_Action_1_genMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeAchievementMethodDeclarations.h"
+#include "mscorlib_System_StringMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_OurUtils_LoggerMethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_gen_2.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_gen_2MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeAchievement.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeClient_U3CInc.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeClient_U3CIncMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeClient_U3CSho.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeClient_U3CShoMethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen_0MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen_0.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_BasicApi_UIStatus.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeClient_U3CSho_0.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeClient_U3CSho_0MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeClient_U3CReg.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeClient_U3CRegMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_BasicApi_Multiplayer_Invit_0.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_BasicApi_InvitationReceiveMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_BasicApi_InvitationReceive.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_BasicApi_PlayGamesClientCo_0.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_OurUtils_PlayGamesHelperObMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_OurUtils_MiscMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_OurUtils_Misc.h"
+#include "mscorlib_System_Threading_MonitorMethodDeclarations.h"
+#include "mscorlib_System_DelegateMethodDeclarations.h"
+#include "mscorlib_System_Delegate.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_GameService_2MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_BasicApi_PlayGamesClientCo_0MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_GameService_0MethodDeclarations.h"
+#include "System_Core_System_Action_3_genMethodDeclarations.h"
+#include "System_Core_System_Action_3_gen_0MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_EventManage_1MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeEventClientMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_QuestManage_4MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeQuestClientMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_TurnBasedMa_3MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeTurnBasedMult_14MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_RealtimeMan_3MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeRealtimeMulti_34MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_SnapshotMan_4MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeSavedGameClie_10MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_UnsupportedSavedGamMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_GameService_2.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_PlatformCon.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_Cwrapper_CommonErro_0.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_GameService_0.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_NativeTurnB.h"
+#include "System_Core_System_Action_3_gen.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_Multiplayer.h"
+#include "System_Core_System_Action_3_gen_0.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_EventManage_1.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeEventClient.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_QuestManage_4.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeQuestClient.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_TurnBasedMa_3.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeTurnBasedMult_14.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_BasicApi_Multiplayer_Match_1.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_RealtimeMan_3.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeRealtimeMulti_34.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_SnapshotMan_4.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeSavedGameClie_10.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_UnsupportedSavedGam.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_UnsupportedAppStateMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_UnsupportedAppState.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_MultiplayerMethodDeclarations.h"
+#include "System_Core_System_Action_2_genMethodDeclarations.h"
+#include "System_Core_System_Action_2_gen.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_GameInfoMethodDeclarations.h"
+#include "mscorlib_System_InvalidOperationExceptionMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_IosPlatformMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_IosPlatform.h"
+#include "mscorlib_System_InvalidOperationException.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_Achievement_0MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_BasicApi_Multiplayer_Playe.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PlayerManager_FetchMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativePlayerMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativePlayer.h"
+#include "mscorlib_System_Action_1_gen_11MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen_12MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PlayerManagerMethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen_11.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PlayerManager.h"
+#include "mscorlib_System_Action_1_gen_12.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_BasicApi_Multiplayer_PlayeMethodDeclarations.h"
+#include "mscorlib_System_Predicate_1_genMethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen_13MethodDeclarations.h"
+#include "mscorlib_System_Predicate_1_gen.h"
+#include "mscorlib_System_Action_1_gen_13.h"
+#include "mscorlib_System_Action_1_gen_14MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen_14.h"
+#include "mscorlib_System_ConvertMethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen_15MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen_15.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_Callbacks.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_CallbacksMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_LeaderboardManagerMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_LeaderboardManager.h"
+#include "mscorlib_System_ArgumentNullExceptionMethodDeclarations.h"
+#include "mscorlib_System_ArgumentNullException.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeEventClient_U.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeEventClient_UMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_EventManage_0.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_EventManage_0MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_ConversionUtilsMethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen_3MethodDeclarations.h"
+#include "System_Core_System_Action_2_gen_0MethodDeclarations.h"
+#include "System_Core_System_Linq_EnumerableMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_BasicApi_ResponseStatus.h"
+#include "System_Core_System_Action_2_gen_0.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen_3.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen_4.h"
+#include "System_Core_System_Linq_Enumerable.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeEventClient_U_0.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeEventClient_U_0MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_EventManage.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_EventManageMethodDeclarations.h"
+#include "System_Core_System_Action_2_gen_1MethodDeclarations.h"
+#include "System_Core_System_Action_2_gen_1.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeEvent.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_BasicApi_DataSource.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_CallbackUtilsMethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen_16MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_CallbackUtils.h"
+#include "mscorlib_System_Action_1_gen_16.h"
+#include "mscorlib_System_Action_1_gen_17MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen_17.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeQuestClient_U.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeQuestClient_UMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_QuestManage.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_QuestManageMethodDeclarations.h"
+#include "System_Core_System_Action_2_gen_2MethodDeclarations.h"
+#include "System_Core_System_Action_2_gen_2.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeQuest.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeQuestClient_U_0.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeQuestClient_U_0MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_QuestManage_0.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_QuestManage_0MethodDeclarations.h"
+#include "System_Core_System_Action_2_gen_3MethodDeclarations.h"
+#include "System_Core_System_Action_2_gen_3.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen_5.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeQuestClient_U_1.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeQuestClient_U_1MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_QuestManage_3.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_QuestManage_3MethodDeclarations.h"
+#include "System_Core_System_Action_3_gen_1MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeQuestMileston.h"
+#include "System_Core_System_Action_3_gen_1.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_BasicApi_Quests_QuestUiRes.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_BaseReferen.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_BaseReferenMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeQuestClient_U_2.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeQuestClient_U_2MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_QuestManage_2.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_QuestManage_2MethodDeclarations.h"
+#include "System_Core_System_Action_2_gen_4MethodDeclarations.h"
+#include "System_Core_System_Action_2_gen_4.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_BasicApi_Quests_QuestAccep.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeQuestClient_U_3.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeQuestClient_U_3MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_QuestManage_1.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_QuestManage_1MethodDeclarations.h"
+#include "System_Core_System_Action_3_gen_2MethodDeclarations.h"
+#include "System_Core_System_Action_3_gen_2.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_BasicApi_Quests_QuestClaim.h"
+#include "mscorlib_System_Action_1_gen_18MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen_18.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_BasicApi_Quests_QuestFetch.h"
+#include "mscorlib_System_Action_1_gen_19MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen_19.h"
+#include "mscorlib_System_Action_1_gen_20.h"
+#include "mscorlib_System_Action_1_gen_20MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen_21MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen_21.h"
+#include "mscorlib_System_Action_1_gen_22MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen_22.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeRealtimeMulti.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeRealtimeMultiMethodDeclarations.h"
+#include "mscorlib_System_Single.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_BasicApi_Multiplayer_Parti_0.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeRealtimeMulti_0.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeRealtimeMulti_0MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeRealtimeMulti_7MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeRealtimeMulti_10MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeRealtimeMulti_7.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeRealtimeMulti_10.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeRealtimeMulti_8.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeRealtimeMulti_8MethodDeclarations.h"
+#include "mscorlib_System_Type.h"
+#include "mscorlib_System_Reflection_MemberInfo.h"
+#include "mscorlib_System_Reflection_MemberInfoMethodDeclarations.h"
+#include "System_Core_System_Action.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeRealtimeMulti_11MethodDeclarations.h"
+#include "System_Core_System_ActionMethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeRealtimeMulti_11.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_NativeRealT.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_Multiplayer_0.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_PInvoke_RealtimeMan.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen_1.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeRealtimeMulti_1.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeRealtimeMulti_1MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeRealtimeMulti_2.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeRealtimeMulti_2MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeRealtimeMulti_3.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeRealtimeMulti_3MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeRealtimeMulti_4.h"
+#include "AssemblyU2DCSharp_GooglePlayGames_Native_NativeRealtimeMulti_4MethodDeclarations.h"
+
+// !!0 GooglePlayGames.OurUtils.Misc::CheckNotNull<GooglePlayGames.BasicApi.PlayGamesClientConfiguration>(!!0)
+extern "C" PlayGamesClientConfiguration_t35  Misc_CheckNotNull_TisPlayGamesClientConfiguration_t35_m2005_gshared (Object_t * __this /* static, unused */, PlayGamesClientConfiguration_t35  p0, const MethodInfo* method);
+#define Misc_CheckNotNull_TisPlayGamesClientConfiguration_t35_m2005(__this /* static, unused */, p0, method) (( PlayGamesClientConfiguration_t35  (*) (Object_t * /* static, unused */, PlayGamesClientConfiguration_t35 , const MethodInfo*))Misc_CheckNotNull_TisPlayGamesClientConfiguration_t35_m2005_gshared)(__this /* static, unused */, p0, method)
+// System.Void GooglePlayGames.Native.NativeClient::InvokeCallbackOnGameThread<System.Boolean>(System.Action`1<!!0>,!!0)
+extern "C" void NativeClient_InvokeCallbackOnGameThread_TisBoolean_t489_m2006_gshared (Object_t * __this /* static, unused */, Action_1_t66 * p0, bool p1, const MethodInfo* method);
+#define NativeClient_InvokeCallbackOnGameThread_TisBoolean_t489_m2006(__this /* static, unused */, p0, p1, method) (( void (*) (Object_t * /* static, unused */, Action_1_t66 *, bool, const MethodInfo*))NativeClient_InvokeCallbackOnGameThread_TisBoolean_t489_m2006_gshared)(__this /* static, unused */, p0, p1, method)
+// System.Action`1<!!0> GooglePlayGames.Native.NativeClient::AsOnGameThreadCallback<System.Boolean>(System.Action`1<!!0>)
+extern "C" Action_1_t66 * NativeClient_AsOnGameThreadCallback_TisBoolean_t489_m2016_gshared (Object_t * __this /* static, unused */, Action_1_t66 * p0, const MethodInfo* method);
+#define NativeClient_AsOnGameThreadCallback_TisBoolean_t489_m2016(__this /* static, unused */, p0, method) (( Action_1_t66 * (*) (Object_t * /* static, unused */, Action_1_t66 *, const MethodInfo*))NativeClient_AsOnGameThreadCallback_TisBoolean_t489_m2016_gshared)(__this /* static, unused */, p0, method)
+// !!0 GooglePlayGames.OurUtils.Misc::CheckNotNull<System.Object>(!!0)
+extern "C" Object_t * Misc_CheckNotNull_TisObject_t_m2003_gshared (Object_t * __this /* static, unused */, Object_t * p0, const MethodInfo* method);
+#define Misc_CheckNotNull_TisObject_t_m2003(__this /* static, unused */, p0, method) (( Object_t * (*) (Object_t * /* static, unused */, Object_t *, const MethodInfo*))Misc_CheckNotNull_TisObject_t_m2003_gshared)(__this /* static, unused */, p0, method)
+// !!0 GooglePlayGames.OurUtils.Misc::CheckNotNull<System.String>(!!0)
+#define Misc_CheckNotNull_TisString_t_m1944(__this /* static, unused */, p0, method) (( String_t* (*) (Object_t * /* static, unused */, String_t*, const MethodInfo*))Misc_CheckNotNull_TisObject_t_m2003_gshared)(__this /* static, unused */, p0, method)
+// System.Action`1<!!0> GooglePlayGames.Native.NativeClient::AsOnGameThreadCallback<GooglePlayGames.Native.Cwrapper.CommonErrorStatus/UIStatus>(System.Action`1<!!0>)
+extern "C" Action_1_t340 * NativeClient_AsOnGameThreadCallback_TisUIStatus_t88_m2023_gshared (Object_t * __this /* static, unused */, Action_1_t340 * p0, const MethodInfo* method);
+#define NativeClient_AsOnGameThreadCallback_TisUIStatus_t88_m2023(__this /* static, unused */, p0, method) (( Action_1_t340 * (*) (Object_t * /* static, unused */, Action_1_t340 *, const MethodInfo*))NativeClient_AsOnGameThreadCallback_TisUIStatus_t88_m2023_gshared)(__this /* static, unused */, p0, method)
+// !!0 GooglePlayGames.OurUtils.Misc::CheckNotNull<GooglePlayGames.BasicApi.OnStateLoadedListener>(!!0)
+#define Misc_CheckNotNull_TisOnStateLoadedListener_t425_m2024(__this /* static, unused */, p0, method) (( Object_t * (*) (Object_t * /* static, unused */, Object_t *, const MethodInfo*))Misc_CheckNotNull_TisObject_t_m2003_gshared)(__this /* static, unused */, p0, method)
+// System.Action`2<!!0,!!1> GooglePlayGames.Native.PInvoke.Callbacks::AsOnGameThreadCallback<System.Object,System.Boolean>(System.Action`2<!!0,!!1>)
+extern "C" Action_2_t514 * Callbacks_AsOnGameThreadCallback_TisObject_t_TisBoolean_t489_m2065_gshared (Object_t * __this /* static, unused */, Action_2_t514 * p0, const MethodInfo* method);
+#define Callbacks_AsOnGameThreadCallback_TisObject_t_TisBoolean_t489_m2065(__this /* static, unused */, p0, method) (( Action_2_t514 * (*) (Object_t * /* static, unused */, Action_2_t514 *, const MethodInfo*))Callbacks_AsOnGameThreadCallback_TisObject_t_TisBoolean_t489_m2065_gshared)(__this /* static, unused */, p0, method)
+// System.Action`2<!!0,!!1> GooglePlayGames.Native.PInvoke.Callbacks::AsOnGameThreadCallback<GooglePlayGames.BasicApi.Multiplayer.Invitation,System.Boolean>(System.Action`2<!!0,!!1>)
+#define Callbacks_AsOnGameThreadCallback_TisInvitation_t8_TisBoolean_t489_m2026(__this /* static, unused */, p0, method) (( Action_2_t213 * (*) (Object_t * /* static, unused */, Action_2_t213 *, const MethodInfo*))Callbacks_AsOnGameThreadCallback_TisObject_t_TisBoolean_t489_m2065_gshared)(__this /* static, unused */, p0, method)
+// System.Collections.Generic.IEnumerable`1<!!0> System.Linq.Enumerable::Cast<System.Object>(System.Collections.IEnumerable)
+extern "C" Object_t* Enumerable_Cast_TisObject_t_m2066_gshared (Object_t * __this /* static, unused */, Object_t * p0, const MethodInfo* method);
+#define Enumerable_Cast_TisObject_t_m2066(__this /* static, unused */, p0, method) (( Object_t* (*) (Object_t * /* static, unused */, Object_t *, const MethodInfo*))Enumerable_Cast_TisObject_t_m2066_gshared)(__this /* static, unused */, p0, method)
+// System.Collections.Generic.IEnumerable`1<!!0> System.Linq.Enumerable::Cast<GooglePlayGames.BasicApi.Events.IEvent>(System.Collections.IEnumerable)
+#define Enumerable_Cast_TisIEvent_t512_m2029(__this /* static, unused */, p0, method) (( Object_t* (*) (Object_t * /* static, unused */, Object_t *, const MethodInfo*))Enumerable_Cast_TisObject_t_m2066_gshared)(__this /* static, unused */, p0, method)
+// System.Collections.Generic.List`1<!!0> System.Linq.Enumerable::ToList<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>)
+extern "C" List_1_t517 * Enumerable_ToList_TisObject_t_m2067_gshared (Object_t * __this /* static, unused */, Object_t* p0, const MethodInfo* method);
+#define Enumerable_ToList_TisObject_t_m2067(__this /* static, unused */, p0, method) (( List_1_t517 * (*) (Object_t * /* static, unused */, Object_t*, const MethodInfo*))Enumerable_ToList_TisObject_t_m2067_gshared)(__this /* static, unused */, p0, method)
+// System.Collections.Generic.List`1<!!0> System.Linq.Enumerable::ToList<GooglePlayGames.BasicApi.Events.IEvent>(System.Collections.Generic.IEnumerable`1<!!0>)
+#define Enumerable_ToList_TisIEvent_t512_m2030(__this /* static, unused */, p0, method) (( List_1_t511 * (*) (Object_t * /* static, unused */, Object_t*, const MethodInfo*))Enumerable_ToList_TisObject_t_m2067_gshared)(__this /* static, unused */, p0, method)
+// !!0 GooglePlayGames.OurUtils.Misc::CheckNotNull<GooglePlayGames.Native.PInvoke.EventManager>(!!0)
+#define Misc_CheckNotNull_TisEventManager_t225_m2032(__this /* static, unused */, p0, method) (( EventManager_t225 * (*) (Object_t * /* static, unused */, EventManager_t225 *, const MethodInfo*))Misc_CheckNotNull_TisObject_t_m2003_gshared)(__this /* static, unused */, p0, method)
+// !!0 GooglePlayGames.OurUtils.Misc::CheckNotNull<System.Action`2<GooglePlayGames.BasicApi.ResponseStatus,System.Collections.Generic.List`1<GooglePlayGames.BasicApi.Events.IEvent>>>(!!0)
+#define Misc_CheckNotNull_TisAction_2_t221_m2033(__this /* static, unused */, p0, method) (( Action_2_t221 * (*) (Object_t * /* static, unused */, Action_2_t221 *, const MethodInfo*))Misc_CheckNotNull_TisObject_t_m2003_gshared)(__this /* static, unused */, p0, method)
+// System.Action`2<!!0,!!1> GooglePlayGames.Native.CallbackUtils::ToOnGameThread<GooglePlayGames.BasicApi.ResponseStatus,System.Object>(System.Action`2<!!0,!!1>)
+extern "C" Action_2_t518 * CallbackUtils_ToOnGameThread_TisResponseStatus_t3_TisObject_t_m2068_gshared (Object_t * __this /* static, unused */, Action_2_t518 * p0, const MethodInfo* method);
+#define CallbackUtils_ToOnGameThread_TisResponseStatus_t3_TisObject_t_m2068(__this /* static, unused */, p0, method) (( Action_2_t518 * (*) (Object_t * /* static, unused */, Action_2_t518 *, const MethodInfo*))CallbackUtils_ToOnGameThread_TisResponseStatus_t3_TisObject_t_m2068_gshared)(__this /* static, unused */, p0, method)
+// System.Action`2<!!0,!!1> GooglePlayGames.Native.CallbackUtils::ToOnGameThread<GooglePlayGames.BasicApi.ResponseStatus,System.Collections.Generic.List`1<GooglePlayGames.BasicApi.Events.IEvent>>(System.Action`2<!!0,!!1>)
+#define CallbackUtils_ToOnGameThread_TisResponseStatus_t3_TisList_1_t511_m2034(__this /* static, unused */, p0, method) (( Action_2_t221 * (*) (Object_t * /* static, unused */, Action_2_t221 *, const MethodInfo*))CallbackUtils_ToOnGameThread_TisResponseStatus_t3_TisObject_t_m2068_gshared)(__this /* static, unused */, p0, method)
+// !!0 GooglePlayGames.OurUtils.Misc::CheckNotNull<System.Action`2<GooglePlayGames.BasicApi.ResponseStatus,GooglePlayGames.BasicApi.Events.IEvent>>(!!0)
+#define Misc_CheckNotNull_TisAction_2_t223_m2036(__this /* static, unused */, p0, method) (( Action_2_t223 * (*) (Object_t * /* static, unused */, Action_2_t223 *, const MethodInfo*))Misc_CheckNotNull_TisObject_t_m2003_gshared)(__this /* static, unused */, p0, method)
+// System.Collections.Generic.IEnumerable`1<!!0> System.Linq.Enumerable::Cast<GooglePlayGames.BasicApi.Quests.IQuest>(System.Collections.IEnumerable)
+#define Enumerable_Cast_TisIQuest_t446_m2040(__this /* static, unused */, p0, method) (( Object_t* (*) (Object_t * /* static, unused */, Object_t *, const MethodInfo*))Enumerable_Cast_TisObject_t_m2066_gshared)(__this /* static, unused */, p0, method)
+// System.Collections.Generic.List`1<!!0> System.Linq.Enumerable::ToList<GooglePlayGames.BasicApi.Quests.IQuest>(System.Collections.Generic.IEnumerable`1<!!0>)
+#define Enumerable_ToList_TisIQuest_t446_m2041(__this /* static, unused */, p0, method) (( List_1_t513 * (*) (Object_t * /* static, unused */, Object_t*, const MethodInfo*))Enumerable_ToList_TisObject_t_m2067_gshared)(__this /* static, unused */, p0, method)
+// !!0 GooglePlayGames.OurUtils.Misc::CheckNotNull<GooglePlayGames.Native.PInvoke.QuestManager>(!!0)
+#define Misc_CheckNotNull_TisQuestManager_t237_m2045(__this /* static, unused */, p0, method) (( QuestManager_t237 * (*) (Object_t * /* static, unused */, QuestManager_t237 *, const MethodInfo*))Misc_CheckNotNull_TisObject_t_m2003_gshared)(__this /* static, unused */, p0, method)
+// !!0 GooglePlayGames.OurUtils.Misc::CheckNotNull<System.Action`2<GooglePlayGames.BasicApi.ResponseStatus,GooglePlayGames.BasicApi.Quests.IQuest>>(!!0)
+#define Misc_CheckNotNull_TisAction_2_t227_m2046(__this /* static, unused */, p0, method) (( Action_2_t227 * (*) (Object_t * /* static, unused */, Action_2_t227 *, const MethodInfo*))Misc_CheckNotNull_TisObject_t_m2003_gshared)(__this /* static, unused */, p0, method)
+// System.Action`2<!!0,!!1> GooglePlayGames.Native.CallbackUtils::ToOnGameThread<GooglePlayGames.BasicApi.ResponseStatus,GooglePlayGames.BasicApi.Quests.IQuest>(System.Action`2<!!0,!!1>)
+#define CallbackUtils_ToOnGameThread_TisResponseStatus_t3_TisIQuest_t446_m2047(__this /* static, unused */, p0, method) (( Action_2_t227 * (*) (Object_t * /* static, unused */, Action_2_t227 *, const MethodInfo*))CallbackUtils_ToOnGameThread_TisResponseStatus_t3_TisObject_t_m2068_gshared)(__this /* static, unused */, p0, method)
+// !!0 GooglePlayGames.OurUtils.Misc::CheckNotNull<System.Action`2<GooglePlayGames.BasicApi.ResponseStatus,System.Collections.Generic.List`1<GooglePlayGames.BasicApi.Quests.IQuest>>>(!!0)
+#define Misc_CheckNotNull_TisAction_2_t229_m2049(__this /* static, unused */, p0, method) (( Action_2_t229 * (*) (Object_t * /* static, unused */, Action_2_t229 *, const MethodInfo*))Misc_CheckNotNull_TisObject_t_m2003_gshared)(__this /* static, unused */, p0, method)
+// System.Action`2<!!0,!!1> GooglePlayGames.Native.CallbackUtils::ToOnGameThread<GooglePlayGames.BasicApi.ResponseStatus,System.Collections.Generic.List`1<GooglePlayGames.BasicApi.Quests.IQuest>>(System.Action`2<!!0,!!1>)
+#define CallbackUtils_ToOnGameThread_TisResponseStatus_t3_TisList_1_t513_m2050(__this /* static, unused */, p0, method) (( Action_2_t229 * (*) (Object_t * /* static, unused */, Action_2_t229 *, const MethodInfo*))CallbackUtils_ToOnGameThread_TisResponseStatus_t3_TisObject_t_m2068_gshared)(__this /* static, unused */, p0, method)
+// !!0 GooglePlayGames.OurUtils.Misc::CheckNotNull<System.Action`3<GooglePlayGames.BasicApi.Quests.QuestUiResult,GooglePlayGames.BasicApi.Quests.IQuest,GooglePlayGames.BasicApi.Quests.IQuestMilestone>>(!!0)
+#define Misc_CheckNotNull_TisAction_3_t231_m2052(__this /* static, unused */, p0, method) (( Action_3_t231 * (*) (Object_t * /* static, unused */, Action_3_t231 *, const MethodInfo*))Misc_CheckNotNull_TisObject_t_m2003_gshared)(__this /* static, unused */, p0, method)
+// System.Action`3<!!0,!!1,!!2> GooglePlayGames.Native.CallbackUtils::ToOnGameThread<GooglePlayGames.BasicApi.Quests.QuestUiResult,System.Object,System.Object>(System.Action`3<!!0,!!1,!!2>)
+extern "C" Action_3_t520 * CallbackUtils_ToOnGameThread_TisQuestUiResult_t41_TisObject_t_TisObject_t_m2069_gshared (Object_t * __this /* static, unused */, Action_3_t520 * p0, const MethodInfo* method);
+#define CallbackUtils_ToOnGameThread_TisQuestUiResult_t41_TisObject_t_TisObject_t_m2069(__this /* static, unused */, p0, method) (( Action_3_t520 * (*) (Object_t * /* static, unused */, Action_3_t520 *, const MethodInfo*))CallbackUtils_ToOnGameThread_TisQuestUiResult_t41_TisObject_t_TisObject_t_m2069_gshared)(__this /* static, unused */, p0, method)
+// System.Action`3<!!0,!!1,!!2> GooglePlayGames.Native.CallbackUtils::ToOnGameThread<GooglePlayGames.BasicApi.Quests.QuestUiResult,GooglePlayGames.BasicApi.Quests.IQuest,GooglePlayGames.BasicApi.Quests.IQuestMilestone>(System.Action`3<!!0,!!1,!!2>)
+#define CallbackUtils_ToOnGameThread_TisQuestUiResult_t41_TisIQuest_t446_TisIQuestMilestone_t447_m2053(__this /* static, unused */, p0, method) (( Action_3_t231 * (*) (Object_t * /* static, unused */, Action_3_t231 *, const MethodInfo*))CallbackUtils_ToOnGameThread_TisQuestUiResult_t41_TisObject_t_TisObject_t_m2069_gshared)(__this /* static, unused */, p0, method)
+// !!0 GooglePlayGames.OurUtils.Misc::CheckNotNull<GooglePlayGames.BasicApi.Quests.IQuest>(!!0)
+#define Misc_CheckNotNull_TisIQuest_t446_m2054(__this /* static, unused */, p0, method) (( Object_t * (*) (Object_t * /* static, unused */, Object_t *, const MethodInfo*))Misc_CheckNotNull_TisObject_t_m2003_gshared)(__this /* static, unused */, p0, method)
+// !!0 GooglePlayGames.OurUtils.Misc::CheckNotNull<System.Action`2<GooglePlayGames.BasicApi.Quests.QuestAcceptStatus,GooglePlayGames.BasicApi.Quests.IQuest>>(!!0)
+#define Misc_CheckNotNull_TisAction_2_t233_m2056(__this /* static, unused */, p0, method) (( Action_2_t233 * (*) (Object_t * /* static, unused */, Action_2_t233 *, const MethodInfo*))Misc_CheckNotNull_TisObject_t_m2003_gshared)(__this /* static, unused */, p0, method)
+// System.Action`2<!!0,!!1> GooglePlayGames.Native.CallbackUtils::ToOnGameThread<GooglePlayGames.BasicApi.Quests.QuestAcceptStatus,System.Object>(System.Action`2<!!0,!!1>)
+extern "C" Action_2_t521 * CallbackUtils_ToOnGameThread_TisQuestAcceptStatus_t39_TisObject_t_m2070_gshared (Object_t * __this /* static, unused */, Action_2_t521 * p0, const MethodInfo* method);
+#define CallbackUtils_ToOnGameThread_TisQuestAcceptStatus_t39_TisObject_t_m2070(__this /* static, unused */, p0, method) (( Action_2_t521 * (*) (Object_t * /* static, unused */, Action_2_t521 *, const MethodInfo*))CallbackUtils_ToOnGameThread_TisQuestAcceptStatus_t39_TisObject_t_m2070_gshared)(__this /* static, unused */, p0, method)
+// System.Action`2<!!0,!!1> GooglePlayGames.Native.CallbackUtils::ToOnGameThread<GooglePlayGames.BasicApi.Quests.QuestAcceptStatus,GooglePlayGames.BasicApi.Quests.IQuest>(System.Action`2<!!0,!!1>)
+#define CallbackUtils_ToOnGameThread_TisQuestAcceptStatus_t39_TisIQuest_t446_m2057(__this /* static, unused */, p0, method) (( Action_2_t233 * (*) (Object_t * /* static, unused */, Action_2_t233 *, const MethodInfo*))CallbackUtils_ToOnGameThread_TisQuestAcceptStatus_t39_TisObject_t_m2070_gshared)(__this /* static, unused */, p0, method)
+// !!0 GooglePlayGames.OurUtils.Misc::CheckNotNull<GooglePlayGames.BasicApi.Quests.IQuestMilestone>(!!0)
+#define Misc_CheckNotNull_TisIQuestMilestone_t447_m2059(__this /* static, unused */, p0, method) (( Object_t * (*) (Object_t * /* static, unused */, Object_t *, const MethodInfo*))Misc_CheckNotNull_TisObject_t_m2003_gshared)(__this /* static, unused */, p0, method)
+// !!0 GooglePlayGames.OurUtils.Misc::CheckNotNull<System.Action`3<GooglePlayGames.BasicApi.Quests.QuestClaimMilestoneStatus,GooglePlayGames.BasicApi.Quests.IQuest,GooglePlayGames.BasicApi.Quests.IQuestMilestone>>(!!0)
+#define Misc_CheckNotNull_TisAction_3_t235_m2060(__this /* static, unused */, p0, method) (( Action_3_t235 * (*) (Object_t * /* static, unused */, Action_3_t235 *, const MethodInfo*))Misc_CheckNotNull_TisObject_t_m2003_gshared)(__this /* static, unused */, p0, method)
+// System.Action`3<!!0,!!1,!!2> GooglePlayGames.Native.CallbackUtils::ToOnGameThread<GooglePlayGames.BasicApi.Quests.QuestClaimMilestoneStatus,System.Object,System.Object>(System.Action`3<!!0,!!1,!!2>)
+extern "C" Action_3_t522 * CallbackUtils_ToOnGameThread_TisQuestClaimMilestoneStatus_t40_TisObject_t_TisObject_t_m2071_gshared (Object_t * __this /* static, unused */, Action_3_t522 * p0, const MethodInfo* method);
+#define CallbackUtils_ToOnGameThread_TisQuestClaimMilestoneStatus_t40_TisObject_t_TisObject_t_m2071(__this /* static, unused */, p0, method) (( Action_3_t522 * (*) (Object_t * /* static, unused */, Action_3_t522 *, const MethodInfo*))CallbackUtils_ToOnGameThread_TisQuestClaimMilestoneStatus_t40_TisObject_t_TisObject_t_m2071_gshared)(__this /* static, unused */, p0, method)
+// System.Action`3<!!0,!!1,!!2> GooglePlayGames.Native.CallbackUtils::ToOnGameThread<GooglePlayGames.BasicApi.Quests.QuestClaimMilestoneStatus,GooglePlayGames.BasicApi.Quests.IQuest,GooglePlayGames.BasicApi.Quests.IQuestMilestone>(System.Action`3<!!0,!!1,!!2>)
+#define CallbackUtils_ToOnGameThread_TisQuestClaimMilestoneStatus_t40_TisIQuest_t446_TisIQuestMilestone_t447_m2061(__this /* static, unused */, p0, method) (( Action_3_t235 * (*) (Object_t * /* static, unused */, Action_3_t235 *, const MethodInfo*))CallbackUtils_ToOnGameThread_TisQuestClaimMilestoneStatus_t40_TisObject_t_TisObject_t_m2071_gshared)(__this /* static, unused */, p0, method)
+// !!0 GooglePlayGames.OurUtils.Misc::CheckNotNull<GooglePlayGames.Native.PInvoke.RealtimeManager>(!!0)
+#define Misc_CheckNotNull_TisRealtimeManager_t241_m2063(__this /* static, unused */, p0, method) (( RealtimeManager_t241 * (*) (Object_t * /* static, unused */, RealtimeManager_t241 *, const MethodInfo*))Misc_CheckNotNull_TisObject_t_m2003_gshared)(__this /* static, unused */, p0, method)
+// !!0 GooglePlayGames.OurUtils.Misc::CheckNotNull<GooglePlayGames.Native.NativeRealtimeMultiplayerClient/State>(!!0)
+#define Misc_CheckNotNull_TisState_t242_m2064(__this /* static, unused */, p0, method) (( State_t242 * (*) (Object_t * /* static, unused */, State_t242 *, const MethodInfo*))Misc_CheckNotNull_TisObject_t_m2003_gshared)(__this /* static, unused */, p0, method)
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void GooglePlayGames.Native.Cwrapper.QuestManager/QuestUICallback::.ctor(System.Object,System.IntPtr)
+extern "C" void QuestUICallback__ctor_m558 (QuestUICallback_t124 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+{
+	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
+	__this->___method_3 = ___method;
+	__this->___m_target_2 = ___object;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.QuestManager/QuestUICallback::Invoke(System.IntPtr,System.IntPtr)
+extern "C" void QuestUICallback_Invoke_m559 (QuestUICallback_t124 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method)
+{
+	if(__this->___prev_9 != NULL)
+	{
+		QuestUICallback_Invoke_m559((QuestUICallback_t124 *)__this->___prev_9,___arg0, ___arg1, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
+	if (__this->___m_target_2 != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Object_t *, Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(NULL,__this->___m_target_2,___arg0, ___arg1,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___arg0, ___arg1,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+}
+extern "C" void pinvoke_delegate_wrapper_QuestUICallback_t124(Il2CppObject* delegate, IntPtr_t ___arg0, IntPtr_t ___arg1)
+{
+	typedef void (STDCALL *native_function_ptr_type)(intptr_t, intptr_t);
+	native_function_ptr_type _il2cpp_pinvoke_func = ((native_function_ptr_type)((Il2CppDelegate*)delegate)->method->method);
+	// Marshaling of parameter '___arg0' to native representation
+
+	// Marshaling of parameter '___arg1' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(reinterpret_cast<intptr_t>((___arg0).___m_value_0), reinterpret_cast<intptr_t>((___arg1).___m_value_0));
+
+	// Marshaling cleanup of parameter '___arg0' native representation
+
+	// Marshaling cleanup of parameter '___arg1' native representation
+
+}
+// System.IAsyncResult GooglePlayGames.Native.Cwrapper.QuestManager/QuestUICallback::BeginInvoke(System.IntPtr,System.IntPtr,System.AsyncCallback,System.Object)
+extern TypeInfo* IntPtr_t_il2cpp_TypeInfo_var;
+extern "C" Object_t * QuestUICallback_BeginInvoke_m560 (QuestUICallback_t124 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, AsyncCallback_t74 * ___callback, Object_t * ___object, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		IntPtr_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(69);
+		s_Il2CppMethodIntialized = true;
+	}
+	void *__d_args[3] = {0};
+	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg0);
+	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg1);
+	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.QuestManager/QuestUICallback::EndInvoke(System.IAsyncResult)
+extern "C" void QuestUICallback_EndInvoke_m561 (QuestUICallback_t124 * __this, Object_t * ___result, const MethodInfo* method)
+{
+	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.QuestManager::QuestManager_FetchList(System.Runtime.InteropServices.HandleRef,GooglePlayGames.Native.Cwrapper.Types/DataSource,System.Int32,GooglePlayGames.Native.Cwrapper.QuestManager/FetchListCallback,System.IntPtr)
+extern "C" {void DEFAULT_CALL QuestManager_FetchList(void*, int32_t, int32_t, methodPointerType, intptr_t);}
+extern "C" void QuestManager_QuestManager_FetchList_m562 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, int32_t ___data_source, int32_t ___fetch_flags, FetchListCallback_t121 * ___callback, IntPtr_t ___callback_arg, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, int32_t, int32_t, methodPointerType, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)QuestManager_FetchList;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'QuestManager_FetchList'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___data_source' to native representation
+
+	// Marshaling of parameter '___fetch_flags' to native representation
+
+	// Marshaling of parameter '___callback' to native representation
+	methodPointerType ____callback_marshaled = { 0 };
+	____callback_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___callback));
+
+	// Marshaling of parameter '___callback_arg' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, ___data_source, ___fetch_flags, ____callback_marshaled, reinterpret_cast<intptr_t>((___callback_arg).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___data_source' native representation
+
+	// Marshaling cleanup of parameter '___fetch_flags' native representation
+
+	// Marshaling cleanup of parameter '___callback' native representation
+
+	// Marshaling cleanup of parameter '___callback_arg' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.QuestManager::QuestManager_Accept(System.Runtime.InteropServices.HandleRef,System.IntPtr,GooglePlayGames.Native.Cwrapper.QuestManager/AcceptCallback,System.IntPtr)
+extern "C" {void DEFAULT_CALL QuestManager_Accept(void*, intptr_t, methodPointerType, intptr_t);}
+extern "C" void QuestManager_QuestManager_Accept_m563 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, IntPtr_t ___quest, AcceptCallback_t122 * ___callback, IntPtr_t ___callback_arg, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, intptr_t, methodPointerType, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)QuestManager_Accept;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'QuestManager_Accept'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___quest' to native representation
+
+	// Marshaling of parameter '___callback' to native representation
+	methodPointerType ____callback_marshaled = { 0 };
+	____callback_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___callback));
+
+	// Marshaling of parameter '___callback_arg' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, reinterpret_cast<intptr_t>((___quest).___m_value_0), ____callback_marshaled, reinterpret_cast<intptr_t>((___callback_arg).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___quest' native representation
+
+	// Marshaling cleanup of parameter '___callback' native representation
+
+	// Marshaling cleanup of parameter '___callback_arg' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.QuestManager::QuestManager_ShowAllUI(System.Runtime.InteropServices.HandleRef,GooglePlayGames.Native.Cwrapper.QuestManager/QuestUICallback,System.IntPtr)
+extern "C" {void DEFAULT_CALL QuestManager_ShowAllUI(void*, methodPointerType, intptr_t);}
+extern "C" void QuestManager_QuestManager_ShowAllUI_m564 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, QuestUICallback_t124 * ___callback, IntPtr_t ___callback_arg, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, methodPointerType, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)QuestManager_ShowAllUI;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'QuestManager_ShowAllUI'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___callback' to native representation
+	methodPointerType ____callback_marshaled = { 0 };
+	____callback_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___callback));
+
+	// Marshaling of parameter '___callback_arg' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, ____callback_marshaled, reinterpret_cast<intptr_t>((___callback_arg).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___callback' native representation
+
+	// Marshaling cleanup of parameter '___callback_arg' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.QuestManager::QuestManager_ShowUI(System.Runtime.InteropServices.HandleRef,System.IntPtr,GooglePlayGames.Native.Cwrapper.QuestManager/QuestUICallback,System.IntPtr)
+extern "C" {void DEFAULT_CALL QuestManager_ShowUI(void*, intptr_t, methodPointerType, intptr_t);}
+extern "C" void QuestManager_QuestManager_ShowUI_m565 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, IntPtr_t ___quest, QuestUICallback_t124 * ___callback, IntPtr_t ___callback_arg, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, intptr_t, methodPointerType, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)QuestManager_ShowUI;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'QuestManager_ShowUI'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___quest' to native representation
+
+	// Marshaling of parameter '___callback' to native representation
+	methodPointerType ____callback_marshaled = { 0 };
+	____callback_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___callback));
+
+	// Marshaling of parameter '___callback_arg' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, reinterpret_cast<intptr_t>((___quest).___m_value_0), ____callback_marshaled, reinterpret_cast<intptr_t>((___callback_arg).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___quest' native representation
+
+	// Marshaling cleanup of parameter '___callback' native representation
+
+	// Marshaling cleanup of parameter '___callback_arg' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.QuestManager::QuestManager_ClaimMilestone(System.Runtime.InteropServices.HandleRef,System.IntPtr,GooglePlayGames.Native.Cwrapper.QuestManager/ClaimMilestoneCallback,System.IntPtr)
+extern "C" {void DEFAULT_CALL QuestManager_ClaimMilestone(void*, intptr_t, methodPointerType, intptr_t);}
+extern "C" void QuestManager_QuestManager_ClaimMilestone_m566 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, IntPtr_t ___milestone, ClaimMilestoneCallback_t123 * ___callback, IntPtr_t ___callback_arg, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, intptr_t, methodPointerType, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)QuestManager_ClaimMilestone;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'QuestManager_ClaimMilestone'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___milestone' to native representation
+
+	// Marshaling of parameter '___callback' to native representation
+	methodPointerType ____callback_marshaled = { 0 };
+	____callback_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___callback));
+
+	// Marshaling of parameter '___callback_arg' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, reinterpret_cast<intptr_t>((___milestone).___m_value_0), ____callback_marshaled, reinterpret_cast<intptr_t>((___callback_arg).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___milestone' native representation
+
+	// Marshaling cleanup of parameter '___callback' native representation
+
+	// Marshaling cleanup of parameter '___callback_arg' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.QuestManager::QuestManager_Fetch(System.Runtime.InteropServices.HandleRef,GooglePlayGames.Native.Cwrapper.Types/DataSource,System.String,GooglePlayGames.Native.Cwrapper.QuestManager/FetchCallback,System.IntPtr)
+extern "C" {void DEFAULT_CALL QuestManager_Fetch(void*, int32_t, char*, methodPointerType, intptr_t);}
+extern "C" void QuestManager_QuestManager_Fetch_m567 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, int32_t ___data_source, String_t* ___quest_id, FetchCallback_t120 * ___callback, IntPtr_t ___callback_arg, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, int32_t, char*, methodPointerType, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)QuestManager_Fetch;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'QuestManager_Fetch'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___data_source' to native representation
+
+	// Marshaling of parameter '___quest_id' to native representation
+	char* ____quest_id_marshaled = { 0 };
+	____quest_id_marshaled = il2cpp_codegen_marshal_string(___quest_id);
+
+	// Marshaling of parameter '___callback' to native representation
+	methodPointerType ____callback_marshaled = { 0 };
+	____callback_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___callback));
+
+	// Marshaling of parameter '___callback_arg' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, ___data_source, ____quest_id_marshaled, ____callback_marshaled, reinterpret_cast<intptr_t>((___callback_arg).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___data_source' native representation
+
+	// Marshaling cleanup of parameter '___quest_id' native representation
+	il2cpp_codegen_marshal_free(____quest_id_marshaled);
+	____quest_id_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___callback' native representation
+
+	// Marshaling cleanup of parameter '___callback_arg' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.QuestManager::QuestManager_FetchResponse_Dispose(System.Runtime.InteropServices.HandleRef)
+extern "C" {void DEFAULT_CALL QuestManager_FetchResponse_Dispose(void*);}
+extern "C" void QuestManager_QuestManager_FetchResponse_Dispose_m568 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)QuestManager_FetchResponse_Dispose;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'QuestManager_FetchResponse_Dispose'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+}
+// GooglePlayGames.Native.Cwrapper.CommonErrorStatus/ResponseStatus GooglePlayGames.Native.Cwrapper.QuestManager::QuestManager_FetchResponse_GetStatus(System.Runtime.InteropServices.HandleRef)
+extern "C" {int32_t DEFAULT_CALL QuestManager_FetchResponse_GetStatus(void*);}
+extern "C" int32_t QuestManager_QuestManager_FetchResponse_GetStatus_m569 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)QuestManager_FetchResponse_GetStatus;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'QuestManager_FetchResponse_GetStatus'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int32_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.QuestManager::QuestManager_FetchResponse_GetData(System.Runtime.InteropServices.HandleRef)
+extern "C" {intptr_t DEFAULT_CALL QuestManager_FetchResponse_GetData(void*);}
+extern "C" IntPtr_t QuestManager_QuestManager_FetchResponse_GetData_m570 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)QuestManager_FetchResponse_GetData;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'QuestManager_FetchResponse_GetData'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.QuestManager::QuestManager_FetchListResponse_Dispose(System.Runtime.InteropServices.HandleRef)
+extern "C" {void DEFAULT_CALL QuestManager_FetchListResponse_Dispose(void*);}
+extern "C" void QuestManager_QuestManager_FetchListResponse_Dispose_m571 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)QuestManager_FetchListResponse_Dispose;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'QuestManager_FetchListResponse_Dispose'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+}
+// GooglePlayGames.Native.Cwrapper.CommonErrorStatus/ResponseStatus GooglePlayGames.Native.Cwrapper.QuestManager::QuestManager_FetchListResponse_GetStatus(System.Runtime.InteropServices.HandleRef)
+extern "C" {int32_t DEFAULT_CALL QuestManager_FetchListResponse_GetStatus(void*);}
+extern "C" int32_t QuestManager_QuestManager_FetchListResponse_GetStatus_m572 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)QuestManager_FetchListResponse_GetStatus;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'QuestManager_FetchListResponse_GetStatus'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int32_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.UIntPtr GooglePlayGames.Native.Cwrapper.QuestManager::QuestManager_FetchListResponse_GetData_Length(System.Runtime.InteropServices.HandleRef)
+extern "C" {uintptr_t DEFAULT_CALL QuestManager_FetchListResponse_GetData_Length(void*);}
+extern "C" UIntPtr_t  QuestManager_QuestManager_FetchListResponse_GetData_Length_m573 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)QuestManager_FetchListResponse_GetData_Length;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'QuestManager_FetchListResponse_GetData_Length'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	uintptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	UIntPtr_t  __return_value_unmarshaled;
+	(__return_value_unmarshaled).____pointer_1 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.QuestManager::QuestManager_FetchListResponse_GetData_GetElement(System.Runtime.InteropServices.HandleRef,System.UIntPtr)
+extern "C" {intptr_t DEFAULT_CALL QuestManager_FetchListResponse_GetData_GetElement(void*, uintptr_t);}
+extern "C" IntPtr_t QuestManager_QuestManager_FetchListResponse_GetData_GetElement_m574 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, UIntPtr_t  ___index, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, uintptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)QuestManager_FetchListResponse_GetData_GetElement;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'QuestManager_FetchListResponse_GetData_GetElement'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___index' to native representation
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___index).____pointer_1)));
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___index' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.QuestManager::QuestManager_AcceptResponse_Dispose(System.Runtime.InteropServices.HandleRef)
+extern "C" {void DEFAULT_CALL QuestManager_AcceptResponse_Dispose(void*);}
+extern "C" void QuestManager_QuestManager_AcceptResponse_Dispose_m575 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)QuestManager_AcceptResponse_Dispose;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'QuestManager_AcceptResponse_Dispose'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+}
+// GooglePlayGames.Native.Cwrapper.CommonErrorStatus/QuestAcceptStatus GooglePlayGames.Native.Cwrapper.QuestManager::QuestManager_AcceptResponse_GetStatus(System.Runtime.InteropServices.HandleRef)
+extern "C" {int32_t DEFAULT_CALL QuestManager_AcceptResponse_GetStatus(void*);}
+extern "C" int32_t QuestManager_QuestManager_AcceptResponse_GetStatus_m576 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)QuestManager_AcceptResponse_GetStatus;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'QuestManager_AcceptResponse_GetStatus'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int32_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.QuestManager::QuestManager_AcceptResponse_GetAcceptedQuest(System.Runtime.InteropServices.HandleRef)
+extern "C" {intptr_t DEFAULT_CALL QuestManager_AcceptResponse_GetAcceptedQuest(void*);}
+extern "C" IntPtr_t QuestManager_QuestManager_AcceptResponse_GetAcceptedQuest_m577 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)QuestManager_AcceptResponse_GetAcceptedQuest;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'QuestManager_AcceptResponse_GetAcceptedQuest'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.QuestManager::QuestManager_ClaimMilestoneResponse_Dispose(System.Runtime.InteropServices.HandleRef)
+extern "C" {void DEFAULT_CALL QuestManager_ClaimMilestoneResponse_Dispose(void*);}
+extern "C" void QuestManager_QuestManager_ClaimMilestoneResponse_Dispose_m578 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)QuestManager_ClaimMilestoneResponse_Dispose;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'QuestManager_ClaimMilestoneResponse_Dispose'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+}
+// GooglePlayGames.Native.Cwrapper.CommonErrorStatus/QuestClaimMilestoneStatus GooglePlayGames.Native.Cwrapper.QuestManager::QuestManager_ClaimMilestoneResponse_GetStatus(System.Runtime.InteropServices.HandleRef)
+extern "C" {int32_t DEFAULT_CALL QuestManager_ClaimMilestoneResponse_GetStatus(void*);}
+extern "C" int32_t QuestManager_QuestManager_ClaimMilestoneResponse_GetStatus_m579 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)QuestManager_ClaimMilestoneResponse_GetStatus;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'QuestManager_ClaimMilestoneResponse_GetStatus'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int32_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.QuestManager::QuestManager_ClaimMilestoneResponse_GetClaimedMilestone(System.Runtime.InteropServices.HandleRef)
+extern "C" {intptr_t DEFAULT_CALL QuestManager_ClaimMilestoneResponse_GetClaimedMilestone(void*);}
+extern "C" IntPtr_t QuestManager_QuestManager_ClaimMilestoneResponse_GetClaimedMilestone_m580 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)QuestManager_ClaimMilestoneResponse_GetClaimedMilestone;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'QuestManager_ClaimMilestoneResponse_GetClaimedMilestone'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.QuestManager::QuestManager_ClaimMilestoneResponse_GetQuest(System.Runtime.InteropServices.HandleRef)
+extern "C" {intptr_t DEFAULT_CALL QuestManager_ClaimMilestoneResponse_GetQuest(void*);}
+extern "C" IntPtr_t QuestManager_QuestManager_ClaimMilestoneResponse_GetQuest_m581 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)QuestManager_ClaimMilestoneResponse_GetQuest;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'QuestManager_ClaimMilestoneResponse_GetQuest'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.QuestManager::QuestManager_QuestUIResponse_Dispose(System.Runtime.InteropServices.HandleRef)
+extern "C" {void DEFAULT_CALL QuestManager_QuestUIResponse_Dispose(void*);}
+extern "C" void QuestManager_QuestManager_QuestUIResponse_Dispose_m582 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)QuestManager_QuestUIResponse_Dispose;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'QuestManager_QuestUIResponse_Dispose'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+}
+// GooglePlayGames.Native.Cwrapper.CommonErrorStatus/UIStatus GooglePlayGames.Native.Cwrapper.QuestManager::QuestManager_QuestUIResponse_GetStatus(System.Runtime.InteropServices.HandleRef)
+extern "C" {int32_t DEFAULT_CALL QuestManager_QuestUIResponse_GetStatus(void*);}
+extern "C" int32_t QuestManager_QuestManager_QuestUIResponse_GetStatus_m583 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)QuestManager_QuestUIResponse_GetStatus;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'QuestManager_QuestUIResponse_GetStatus'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int32_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.QuestManager::QuestManager_QuestUIResponse_GetAcceptedQuest(System.Runtime.InteropServices.HandleRef)
+extern "C" {intptr_t DEFAULT_CALL QuestManager_QuestUIResponse_GetAcceptedQuest(void*);}
+extern "C" IntPtr_t QuestManager_QuestManager_QuestUIResponse_GetAcceptedQuest_m584 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)QuestManager_QuestUIResponse_GetAcceptedQuest;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'QuestManager_QuestUIResponse_GetAcceptedQuest'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.QuestManager::QuestManager_QuestUIResponse_GetMilestoneToClaim(System.Runtime.InteropServices.HandleRef)
+extern "C" {intptr_t DEFAULT_CALL QuestManager_QuestUIResponse_GetMilestoneToClaim(void*);}
+extern "C" IntPtr_t QuestManager_QuestManager_QuestUIResponse_GetMilestoneToClaim_m585 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)QuestManager_QuestUIResponse_GetMilestoneToClaim;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'QuestManager_QuestUIResponse_GetMilestoneToClaim'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.UIntPtr GooglePlayGames.Native.Cwrapper.QuestMilestone::QuestMilestone_EventId(System.Runtime.InteropServices.HandleRef,System.Text.StringBuilder,System.UIntPtr)
+extern "C" {uintptr_t DEFAULT_CALL QuestMilestone_EventId(void*, char*, uintptr_t);}
+extern "C" UIntPtr_t  QuestMilestone_QuestMilestone_EventId_m586 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, StringBuilder_t361 * ___out_arg, UIntPtr_t  ___out_size, const MethodInfo* method)
+{
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*, char*, uintptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)QuestMilestone_EventId;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'QuestMilestone_EventId'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___out_arg' to native representation
+	char* ____out_arg_marshaled = { 0 };
+	____out_arg_marshaled = il2cpp_codegen_marshal_string_builder(___out_arg);
+
+	// Marshaling of parameter '___out_size' to native representation
+
+	// Native function invocation and marshaling of return value back from native representation
+	uintptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled, ____out_arg_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___out_size).____pointer_1)));
+	UIntPtr_t  __return_value_unmarshaled;
+	(__return_value_unmarshaled).____pointer_1 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling of parameter '___out_arg' back from native representation
+	il2cpp_codegen_marshal_string_builder_result(___out_arg, ____out_arg_marshaled);
+
+	// Marshaling cleanup of parameter '___out_arg' native representation
+	il2cpp_codegen_marshal_free(____out_arg_marshaled);
+	____out_arg_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___out_size' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.UInt64 GooglePlayGames.Native.Cwrapper.QuestMilestone::QuestMilestone_CurrentCount(System.Runtime.InteropServices.HandleRef)
+extern "C" {uint64_t DEFAULT_CALL QuestMilestone_CurrentCount(void*);}
+extern "C" uint64_t QuestMilestone_QuestMilestone_CurrentCount_m587 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef uint64_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)QuestMilestone_CurrentCount;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'QuestMilestone_CurrentCount'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	uint64_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.QuestMilestone::QuestMilestone_Copy(System.Runtime.InteropServices.HandleRef)
+extern "C" {intptr_t DEFAULT_CALL QuestMilestone_Copy(void*);}
+extern "C" IntPtr_t QuestMilestone_QuestMilestone_Copy_m588 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)QuestMilestone_Copy;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'QuestMilestone_Copy'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.QuestMilestone::QuestMilestone_Dispose(System.Runtime.InteropServices.HandleRef)
+extern "C" {void DEFAULT_CALL QuestMilestone_Dispose(void*);}
+extern "C" void QuestMilestone_QuestMilestone_Dispose_m589 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)QuestMilestone_Dispose;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'QuestMilestone_Dispose'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+}
+// System.UInt64 GooglePlayGames.Native.Cwrapper.QuestMilestone::QuestMilestone_TargetCount(System.Runtime.InteropServices.HandleRef)
+extern "C" {uint64_t DEFAULT_CALL QuestMilestone_TargetCount(void*);}
+extern "C" uint64_t QuestMilestone_QuestMilestone_TargetCount_m590 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef uint64_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)QuestMilestone_TargetCount;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'QuestMilestone_TargetCount'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	uint64_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.UIntPtr GooglePlayGames.Native.Cwrapper.QuestMilestone::QuestMilestone_QuestId(System.Runtime.InteropServices.HandleRef,System.Text.StringBuilder,System.UIntPtr)
+extern "C" {uintptr_t DEFAULT_CALL QuestMilestone_QuestId(void*, char*, uintptr_t);}
+extern "C" UIntPtr_t  QuestMilestone_QuestMilestone_QuestId_m591 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, StringBuilder_t361 * ___out_arg, UIntPtr_t  ___out_size, const MethodInfo* method)
+{
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*, char*, uintptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)QuestMilestone_QuestId;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'QuestMilestone_QuestId'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___out_arg' to native representation
+	char* ____out_arg_marshaled = { 0 };
+	____out_arg_marshaled = il2cpp_codegen_marshal_string_builder(___out_arg);
+
+	// Marshaling of parameter '___out_size' to native representation
+
+	// Native function invocation and marshaling of return value back from native representation
+	uintptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled, ____out_arg_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___out_size).____pointer_1)));
+	UIntPtr_t  __return_value_unmarshaled;
+	(__return_value_unmarshaled).____pointer_1 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling of parameter '___out_arg' back from native representation
+	il2cpp_codegen_marshal_string_builder_result(___out_arg, ____out_arg_marshaled);
+
+	// Marshaling cleanup of parameter '___out_arg' native representation
+	il2cpp_codegen_marshal_free(____out_arg_marshaled);
+	____out_arg_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___out_size' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.UIntPtr GooglePlayGames.Native.Cwrapper.QuestMilestone::QuestMilestone_CompletionRewardData(System.Runtime.InteropServices.HandleRef,System.Byte[],System.UIntPtr)
+extern "C" {uintptr_t DEFAULT_CALL QuestMilestone_CompletionRewardData(void*, uint8_t*, uintptr_t);}
+extern TypeInfo* Byte_t496_il2cpp_TypeInfo_var;
+extern "C" UIntPtr_t  QuestMilestone_QuestMilestone_CompletionRewardData_m592 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, ByteU5BU5D_t20* ___out_arg, UIntPtr_t  ___out_size, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		Byte_t496_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(28);
+		s_Il2CppMethodIntialized = true;
+	}
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*, uint8_t*, uintptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)QuestMilestone_CompletionRewardData;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'QuestMilestone_CompletionRewardData'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___out_arg' to native representation
+	uint8_t* ____out_arg_marshaled = { 0 };
+	____out_arg_marshaled = il2cpp_codegen_marshal_array<uint8_t>((Il2CppCodeGenArray*)___out_arg);
+
+	// Marshaling of parameter '___out_size' to native representation
+
+	// Native function invocation and marshaling of return value back from native representation
+	uintptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled, ____out_arg_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___out_size).____pointer_1)));
+	UIntPtr_t  __return_value_unmarshaled;
+	(__return_value_unmarshaled).____pointer_1 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling of parameter '___out_arg' back from native representation
+	___out_arg = (ByteU5BU5D_t20*)il2cpp_codegen_marshal_array_result(Byte_t496_il2cpp_TypeInfo_var, ____out_arg_marshaled, 1);
+
+	// Marshaling cleanup of parameter '___out_arg' native representation
+
+	// Marshaling cleanup of parameter '___out_size' native representation
+
+	return __return_value_unmarshaled;
+}
+// GooglePlayGames.Native.Cwrapper.Types/QuestMilestoneState GooglePlayGames.Native.Cwrapper.QuestMilestone::QuestMilestone_State(System.Runtime.InteropServices.HandleRef)
+extern "C" {int32_t DEFAULT_CALL QuestMilestone_State(void*);}
+extern "C" int32_t QuestMilestone_QuestMilestone_State_m593 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)QuestMilestone_State;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'QuestMilestone_State'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int32_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.Boolean GooglePlayGames.Native.Cwrapper.QuestMilestone::QuestMilestone_Valid(System.Runtime.InteropServices.HandleRef)
+extern "C" {int8_t DEFAULT_CALL QuestMilestone_Valid(void*);}
+extern "C" bool QuestMilestone_QuestMilestone_Valid_m594 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int8_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)QuestMilestone_Valid;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'QuestMilestone_Valid'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int8_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.UIntPtr GooglePlayGames.Native.Cwrapper.QuestMilestone::QuestMilestone_Id(System.Runtime.InteropServices.HandleRef,System.Text.StringBuilder,System.UIntPtr)
+extern "C" {uintptr_t DEFAULT_CALL QuestMilestone_Id(void*, char*, uintptr_t);}
+extern "C" UIntPtr_t  QuestMilestone_QuestMilestone_Id_m595 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, StringBuilder_t361 * ___out_arg, UIntPtr_t  ___out_size, const MethodInfo* method)
+{
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*, char*, uintptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)QuestMilestone_Id;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'QuestMilestone_Id'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___out_arg' to native representation
+	char* ____out_arg_marshaled = { 0 };
+	____out_arg_marshaled = il2cpp_codegen_marshal_string_builder(___out_arg);
+
+	// Marshaling of parameter '___out_size' to native representation
+
+	// Native function invocation and marshaling of return value back from native representation
+	uintptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled, ____out_arg_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___out_size).____pointer_1)));
+	UIntPtr_t  __return_value_unmarshaled;
+	(__return_value_unmarshaled).____pointer_1 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling of parameter '___out_arg' back from native representation
+	il2cpp_codegen_marshal_string_builder_result(___out_arg, ____out_arg_marshaled);
+
+	// Marshaling cleanup of parameter '___out_arg' native representation
+	il2cpp_codegen_marshal_free(____out_arg_marshaled);
+	____out_arg_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___out_size' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper/OnRoomStatusChangedCallback::.ctor(System.Object,System.IntPtr)
+extern "C" void OnRoomStatusChangedCallback__ctor_m596 (OnRoomStatusChangedCallback_t127 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+{
+	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
+	__this->___method_3 = ___method;
+	__this->___m_target_2 = ___object;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper/OnRoomStatusChangedCallback::Invoke(System.IntPtr,System.IntPtr)
+extern "C" void OnRoomStatusChangedCallback_Invoke_m597 (OnRoomStatusChangedCallback_t127 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method)
+{
+	if(__this->___prev_9 != NULL)
+	{
+		OnRoomStatusChangedCallback_Invoke_m597((OnRoomStatusChangedCallback_t127 *)__this->___prev_9,___arg0, ___arg1, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
+	if (__this->___m_target_2 != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Object_t *, Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(NULL,__this->___m_target_2,___arg0, ___arg1,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___arg0, ___arg1,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+}
+extern "C" void pinvoke_delegate_wrapper_OnRoomStatusChangedCallback_t127(Il2CppObject* delegate, IntPtr_t ___arg0, IntPtr_t ___arg1)
+{
+	typedef void (STDCALL *native_function_ptr_type)(intptr_t, intptr_t);
+	native_function_ptr_type _il2cpp_pinvoke_func = ((native_function_ptr_type)((Il2CppDelegate*)delegate)->method->method);
+	// Marshaling of parameter '___arg0' to native representation
+
+	// Marshaling of parameter '___arg1' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(reinterpret_cast<intptr_t>((___arg0).___m_value_0), reinterpret_cast<intptr_t>((___arg1).___m_value_0));
+
+	// Marshaling cleanup of parameter '___arg0' native representation
+
+	// Marshaling cleanup of parameter '___arg1' native representation
+
+}
+// System.IAsyncResult GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper/OnRoomStatusChangedCallback::BeginInvoke(System.IntPtr,System.IntPtr,System.AsyncCallback,System.Object)
+extern TypeInfo* IntPtr_t_il2cpp_TypeInfo_var;
+extern "C" Object_t * OnRoomStatusChangedCallback_BeginInvoke_m598 (OnRoomStatusChangedCallback_t127 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, AsyncCallback_t74 * ___callback, Object_t * ___object, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		IntPtr_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(69);
+		s_Il2CppMethodIntialized = true;
+	}
+	void *__d_args[3] = {0};
+	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg0);
+	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg1);
+	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper/OnRoomStatusChangedCallback::EndInvoke(System.IAsyncResult)
+extern "C" void OnRoomStatusChangedCallback_EndInvoke_m599 (OnRoomStatusChangedCallback_t127 * __this, Object_t * ___result, const MethodInfo* method)
+{
+	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper/OnRoomConnectedSetChangedCallback::.ctor(System.Object,System.IntPtr)
+extern "C" void OnRoomConnectedSetChangedCallback__ctor_m600 (OnRoomConnectedSetChangedCallback_t128 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+{
+	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
+	__this->___method_3 = ___method;
+	__this->___m_target_2 = ___object;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper/OnRoomConnectedSetChangedCallback::Invoke(System.IntPtr,System.IntPtr)
+extern "C" void OnRoomConnectedSetChangedCallback_Invoke_m601 (OnRoomConnectedSetChangedCallback_t128 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method)
+{
+	if(__this->___prev_9 != NULL)
+	{
+		OnRoomConnectedSetChangedCallback_Invoke_m601((OnRoomConnectedSetChangedCallback_t128 *)__this->___prev_9,___arg0, ___arg1, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
+	if (__this->___m_target_2 != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Object_t *, Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(NULL,__this->___m_target_2,___arg0, ___arg1,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___arg0, ___arg1,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+}
+extern "C" void pinvoke_delegate_wrapper_OnRoomConnectedSetChangedCallback_t128(Il2CppObject* delegate, IntPtr_t ___arg0, IntPtr_t ___arg1)
+{
+	typedef void (STDCALL *native_function_ptr_type)(intptr_t, intptr_t);
+	native_function_ptr_type _il2cpp_pinvoke_func = ((native_function_ptr_type)((Il2CppDelegate*)delegate)->method->method);
+	// Marshaling of parameter '___arg0' to native representation
+
+	// Marshaling of parameter '___arg1' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(reinterpret_cast<intptr_t>((___arg0).___m_value_0), reinterpret_cast<intptr_t>((___arg1).___m_value_0));
+
+	// Marshaling cleanup of parameter '___arg0' native representation
+
+	// Marshaling cleanup of parameter '___arg1' native representation
+
+}
+// System.IAsyncResult GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper/OnRoomConnectedSetChangedCallback::BeginInvoke(System.IntPtr,System.IntPtr,System.AsyncCallback,System.Object)
+extern TypeInfo* IntPtr_t_il2cpp_TypeInfo_var;
+extern "C" Object_t * OnRoomConnectedSetChangedCallback_BeginInvoke_m602 (OnRoomConnectedSetChangedCallback_t128 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, AsyncCallback_t74 * ___callback, Object_t * ___object, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		IntPtr_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(69);
+		s_Il2CppMethodIntialized = true;
+	}
+	void *__d_args[3] = {0};
+	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg0);
+	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg1);
+	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper/OnRoomConnectedSetChangedCallback::EndInvoke(System.IAsyncResult)
+extern "C" void OnRoomConnectedSetChangedCallback_EndInvoke_m603 (OnRoomConnectedSetChangedCallback_t128 * __this, Object_t * ___result, const MethodInfo* method)
+{
+	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper/OnP2PConnectedCallback::.ctor(System.Object,System.IntPtr)
+extern "C" void OnP2PConnectedCallback__ctor_m604 (OnP2PConnectedCallback_t129 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+{
+	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
+	__this->___method_3 = ___method;
+	__this->___m_target_2 = ___object;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper/OnP2PConnectedCallback::Invoke(System.IntPtr,System.IntPtr,System.IntPtr)
+extern "C" void OnP2PConnectedCallback_Invoke_m605 (OnP2PConnectedCallback_t129 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, IntPtr_t ___arg2, const MethodInfo* method)
+{
+	if(__this->___prev_9 != NULL)
+	{
+		OnP2PConnectedCallback_Invoke_m605((OnP2PConnectedCallback_t129 *)__this->___prev_9,___arg0, ___arg1, ___arg2, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
+	if (__this->___m_target_2 != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Object_t *, Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, IntPtr_t ___arg2, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(NULL,__this->___m_target_2,___arg0, ___arg1, ___arg2,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, IntPtr_t ___arg2, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___arg0, ___arg1, ___arg2,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+}
+extern "C" void pinvoke_delegate_wrapper_OnP2PConnectedCallback_t129(Il2CppObject* delegate, IntPtr_t ___arg0, IntPtr_t ___arg1, IntPtr_t ___arg2)
+{
+	typedef void (STDCALL *native_function_ptr_type)(intptr_t, intptr_t, intptr_t);
+	native_function_ptr_type _il2cpp_pinvoke_func = ((native_function_ptr_type)((Il2CppDelegate*)delegate)->method->method);
+	// Marshaling of parameter '___arg0' to native representation
+
+	// Marshaling of parameter '___arg1' to native representation
+
+	// Marshaling of parameter '___arg2' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(reinterpret_cast<intptr_t>((___arg0).___m_value_0), reinterpret_cast<intptr_t>((___arg1).___m_value_0), reinterpret_cast<intptr_t>((___arg2).___m_value_0));
+
+	// Marshaling cleanup of parameter '___arg0' native representation
+
+	// Marshaling cleanup of parameter '___arg1' native representation
+
+	// Marshaling cleanup of parameter '___arg2' native representation
+
+}
+// System.IAsyncResult GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper/OnP2PConnectedCallback::BeginInvoke(System.IntPtr,System.IntPtr,System.IntPtr,System.AsyncCallback,System.Object)
+extern TypeInfo* IntPtr_t_il2cpp_TypeInfo_var;
+extern "C" Object_t * OnP2PConnectedCallback_BeginInvoke_m606 (OnP2PConnectedCallback_t129 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, IntPtr_t ___arg2, AsyncCallback_t74 * ___callback, Object_t * ___object, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		IntPtr_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(69);
+		s_Il2CppMethodIntialized = true;
+	}
+	void *__d_args[4] = {0};
+	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg0);
+	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg1);
+	__d_args[2] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg2);
+	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper/OnP2PConnectedCallback::EndInvoke(System.IAsyncResult)
+extern "C" void OnP2PConnectedCallback_EndInvoke_m607 (OnP2PConnectedCallback_t129 * __this, Object_t * ___result, const MethodInfo* method)
+{
+	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper/OnP2PDisconnectedCallback::.ctor(System.Object,System.IntPtr)
+extern "C" void OnP2PDisconnectedCallback__ctor_m608 (OnP2PDisconnectedCallback_t130 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+{
+	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
+	__this->___method_3 = ___method;
+	__this->___m_target_2 = ___object;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper/OnP2PDisconnectedCallback::Invoke(System.IntPtr,System.IntPtr,System.IntPtr)
+extern "C" void OnP2PDisconnectedCallback_Invoke_m609 (OnP2PDisconnectedCallback_t130 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, IntPtr_t ___arg2, const MethodInfo* method)
+{
+	if(__this->___prev_9 != NULL)
+	{
+		OnP2PDisconnectedCallback_Invoke_m609((OnP2PDisconnectedCallback_t130 *)__this->___prev_9,___arg0, ___arg1, ___arg2, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
+	if (__this->___m_target_2 != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Object_t *, Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, IntPtr_t ___arg2, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(NULL,__this->___m_target_2,___arg0, ___arg1, ___arg2,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, IntPtr_t ___arg2, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___arg0, ___arg1, ___arg2,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+}
+extern "C" void pinvoke_delegate_wrapper_OnP2PDisconnectedCallback_t130(Il2CppObject* delegate, IntPtr_t ___arg0, IntPtr_t ___arg1, IntPtr_t ___arg2)
+{
+	typedef void (STDCALL *native_function_ptr_type)(intptr_t, intptr_t, intptr_t);
+	native_function_ptr_type _il2cpp_pinvoke_func = ((native_function_ptr_type)((Il2CppDelegate*)delegate)->method->method);
+	// Marshaling of parameter '___arg0' to native representation
+
+	// Marshaling of parameter '___arg1' to native representation
+
+	// Marshaling of parameter '___arg2' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(reinterpret_cast<intptr_t>((___arg0).___m_value_0), reinterpret_cast<intptr_t>((___arg1).___m_value_0), reinterpret_cast<intptr_t>((___arg2).___m_value_0));
+
+	// Marshaling cleanup of parameter '___arg0' native representation
+
+	// Marshaling cleanup of parameter '___arg1' native representation
+
+	// Marshaling cleanup of parameter '___arg2' native representation
+
+}
+// System.IAsyncResult GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper/OnP2PDisconnectedCallback::BeginInvoke(System.IntPtr,System.IntPtr,System.IntPtr,System.AsyncCallback,System.Object)
+extern TypeInfo* IntPtr_t_il2cpp_TypeInfo_var;
+extern "C" Object_t * OnP2PDisconnectedCallback_BeginInvoke_m610 (OnP2PDisconnectedCallback_t130 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, IntPtr_t ___arg2, AsyncCallback_t74 * ___callback, Object_t * ___object, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		IntPtr_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(69);
+		s_Il2CppMethodIntialized = true;
+	}
+	void *__d_args[4] = {0};
+	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg0);
+	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg1);
+	__d_args[2] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg2);
+	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper/OnP2PDisconnectedCallback::EndInvoke(System.IAsyncResult)
+extern "C" void OnP2PDisconnectedCallback_EndInvoke_m611 (OnP2PDisconnectedCallback_t130 * __this, Object_t * ___result, const MethodInfo* method)
+{
+	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper/OnParticipantStatusChangedCallback::.ctor(System.Object,System.IntPtr)
+extern "C" void OnParticipantStatusChangedCallback__ctor_m612 (OnParticipantStatusChangedCallback_t131 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+{
+	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
+	__this->___method_3 = ___method;
+	__this->___m_target_2 = ___object;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper/OnParticipantStatusChangedCallback::Invoke(System.IntPtr,System.IntPtr,System.IntPtr)
+extern "C" void OnParticipantStatusChangedCallback_Invoke_m613 (OnParticipantStatusChangedCallback_t131 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, IntPtr_t ___arg2, const MethodInfo* method)
+{
+	if(__this->___prev_9 != NULL)
+	{
+		OnParticipantStatusChangedCallback_Invoke_m613((OnParticipantStatusChangedCallback_t131 *)__this->___prev_9,___arg0, ___arg1, ___arg2, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
+	if (__this->___m_target_2 != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Object_t *, Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, IntPtr_t ___arg2, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(NULL,__this->___m_target_2,___arg0, ___arg1, ___arg2,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, IntPtr_t ___arg2, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___arg0, ___arg1, ___arg2,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+}
+extern "C" void pinvoke_delegate_wrapper_OnParticipantStatusChangedCallback_t131(Il2CppObject* delegate, IntPtr_t ___arg0, IntPtr_t ___arg1, IntPtr_t ___arg2)
+{
+	typedef void (STDCALL *native_function_ptr_type)(intptr_t, intptr_t, intptr_t);
+	native_function_ptr_type _il2cpp_pinvoke_func = ((native_function_ptr_type)((Il2CppDelegate*)delegate)->method->method);
+	// Marshaling of parameter '___arg0' to native representation
+
+	// Marshaling of parameter '___arg1' to native representation
+
+	// Marshaling of parameter '___arg2' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(reinterpret_cast<intptr_t>((___arg0).___m_value_0), reinterpret_cast<intptr_t>((___arg1).___m_value_0), reinterpret_cast<intptr_t>((___arg2).___m_value_0));
+
+	// Marshaling cleanup of parameter '___arg0' native representation
+
+	// Marshaling cleanup of parameter '___arg1' native representation
+
+	// Marshaling cleanup of parameter '___arg2' native representation
+
+}
+// System.IAsyncResult GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper/OnParticipantStatusChangedCallback::BeginInvoke(System.IntPtr,System.IntPtr,System.IntPtr,System.AsyncCallback,System.Object)
+extern TypeInfo* IntPtr_t_il2cpp_TypeInfo_var;
+extern "C" Object_t * OnParticipantStatusChangedCallback_BeginInvoke_m614 (OnParticipantStatusChangedCallback_t131 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, IntPtr_t ___arg2, AsyncCallback_t74 * ___callback, Object_t * ___object, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		IntPtr_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(69);
+		s_Il2CppMethodIntialized = true;
+	}
+	void *__d_args[4] = {0};
+	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg0);
+	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg1);
+	__d_args[2] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg2);
+	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper/OnParticipantStatusChangedCallback::EndInvoke(System.IAsyncResult)
+extern "C" void OnParticipantStatusChangedCallback_EndInvoke_m615 (OnParticipantStatusChangedCallback_t131 * __this, Object_t * ___result, const MethodInfo* method)
+{
+	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper/OnDataReceivedCallback::.ctor(System.Object,System.IntPtr)
+extern "C" void OnDataReceivedCallback__ctor_m616 (OnDataReceivedCallback_t132 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+{
+	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
+	__this->___method_3 = ___method;
+	__this->___m_target_2 = ___object;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper/OnDataReceivedCallback::Invoke(System.IntPtr,System.IntPtr,System.IntPtr,System.UIntPtr,System.Boolean,System.IntPtr)
+extern "C" void OnDataReceivedCallback_Invoke_m617 (OnDataReceivedCallback_t132 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, IntPtr_t ___arg2, UIntPtr_t  ___arg3, bool ___arg4, IntPtr_t ___arg5, const MethodInfo* method)
+{
+	if(__this->___prev_9 != NULL)
+	{
+		OnDataReceivedCallback_Invoke_m617((OnDataReceivedCallback_t132 *)__this->___prev_9,___arg0, ___arg1, ___arg2, ___arg3, ___arg4, ___arg5, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
+	if (__this->___m_target_2 != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Object_t *, Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, IntPtr_t ___arg2, UIntPtr_t  ___arg3, bool ___arg4, IntPtr_t ___arg5, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(NULL,__this->___m_target_2,___arg0, ___arg1, ___arg2, ___arg3, ___arg4, ___arg5,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, IntPtr_t ___arg2, UIntPtr_t  ___arg3, bool ___arg4, IntPtr_t ___arg5, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___arg0, ___arg1, ___arg2, ___arg3, ___arg4, ___arg5,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+}
+extern "C" void pinvoke_delegate_wrapper_OnDataReceivedCallback_t132(Il2CppObject* delegate, IntPtr_t ___arg0, IntPtr_t ___arg1, IntPtr_t ___arg2, UIntPtr_t  ___arg3, bool ___arg4, IntPtr_t ___arg5)
+{
+	typedef void (STDCALL *native_function_ptr_type)(intptr_t, intptr_t, intptr_t, uintptr_t, int8_t, intptr_t);
+	native_function_ptr_type _il2cpp_pinvoke_func = ((native_function_ptr_type)((Il2CppDelegate*)delegate)->method->method);
+	// Marshaling of parameter '___arg0' to native representation
+
+	// Marshaling of parameter '___arg1' to native representation
+
+	// Marshaling of parameter '___arg2' to native representation
+
+	// Marshaling of parameter '___arg3' to native representation
+
+	// Marshaling of parameter '___arg4' to native representation
+
+	// Marshaling of parameter '___arg5' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(reinterpret_cast<intptr_t>((___arg0).___m_value_0), reinterpret_cast<intptr_t>((___arg1).___m_value_0), reinterpret_cast<intptr_t>((___arg2).___m_value_0), static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___arg3).____pointer_1)), ___arg4, reinterpret_cast<intptr_t>((___arg5).___m_value_0));
+
+	// Marshaling cleanup of parameter '___arg0' native representation
+
+	// Marshaling cleanup of parameter '___arg1' native representation
+
+	// Marshaling cleanup of parameter '___arg2' native representation
+
+	// Marshaling cleanup of parameter '___arg3' native representation
+
+	// Marshaling cleanup of parameter '___arg4' native representation
+
+	// Marshaling cleanup of parameter '___arg5' native representation
+
+}
+// System.IAsyncResult GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper/OnDataReceivedCallback::BeginInvoke(System.IntPtr,System.IntPtr,System.IntPtr,System.UIntPtr,System.Boolean,System.IntPtr,System.AsyncCallback,System.Object)
+extern TypeInfo* IntPtr_t_il2cpp_TypeInfo_var;
+extern TypeInfo* UIntPtr_t_il2cpp_TypeInfo_var;
+extern TypeInfo* Boolean_t489_il2cpp_TypeInfo_var;
+extern "C" Object_t * OnDataReceivedCallback_BeginInvoke_m618 (OnDataReceivedCallback_t132 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, IntPtr_t ___arg2, UIntPtr_t  ___arg3, bool ___arg4, IntPtr_t ___arg5, AsyncCallback_t74 * ___callback, Object_t * ___object, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		IntPtr_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(69);
+		UIntPtr_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(75);
+		Boolean_t489_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3);
+		s_Il2CppMethodIntialized = true;
+	}
+	void *__d_args[7] = {0};
+	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg0);
+	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg1);
+	__d_args[2] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg2);
+	__d_args[3] = Box(UIntPtr_t_il2cpp_TypeInfo_var, &___arg3);
+	__d_args[4] = Box(Boolean_t489_il2cpp_TypeInfo_var, &___arg4);
+	__d_args[5] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg5);
+	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper/OnDataReceivedCallback::EndInvoke(System.IAsyncResult)
+extern "C" void OnDataReceivedCallback_EndInvoke_m619 (OnDataReceivedCallback_t132 * __this, Object_t * ___result, const MethodInfo* method)
+{
+	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper::RealTimeEventListenerHelper_SetOnParticipantStatusChangedCallback(System.Runtime.InteropServices.HandleRef,GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper/OnParticipantStatusChangedCallback,System.IntPtr)
+extern "C" {void DEFAULT_CALL RealTimeEventListenerHelper_SetOnParticipantStatusChangedCallback(void*, methodPointerType, intptr_t);}
+extern "C" void RealTimeEventListenerHelper_RealTimeEventListenerHelper_SetOnParticipantStatusChangedCallback_m620 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, OnParticipantStatusChangedCallback_t131 * ___callback, IntPtr_t ___callback_arg, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, methodPointerType, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeEventListenerHelper_SetOnParticipantStatusChangedCallback;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeEventListenerHelper_SetOnParticipantStatusChangedCallback'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___callback' to native representation
+	methodPointerType ____callback_marshaled = { 0 };
+	____callback_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___callback));
+
+	// Marshaling of parameter '___callback_arg' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, ____callback_marshaled, reinterpret_cast<intptr_t>((___callback_arg).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___callback' native representation
+
+	// Marshaling cleanup of parameter '___callback_arg' native representation
+
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper::RealTimeEventListenerHelper_Construct()
+extern "C" {intptr_t DEFAULT_CALL RealTimeEventListenerHelper_Construct();}
+extern "C" IntPtr_t RealTimeEventListenerHelper_RealTimeEventListenerHelper_Construct_m621 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeEventListenerHelper_Construct;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeEventListenerHelper_Construct'"));
+		}
+	}
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func();
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	return __return_value_unmarshaled;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper::RealTimeEventListenerHelper_SetOnP2PDisconnectedCallback(System.Runtime.InteropServices.HandleRef,GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper/OnP2PDisconnectedCallback,System.IntPtr)
+extern "C" {void DEFAULT_CALL RealTimeEventListenerHelper_SetOnP2PDisconnectedCallback(void*, methodPointerType, intptr_t);}
+extern "C" void RealTimeEventListenerHelper_RealTimeEventListenerHelper_SetOnP2PDisconnectedCallback_m622 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, OnP2PDisconnectedCallback_t130 * ___callback, IntPtr_t ___callback_arg, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, methodPointerType, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeEventListenerHelper_SetOnP2PDisconnectedCallback;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeEventListenerHelper_SetOnP2PDisconnectedCallback'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___callback' to native representation
+	methodPointerType ____callback_marshaled = { 0 };
+	____callback_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___callback));
+
+	// Marshaling of parameter '___callback_arg' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, ____callback_marshaled, reinterpret_cast<intptr_t>((___callback_arg).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___callback' native representation
+
+	// Marshaling cleanup of parameter '___callback_arg' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper::RealTimeEventListenerHelper_SetOnDataReceivedCallback(System.Runtime.InteropServices.HandleRef,GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper/OnDataReceivedCallback,System.IntPtr)
+extern "C" {void DEFAULT_CALL RealTimeEventListenerHelper_SetOnDataReceivedCallback(void*, methodPointerType, intptr_t);}
+extern "C" void RealTimeEventListenerHelper_RealTimeEventListenerHelper_SetOnDataReceivedCallback_m623 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, OnDataReceivedCallback_t132 * ___callback, IntPtr_t ___callback_arg, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, methodPointerType, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeEventListenerHelper_SetOnDataReceivedCallback;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeEventListenerHelper_SetOnDataReceivedCallback'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___callback' to native representation
+	methodPointerType ____callback_marshaled = { 0 };
+	____callback_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___callback));
+
+	// Marshaling of parameter '___callback_arg' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, ____callback_marshaled, reinterpret_cast<intptr_t>((___callback_arg).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___callback' native representation
+
+	// Marshaling cleanup of parameter '___callback_arg' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper::RealTimeEventListenerHelper_SetOnRoomStatusChangedCallback(System.Runtime.InteropServices.HandleRef,GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper/OnRoomStatusChangedCallback,System.IntPtr)
+extern "C" {void DEFAULT_CALL RealTimeEventListenerHelper_SetOnRoomStatusChangedCallback(void*, methodPointerType, intptr_t);}
+extern "C" void RealTimeEventListenerHelper_RealTimeEventListenerHelper_SetOnRoomStatusChangedCallback_m624 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, OnRoomStatusChangedCallback_t127 * ___callback, IntPtr_t ___callback_arg, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, methodPointerType, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeEventListenerHelper_SetOnRoomStatusChangedCallback;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeEventListenerHelper_SetOnRoomStatusChangedCallback'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___callback' to native representation
+	methodPointerType ____callback_marshaled = { 0 };
+	____callback_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___callback));
+
+	// Marshaling of parameter '___callback_arg' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, ____callback_marshaled, reinterpret_cast<intptr_t>((___callback_arg).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___callback' native representation
+
+	// Marshaling cleanup of parameter '___callback_arg' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper::RealTimeEventListenerHelper_SetOnP2PConnectedCallback(System.Runtime.InteropServices.HandleRef,GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper/OnP2PConnectedCallback,System.IntPtr)
+extern "C" {void DEFAULT_CALL RealTimeEventListenerHelper_SetOnP2PConnectedCallback(void*, methodPointerType, intptr_t);}
+extern "C" void RealTimeEventListenerHelper_RealTimeEventListenerHelper_SetOnP2PConnectedCallback_m625 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, OnP2PConnectedCallback_t129 * ___callback, IntPtr_t ___callback_arg, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, methodPointerType, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeEventListenerHelper_SetOnP2PConnectedCallback;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeEventListenerHelper_SetOnP2PConnectedCallback'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___callback' to native representation
+	methodPointerType ____callback_marshaled = { 0 };
+	____callback_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___callback));
+
+	// Marshaling of parameter '___callback_arg' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, ____callback_marshaled, reinterpret_cast<intptr_t>((___callback_arg).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___callback' native representation
+
+	// Marshaling cleanup of parameter '___callback_arg' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper::RealTimeEventListenerHelper_SetOnRoomConnectedSetChangedCallback(System.Runtime.InteropServices.HandleRef,GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper/OnRoomConnectedSetChangedCallback,System.IntPtr)
+extern "C" {void DEFAULT_CALL RealTimeEventListenerHelper_SetOnRoomConnectedSetChangedCallback(void*, methodPointerType, intptr_t);}
+extern "C" void RealTimeEventListenerHelper_RealTimeEventListenerHelper_SetOnRoomConnectedSetChangedCallback_m626 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, OnRoomConnectedSetChangedCallback_t128 * ___callback, IntPtr_t ___callback_arg, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, methodPointerType, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeEventListenerHelper_SetOnRoomConnectedSetChangedCallback;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeEventListenerHelper_SetOnRoomConnectedSetChangedCallback'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___callback' to native representation
+	methodPointerType ____callback_marshaled = { 0 };
+	____callback_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___callback));
+
+	// Marshaling of parameter '___callback_arg' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, ____callback_marshaled, reinterpret_cast<intptr_t>((___callback_arg).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___callback' native representation
+
+	// Marshaling cleanup of parameter '___callback_arg' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeEventListenerHelper::RealTimeEventListenerHelper_Dispose(System.Runtime.InteropServices.HandleRef)
+extern "C" {void DEFAULT_CALL RealTimeEventListenerHelper_Dispose(void*);}
+extern "C" void RealTimeEventListenerHelper_RealTimeEventListenerHelper_Dispose_m627 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeEventListenerHelper_Dispose;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeEventListenerHelper_Dispose'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/RealTimeRoomCallback::.ctor(System.Object,System.IntPtr)
+extern "C" void RealTimeRoomCallback__ctor_m628 (RealTimeRoomCallback_t134 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+{
+	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
+	__this->___method_3 = ___method;
+	__this->___m_target_2 = ___object;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/RealTimeRoomCallback::Invoke(System.IntPtr,System.IntPtr)
+extern "C" void RealTimeRoomCallback_Invoke_m629 (RealTimeRoomCallback_t134 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method)
+{
+	if(__this->___prev_9 != NULL)
+	{
+		RealTimeRoomCallback_Invoke_m629((RealTimeRoomCallback_t134 *)__this->___prev_9,___arg0, ___arg1, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
+	if (__this->___m_target_2 != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Object_t *, Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(NULL,__this->___m_target_2,___arg0, ___arg1,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___arg0, ___arg1,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+}
+extern "C" void pinvoke_delegate_wrapper_RealTimeRoomCallback_t134(Il2CppObject* delegate, IntPtr_t ___arg0, IntPtr_t ___arg1)
+{
+	typedef void (STDCALL *native_function_ptr_type)(intptr_t, intptr_t);
+	native_function_ptr_type _il2cpp_pinvoke_func = ((native_function_ptr_type)((Il2CppDelegate*)delegate)->method->method);
+	// Marshaling of parameter '___arg0' to native representation
+
+	// Marshaling of parameter '___arg1' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(reinterpret_cast<intptr_t>((___arg0).___m_value_0), reinterpret_cast<intptr_t>((___arg1).___m_value_0));
+
+	// Marshaling cleanup of parameter '___arg0' native representation
+
+	// Marshaling cleanup of parameter '___arg1' native representation
+
+}
+// System.IAsyncResult GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/RealTimeRoomCallback::BeginInvoke(System.IntPtr,System.IntPtr,System.AsyncCallback,System.Object)
+extern TypeInfo* IntPtr_t_il2cpp_TypeInfo_var;
+extern "C" Object_t * RealTimeRoomCallback_BeginInvoke_m630 (RealTimeRoomCallback_t134 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, AsyncCallback_t74 * ___callback, Object_t * ___object, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		IntPtr_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(69);
+		s_Il2CppMethodIntialized = true;
+	}
+	void *__d_args[3] = {0};
+	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg0);
+	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg1);
+	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/RealTimeRoomCallback::EndInvoke(System.IAsyncResult)
+extern "C" void RealTimeRoomCallback_EndInvoke_m631 (RealTimeRoomCallback_t134 * __this, Object_t * ___result, const MethodInfo* method)
+{
+	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/LeaveRoomCallback::.ctor(System.Object,System.IntPtr)
+extern "C" void LeaveRoomCallback__ctor_m632 (LeaveRoomCallback_t135 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+{
+	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
+	__this->___method_3 = ___method;
+	__this->___m_target_2 = ___object;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/LeaveRoomCallback::Invoke(GooglePlayGames.Native.Cwrapper.CommonErrorStatus/ResponseStatus,System.IntPtr)
+extern "C" void LeaveRoomCallback_Invoke_m633 (LeaveRoomCallback_t135 * __this, int32_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method)
+{
+	if(__this->___prev_9 != NULL)
+	{
+		LeaveRoomCallback_Invoke_m633((LeaveRoomCallback_t135 *)__this->___prev_9,___arg0, ___arg1, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
+	if (__this->___m_target_2 != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Object_t *, Object_t * __this, int32_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(NULL,__this->___m_target_2,___arg0, ___arg1,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (Object_t * __this, int32_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___arg0, ___arg1,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+}
+extern "C" void pinvoke_delegate_wrapper_LeaveRoomCallback_t135(Il2CppObject* delegate, int32_t ___arg0, IntPtr_t ___arg1)
+{
+	typedef void (STDCALL *native_function_ptr_type)(int32_t, intptr_t);
+	native_function_ptr_type _il2cpp_pinvoke_func = ((native_function_ptr_type)((Il2CppDelegate*)delegate)->method->method);
+	// Marshaling of parameter '___arg0' to native representation
+
+	// Marshaling of parameter '___arg1' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(___arg0, reinterpret_cast<intptr_t>((___arg1).___m_value_0));
+
+	// Marshaling cleanup of parameter '___arg0' native representation
+
+	// Marshaling cleanup of parameter '___arg1' native representation
+
+}
+// System.IAsyncResult GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/LeaveRoomCallback::BeginInvoke(GooglePlayGames.Native.Cwrapper.CommonErrorStatus/ResponseStatus,System.IntPtr,System.AsyncCallback,System.Object)
+extern TypeInfo* ResponseStatus_t85_il2cpp_TypeInfo_var;
+extern TypeInfo* IntPtr_t_il2cpp_TypeInfo_var;
+extern "C" Object_t * LeaveRoomCallback_BeginInvoke_m634 (LeaveRoomCallback_t135 * __this, int32_t ___arg0, IntPtr_t ___arg1, AsyncCallback_t74 * ___callback, Object_t * ___object, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		ResponseStatus_t85_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(66);
+		IntPtr_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(69);
+		s_Il2CppMethodIntialized = true;
+	}
+	void *__d_args[3] = {0};
+	__d_args[0] = Box(ResponseStatus_t85_il2cpp_TypeInfo_var, &___arg0);
+	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg1);
+	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/LeaveRoomCallback::EndInvoke(System.IAsyncResult)
+extern "C" void LeaveRoomCallback_EndInvoke_m635 (LeaveRoomCallback_t135 * __this, Object_t * ___result, const MethodInfo* method)
+{
+	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/SendReliableMessageCallback::.ctor(System.Object,System.IntPtr)
+extern "C" void SendReliableMessageCallback__ctor_m636 (SendReliableMessageCallback_t136 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+{
+	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
+	__this->___method_3 = ___method;
+	__this->___m_target_2 = ___object;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/SendReliableMessageCallback::Invoke(GooglePlayGames.Native.Cwrapper.CommonErrorStatus/MultiplayerStatus,System.IntPtr)
+extern "C" void SendReliableMessageCallback_Invoke_m637 (SendReliableMessageCallback_t136 * __this, int32_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method)
+{
+	if(__this->___prev_9 != NULL)
+	{
+		SendReliableMessageCallback_Invoke_m637((SendReliableMessageCallback_t136 *)__this->___prev_9,___arg0, ___arg1, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
+	if (__this->___m_target_2 != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Object_t *, Object_t * __this, int32_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(NULL,__this->___m_target_2,___arg0, ___arg1,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (Object_t * __this, int32_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___arg0, ___arg1,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+}
+extern "C" void pinvoke_delegate_wrapper_SendReliableMessageCallback_t136(Il2CppObject* delegate, int32_t ___arg0, IntPtr_t ___arg1)
+{
+	typedef void (STDCALL *native_function_ptr_type)(int32_t, intptr_t);
+	native_function_ptr_type _il2cpp_pinvoke_func = ((native_function_ptr_type)((Il2CppDelegate*)delegate)->method->method);
+	// Marshaling of parameter '___arg0' to native representation
+
+	// Marshaling of parameter '___arg1' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(___arg0, reinterpret_cast<intptr_t>((___arg1).___m_value_0));
+
+	// Marshaling cleanup of parameter '___arg0' native representation
+
+	// Marshaling cleanup of parameter '___arg1' native representation
+
+}
+// System.IAsyncResult GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/SendReliableMessageCallback::BeginInvoke(GooglePlayGames.Native.Cwrapper.CommonErrorStatus/MultiplayerStatus,System.IntPtr,System.AsyncCallback,System.Object)
+extern TypeInfo* MultiplayerStatus_t89_il2cpp_TypeInfo_var;
+extern TypeInfo* IntPtr_t_il2cpp_TypeInfo_var;
+extern "C" Object_t * SendReliableMessageCallback_BeginInvoke_m638 (SendReliableMessageCallback_t136 * __this, int32_t ___arg0, IntPtr_t ___arg1, AsyncCallback_t74 * ___callback, Object_t * ___object, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		MultiplayerStatus_t89_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(76);
+		IntPtr_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(69);
+		s_Il2CppMethodIntialized = true;
+	}
+	void *__d_args[3] = {0};
+	__d_args[0] = Box(MultiplayerStatus_t89_il2cpp_TypeInfo_var, &___arg0);
+	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg1);
+	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/SendReliableMessageCallback::EndInvoke(System.IAsyncResult)
+extern "C" void SendReliableMessageCallback_EndInvoke_m639 (SendReliableMessageCallback_t136 * __this, Object_t * ___result, const MethodInfo* method)
+{
+	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/RoomInboxUICallback::.ctor(System.Object,System.IntPtr)
+extern "C" void RoomInboxUICallback__ctor_m640 (RoomInboxUICallback_t137 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+{
+	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
+	__this->___method_3 = ___method;
+	__this->___m_target_2 = ___object;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/RoomInboxUICallback::Invoke(System.IntPtr,System.IntPtr)
+extern "C" void RoomInboxUICallback_Invoke_m641 (RoomInboxUICallback_t137 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method)
+{
+	if(__this->___prev_9 != NULL)
+	{
+		RoomInboxUICallback_Invoke_m641((RoomInboxUICallback_t137 *)__this->___prev_9,___arg0, ___arg1, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
+	if (__this->___m_target_2 != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Object_t *, Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(NULL,__this->___m_target_2,___arg0, ___arg1,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___arg0, ___arg1,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+}
+extern "C" void pinvoke_delegate_wrapper_RoomInboxUICallback_t137(Il2CppObject* delegate, IntPtr_t ___arg0, IntPtr_t ___arg1)
+{
+	typedef void (STDCALL *native_function_ptr_type)(intptr_t, intptr_t);
+	native_function_ptr_type _il2cpp_pinvoke_func = ((native_function_ptr_type)((Il2CppDelegate*)delegate)->method->method);
+	// Marshaling of parameter '___arg0' to native representation
+
+	// Marshaling of parameter '___arg1' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(reinterpret_cast<intptr_t>((___arg0).___m_value_0), reinterpret_cast<intptr_t>((___arg1).___m_value_0));
+
+	// Marshaling cleanup of parameter '___arg0' native representation
+
+	// Marshaling cleanup of parameter '___arg1' native representation
+
+}
+// System.IAsyncResult GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/RoomInboxUICallback::BeginInvoke(System.IntPtr,System.IntPtr,System.AsyncCallback,System.Object)
+extern TypeInfo* IntPtr_t_il2cpp_TypeInfo_var;
+extern "C" Object_t * RoomInboxUICallback_BeginInvoke_m642 (RoomInboxUICallback_t137 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, AsyncCallback_t74 * ___callback, Object_t * ___object, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		IntPtr_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(69);
+		s_Il2CppMethodIntialized = true;
+	}
+	void *__d_args[3] = {0};
+	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg0);
+	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg1);
+	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/RoomInboxUICallback::EndInvoke(System.IAsyncResult)
+extern "C" void RoomInboxUICallback_EndInvoke_m643 (RoomInboxUICallback_t137 * __this, Object_t * ___result, const MethodInfo* method)
+{
+	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/PlayerSelectUICallback::.ctor(System.Object,System.IntPtr)
+extern "C" void PlayerSelectUICallback__ctor_m644 (PlayerSelectUICallback_t138 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+{
+	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
+	__this->___method_3 = ___method;
+	__this->___m_target_2 = ___object;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/PlayerSelectUICallback::Invoke(System.IntPtr,System.IntPtr)
+extern "C" void PlayerSelectUICallback_Invoke_m645 (PlayerSelectUICallback_t138 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method)
+{
+	if(__this->___prev_9 != NULL)
+	{
+		PlayerSelectUICallback_Invoke_m645((PlayerSelectUICallback_t138 *)__this->___prev_9,___arg0, ___arg1, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
+	if (__this->___m_target_2 != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Object_t *, Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(NULL,__this->___m_target_2,___arg0, ___arg1,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___arg0, ___arg1,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+}
+extern "C" void pinvoke_delegate_wrapper_PlayerSelectUICallback_t138(Il2CppObject* delegate, IntPtr_t ___arg0, IntPtr_t ___arg1)
+{
+	typedef void (STDCALL *native_function_ptr_type)(intptr_t, intptr_t);
+	native_function_ptr_type _il2cpp_pinvoke_func = ((native_function_ptr_type)((Il2CppDelegate*)delegate)->method->method);
+	// Marshaling of parameter '___arg0' to native representation
+
+	// Marshaling of parameter '___arg1' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(reinterpret_cast<intptr_t>((___arg0).___m_value_0), reinterpret_cast<intptr_t>((___arg1).___m_value_0));
+
+	// Marshaling cleanup of parameter '___arg0' native representation
+
+	// Marshaling cleanup of parameter '___arg1' native representation
+
+}
+// System.IAsyncResult GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/PlayerSelectUICallback::BeginInvoke(System.IntPtr,System.IntPtr,System.AsyncCallback,System.Object)
+extern TypeInfo* IntPtr_t_il2cpp_TypeInfo_var;
+extern "C" Object_t * PlayerSelectUICallback_BeginInvoke_m646 (PlayerSelectUICallback_t138 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, AsyncCallback_t74 * ___callback, Object_t * ___object, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		IntPtr_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(69);
+		s_Il2CppMethodIntialized = true;
+	}
+	void *__d_args[3] = {0};
+	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg0);
+	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg1);
+	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/PlayerSelectUICallback::EndInvoke(System.IAsyncResult)
+extern "C" void PlayerSelectUICallback_EndInvoke_m647 (PlayerSelectUICallback_t138 * __this, Object_t * ___result, const MethodInfo* method)
+{
+	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/WaitingRoomUICallback::.ctor(System.Object,System.IntPtr)
+extern "C" void WaitingRoomUICallback__ctor_m648 (WaitingRoomUICallback_t139 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+{
+	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
+	__this->___method_3 = ___method;
+	__this->___m_target_2 = ___object;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/WaitingRoomUICallback::Invoke(System.IntPtr,System.IntPtr)
+extern "C" void WaitingRoomUICallback_Invoke_m649 (WaitingRoomUICallback_t139 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method)
+{
+	if(__this->___prev_9 != NULL)
+	{
+		WaitingRoomUICallback_Invoke_m649((WaitingRoomUICallback_t139 *)__this->___prev_9,___arg0, ___arg1, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
+	if (__this->___m_target_2 != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Object_t *, Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(NULL,__this->___m_target_2,___arg0, ___arg1,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___arg0, ___arg1,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+}
+extern "C" void pinvoke_delegate_wrapper_WaitingRoomUICallback_t139(Il2CppObject* delegate, IntPtr_t ___arg0, IntPtr_t ___arg1)
+{
+	typedef void (STDCALL *native_function_ptr_type)(intptr_t, intptr_t);
+	native_function_ptr_type _il2cpp_pinvoke_func = ((native_function_ptr_type)((Il2CppDelegate*)delegate)->method->method);
+	// Marshaling of parameter '___arg0' to native representation
+
+	// Marshaling of parameter '___arg1' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(reinterpret_cast<intptr_t>((___arg0).___m_value_0), reinterpret_cast<intptr_t>((___arg1).___m_value_0));
+
+	// Marshaling cleanup of parameter '___arg0' native representation
+
+	// Marshaling cleanup of parameter '___arg1' native representation
+
+}
+// System.IAsyncResult GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/WaitingRoomUICallback::BeginInvoke(System.IntPtr,System.IntPtr,System.AsyncCallback,System.Object)
+extern TypeInfo* IntPtr_t_il2cpp_TypeInfo_var;
+extern "C" Object_t * WaitingRoomUICallback_BeginInvoke_m650 (WaitingRoomUICallback_t139 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, AsyncCallback_t74 * ___callback, Object_t * ___object, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		IntPtr_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(69);
+		s_Il2CppMethodIntialized = true;
+	}
+	void *__d_args[3] = {0};
+	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg0);
+	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg1);
+	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/WaitingRoomUICallback::EndInvoke(System.IAsyncResult)
+extern "C" void WaitingRoomUICallback_EndInvoke_m651 (WaitingRoomUICallback_t139 * __this, Object_t * ___result, const MethodInfo* method)
+{
+	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/FetchInvitationsCallback::.ctor(System.Object,System.IntPtr)
+extern "C" void FetchInvitationsCallback__ctor_m652 (FetchInvitationsCallback_t140 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+{
+	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
+	__this->___method_3 = ___method;
+	__this->___m_target_2 = ___object;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/FetchInvitationsCallback::Invoke(System.IntPtr,System.IntPtr)
+extern "C" void FetchInvitationsCallback_Invoke_m653 (FetchInvitationsCallback_t140 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method)
+{
+	if(__this->___prev_9 != NULL)
+	{
+		FetchInvitationsCallback_Invoke_m653((FetchInvitationsCallback_t140 *)__this->___prev_9,___arg0, ___arg1, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
+	if (__this->___m_target_2 != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Object_t *, Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(NULL,__this->___m_target_2,___arg0, ___arg1,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___arg0, ___arg1,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+}
+extern "C" void pinvoke_delegate_wrapper_FetchInvitationsCallback_t140(Il2CppObject* delegate, IntPtr_t ___arg0, IntPtr_t ___arg1)
+{
+	typedef void (STDCALL *native_function_ptr_type)(intptr_t, intptr_t);
+	native_function_ptr_type _il2cpp_pinvoke_func = ((native_function_ptr_type)((Il2CppDelegate*)delegate)->method->method);
+	// Marshaling of parameter '___arg0' to native representation
+
+	// Marshaling of parameter '___arg1' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(reinterpret_cast<intptr_t>((___arg0).___m_value_0), reinterpret_cast<intptr_t>((___arg1).___m_value_0));
+
+	// Marshaling cleanup of parameter '___arg0' native representation
+
+	// Marshaling cleanup of parameter '___arg1' native representation
+
+}
+// System.IAsyncResult GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/FetchInvitationsCallback::BeginInvoke(System.IntPtr,System.IntPtr,System.AsyncCallback,System.Object)
+extern TypeInfo* IntPtr_t_il2cpp_TypeInfo_var;
+extern "C" Object_t * FetchInvitationsCallback_BeginInvoke_m654 (FetchInvitationsCallback_t140 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, AsyncCallback_t74 * ___callback, Object_t * ___object, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		IntPtr_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(69);
+		s_Il2CppMethodIntialized = true;
+	}
+	void *__d_args[3] = {0};
+	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg0);
+	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg1);
+	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/FetchInvitationsCallback::EndInvoke(System.IAsyncResult)
+extern "C" void FetchInvitationsCallback_EndInvoke_m655 (FetchInvitationsCallback_t140 * __this, Object_t * ___result, const MethodInfo* method)
+{
+	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager::RealTimeMultiplayerManager_CreateRealTimeRoom(System.Runtime.InteropServices.HandleRef,System.IntPtr,System.IntPtr,GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/RealTimeRoomCallback,System.IntPtr)
+extern "C" {void DEFAULT_CALL RealTimeMultiplayerManager_CreateRealTimeRoom(void*, intptr_t, intptr_t, methodPointerType, intptr_t);}
+extern "C" void RealTimeMultiplayerManager_RealTimeMultiplayerManager_CreateRealTimeRoom_m656 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, IntPtr_t ___config, IntPtr_t ___helper, RealTimeRoomCallback_t134 * ___callback, IntPtr_t ___callback_arg, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, intptr_t, intptr_t, methodPointerType, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeMultiplayerManager_CreateRealTimeRoom;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeMultiplayerManager_CreateRealTimeRoom'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___config' to native representation
+
+	// Marshaling of parameter '___helper' to native representation
+
+	// Marshaling of parameter '___callback' to native representation
+	methodPointerType ____callback_marshaled = { 0 };
+	____callback_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___callback));
+
+	// Marshaling of parameter '___callback_arg' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, reinterpret_cast<intptr_t>((___config).___m_value_0), reinterpret_cast<intptr_t>((___helper).___m_value_0), ____callback_marshaled, reinterpret_cast<intptr_t>((___callback_arg).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___config' native representation
+
+	// Marshaling cleanup of parameter '___helper' native representation
+
+	// Marshaling cleanup of parameter '___callback' native representation
+
+	// Marshaling cleanup of parameter '___callback_arg' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager::RealTimeMultiplayerManager_LeaveRoom(System.Runtime.InteropServices.HandleRef,System.IntPtr,GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/LeaveRoomCallback,System.IntPtr)
+extern "C" {void DEFAULT_CALL RealTimeMultiplayerManager_LeaveRoom(void*, intptr_t, methodPointerType, intptr_t);}
+extern "C" void RealTimeMultiplayerManager_RealTimeMultiplayerManager_LeaveRoom_m657 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, IntPtr_t ___room, LeaveRoomCallback_t135 * ___callback, IntPtr_t ___callback_arg, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, intptr_t, methodPointerType, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeMultiplayerManager_LeaveRoom;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeMultiplayerManager_LeaveRoom'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___room' to native representation
+
+	// Marshaling of parameter '___callback' to native representation
+	methodPointerType ____callback_marshaled = { 0 };
+	____callback_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___callback));
+
+	// Marshaling of parameter '___callback_arg' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, reinterpret_cast<intptr_t>((___room).___m_value_0), ____callback_marshaled, reinterpret_cast<intptr_t>((___callback_arg).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___room' native representation
+
+	// Marshaling cleanup of parameter '___callback' native representation
+
+	// Marshaling cleanup of parameter '___callback_arg' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager::RealTimeMultiplayerManager_SendUnreliableMessage(System.Runtime.InteropServices.HandleRef,System.IntPtr,System.IntPtr[],System.UIntPtr,System.Byte[],System.UIntPtr)
+extern "C" {void DEFAULT_CALL RealTimeMultiplayerManager_SendUnreliableMessage(void*, intptr_t, intptr_t*, uintptr_t, uint8_t*, uintptr_t);}
+extern "C" void RealTimeMultiplayerManager_RealTimeMultiplayerManager_SendUnreliableMessage_m658 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, IntPtr_t ___room, IntPtrU5BU5D_t443* ___participants, UIntPtr_t  ___participants_size, ByteU5BU5D_t20* ___data, UIntPtr_t  ___data_size, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, intptr_t, intptr_t*, uintptr_t, uint8_t*, uintptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeMultiplayerManager_SendUnreliableMessage;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeMultiplayerManager_SendUnreliableMessage'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___room' to native representation
+
+	// Marshaling of parameter '___participants' to native representation
+	intptr_t* ____participants_marshaled = { 0 };
+	____participants_marshaled = il2cpp_codegen_marshal_array<intptr_t>((Il2CppCodeGenArray*)___participants);
+
+	// Marshaling of parameter '___participants_size' to native representation
+
+	// Marshaling of parameter '___data' to native representation
+	uint8_t* ____data_marshaled = { 0 };
+	____data_marshaled = il2cpp_codegen_marshal_array<uint8_t>((Il2CppCodeGenArray*)___data);
+
+	// Marshaling of parameter '___data_size' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, reinterpret_cast<intptr_t>((___room).___m_value_0), ____participants_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___participants_size).____pointer_1)), ____data_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___data_size).____pointer_1)));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___room' native representation
+
+	// Marshaling cleanup of parameter '___participants' native representation
+
+	// Marshaling cleanup of parameter '___participants_size' native representation
+
+	// Marshaling cleanup of parameter '___data' native representation
+
+	// Marshaling cleanup of parameter '___data_size' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager::RealTimeMultiplayerManager_ShowWaitingRoomUI(System.Runtime.InteropServices.HandleRef,System.IntPtr,System.UInt32,GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/WaitingRoomUICallback,System.IntPtr)
+extern "C" {void DEFAULT_CALL RealTimeMultiplayerManager_ShowWaitingRoomUI(void*, intptr_t, uint32_t, methodPointerType, intptr_t);}
+extern "C" void RealTimeMultiplayerManager_RealTimeMultiplayerManager_ShowWaitingRoomUI_m659 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, IntPtr_t ___room, uint32_t ___min_participants_to_start, WaitingRoomUICallback_t139 * ___callback, IntPtr_t ___callback_arg, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, intptr_t, uint32_t, methodPointerType, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeMultiplayerManager_ShowWaitingRoomUI;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeMultiplayerManager_ShowWaitingRoomUI'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___room' to native representation
+
+	// Marshaling of parameter '___min_participants_to_start' to native representation
+
+	// Marshaling of parameter '___callback' to native representation
+	methodPointerType ____callback_marshaled = { 0 };
+	____callback_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___callback));
+
+	// Marshaling of parameter '___callback_arg' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, reinterpret_cast<intptr_t>((___room).___m_value_0), ___min_participants_to_start, ____callback_marshaled, reinterpret_cast<intptr_t>((___callback_arg).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___room' native representation
+
+	// Marshaling cleanup of parameter '___min_participants_to_start' native representation
+
+	// Marshaling cleanup of parameter '___callback' native representation
+
+	// Marshaling cleanup of parameter '___callback_arg' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager::RealTimeMultiplayerManager_ShowPlayerSelectUI(System.Runtime.InteropServices.HandleRef,System.UInt32,System.UInt32,System.Boolean,GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/PlayerSelectUICallback,System.IntPtr)
+extern "C" {void DEFAULT_CALL RealTimeMultiplayerManager_ShowPlayerSelectUI(void*, uint32_t, uint32_t, int8_t, methodPointerType, intptr_t);}
+extern "C" void RealTimeMultiplayerManager_RealTimeMultiplayerManager_ShowPlayerSelectUI_m660 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, uint32_t ___minimum_players, uint32_t ___maximum_players, bool ___allow_automatch, PlayerSelectUICallback_t138 * ___callback, IntPtr_t ___callback_arg, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, uint32_t, uint32_t, int8_t, methodPointerType, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeMultiplayerManager_ShowPlayerSelectUI;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeMultiplayerManager_ShowPlayerSelectUI'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___minimum_players' to native representation
+
+	// Marshaling of parameter '___maximum_players' to native representation
+
+	// Marshaling of parameter '___allow_automatch' to native representation
+
+	// Marshaling of parameter '___callback' to native representation
+	methodPointerType ____callback_marshaled = { 0 };
+	____callback_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___callback));
+
+	// Marshaling of parameter '___callback_arg' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, ___minimum_players, ___maximum_players, ___allow_automatch, ____callback_marshaled, reinterpret_cast<intptr_t>((___callback_arg).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___minimum_players' native representation
+
+	// Marshaling cleanup of parameter '___maximum_players' native representation
+
+	// Marshaling cleanup of parameter '___allow_automatch' native representation
+
+	// Marshaling cleanup of parameter '___callback' native representation
+
+	// Marshaling cleanup of parameter '___callback_arg' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager::RealTimeMultiplayerManager_DismissInvitation(System.Runtime.InteropServices.HandleRef,System.IntPtr)
+extern "C" {void DEFAULT_CALL RealTimeMultiplayerManager_DismissInvitation(void*, intptr_t);}
+extern "C" void RealTimeMultiplayerManager_RealTimeMultiplayerManager_DismissInvitation_m661 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, IntPtr_t ___invitation, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeMultiplayerManager_DismissInvitation;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeMultiplayerManager_DismissInvitation'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___invitation' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, reinterpret_cast<intptr_t>((___invitation).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___invitation' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager::RealTimeMultiplayerManager_DeclineInvitation(System.Runtime.InteropServices.HandleRef,System.IntPtr)
+extern "C" {void DEFAULT_CALL RealTimeMultiplayerManager_DeclineInvitation(void*, intptr_t);}
+extern "C" void RealTimeMultiplayerManager_RealTimeMultiplayerManager_DeclineInvitation_m662 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, IntPtr_t ___invitation, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeMultiplayerManager_DeclineInvitation;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeMultiplayerManager_DeclineInvitation'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___invitation' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, reinterpret_cast<intptr_t>((___invitation).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___invitation' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager::RealTimeMultiplayerManager_SendReliableMessage(System.Runtime.InteropServices.HandleRef,System.IntPtr,System.IntPtr,System.Byte[],System.UIntPtr,GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/SendReliableMessageCallback,System.IntPtr)
+extern "C" {void DEFAULT_CALL RealTimeMultiplayerManager_SendReliableMessage(void*, intptr_t, intptr_t, uint8_t*, uintptr_t, methodPointerType, intptr_t);}
+extern "C" void RealTimeMultiplayerManager_RealTimeMultiplayerManager_SendReliableMessage_m663 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, IntPtr_t ___room, IntPtr_t ___participant, ByteU5BU5D_t20* ___data, UIntPtr_t  ___data_size, SendReliableMessageCallback_t136 * ___callback, IntPtr_t ___callback_arg, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, intptr_t, intptr_t, uint8_t*, uintptr_t, methodPointerType, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeMultiplayerManager_SendReliableMessage;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeMultiplayerManager_SendReliableMessage'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___room' to native representation
+
+	// Marshaling of parameter '___participant' to native representation
+
+	// Marshaling of parameter '___data' to native representation
+	uint8_t* ____data_marshaled = { 0 };
+	____data_marshaled = il2cpp_codegen_marshal_array<uint8_t>((Il2CppCodeGenArray*)___data);
+
+	// Marshaling of parameter '___data_size' to native representation
+
+	// Marshaling of parameter '___callback' to native representation
+	methodPointerType ____callback_marshaled = { 0 };
+	____callback_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___callback));
+
+	// Marshaling of parameter '___callback_arg' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, reinterpret_cast<intptr_t>((___room).___m_value_0), reinterpret_cast<intptr_t>((___participant).___m_value_0), ____data_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___data_size).____pointer_1)), ____callback_marshaled, reinterpret_cast<intptr_t>((___callback_arg).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___room' native representation
+
+	// Marshaling cleanup of parameter '___participant' native representation
+
+	// Marshaling cleanup of parameter '___data' native representation
+
+	// Marshaling cleanup of parameter '___data_size' native representation
+
+	// Marshaling cleanup of parameter '___callback' native representation
+
+	// Marshaling cleanup of parameter '___callback_arg' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager::RealTimeMultiplayerManager_AcceptInvitation(System.Runtime.InteropServices.HandleRef,System.IntPtr,System.IntPtr,GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/RealTimeRoomCallback,System.IntPtr)
+extern "C" {void DEFAULT_CALL RealTimeMultiplayerManager_AcceptInvitation(void*, intptr_t, intptr_t, methodPointerType, intptr_t);}
+extern "C" void RealTimeMultiplayerManager_RealTimeMultiplayerManager_AcceptInvitation_m664 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, IntPtr_t ___invitation, IntPtr_t ___helper, RealTimeRoomCallback_t134 * ___callback, IntPtr_t ___callback_arg, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, intptr_t, intptr_t, methodPointerType, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeMultiplayerManager_AcceptInvitation;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeMultiplayerManager_AcceptInvitation'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___invitation' to native representation
+
+	// Marshaling of parameter '___helper' to native representation
+
+	// Marshaling of parameter '___callback' to native representation
+	methodPointerType ____callback_marshaled = { 0 };
+	____callback_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___callback));
+
+	// Marshaling of parameter '___callback_arg' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, reinterpret_cast<intptr_t>((___invitation).___m_value_0), reinterpret_cast<intptr_t>((___helper).___m_value_0), ____callback_marshaled, reinterpret_cast<intptr_t>((___callback_arg).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___invitation' native representation
+
+	// Marshaling cleanup of parameter '___helper' native representation
+
+	// Marshaling cleanup of parameter '___callback' native representation
+
+	// Marshaling cleanup of parameter '___callback_arg' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager::RealTimeMultiplayerManager_FetchInvitations(System.Runtime.InteropServices.HandleRef,GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/FetchInvitationsCallback,System.IntPtr)
+extern "C" {void DEFAULT_CALL RealTimeMultiplayerManager_FetchInvitations(void*, methodPointerType, intptr_t);}
+extern "C" void RealTimeMultiplayerManager_RealTimeMultiplayerManager_FetchInvitations_m665 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, FetchInvitationsCallback_t140 * ___callback, IntPtr_t ___callback_arg, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, methodPointerType, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeMultiplayerManager_FetchInvitations;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeMultiplayerManager_FetchInvitations'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___callback' to native representation
+	methodPointerType ____callback_marshaled = { 0 };
+	____callback_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___callback));
+
+	// Marshaling of parameter '___callback_arg' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, ____callback_marshaled, reinterpret_cast<intptr_t>((___callback_arg).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___callback' native representation
+
+	// Marshaling cleanup of parameter '___callback_arg' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager::RealTimeMultiplayerManager_SendUnreliableMessageToOthers(System.Runtime.InteropServices.HandleRef,System.IntPtr,System.Byte[],System.UIntPtr)
+extern "C" {void DEFAULT_CALL RealTimeMultiplayerManager_SendUnreliableMessageToOthers(void*, intptr_t, uint8_t*, uintptr_t);}
+extern "C" void RealTimeMultiplayerManager_RealTimeMultiplayerManager_SendUnreliableMessageToOthers_m666 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, IntPtr_t ___room, ByteU5BU5D_t20* ___data, UIntPtr_t  ___data_size, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, intptr_t, uint8_t*, uintptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeMultiplayerManager_SendUnreliableMessageToOthers;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeMultiplayerManager_SendUnreliableMessageToOthers'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___room' to native representation
+
+	// Marshaling of parameter '___data' to native representation
+	uint8_t* ____data_marshaled = { 0 };
+	____data_marshaled = il2cpp_codegen_marshal_array<uint8_t>((Il2CppCodeGenArray*)___data);
+
+	// Marshaling of parameter '___data_size' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, reinterpret_cast<intptr_t>((___room).___m_value_0), ____data_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___data_size).____pointer_1)));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___room' native representation
+
+	// Marshaling cleanup of parameter '___data' native representation
+
+	// Marshaling cleanup of parameter '___data_size' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager::RealTimeMultiplayerManager_ShowRoomInboxUI(System.Runtime.InteropServices.HandleRef,GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager/RoomInboxUICallback,System.IntPtr)
+extern "C" {void DEFAULT_CALL RealTimeMultiplayerManager_ShowRoomInboxUI(void*, methodPointerType, intptr_t);}
+extern "C" void RealTimeMultiplayerManager_RealTimeMultiplayerManager_ShowRoomInboxUI_m667 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, RoomInboxUICallback_t137 * ___callback, IntPtr_t ___callback_arg, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, methodPointerType, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeMultiplayerManager_ShowRoomInboxUI;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeMultiplayerManager_ShowRoomInboxUI'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___callback' to native representation
+	methodPointerType ____callback_marshaled = { 0 };
+	____callback_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___callback));
+
+	// Marshaling of parameter '___callback_arg' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, ____callback_marshaled, reinterpret_cast<intptr_t>((___callback_arg).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___callback' native representation
+
+	// Marshaling cleanup of parameter '___callback_arg' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager::RealTimeMultiplayerManager_RealTimeRoomResponse_Dispose(System.Runtime.InteropServices.HandleRef)
+extern "C" {void DEFAULT_CALL RealTimeMultiplayerManager_RealTimeRoomResponse_Dispose(void*);}
+extern "C" void RealTimeMultiplayerManager_RealTimeMultiplayerManager_RealTimeRoomResponse_Dispose_m668 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeMultiplayerManager_RealTimeRoomResponse_Dispose;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeMultiplayerManager_RealTimeRoomResponse_Dispose'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+}
+// GooglePlayGames.Native.Cwrapper.CommonErrorStatus/MultiplayerStatus GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager::RealTimeMultiplayerManager_RealTimeRoomResponse_GetStatus(System.Runtime.InteropServices.HandleRef)
+extern "C" {int32_t DEFAULT_CALL RealTimeMultiplayerManager_RealTimeRoomResponse_GetStatus(void*);}
+extern "C" int32_t RealTimeMultiplayerManager_RealTimeMultiplayerManager_RealTimeRoomResponse_GetStatus_m669 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeMultiplayerManager_RealTimeRoomResponse_GetStatus;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeMultiplayerManager_RealTimeRoomResponse_GetStatus'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int32_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager::RealTimeMultiplayerManager_RealTimeRoomResponse_GetRoom(System.Runtime.InteropServices.HandleRef)
+extern "C" {intptr_t DEFAULT_CALL RealTimeMultiplayerManager_RealTimeRoomResponse_GetRoom(void*);}
+extern "C" IntPtr_t RealTimeMultiplayerManager_RealTimeMultiplayerManager_RealTimeRoomResponse_GetRoom_m670 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeMultiplayerManager_RealTimeRoomResponse_GetRoom;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeMultiplayerManager_RealTimeRoomResponse_GetRoom'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager::RealTimeMultiplayerManager_RoomInboxUIResponse_Dispose(System.Runtime.InteropServices.HandleRef)
+extern "C" {void DEFAULT_CALL RealTimeMultiplayerManager_RoomInboxUIResponse_Dispose(void*);}
+extern "C" void RealTimeMultiplayerManager_RealTimeMultiplayerManager_RoomInboxUIResponse_Dispose_m671 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeMultiplayerManager_RoomInboxUIResponse_Dispose;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeMultiplayerManager_RoomInboxUIResponse_Dispose'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+}
+// GooglePlayGames.Native.Cwrapper.CommonErrorStatus/UIStatus GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager::RealTimeMultiplayerManager_RoomInboxUIResponse_GetStatus(System.Runtime.InteropServices.HandleRef)
+extern "C" {int32_t DEFAULT_CALL RealTimeMultiplayerManager_RoomInboxUIResponse_GetStatus(void*);}
+extern "C" int32_t RealTimeMultiplayerManager_RealTimeMultiplayerManager_RoomInboxUIResponse_GetStatus_m672 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeMultiplayerManager_RoomInboxUIResponse_GetStatus;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeMultiplayerManager_RoomInboxUIResponse_GetStatus'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int32_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager::RealTimeMultiplayerManager_RoomInboxUIResponse_GetInvitation(System.Runtime.InteropServices.HandleRef)
+extern "C" {intptr_t DEFAULT_CALL RealTimeMultiplayerManager_RoomInboxUIResponse_GetInvitation(void*);}
+extern "C" IntPtr_t RealTimeMultiplayerManager_RealTimeMultiplayerManager_RoomInboxUIResponse_GetInvitation_m673 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeMultiplayerManager_RoomInboxUIResponse_GetInvitation;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeMultiplayerManager_RoomInboxUIResponse_GetInvitation'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager::RealTimeMultiplayerManager_WaitingRoomUIResponse_Dispose(System.Runtime.InteropServices.HandleRef)
+extern "C" {void DEFAULT_CALL RealTimeMultiplayerManager_WaitingRoomUIResponse_Dispose(void*);}
+extern "C" void RealTimeMultiplayerManager_RealTimeMultiplayerManager_WaitingRoomUIResponse_Dispose_m674 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeMultiplayerManager_WaitingRoomUIResponse_Dispose;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeMultiplayerManager_WaitingRoomUIResponse_Dispose'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+}
+// GooglePlayGames.Native.Cwrapper.CommonErrorStatus/UIStatus GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager::RealTimeMultiplayerManager_WaitingRoomUIResponse_GetStatus(System.Runtime.InteropServices.HandleRef)
+extern "C" {int32_t DEFAULT_CALL RealTimeMultiplayerManager_WaitingRoomUIResponse_GetStatus(void*);}
+extern "C" int32_t RealTimeMultiplayerManager_RealTimeMultiplayerManager_WaitingRoomUIResponse_GetStatus_m675 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeMultiplayerManager_WaitingRoomUIResponse_GetStatus;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeMultiplayerManager_WaitingRoomUIResponse_GetStatus'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int32_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager::RealTimeMultiplayerManager_WaitingRoomUIResponse_GetRoom(System.Runtime.InteropServices.HandleRef)
+extern "C" {intptr_t DEFAULT_CALL RealTimeMultiplayerManager_WaitingRoomUIResponse_GetRoom(void*);}
+extern "C" IntPtr_t RealTimeMultiplayerManager_RealTimeMultiplayerManager_WaitingRoomUIResponse_GetRoom_m676 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeMultiplayerManager_WaitingRoomUIResponse_GetRoom;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeMultiplayerManager_WaitingRoomUIResponse_GetRoom'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager::RealTimeMultiplayerManager_FetchInvitationsResponse_Dispose(System.Runtime.InteropServices.HandleRef)
+extern "C" {void DEFAULT_CALL RealTimeMultiplayerManager_FetchInvitationsResponse_Dispose(void*);}
+extern "C" void RealTimeMultiplayerManager_RealTimeMultiplayerManager_FetchInvitationsResponse_Dispose_m677 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeMultiplayerManager_FetchInvitationsResponse_Dispose;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeMultiplayerManager_FetchInvitationsResponse_Dispose'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+}
+// GooglePlayGames.Native.Cwrapper.CommonErrorStatus/ResponseStatus GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager::RealTimeMultiplayerManager_FetchInvitationsResponse_GetStatus(System.Runtime.InteropServices.HandleRef)
+extern "C" {int32_t DEFAULT_CALL RealTimeMultiplayerManager_FetchInvitationsResponse_GetStatus(void*);}
+extern "C" int32_t RealTimeMultiplayerManager_RealTimeMultiplayerManager_FetchInvitationsResponse_GetStatus_m678 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeMultiplayerManager_FetchInvitationsResponse_GetStatus;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeMultiplayerManager_FetchInvitationsResponse_GetStatus'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int32_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.UIntPtr GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager::RealTimeMultiplayerManager_FetchInvitationsResponse_GetInvitations_Length(System.Runtime.InteropServices.HandleRef)
+extern "C" {uintptr_t DEFAULT_CALL RealTimeMultiplayerManager_FetchInvitationsResponse_GetInvitations_Length(void*);}
+extern "C" UIntPtr_t  RealTimeMultiplayerManager_RealTimeMultiplayerManager_FetchInvitationsResponse_GetInvitations_Length_m679 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeMultiplayerManager_FetchInvitationsResponse_GetInvitations_Length;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeMultiplayerManager_FetchInvitationsResponse_GetInvitations_Length'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	uintptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	UIntPtr_t  __return_value_unmarshaled;
+	(__return_value_unmarshaled).____pointer_1 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.RealTimeMultiplayerManager::RealTimeMultiplayerManager_FetchInvitationsResponse_GetInvitations_GetElement(System.Runtime.InteropServices.HandleRef,System.UIntPtr)
+extern "C" {intptr_t DEFAULT_CALL RealTimeMultiplayerManager_FetchInvitationsResponse_GetInvitations_GetElement(void*, uintptr_t);}
+extern "C" IntPtr_t RealTimeMultiplayerManager_RealTimeMultiplayerManager_FetchInvitationsResponse_GetInvitations_GetElement_m680 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, UIntPtr_t  ___index, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, uintptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeMultiplayerManager_FetchInvitationsResponse_GetInvitations_GetElement;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeMultiplayerManager_FetchInvitationsResponse_GetInvitations_GetElement'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___index' to native representation
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___index).____pointer_1)));
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___index' native representation
+
+	return __return_value_unmarshaled;
+}
+// GooglePlayGames.Native.Cwrapper.Types/RealTimeRoomStatus GooglePlayGames.Native.Cwrapper.RealTimeRoom::RealTimeRoom_Status(System.Runtime.InteropServices.HandleRef)
+extern "C" {int32_t DEFAULT_CALL RealTimeRoom_Status(void*);}
+extern "C" int32_t RealTimeRoom_RealTimeRoom_Status_m681 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeRoom_Status;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeRoom_Status'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int32_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.UIntPtr GooglePlayGames.Native.Cwrapper.RealTimeRoom::RealTimeRoom_Description(System.Runtime.InteropServices.HandleRef,System.Text.StringBuilder,System.UIntPtr)
+extern "C" {uintptr_t DEFAULT_CALL RealTimeRoom_Description(void*, char*, uintptr_t);}
+extern "C" UIntPtr_t  RealTimeRoom_RealTimeRoom_Description_m682 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, StringBuilder_t361 * ___out_arg, UIntPtr_t  ___out_size, const MethodInfo* method)
+{
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*, char*, uintptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeRoom_Description;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeRoom_Description'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___out_arg' to native representation
+	char* ____out_arg_marshaled = { 0 };
+	____out_arg_marshaled = il2cpp_codegen_marshal_string_builder(___out_arg);
+
+	// Marshaling of parameter '___out_size' to native representation
+
+	// Native function invocation and marshaling of return value back from native representation
+	uintptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled, ____out_arg_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___out_size).____pointer_1)));
+	UIntPtr_t  __return_value_unmarshaled;
+	(__return_value_unmarshaled).____pointer_1 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling of parameter '___out_arg' back from native representation
+	il2cpp_codegen_marshal_string_builder_result(___out_arg, ____out_arg_marshaled);
+
+	// Marshaling cleanup of parameter '___out_arg' native representation
+	il2cpp_codegen_marshal_free(____out_arg_marshaled);
+	____out_arg_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___out_size' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.UInt32 GooglePlayGames.Native.Cwrapper.RealTimeRoom::RealTimeRoom_Variant(System.Runtime.InteropServices.HandleRef)
+extern "C" {uint32_t DEFAULT_CALL RealTimeRoom_Variant(void*);}
+extern "C" uint32_t RealTimeRoom_RealTimeRoom_Variant_m683 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeRoom_Variant;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeRoom_Variant'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	uint32_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.UInt64 GooglePlayGames.Native.Cwrapper.RealTimeRoom::RealTimeRoom_CreationTime(System.Runtime.InteropServices.HandleRef)
+extern "C" {uint64_t DEFAULT_CALL RealTimeRoom_CreationTime(void*);}
+extern "C" uint64_t RealTimeRoom_RealTimeRoom_CreationTime_m684 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef uint64_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeRoom_CreationTime;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeRoom_CreationTime'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	uint64_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.UIntPtr GooglePlayGames.Native.Cwrapper.RealTimeRoom::RealTimeRoom_Participants_Length(System.Runtime.InteropServices.HandleRef)
+extern "C" {uintptr_t DEFAULT_CALL RealTimeRoom_Participants_Length(void*);}
+extern "C" UIntPtr_t  RealTimeRoom_RealTimeRoom_Participants_Length_m685 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeRoom_Participants_Length;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeRoom_Participants_Length'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	uintptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	UIntPtr_t  __return_value_unmarshaled;
+	(__return_value_unmarshaled).____pointer_1 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.RealTimeRoom::RealTimeRoom_Participants_GetElement(System.Runtime.InteropServices.HandleRef,System.UIntPtr)
+extern "C" {intptr_t DEFAULT_CALL RealTimeRoom_Participants_GetElement(void*, uintptr_t);}
+extern "C" IntPtr_t RealTimeRoom_RealTimeRoom_Participants_GetElement_m686 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, UIntPtr_t  ___index, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, uintptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeRoom_Participants_GetElement;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeRoom_Participants_GetElement'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___index' to native representation
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___index).____pointer_1)));
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___index' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.Boolean GooglePlayGames.Native.Cwrapper.RealTimeRoom::RealTimeRoom_Valid(System.Runtime.InteropServices.HandleRef)
+extern "C" {int8_t DEFAULT_CALL RealTimeRoom_Valid(void*);}
+extern "C" bool RealTimeRoom_RealTimeRoom_Valid_m687 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int8_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeRoom_Valid;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeRoom_Valid'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int8_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.UInt32 GooglePlayGames.Native.Cwrapper.RealTimeRoom::RealTimeRoom_RemainingAutomatchingSlots(System.Runtime.InteropServices.HandleRef)
+extern "C" {uint32_t DEFAULT_CALL RealTimeRoom_RemainingAutomatchingSlots(void*);}
+extern "C" uint32_t RealTimeRoom_RealTimeRoom_RemainingAutomatchingSlots_m688 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeRoom_RemainingAutomatchingSlots;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeRoom_RemainingAutomatchingSlots'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	uint32_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.UInt64 GooglePlayGames.Native.Cwrapper.RealTimeRoom::RealTimeRoom_AutomatchWaitEstimate(System.Runtime.InteropServices.HandleRef)
+extern "C" {uint64_t DEFAULT_CALL RealTimeRoom_AutomatchWaitEstimate(void*);}
+extern "C" uint64_t RealTimeRoom_RealTimeRoom_AutomatchWaitEstimate_m689 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef uint64_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeRoom_AutomatchWaitEstimate;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeRoom_AutomatchWaitEstimate'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	uint64_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.RealTimeRoom::RealTimeRoom_CreatingParticipant(System.Runtime.InteropServices.HandleRef)
+extern "C" {intptr_t DEFAULT_CALL RealTimeRoom_CreatingParticipant(void*);}
+extern "C" IntPtr_t RealTimeRoom_RealTimeRoom_CreatingParticipant_m690 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeRoom_CreatingParticipant;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeRoom_CreatingParticipant'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.UIntPtr GooglePlayGames.Native.Cwrapper.RealTimeRoom::RealTimeRoom_Id(System.Runtime.InteropServices.HandleRef,System.Text.StringBuilder,System.UIntPtr)
+extern "C" {uintptr_t DEFAULT_CALL RealTimeRoom_Id(void*, char*, uintptr_t);}
+extern "C" UIntPtr_t  RealTimeRoom_RealTimeRoom_Id_m691 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, StringBuilder_t361 * ___out_arg, UIntPtr_t  ___out_size, const MethodInfo* method)
+{
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*, char*, uintptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeRoom_Id;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeRoom_Id'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___out_arg' to native representation
+	char* ____out_arg_marshaled = { 0 };
+	____out_arg_marshaled = il2cpp_codegen_marshal_string_builder(___out_arg);
+
+	// Marshaling of parameter '___out_size' to native representation
+
+	// Native function invocation and marshaling of return value back from native representation
+	uintptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled, ____out_arg_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___out_size).____pointer_1)));
+	UIntPtr_t  __return_value_unmarshaled;
+	(__return_value_unmarshaled).____pointer_1 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling of parameter '___out_arg' back from native representation
+	il2cpp_codegen_marshal_string_builder_result(___out_arg, ____out_arg_marshaled);
+
+	// Marshaling cleanup of parameter '___out_arg' native representation
+	il2cpp_codegen_marshal_free(____out_arg_marshaled);
+	____out_arg_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___out_size' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeRoom::RealTimeRoom_Dispose(System.Runtime.InteropServices.HandleRef)
+extern "C" {void DEFAULT_CALL RealTimeRoom_Dispose(void*);}
+extern "C" void RealTimeRoom_RealTimeRoom_Dispose_m692 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeRoom_Dispose;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeRoom_Dispose'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+}
+// System.UIntPtr GooglePlayGames.Native.Cwrapper.RealTimeRoomConfig::RealTimeRoomConfig_PlayerIdsToInvite_Length(System.Runtime.InteropServices.HandleRef)
+extern "C" {uintptr_t DEFAULT_CALL RealTimeRoomConfig_PlayerIdsToInvite_Length(void*);}
+extern "C" UIntPtr_t  RealTimeRoomConfig_RealTimeRoomConfig_PlayerIdsToInvite_Length_m693 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeRoomConfig_PlayerIdsToInvite_Length;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeRoomConfig_PlayerIdsToInvite_Length'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	uintptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	UIntPtr_t  __return_value_unmarshaled;
+	(__return_value_unmarshaled).____pointer_1 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.UIntPtr GooglePlayGames.Native.Cwrapper.RealTimeRoomConfig::RealTimeRoomConfig_PlayerIdsToInvite_GetElement(System.Runtime.InteropServices.HandleRef,System.UIntPtr,System.Text.StringBuilder,System.UIntPtr)
+extern "C" {uintptr_t DEFAULT_CALL RealTimeRoomConfig_PlayerIdsToInvite_GetElement(void*, uintptr_t, char*, uintptr_t);}
+extern "C" UIntPtr_t  RealTimeRoomConfig_RealTimeRoomConfig_PlayerIdsToInvite_GetElement_m694 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, UIntPtr_t  ___index, StringBuilder_t361 * ___out_arg, UIntPtr_t  ___out_size, const MethodInfo* method)
+{
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*, uintptr_t, char*, uintptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeRoomConfig_PlayerIdsToInvite_GetElement;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeRoomConfig_PlayerIdsToInvite_GetElement'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___index' to native representation
+
+	// Marshaling of parameter '___out_arg' to native representation
+	char* ____out_arg_marshaled = { 0 };
+	____out_arg_marshaled = il2cpp_codegen_marshal_string_builder(___out_arg);
+
+	// Marshaling of parameter '___out_size' to native representation
+
+	// Native function invocation and marshaling of return value back from native representation
+	uintptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___index).____pointer_1)), ____out_arg_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___out_size).____pointer_1)));
+	UIntPtr_t  __return_value_unmarshaled;
+	(__return_value_unmarshaled).____pointer_1 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___index' native representation
+
+	// Marshaling of parameter '___out_arg' back from native representation
+	il2cpp_codegen_marshal_string_builder_result(___out_arg, ____out_arg_marshaled);
+
+	// Marshaling cleanup of parameter '___out_arg' native representation
+	il2cpp_codegen_marshal_free(____out_arg_marshaled);
+	____out_arg_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___out_size' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.UInt32 GooglePlayGames.Native.Cwrapper.RealTimeRoomConfig::RealTimeRoomConfig_Variant(System.Runtime.InteropServices.HandleRef)
+extern "C" {uint32_t DEFAULT_CALL RealTimeRoomConfig_Variant(void*);}
+extern "C" uint32_t RealTimeRoomConfig_RealTimeRoomConfig_Variant_m695 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeRoomConfig_Variant;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeRoomConfig_Variant'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	uint32_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.Int64 GooglePlayGames.Native.Cwrapper.RealTimeRoomConfig::RealTimeRoomConfig_ExclusiveBitMask(System.Runtime.InteropServices.HandleRef)
+extern "C" {int64_t DEFAULT_CALL RealTimeRoomConfig_ExclusiveBitMask(void*);}
+extern "C" int64_t RealTimeRoomConfig_RealTimeRoomConfig_ExclusiveBitMask_m696 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int64_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeRoomConfig_ExclusiveBitMask;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeRoomConfig_ExclusiveBitMask'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int64_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.Boolean GooglePlayGames.Native.Cwrapper.RealTimeRoomConfig::RealTimeRoomConfig_Valid(System.Runtime.InteropServices.HandleRef)
+extern "C" {int8_t DEFAULT_CALL RealTimeRoomConfig_Valid(void*);}
+extern "C" bool RealTimeRoomConfig_RealTimeRoomConfig_Valid_m697 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int8_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeRoomConfig_Valid;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeRoomConfig_Valid'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int8_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.UInt32 GooglePlayGames.Native.Cwrapper.RealTimeRoomConfig::RealTimeRoomConfig_MaximumAutomatchingPlayers(System.Runtime.InteropServices.HandleRef)
+extern "C" {uint32_t DEFAULT_CALL RealTimeRoomConfig_MaximumAutomatchingPlayers(void*);}
+extern "C" uint32_t RealTimeRoomConfig_RealTimeRoomConfig_MaximumAutomatchingPlayers_m698 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeRoomConfig_MaximumAutomatchingPlayers;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeRoomConfig_MaximumAutomatchingPlayers'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	uint32_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.UInt32 GooglePlayGames.Native.Cwrapper.RealTimeRoomConfig::RealTimeRoomConfig_MinimumAutomatchingPlayers(System.Runtime.InteropServices.HandleRef)
+extern "C" {uint32_t DEFAULT_CALL RealTimeRoomConfig_MinimumAutomatchingPlayers(void*);}
+extern "C" uint32_t RealTimeRoomConfig_RealTimeRoomConfig_MinimumAutomatchingPlayers_m699 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeRoomConfig_MinimumAutomatchingPlayers;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeRoomConfig_MinimumAutomatchingPlayers'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	uint32_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeRoomConfig::RealTimeRoomConfig_Dispose(System.Runtime.InteropServices.HandleRef)
+extern "C" {void DEFAULT_CALL RealTimeRoomConfig_Dispose(void*);}
+extern "C" void RealTimeRoomConfig_RealTimeRoomConfig_Dispose_m700 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeRoomConfig_Dispose;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeRoomConfig_Dispose'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeRoomConfigBuilder::RealTimeRoomConfig_Builder_PopulateFromPlayerSelectUIResponse(System.Runtime.InteropServices.HandleRef,System.IntPtr)
+extern "C" {void DEFAULT_CALL RealTimeRoomConfig_Builder_PopulateFromPlayerSelectUIResponse(void*, intptr_t);}
+extern "C" void RealTimeRoomConfigBuilder_RealTimeRoomConfig_Builder_PopulateFromPlayerSelectUIResponse_m701 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, IntPtr_t ___response, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeRoomConfig_Builder_PopulateFromPlayerSelectUIResponse;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeRoomConfig_Builder_PopulateFromPlayerSelectUIResponse'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___response' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, reinterpret_cast<intptr_t>((___response).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___response' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeRoomConfigBuilder::RealTimeRoomConfig_Builder_SetVariant(System.Runtime.InteropServices.HandleRef,System.UInt32)
+extern "C" {void DEFAULT_CALL RealTimeRoomConfig_Builder_SetVariant(void*, uint32_t);}
+extern "C" void RealTimeRoomConfigBuilder_RealTimeRoomConfig_Builder_SetVariant_m702 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, uint32_t ___variant, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, uint32_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeRoomConfig_Builder_SetVariant;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeRoomConfig_Builder_SetVariant'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___variant' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, ___variant);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___variant' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeRoomConfigBuilder::RealTimeRoomConfig_Builder_AddPlayerToInvite(System.Runtime.InteropServices.HandleRef,System.String)
+extern "C" {void DEFAULT_CALL RealTimeRoomConfig_Builder_AddPlayerToInvite(void*, char*);}
+extern "C" void RealTimeRoomConfigBuilder_RealTimeRoomConfig_Builder_AddPlayerToInvite_m703 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, String_t* ___player_id, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, char*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeRoomConfig_Builder_AddPlayerToInvite;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeRoomConfig_Builder_AddPlayerToInvite'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___player_id' to native representation
+	char* ____player_id_marshaled = { 0 };
+	____player_id_marshaled = il2cpp_codegen_marshal_string(___player_id);
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, ____player_id_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___player_id' native representation
+	il2cpp_codegen_marshal_free(____player_id_marshaled);
+	____player_id_marshaled = NULL;
+
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.RealTimeRoomConfigBuilder::RealTimeRoomConfig_Builder_Construct()
+extern "C" {intptr_t DEFAULT_CALL RealTimeRoomConfig_Builder_Construct();}
+extern "C" IntPtr_t RealTimeRoomConfigBuilder_RealTimeRoomConfig_Builder_Construct_m704 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeRoomConfig_Builder_Construct;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeRoomConfig_Builder_Construct'"));
+		}
+	}
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func();
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	return __return_value_unmarshaled;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeRoomConfigBuilder::RealTimeRoomConfig_Builder_SetExclusiveBitMask(System.Runtime.InteropServices.HandleRef,System.UInt64)
+extern "C" {void DEFAULT_CALL RealTimeRoomConfig_Builder_SetExclusiveBitMask(void*, uint64_t);}
+extern "C" void RealTimeRoomConfigBuilder_RealTimeRoomConfig_Builder_SetExclusiveBitMask_m705 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, uint64_t ___exclusive_bit_mask, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, uint64_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeRoomConfig_Builder_SetExclusiveBitMask;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeRoomConfig_Builder_SetExclusiveBitMask'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___exclusive_bit_mask' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, ___exclusive_bit_mask);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___exclusive_bit_mask' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeRoomConfigBuilder::RealTimeRoomConfig_Builder_SetMaximumAutomatchingPlayers(System.Runtime.InteropServices.HandleRef,System.UInt32)
+extern "C" {void DEFAULT_CALL RealTimeRoomConfig_Builder_SetMaximumAutomatchingPlayers(void*, uint32_t);}
+extern "C" void RealTimeRoomConfigBuilder_RealTimeRoomConfig_Builder_SetMaximumAutomatchingPlayers_m706 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, uint32_t ___maximum_automatching_players, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, uint32_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeRoomConfig_Builder_SetMaximumAutomatchingPlayers;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeRoomConfig_Builder_SetMaximumAutomatchingPlayers'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___maximum_automatching_players' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, ___maximum_automatching_players);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___maximum_automatching_players' native representation
+
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.RealTimeRoomConfigBuilder::RealTimeRoomConfig_Builder_Create(System.Runtime.InteropServices.HandleRef)
+extern "C" {intptr_t DEFAULT_CALL RealTimeRoomConfig_Builder_Create(void*);}
+extern "C" IntPtr_t RealTimeRoomConfigBuilder_RealTimeRoomConfig_Builder_Create_m707 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeRoomConfig_Builder_Create;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeRoomConfig_Builder_Create'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeRoomConfigBuilder::RealTimeRoomConfig_Builder_SetMinimumAutomatchingPlayers(System.Runtime.InteropServices.HandleRef,System.UInt32)
+extern "C" {void DEFAULT_CALL RealTimeRoomConfig_Builder_SetMinimumAutomatchingPlayers(void*, uint32_t);}
+extern "C" void RealTimeRoomConfigBuilder_RealTimeRoomConfig_Builder_SetMinimumAutomatchingPlayers_m708 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, uint32_t ___minimum_automatching_players, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, uint32_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeRoomConfig_Builder_SetMinimumAutomatchingPlayers;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeRoomConfig_Builder_SetMinimumAutomatchingPlayers'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___minimum_automatching_players' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, ___minimum_automatching_players);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___minimum_automatching_players' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.RealTimeRoomConfigBuilder::RealTimeRoomConfig_Builder_Dispose(System.Runtime.InteropServices.HandleRef)
+extern "C" {void DEFAULT_CALL RealTimeRoomConfig_Builder_Dispose(void*);}
+extern "C" void RealTimeRoomConfigBuilder_RealTimeRoomConfig_Builder_Dispose_m709 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)RealTimeRoomConfig_Builder_Dispose;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'RealTimeRoomConfig_Builder_Dispose'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+}
+// System.UInt64 GooglePlayGames.Native.Cwrapper.Score::Score_Value(System.Runtime.InteropServices.HandleRef)
+extern "C" {uint64_t DEFAULT_CALL Score_Value(void*);}
+extern "C" uint64_t Score_Score_Value_m710 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef uint64_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)Score_Value;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'Score_Value'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	uint64_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.Boolean GooglePlayGames.Native.Cwrapper.Score::Score_Valid(System.Runtime.InteropServices.HandleRef)
+extern "C" {int8_t DEFAULT_CALL Score_Valid(void*);}
+extern "C" bool Score_Score_Valid_m711 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int8_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)Score_Valid;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'Score_Valid'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int8_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.UInt64 GooglePlayGames.Native.Cwrapper.Score::Score_Rank(System.Runtime.InteropServices.HandleRef)
+extern "C" {uint64_t DEFAULT_CALL Score_Rank(void*);}
+extern "C" uint64_t Score_Score_Rank_m712 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef uint64_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)Score_Rank;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'Score_Rank'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	uint64_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.Score::Score_Dispose(System.Runtime.InteropServices.HandleRef)
+extern "C" {void DEFAULT_CALL Score_Dispose(void*);}
+extern "C" void Score_Score_Dispose_m713 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)Score_Dispose;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'Score_Dispose'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+}
+// System.UIntPtr GooglePlayGames.Native.Cwrapper.Score::Score_Metadata(System.Runtime.InteropServices.HandleRef,System.Text.StringBuilder,System.UIntPtr)
+extern "C" {uintptr_t DEFAULT_CALL Score_Metadata(void*, char*, uintptr_t);}
+extern "C" UIntPtr_t  Score_Score_Metadata_m714 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, StringBuilder_t361 * ___out_arg, UIntPtr_t  ___out_size, const MethodInfo* method)
+{
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*, char*, uintptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)Score_Metadata;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'Score_Metadata'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___out_arg' to native representation
+	char* ____out_arg_marshaled = { 0 };
+	____out_arg_marshaled = il2cpp_codegen_marshal_string_builder(___out_arg);
+
+	// Marshaling of parameter '___out_size' to native representation
+
+	// Native function invocation and marshaling of return value back from native representation
+	uintptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled, ____out_arg_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___out_size).____pointer_1)));
+	UIntPtr_t  __return_value_unmarshaled;
+	(__return_value_unmarshaled).____pointer_1 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling of parameter '___out_arg' back from native representation
+	il2cpp_codegen_marshal_string_builder_result(___out_arg, ____out_arg_marshaled);
+
+	// Marshaling cleanup of parameter '___out_arg' native representation
+	il2cpp_codegen_marshal_free(____out_arg_marshaled);
+	____out_arg_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___out_size' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.ScorePage::ScorePage_Dispose(System.Runtime.InteropServices.HandleRef)
+extern "C" {void DEFAULT_CALL ScorePage_Dispose(void*);}
+extern "C" void ScorePage_ScorePage_Dispose_m715 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)ScorePage_Dispose;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'ScorePage_Dispose'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+}
+// GooglePlayGames.Native.Cwrapper.Types/LeaderboardTimeSpan GooglePlayGames.Native.Cwrapper.ScorePage::ScorePage_TimeSpan(System.Runtime.InteropServices.HandleRef)
+extern "C" {int32_t DEFAULT_CALL ScorePage_TimeSpan(void*);}
+extern "C" int32_t ScorePage_ScorePage_TimeSpan_m716 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)ScorePage_TimeSpan;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'ScorePage_TimeSpan'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int32_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.UIntPtr GooglePlayGames.Native.Cwrapper.ScorePage::ScorePage_LeaderboardId(System.Runtime.InteropServices.HandleRef,System.Text.StringBuilder,System.UIntPtr)
+extern "C" {uintptr_t DEFAULT_CALL ScorePage_LeaderboardId(void*, char*, uintptr_t);}
+extern "C" UIntPtr_t  ScorePage_ScorePage_LeaderboardId_m717 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, StringBuilder_t361 * ___out_arg, UIntPtr_t  ___out_size, const MethodInfo* method)
+{
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*, char*, uintptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)ScorePage_LeaderboardId;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'ScorePage_LeaderboardId'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___out_arg' to native representation
+	char* ____out_arg_marshaled = { 0 };
+	____out_arg_marshaled = il2cpp_codegen_marshal_string_builder(___out_arg);
+
+	// Marshaling of parameter '___out_size' to native representation
+
+	// Native function invocation and marshaling of return value back from native representation
+	uintptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled, ____out_arg_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___out_size).____pointer_1)));
+	UIntPtr_t  __return_value_unmarshaled;
+	(__return_value_unmarshaled).____pointer_1 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling of parameter '___out_arg' back from native representation
+	il2cpp_codegen_marshal_string_builder_result(___out_arg, ____out_arg_marshaled);
+
+	// Marshaling cleanup of parameter '___out_arg' native representation
+	il2cpp_codegen_marshal_free(____out_arg_marshaled);
+	____out_arg_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___out_size' native representation
+
+	return __return_value_unmarshaled;
+}
+// GooglePlayGames.Native.Cwrapper.Types/LeaderboardCollection GooglePlayGames.Native.Cwrapper.ScorePage::ScorePage_Collection(System.Runtime.InteropServices.HandleRef)
+extern "C" {int32_t DEFAULT_CALL ScorePage_Collection(void*);}
+extern "C" int32_t ScorePage_ScorePage_Collection_m718 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)ScorePage_Collection;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'ScorePage_Collection'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int32_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// GooglePlayGames.Native.Cwrapper.Types/LeaderboardStart GooglePlayGames.Native.Cwrapper.ScorePage::ScorePage_Start(System.Runtime.InteropServices.HandleRef)
+extern "C" {int32_t DEFAULT_CALL ScorePage_Start(void*);}
+extern "C" int32_t ScorePage_ScorePage_Start_m719 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)ScorePage_Start;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'ScorePage_Start'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int32_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.Boolean GooglePlayGames.Native.Cwrapper.ScorePage::ScorePage_Valid(System.Runtime.InteropServices.HandleRef)
+extern "C" {int8_t DEFAULT_CALL ScorePage_Valid(void*);}
+extern "C" bool ScorePage_ScorePage_Valid_m720 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int8_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)ScorePage_Valid;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'ScorePage_Valid'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int8_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.Boolean GooglePlayGames.Native.Cwrapper.ScorePage::ScorePage_HasPreviousScorePage(System.Runtime.InteropServices.HandleRef)
+extern "C" {int8_t DEFAULT_CALL ScorePage_HasPreviousScorePage(void*);}
+extern "C" bool ScorePage_ScorePage_HasPreviousScorePage_m721 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int8_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)ScorePage_HasPreviousScorePage;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'ScorePage_HasPreviousScorePage'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int8_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.Boolean GooglePlayGames.Native.Cwrapper.ScorePage::ScorePage_HasNextScorePage(System.Runtime.InteropServices.HandleRef)
+extern "C" {int8_t DEFAULT_CALL ScorePage_HasNextScorePage(void*);}
+extern "C" bool ScorePage_ScorePage_HasNextScorePage_m722 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int8_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)ScorePage_HasNextScorePage;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'ScorePage_HasNextScorePage'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int8_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.ScorePage::ScorePage_PreviousScorePageToken(System.Runtime.InteropServices.HandleRef)
+extern "C" {intptr_t DEFAULT_CALL ScorePage_PreviousScorePageToken(void*);}
+extern "C" IntPtr_t ScorePage_ScorePage_PreviousScorePageToken_m723 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)ScorePage_PreviousScorePageToken;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'ScorePage_PreviousScorePageToken'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.ScorePage::ScorePage_NextScorePageToken(System.Runtime.InteropServices.HandleRef)
+extern "C" {intptr_t DEFAULT_CALL ScorePage_NextScorePageToken(void*);}
+extern "C" IntPtr_t ScorePage_ScorePage_NextScorePageToken_m724 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)ScorePage_NextScorePageToken;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'ScorePage_NextScorePageToken'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.UIntPtr GooglePlayGames.Native.Cwrapper.ScorePage::ScorePage_Entries_Length(System.Runtime.InteropServices.HandleRef)
+extern "C" {uintptr_t DEFAULT_CALL ScorePage_Entries_Length(void*);}
+extern "C" UIntPtr_t  ScorePage_ScorePage_Entries_Length_m725 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)ScorePage_Entries_Length;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'ScorePage_Entries_Length'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	uintptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	UIntPtr_t  __return_value_unmarshaled;
+	(__return_value_unmarshaled).____pointer_1 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.ScorePage::ScorePage_Entries_GetElement(System.Runtime.InteropServices.HandleRef,System.UIntPtr)
+extern "C" {intptr_t DEFAULT_CALL ScorePage_Entries_GetElement(void*, uintptr_t);}
+extern "C" IntPtr_t ScorePage_ScorePage_Entries_GetElement_m726 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, UIntPtr_t  ___index, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, uintptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)ScorePage_Entries_GetElement;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'ScorePage_Entries_GetElement'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___index' to native representation
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___index).____pointer_1)));
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___index' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.ScorePage::ScorePage_Entry_Dispose(System.Runtime.InteropServices.HandleRef)
+extern "C" {void DEFAULT_CALL ScorePage_Entry_Dispose(void*);}
+extern "C" void ScorePage_ScorePage_Entry_Dispose_m727 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)ScorePage_Entry_Dispose;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'ScorePage_Entry_Dispose'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+}
+// System.UIntPtr GooglePlayGames.Native.Cwrapper.ScorePage::ScorePage_Entry_PlayerId(System.Runtime.InteropServices.HandleRef,System.Text.StringBuilder,System.UIntPtr)
+extern "C" {uintptr_t DEFAULT_CALL ScorePage_Entry_PlayerId(void*, char*, uintptr_t);}
+extern "C" UIntPtr_t  ScorePage_ScorePage_Entry_PlayerId_m728 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, StringBuilder_t361 * ___out_arg, UIntPtr_t  ___out_size, const MethodInfo* method)
+{
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*, char*, uintptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)ScorePage_Entry_PlayerId;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'ScorePage_Entry_PlayerId'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___out_arg' to native representation
+	char* ____out_arg_marshaled = { 0 };
+	____out_arg_marshaled = il2cpp_codegen_marshal_string_builder(___out_arg);
+
+	// Marshaling of parameter '___out_size' to native representation
+
+	// Native function invocation and marshaling of return value back from native representation
+	uintptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled, ____out_arg_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___out_size).____pointer_1)));
+	UIntPtr_t  __return_value_unmarshaled;
+	(__return_value_unmarshaled).____pointer_1 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling of parameter '___out_arg' back from native representation
+	il2cpp_codegen_marshal_string_builder_result(___out_arg, ____out_arg_marshaled);
+
+	// Marshaling cleanup of parameter '___out_arg' native representation
+	il2cpp_codegen_marshal_free(____out_arg_marshaled);
+	____out_arg_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___out_size' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.UInt64 GooglePlayGames.Native.Cwrapper.ScorePage::ScorePage_Entry_LastModified(System.Runtime.InteropServices.HandleRef)
+extern "C" {uint64_t DEFAULT_CALL ScorePage_Entry_LastModified(void*);}
+extern "C" uint64_t ScorePage_ScorePage_Entry_LastModified_m729 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef uint64_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)ScorePage_Entry_LastModified;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'ScorePage_Entry_LastModified'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	uint64_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.ScorePage::ScorePage_Entry_Score(System.Runtime.InteropServices.HandleRef)
+extern "C" {intptr_t DEFAULT_CALL ScorePage_Entry_Score(void*);}
+extern "C" IntPtr_t ScorePage_ScorePage_Entry_Score_m730 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)ScorePage_Entry_Score;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'ScorePage_Entry_Score'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.Boolean GooglePlayGames.Native.Cwrapper.ScorePage::ScorePage_Entry_Valid(System.Runtime.InteropServices.HandleRef)
+extern "C" {int8_t DEFAULT_CALL ScorePage_Entry_Valid(void*);}
+extern "C" bool ScorePage_ScorePage_Entry_Valid_m731 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int8_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)ScorePage_Entry_Valid;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'ScorePage_Entry_Valid'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int8_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.UInt64 GooglePlayGames.Native.Cwrapper.ScorePage::ScorePage_Entry_LastModifiedTime(System.Runtime.InteropServices.HandleRef)
+extern "C" {uint64_t DEFAULT_CALL ScorePage_Entry_LastModifiedTime(void*);}
+extern "C" uint64_t ScorePage_ScorePage_Entry_LastModifiedTime_m732 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef uint64_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)ScorePage_Entry_LastModifiedTime;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'ScorePage_Entry_LastModifiedTime'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	uint64_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.Boolean GooglePlayGames.Native.Cwrapper.ScorePage::ScorePage_ScorePageToken_Valid(System.Runtime.InteropServices.HandleRef)
+extern "C" {int8_t DEFAULT_CALL ScorePage_ScorePageToken_Valid(void*);}
+extern "C" bool ScorePage_ScorePage_ScorePageToken_Valid_m733 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int8_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)ScorePage_ScorePageToken_Valid;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'ScorePage_ScorePageToken_Valid'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int8_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.ScorePage::ScorePage_ScorePageToken_Dispose(System.Runtime.InteropServices.HandleRef)
+extern "C" {void DEFAULT_CALL ScorePage_ScorePageToken_Dispose(void*);}
+extern "C" void ScorePage_ScorePage_ScorePageToken_Dispose_m734 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)ScorePage_ScorePageToken_Dispose;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'ScorePage_ScorePageToken_Dispose'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+}
+// System.UInt64 GooglePlayGames.Native.Cwrapper.ScoreSummary::ScoreSummary_ApproximateNumberOfScores(System.Runtime.InteropServices.HandleRef)
+extern "C" {uint64_t DEFAULT_CALL ScoreSummary_ApproximateNumberOfScores(void*);}
+extern "C" uint64_t ScoreSummary_ScoreSummary_ApproximateNumberOfScores_m735 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef uint64_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)ScoreSummary_ApproximateNumberOfScores;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'ScoreSummary_ApproximateNumberOfScores'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	uint64_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// GooglePlayGames.Native.Cwrapper.Types/LeaderboardTimeSpan GooglePlayGames.Native.Cwrapper.ScoreSummary::ScoreSummary_TimeSpan(System.Runtime.InteropServices.HandleRef)
+extern "C" {int32_t DEFAULT_CALL ScoreSummary_TimeSpan(void*);}
+extern "C" int32_t ScoreSummary_ScoreSummary_TimeSpan_m736 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)ScoreSummary_TimeSpan;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'ScoreSummary_TimeSpan'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int32_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.UIntPtr GooglePlayGames.Native.Cwrapper.ScoreSummary::ScoreSummary_LeaderboardId(System.Runtime.InteropServices.HandleRef,System.Text.StringBuilder,System.UIntPtr)
+extern "C" {uintptr_t DEFAULT_CALL ScoreSummary_LeaderboardId(void*, char*, uintptr_t);}
+extern "C" UIntPtr_t  ScoreSummary_ScoreSummary_LeaderboardId_m737 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, StringBuilder_t361 * ___out_arg, UIntPtr_t  ___out_size, const MethodInfo* method)
+{
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*, char*, uintptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)ScoreSummary_LeaderboardId;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'ScoreSummary_LeaderboardId'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___out_arg' to native representation
+	char* ____out_arg_marshaled = { 0 };
+	____out_arg_marshaled = il2cpp_codegen_marshal_string_builder(___out_arg);
+
+	// Marshaling of parameter '___out_size' to native representation
+
+	// Native function invocation and marshaling of return value back from native representation
+	uintptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled, ____out_arg_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___out_size).____pointer_1)));
+	UIntPtr_t  __return_value_unmarshaled;
+	(__return_value_unmarshaled).____pointer_1 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling of parameter '___out_arg' back from native representation
+	il2cpp_codegen_marshal_string_builder_result(___out_arg, ____out_arg_marshaled);
+
+	// Marshaling cleanup of parameter '___out_arg' native representation
+	il2cpp_codegen_marshal_free(____out_arg_marshaled);
+	____out_arg_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___out_size' native representation
+
+	return __return_value_unmarshaled;
+}
+// GooglePlayGames.Native.Cwrapper.Types/LeaderboardCollection GooglePlayGames.Native.Cwrapper.ScoreSummary::ScoreSummary_Collection(System.Runtime.InteropServices.HandleRef)
+extern "C" {int32_t DEFAULT_CALL ScoreSummary_Collection(void*);}
+extern "C" int32_t ScoreSummary_ScoreSummary_Collection_m738 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)ScoreSummary_Collection;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'ScoreSummary_Collection'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int32_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.Boolean GooglePlayGames.Native.Cwrapper.ScoreSummary::ScoreSummary_Valid(System.Runtime.InteropServices.HandleRef)
+extern "C" {int8_t DEFAULT_CALL ScoreSummary_Valid(void*);}
+extern "C" bool ScoreSummary_ScoreSummary_Valid_m739 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int8_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)ScoreSummary_Valid;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'ScoreSummary_Valid'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int8_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.ScoreSummary::ScoreSummary_CurrentPlayerScore(System.Runtime.InteropServices.HandleRef)
+extern "C" {intptr_t DEFAULT_CALL ScoreSummary_CurrentPlayerScore(void*);}
+extern "C" IntPtr_t ScoreSummary_ScoreSummary_CurrentPlayerScore_m740 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)ScoreSummary_CurrentPlayerScore;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'ScoreSummary_CurrentPlayerScore'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.ScoreSummary::ScoreSummary_Dispose(System.Runtime.InteropServices.HandleRef)
+extern "C" {void DEFAULT_CALL ScoreSummary_Dispose(void*);}
+extern "C" void ScoreSummary_ScoreSummary_Dispose_m741 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)ScoreSummary_Dispose;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'ScoreSummary_Dispose'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.Sentinels::Sentinels_AutomatchingParticipant()
+extern "C" {intptr_t DEFAULT_CALL Sentinels_AutomatchingParticipant();}
+extern "C" IntPtr_t Sentinels_Sentinels_AutomatchingParticipant_m742 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)Sentinels_AutomatchingParticipant;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'Sentinels_AutomatchingParticipant'"));
+		}
+	}
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func();
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	return __return_value_unmarshaled;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.SnapshotManager/FetchAllCallback::.ctor(System.Object,System.IntPtr)
+extern "C" void FetchAllCallback__ctor_m743 (FetchAllCallback_t149 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+{
+	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
+	__this->___method_3 = ___method;
+	__this->___m_target_2 = ___object;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.SnapshotManager/FetchAllCallback::Invoke(System.IntPtr,System.IntPtr)
+extern "C" void FetchAllCallback_Invoke_m744 (FetchAllCallback_t149 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method)
+{
+	if(__this->___prev_9 != NULL)
+	{
+		FetchAllCallback_Invoke_m744((FetchAllCallback_t149 *)__this->___prev_9,___arg0, ___arg1, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
+	if (__this->___m_target_2 != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Object_t *, Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(NULL,__this->___m_target_2,___arg0, ___arg1,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___arg0, ___arg1,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+}
+extern "C" void pinvoke_delegate_wrapper_FetchAllCallback_t149(Il2CppObject* delegate, IntPtr_t ___arg0, IntPtr_t ___arg1)
+{
+	typedef void (STDCALL *native_function_ptr_type)(intptr_t, intptr_t);
+	native_function_ptr_type _il2cpp_pinvoke_func = ((native_function_ptr_type)((Il2CppDelegate*)delegate)->method->method);
+	// Marshaling of parameter '___arg0' to native representation
+
+	// Marshaling of parameter '___arg1' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(reinterpret_cast<intptr_t>((___arg0).___m_value_0), reinterpret_cast<intptr_t>((___arg1).___m_value_0));
+
+	// Marshaling cleanup of parameter '___arg0' native representation
+
+	// Marshaling cleanup of parameter '___arg1' native representation
+
+}
+// System.IAsyncResult GooglePlayGames.Native.Cwrapper.SnapshotManager/FetchAllCallback::BeginInvoke(System.IntPtr,System.IntPtr,System.AsyncCallback,System.Object)
+extern TypeInfo* IntPtr_t_il2cpp_TypeInfo_var;
+extern "C" Object_t * FetchAllCallback_BeginInvoke_m745 (FetchAllCallback_t149 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, AsyncCallback_t74 * ___callback, Object_t * ___object, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		IntPtr_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(69);
+		s_Il2CppMethodIntialized = true;
+	}
+	void *__d_args[3] = {0};
+	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg0);
+	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg1);
+	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.SnapshotManager/FetchAllCallback::EndInvoke(System.IAsyncResult)
+extern "C" void FetchAllCallback_EndInvoke_m746 (FetchAllCallback_t149 * __this, Object_t * ___result, const MethodInfo* method)
+{
+	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.SnapshotManager/OpenCallback::.ctor(System.Object,System.IntPtr)
+extern "C" void OpenCallback__ctor_m747 (OpenCallback_t150 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+{
+	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
+	__this->___method_3 = ___method;
+	__this->___m_target_2 = ___object;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.SnapshotManager/OpenCallback::Invoke(System.IntPtr,System.IntPtr)
+extern "C" void OpenCallback_Invoke_m748 (OpenCallback_t150 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method)
+{
+	if(__this->___prev_9 != NULL)
+	{
+		OpenCallback_Invoke_m748((OpenCallback_t150 *)__this->___prev_9,___arg0, ___arg1, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
+	if (__this->___m_target_2 != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Object_t *, Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(NULL,__this->___m_target_2,___arg0, ___arg1,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___arg0, ___arg1,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+}
+extern "C" void pinvoke_delegate_wrapper_OpenCallback_t150(Il2CppObject* delegate, IntPtr_t ___arg0, IntPtr_t ___arg1)
+{
+	typedef void (STDCALL *native_function_ptr_type)(intptr_t, intptr_t);
+	native_function_ptr_type _il2cpp_pinvoke_func = ((native_function_ptr_type)((Il2CppDelegate*)delegate)->method->method);
+	// Marshaling of parameter '___arg0' to native representation
+
+	// Marshaling of parameter '___arg1' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(reinterpret_cast<intptr_t>((___arg0).___m_value_0), reinterpret_cast<intptr_t>((___arg1).___m_value_0));
+
+	// Marshaling cleanup of parameter '___arg0' native representation
+
+	// Marshaling cleanup of parameter '___arg1' native representation
+
+}
+// System.IAsyncResult GooglePlayGames.Native.Cwrapper.SnapshotManager/OpenCallback::BeginInvoke(System.IntPtr,System.IntPtr,System.AsyncCallback,System.Object)
+extern TypeInfo* IntPtr_t_il2cpp_TypeInfo_var;
+extern "C" Object_t * OpenCallback_BeginInvoke_m749 (OpenCallback_t150 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, AsyncCallback_t74 * ___callback, Object_t * ___object, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		IntPtr_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(69);
+		s_Il2CppMethodIntialized = true;
+	}
+	void *__d_args[3] = {0};
+	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg0);
+	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg1);
+	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.SnapshotManager/OpenCallback::EndInvoke(System.IAsyncResult)
+extern "C" void OpenCallback_EndInvoke_m750 (OpenCallback_t150 * __this, Object_t * ___result, const MethodInfo* method)
+{
+	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.SnapshotManager/CommitCallback::.ctor(System.Object,System.IntPtr)
+extern "C" void CommitCallback__ctor_m751 (CommitCallback_t151 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+{
+	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
+	__this->___method_3 = ___method;
+	__this->___m_target_2 = ___object;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.SnapshotManager/CommitCallback::Invoke(System.IntPtr,System.IntPtr)
+extern "C" void CommitCallback_Invoke_m752 (CommitCallback_t151 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method)
+{
+	if(__this->___prev_9 != NULL)
+	{
+		CommitCallback_Invoke_m752((CommitCallback_t151 *)__this->___prev_9,___arg0, ___arg1, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
+	if (__this->___m_target_2 != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Object_t *, Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(NULL,__this->___m_target_2,___arg0, ___arg1,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___arg0, ___arg1,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+}
+extern "C" void pinvoke_delegate_wrapper_CommitCallback_t151(Il2CppObject* delegate, IntPtr_t ___arg0, IntPtr_t ___arg1)
+{
+	typedef void (STDCALL *native_function_ptr_type)(intptr_t, intptr_t);
+	native_function_ptr_type _il2cpp_pinvoke_func = ((native_function_ptr_type)((Il2CppDelegate*)delegate)->method->method);
+	// Marshaling of parameter '___arg0' to native representation
+
+	// Marshaling of parameter '___arg1' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(reinterpret_cast<intptr_t>((___arg0).___m_value_0), reinterpret_cast<intptr_t>((___arg1).___m_value_0));
+
+	// Marshaling cleanup of parameter '___arg0' native representation
+
+	// Marshaling cleanup of parameter '___arg1' native representation
+
+}
+// System.IAsyncResult GooglePlayGames.Native.Cwrapper.SnapshotManager/CommitCallback::BeginInvoke(System.IntPtr,System.IntPtr,System.AsyncCallback,System.Object)
+extern TypeInfo* IntPtr_t_il2cpp_TypeInfo_var;
+extern "C" Object_t * CommitCallback_BeginInvoke_m753 (CommitCallback_t151 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, AsyncCallback_t74 * ___callback, Object_t * ___object, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		IntPtr_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(69);
+		s_Il2CppMethodIntialized = true;
+	}
+	void *__d_args[3] = {0};
+	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg0);
+	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg1);
+	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.SnapshotManager/CommitCallback::EndInvoke(System.IAsyncResult)
+extern "C" void CommitCallback_EndInvoke_m754 (CommitCallback_t151 * __this, Object_t * ___result, const MethodInfo* method)
+{
+	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.SnapshotManager/ReadCallback::.ctor(System.Object,System.IntPtr)
+extern "C" void ReadCallback__ctor_m755 (ReadCallback_t152 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+{
+	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
+	__this->___method_3 = ___method;
+	__this->___m_target_2 = ___object;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.SnapshotManager/ReadCallback::Invoke(System.IntPtr,System.IntPtr)
+extern "C" void ReadCallback_Invoke_m756 (ReadCallback_t152 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method)
+{
+	if(__this->___prev_9 != NULL)
+	{
+		ReadCallback_Invoke_m756((ReadCallback_t152 *)__this->___prev_9,___arg0, ___arg1, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
+	if (__this->___m_target_2 != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Object_t *, Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(NULL,__this->___m_target_2,___arg0, ___arg1,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___arg0, ___arg1,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+}
+extern "C" void pinvoke_delegate_wrapper_ReadCallback_t152(Il2CppObject* delegate, IntPtr_t ___arg0, IntPtr_t ___arg1)
+{
+	typedef void (STDCALL *native_function_ptr_type)(intptr_t, intptr_t);
+	native_function_ptr_type _il2cpp_pinvoke_func = ((native_function_ptr_type)((Il2CppDelegate*)delegate)->method->method);
+	// Marshaling of parameter '___arg0' to native representation
+
+	// Marshaling of parameter '___arg1' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(reinterpret_cast<intptr_t>((___arg0).___m_value_0), reinterpret_cast<intptr_t>((___arg1).___m_value_0));
+
+	// Marshaling cleanup of parameter '___arg0' native representation
+
+	// Marshaling cleanup of parameter '___arg1' native representation
+
+}
+// System.IAsyncResult GooglePlayGames.Native.Cwrapper.SnapshotManager/ReadCallback::BeginInvoke(System.IntPtr,System.IntPtr,System.AsyncCallback,System.Object)
+extern TypeInfo* IntPtr_t_il2cpp_TypeInfo_var;
+extern "C" Object_t * ReadCallback_BeginInvoke_m757 (ReadCallback_t152 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, AsyncCallback_t74 * ___callback, Object_t * ___object, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		IntPtr_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(69);
+		s_Il2CppMethodIntialized = true;
+	}
+	void *__d_args[3] = {0};
+	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg0);
+	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg1);
+	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.SnapshotManager/ReadCallback::EndInvoke(System.IAsyncResult)
+extern "C" void ReadCallback_EndInvoke_m758 (ReadCallback_t152 * __this, Object_t * ___result, const MethodInfo* method)
+{
+	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.SnapshotManager/SnapshotSelectUICallback::.ctor(System.Object,System.IntPtr)
+extern "C" void SnapshotSelectUICallback__ctor_m759 (SnapshotSelectUICallback_t153 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+{
+	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
+	__this->___method_3 = ___method;
+	__this->___m_target_2 = ___object;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.SnapshotManager/SnapshotSelectUICallback::Invoke(System.IntPtr,System.IntPtr)
+extern "C" void SnapshotSelectUICallback_Invoke_m760 (SnapshotSelectUICallback_t153 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method)
+{
+	if(__this->___prev_9 != NULL)
+	{
+		SnapshotSelectUICallback_Invoke_m760((SnapshotSelectUICallback_t153 *)__this->___prev_9,___arg0, ___arg1, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
+	if (__this->___m_target_2 != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Object_t *, Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(NULL,__this->___m_target_2,___arg0, ___arg1,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___arg0, ___arg1,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+}
+extern "C" void pinvoke_delegate_wrapper_SnapshotSelectUICallback_t153(Il2CppObject* delegate, IntPtr_t ___arg0, IntPtr_t ___arg1)
+{
+	typedef void (STDCALL *native_function_ptr_type)(intptr_t, intptr_t);
+	native_function_ptr_type _il2cpp_pinvoke_func = ((native_function_ptr_type)((Il2CppDelegate*)delegate)->method->method);
+	// Marshaling of parameter '___arg0' to native representation
+
+	// Marshaling of parameter '___arg1' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(reinterpret_cast<intptr_t>((___arg0).___m_value_0), reinterpret_cast<intptr_t>((___arg1).___m_value_0));
+
+	// Marshaling cleanup of parameter '___arg0' native representation
+
+	// Marshaling cleanup of parameter '___arg1' native representation
+
+}
+// System.IAsyncResult GooglePlayGames.Native.Cwrapper.SnapshotManager/SnapshotSelectUICallback::BeginInvoke(System.IntPtr,System.IntPtr,System.AsyncCallback,System.Object)
+extern TypeInfo* IntPtr_t_il2cpp_TypeInfo_var;
+extern "C" Object_t * SnapshotSelectUICallback_BeginInvoke_m761 (SnapshotSelectUICallback_t153 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, AsyncCallback_t74 * ___callback, Object_t * ___object, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		IntPtr_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(69);
+		s_Il2CppMethodIntialized = true;
+	}
+	void *__d_args[3] = {0};
+	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg0);
+	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg1);
+	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.SnapshotManager/SnapshotSelectUICallback::EndInvoke(System.IAsyncResult)
+extern "C" void SnapshotSelectUICallback_EndInvoke_m762 (SnapshotSelectUICallback_t153 * __this, Object_t * ___result, const MethodInfo* method)
+{
+	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.SnapshotManager::SnapshotManager_FetchAll(System.Runtime.InteropServices.HandleRef,GooglePlayGames.Native.Cwrapper.Types/DataSource,GooglePlayGames.Native.Cwrapper.SnapshotManager/FetchAllCallback,System.IntPtr)
+extern "C" {void DEFAULT_CALL SnapshotManager_FetchAll(void*, int32_t, methodPointerType, intptr_t);}
+extern "C" void SnapshotManager_SnapshotManager_FetchAll_m763 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, int32_t ___data_source, FetchAllCallback_t149 * ___callback, IntPtr_t ___callback_arg, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, int32_t, methodPointerType, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotManager_FetchAll;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotManager_FetchAll'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___data_source' to native representation
+
+	// Marshaling of parameter '___callback' to native representation
+	methodPointerType ____callback_marshaled = { 0 };
+	____callback_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___callback));
+
+	// Marshaling of parameter '___callback_arg' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, ___data_source, ____callback_marshaled, reinterpret_cast<intptr_t>((___callback_arg).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___data_source' native representation
+
+	// Marshaling cleanup of parameter '___callback' native representation
+
+	// Marshaling cleanup of parameter '___callback_arg' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.SnapshotManager::SnapshotManager_ShowSelectUIOperation(System.Runtime.InteropServices.HandleRef,System.Boolean,System.Boolean,System.UInt32,System.String,GooglePlayGames.Native.Cwrapper.SnapshotManager/SnapshotSelectUICallback,System.IntPtr)
+extern "C" {void DEFAULT_CALL SnapshotManager_ShowSelectUIOperation(void*, int8_t, int8_t, uint32_t, char*, methodPointerType, intptr_t);}
+extern "C" void SnapshotManager_SnapshotManager_ShowSelectUIOperation_m764 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, bool ___allow_create, bool ___allow_delete, uint32_t ___max_snapshots, String_t* ___title, SnapshotSelectUICallback_t153 * ___callback, IntPtr_t ___callback_arg, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, int8_t, int8_t, uint32_t, char*, methodPointerType, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotManager_ShowSelectUIOperation;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotManager_ShowSelectUIOperation'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___allow_create' to native representation
+
+	// Marshaling of parameter '___allow_delete' to native representation
+
+	// Marshaling of parameter '___max_snapshots' to native representation
+
+	// Marshaling of parameter '___title' to native representation
+	char* ____title_marshaled = { 0 };
+	____title_marshaled = il2cpp_codegen_marshal_string(___title);
+
+	// Marshaling of parameter '___callback' to native representation
+	methodPointerType ____callback_marshaled = { 0 };
+	____callback_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___callback));
+
+	// Marshaling of parameter '___callback_arg' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, ___allow_create, ___allow_delete, ___max_snapshots, ____title_marshaled, ____callback_marshaled, reinterpret_cast<intptr_t>((___callback_arg).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___allow_create' native representation
+
+	// Marshaling cleanup of parameter '___allow_delete' native representation
+
+	// Marshaling cleanup of parameter '___max_snapshots' native representation
+
+	// Marshaling cleanup of parameter '___title' native representation
+	il2cpp_codegen_marshal_free(____title_marshaled);
+	____title_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___callback' native representation
+
+	// Marshaling cleanup of parameter '___callback_arg' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.SnapshotManager::SnapshotManager_Read(System.Runtime.InteropServices.HandleRef,System.IntPtr,GooglePlayGames.Native.Cwrapper.SnapshotManager/ReadCallback,System.IntPtr)
+extern "C" {void DEFAULT_CALL SnapshotManager_Read(void*, intptr_t, methodPointerType, intptr_t);}
+extern "C" void SnapshotManager_SnapshotManager_Read_m765 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, IntPtr_t ___snapshot_metadata, ReadCallback_t152 * ___callback, IntPtr_t ___callback_arg, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, intptr_t, methodPointerType, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotManager_Read;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotManager_Read'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___snapshot_metadata' to native representation
+
+	// Marshaling of parameter '___callback' to native representation
+	methodPointerType ____callback_marshaled = { 0 };
+	____callback_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___callback));
+
+	// Marshaling of parameter '___callback_arg' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, reinterpret_cast<intptr_t>((___snapshot_metadata).___m_value_0), ____callback_marshaled, reinterpret_cast<intptr_t>((___callback_arg).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___snapshot_metadata' native representation
+
+	// Marshaling cleanup of parameter '___callback' native representation
+
+	// Marshaling cleanup of parameter '___callback_arg' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.SnapshotManager::SnapshotManager_Commit(System.Runtime.InteropServices.HandleRef,System.IntPtr,System.IntPtr,System.Byte[],System.UIntPtr,GooglePlayGames.Native.Cwrapper.SnapshotManager/CommitCallback,System.IntPtr)
+extern "C" {void DEFAULT_CALL SnapshotManager_Commit(void*, intptr_t, intptr_t, uint8_t*, uintptr_t, methodPointerType, intptr_t);}
+extern "C" void SnapshotManager_SnapshotManager_Commit_m766 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, IntPtr_t ___snapshot_metadata, IntPtr_t ___metadata_change, ByteU5BU5D_t20* ___data, UIntPtr_t  ___data_size, CommitCallback_t151 * ___callback, IntPtr_t ___callback_arg, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, intptr_t, intptr_t, uint8_t*, uintptr_t, methodPointerType, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotManager_Commit;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotManager_Commit'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___snapshot_metadata' to native representation
+
+	// Marshaling of parameter '___metadata_change' to native representation
+
+	// Marshaling of parameter '___data' to native representation
+	uint8_t* ____data_marshaled = { 0 };
+	____data_marshaled = il2cpp_codegen_marshal_array<uint8_t>((Il2CppCodeGenArray*)___data);
+
+	// Marshaling of parameter '___data_size' to native representation
+
+	// Marshaling of parameter '___callback' to native representation
+	methodPointerType ____callback_marshaled = { 0 };
+	____callback_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___callback));
+
+	// Marshaling of parameter '___callback_arg' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, reinterpret_cast<intptr_t>((___snapshot_metadata).___m_value_0), reinterpret_cast<intptr_t>((___metadata_change).___m_value_0), ____data_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___data_size).____pointer_1)), ____callback_marshaled, reinterpret_cast<intptr_t>((___callback_arg).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___snapshot_metadata' native representation
+
+	// Marshaling cleanup of parameter '___metadata_change' native representation
+
+	// Marshaling cleanup of parameter '___data' native representation
+
+	// Marshaling cleanup of parameter '___data_size' native representation
+
+	// Marshaling cleanup of parameter '___callback' native representation
+
+	// Marshaling cleanup of parameter '___callback_arg' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.SnapshotManager::SnapshotManager_Open(System.Runtime.InteropServices.HandleRef,GooglePlayGames.Native.Cwrapper.Types/DataSource,System.String,GooglePlayGames.Native.Cwrapper.Types/SnapshotConflictPolicy,GooglePlayGames.Native.Cwrapper.SnapshotManager/OpenCallback,System.IntPtr)
+extern "C" {void DEFAULT_CALL SnapshotManager_Open(void*, int32_t, char*, int32_t, methodPointerType, intptr_t);}
+extern "C" void SnapshotManager_SnapshotManager_Open_m767 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, int32_t ___data_source, String_t* ___file_name, int32_t ___conflict_policy, OpenCallback_t150 * ___callback, IntPtr_t ___callback_arg, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, int32_t, char*, int32_t, methodPointerType, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotManager_Open;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotManager_Open'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___data_source' to native representation
+
+	// Marshaling of parameter '___file_name' to native representation
+	char* ____file_name_marshaled = { 0 };
+	____file_name_marshaled = il2cpp_codegen_marshal_string(___file_name);
+
+	// Marshaling of parameter '___conflict_policy' to native representation
+
+	// Marshaling of parameter '___callback' to native representation
+	methodPointerType ____callback_marshaled = { 0 };
+	____callback_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___callback));
+
+	// Marshaling of parameter '___callback_arg' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, ___data_source, ____file_name_marshaled, ___conflict_policy, ____callback_marshaled, reinterpret_cast<intptr_t>((___callback_arg).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___data_source' native representation
+
+	// Marshaling cleanup of parameter '___file_name' native representation
+	il2cpp_codegen_marshal_free(____file_name_marshaled);
+	____file_name_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___conflict_policy' native representation
+
+	// Marshaling cleanup of parameter '___callback' native representation
+
+	// Marshaling cleanup of parameter '___callback_arg' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.SnapshotManager::SnapshotManager_ResolveConflict(System.Runtime.InteropServices.HandleRef,System.IntPtr,System.IntPtr,System.String,GooglePlayGames.Native.Cwrapper.SnapshotManager/CommitCallback,System.IntPtr)
+extern "C" {void DEFAULT_CALL SnapshotManager_ResolveConflict(void*, intptr_t, intptr_t, char*, methodPointerType, intptr_t);}
+extern "C" void SnapshotManager_SnapshotManager_ResolveConflict_m768 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, IntPtr_t ___snapshot_metadata, IntPtr_t ___metadata_change, String_t* ___conflict_id, CommitCallback_t151 * ___callback, IntPtr_t ___callback_arg, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, intptr_t, intptr_t, char*, methodPointerType, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotManager_ResolveConflict;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotManager_ResolveConflict'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___snapshot_metadata' to native representation
+
+	// Marshaling of parameter '___metadata_change' to native representation
+
+	// Marshaling of parameter '___conflict_id' to native representation
+	char* ____conflict_id_marshaled = { 0 };
+	____conflict_id_marshaled = il2cpp_codegen_marshal_string(___conflict_id);
+
+	// Marshaling of parameter '___callback' to native representation
+	methodPointerType ____callback_marshaled = { 0 };
+	____callback_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___callback));
+
+	// Marshaling of parameter '___callback_arg' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, reinterpret_cast<intptr_t>((___snapshot_metadata).___m_value_0), reinterpret_cast<intptr_t>((___metadata_change).___m_value_0), ____conflict_id_marshaled, ____callback_marshaled, reinterpret_cast<intptr_t>((___callback_arg).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___snapshot_metadata' native representation
+
+	// Marshaling cleanup of parameter '___metadata_change' native representation
+
+	// Marshaling cleanup of parameter '___conflict_id' native representation
+	il2cpp_codegen_marshal_free(____conflict_id_marshaled);
+	____conflict_id_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___callback' native representation
+
+	// Marshaling cleanup of parameter '___callback_arg' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.SnapshotManager::SnapshotManager_Delete(System.Runtime.InteropServices.HandleRef,System.IntPtr)
+extern "C" {void DEFAULT_CALL SnapshotManager_Delete(void*, intptr_t);}
+extern "C" void SnapshotManager_SnapshotManager_Delete_m769 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, IntPtr_t ___snapshot_metadata, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotManager_Delete;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotManager_Delete'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___snapshot_metadata' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, reinterpret_cast<intptr_t>((___snapshot_metadata).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___snapshot_metadata' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.SnapshotManager::SnapshotManager_FetchAllResponse_Dispose(System.Runtime.InteropServices.HandleRef)
+extern "C" {void DEFAULT_CALL SnapshotManager_FetchAllResponse_Dispose(void*);}
+extern "C" void SnapshotManager_SnapshotManager_FetchAllResponse_Dispose_m770 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotManager_FetchAllResponse_Dispose;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotManager_FetchAllResponse_Dispose'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+}
+// GooglePlayGames.Native.Cwrapper.CommonErrorStatus/ResponseStatus GooglePlayGames.Native.Cwrapper.SnapshotManager::SnapshotManager_FetchAllResponse_GetStatus(System.Runtime.InteropServices.HandleRef)
+extern "C" {int32_t DEFAULT_CALL SnapshotManager_FetchAllResponse_GetStatus(void*);}
+extern "C" int32_t SnapshotManager_SnapshotManager_FetchAllResponse_GetStatus_m771 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotManager_FetchAllResponse_GetStatus;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotManager_FetchAllResponse_GetStatus'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int32_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.UIntPtr GooglePlayGames.Native.Cwrapper.SnapshotManager::SnapshotManager_FetchAllResponse_GetData_Length(System.Runtime.InteropServices.HandleRef)
+extern "C" {uintptr_t DEFAULT_CALL SnapshotManager_FetchAllResponse_GetData_Length(void*);}
+extern "C" UIntPtr_t  SnapshotManager_SnapshotManager_FetchAllResponse_GetData_Length_m772 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotManager_FetchAllResponse_GetData_Length;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotManager_FetchAllResponse_GetData_Length'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	uintptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	UIntPtr_t  __return_value_unmarshaled;
+	(__return_value_unmarshaled).____pointer_1 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.SnapshotManager::SnapshotManager_FetchAllResponse_GetData_GetElement(System.Runtime.InteropServices.HandleRef,System.UIntPtr)
+extern "C" {intptr_t DEFAULT_CALL SnapshotManager_FetchAllResponse_GetData_GetElement(void*, uintptr_t);}
+extern "C" IntPtr_t SnapshotManager_SnapshotManager_FetchAllResponse_GetData_GetElement_m773 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, UIntPtr_t  ___index, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, uintptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotManager_FetchAllResponse_GetData_GetElement;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotManager_FetchAllResponse_GetData_GetElement'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___index' to native representation
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___index).____pointer_1)));
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___index' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.SnapshotManager::SnapshotManager_OpenResponse_Dispose(System.Runtime.InteropServices.HandleRef)
+extern "C" {void DEFAULT_CALL SnapshotManager_OpenResponse_Dispose(void*);}
+extern "C" void SnapshotManager_SnapshotManager_OpenResponse_Dispose_m774 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotManager_OpenResponse_Dispose;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotManager_OpenResponse_Dispose'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+}
+// GooglePlayGames.Native.Cwrapper.CommonErrorStatus/SnapshotOpenStatus GooglePlayGames.Native.Cwrapper.SnapshotManager::SnapshotManager_OpenResponse_GetStatus(System.Runtime.InteropServices.HandleRef)
+extern "C" {int32_t DEFAULT_CALL SnapshotManager_OpenResponse_GetStatus(void*);}
+extern "C" int32_t SnapshotManager_SnapshotManager_OpenResponse_GetStatus_m775 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotManager_OpenResponse_GetStatus;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotManager_OpenResponse_GetStatus'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int32_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.SnapshotManager::SnapshotManager_OpenResponse_GetData(System.Runtime.InteropServices.HandleRef)
+extern "C" {intptr_t DEFAULT_CALL SnapshotManager_OpenResponse_GetData(void*);}
+extern "C" IntPtr_t SnapshotManager_SnapshotManager_OpenResponse_GetData_m776 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotManager_OpenResponse_GetData;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotManager_OpenResponse_GetData'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.UIntPtr GooglePlayGames.Native.Cwrapper.SnapshotManager::SnapshotManager_OpenResponse_GetConflictId(System.Runtime.InteropServices.HandleRef,System.Text.StringBuilder,System.UIntPtr)
+extern "C" {uintptr_t DEFAULT_CALL SnapshotManager_OpenResponse_GetConflictId(void*, char*, uintptr_t);}
+extern "C" UIntPtr_t  SnapshotManager_SnapshotManager_OpenResponse_GetConflictId_m777 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, StringBuilder_t361 * ___out_arg, UIntPtr_t  ___out_size, const MethodInfo* method)
+{
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*, char*, uintptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotManager_OpenResponse_GetConflictId;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotManager_OpenResponse_GetConflictId'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___out_arg' to native representation
+	char* ____out_arg_marshaled = { 0 };
+	____out_arg_marshaled = il2cpp_codegen_marshal_string_builder(___out_arg);
+
+	// Marshaling of parameter '___out_size' to native representation
+
+	// Native function invocation and marshaling of return value back from native representation
+	uintptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled, ____out_arg_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___out_size).____pointer_1)));
+	UIntPtr_t  __return_value_unmarshaled;
+	(__return_value_unmarshaled).____pointer_1 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling of parameter '___out_arg' back from native representation
+	il2cpp_codegen_marshal_string_builder_result(___out_arg, ____out_arg_marshaled);
+
+	// Marshaling cleanup of parameter '___out_arg' native representation
+	il2cpp_codegen_marshal_free(____out_arg_marshaled);
+	____out_arg_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___out_size' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.SnapshotManager::SnapshotManager_OpenResponse_GetConflictOriginal(System.Runtime.InteropServices.HandleRef)
+extern "C" {intptr_t DEFAULT_CALL SnapshotManager_OpenResponse_GetConflictOriginal(void*);}
+extern "C" IntPtr_t SnapshotManager_SnapshotManager_OpenResponse_GetConflictOriginal_m778 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotManager_OpenResponse_GetConflictOriginal;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotManager_OpenResponse_GetConflictOriginal'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.SnapshotManager::SnapshotManager_OpenResponse_GetConflictUnmerged(System.Runtime.InteropServices.HandleRef)
+extern "C" {intptr_t DEFAULT_CALL SnapshotManager_OpenResponse_GetConflictUnmerged(void*);}
+extern "C" IntPtr_t SnapshotManager_SnapshotManager_OpenResponse_GetConflictUnmerged_m779 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotManager_OpenResponse_GetConflictUnmerged;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotManager_OpenResponse_GetConflictUnmerged'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.SnapshotManager::SnapshotManager_CommitResponse_Dispose(System.Runtime.InteropServices.HandleRef)
+extern "C" {void DEFAULT_CALL SnapshotManager_CommitResponse_Dispose(void*);}
+extern "C" void SnapshotManager_SnapshotManager_CommitResponse_Dispose_m780 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotManager_CommitResponse_Dispose;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotManager_CommitResponse_Dispose'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+}
+// GooglePlayGames.Native.Cwrapper.CommonErrorStatus/ResponseStatus GooglePlayGames.Native.Cwrapper.SnapshotManager::SnapshotManager_CommitResponse_GetStatus(System.Runtime.InteropServices.HandleRef)
+extern "C" {int32_t DEFAULT_CALL SnapshotManager_CommitResponse_GetStatus(void*);}
+extern "C" int32_t SnapshotManager_SnapshotManager_CommitResponse_GetStatus_m781 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotManager_CommitResponse_GetStatus;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotManager_CommitResponse_GetStatus'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int32_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.SnapshotManager::SnapshotManager_CommitResponse_GetData(System.Runtime.InteropServices.HandleRef)
+extern "C" {intptr_t DEFAULT_CALL SnapshotManager_CommitResponse_GetData(void*);}
+extern "C" IntPtr_t SnapshotManager_SnapshotManager_CommitResponse_GetData_m782 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotManager_CommitResponse_GetData;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotManager_CommitResponse_GetData'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.SnapshotManager::SnapshotManager_ReadResponse_Dispose(System.Runtime.InteropServices.HandleRef)
+extern "C" {void DEFAULT_CALL SnapshotManager_ReadResponse_Dispose(void*);}
+extern "C" void SnapshotManager_SnapshotManager_ReadResponse_Dispose_m783 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotManager_ReadResponse_Dispose;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotManager_ReadResponse_Dispose'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+}
+// GooglePlayGames.Native.Cwrapper.CommonErrorStatus/ResponseStatus GooglePlayGames.Native.Cwrapper.SnapshotManager::SnapshotManager_ReadResponse_GetStatus(System.Runtime.InteropServices.HandleRef)
+extern "C" {int32_t DEFAULT_CALL SnapshotManager_ReadResponse_GetStatus(void*);}
+extern "C" int32_t SnapshotManager_SnapshotManager_ReadResponse_GetStatus_m784 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotManager_ReadResponse_GetStatus;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotManager_ReadResponse_GetStatus'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int32_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.UIntPtr GooglePlayGames.Native.Cwrapper.SnapshotManager::SnapshotManager_ReadResponse_GetData(System.Runtime.InteropServices.HandleRef,System.Byte[],System.UIntPtr)
+extern "C" {uintptr_t DEFAULT_CALL SnapshotManager_ReadResponse_GetData(void*, uint8_t*, uintptr_t);}
+extern TypeInfo* Byte_t496_il2cpp_TypeInfo_var;
+extern "C" UIntPtr_t  SnapshotManager_SnapshotManager_ReadResponse_GetData_m785 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, ByteU5BU5D_t20* ___out_arg, UIntPtr_t  ___out_size, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		Byte_t496_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(28);
+		s_Il2CppMethodIntialized = true;
+	}
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*, uint8_t*, uintptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotManager_ReadResponse_GetData;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotManager_ReadResponse_GetData'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___out_arg' to native representation
+	uint8_t* ____out_arg_marshaled = { 0 };
+	____out_arg_marshaled = il2cpp_codegen_marshal_array<uint8_t>((Il2CppCodeGenArray*)___out_arg);
+
+	// Marshaling of parameter '___out_size' to native representation
+
+	// Native function invocation and marshaling of return value back from native representation
+	uintptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled, ____out_arg_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___out_size).____pointer_1)));
+	UIntPtr_t  __return_value_unmarshaled;
+	(__return_value_unmarshaled).____pointer_1 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling of parameter '___out_arg' back from native representation
+	___out_arg = (ByteU5BU5D_t20*)il2cpp_codegen_marshal_array_result(Byte_t496_il2cpp_TypeInfo_var, ____out_arg_marshaled, 1);
+
+	// Marshaling cleanup of parameter '___out_arg' native representation
+
+	// Marshaling cleanup of parameter '___out_size' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.SnapshotManager::SnapshotManager_SnapshotSelectUIResponse_Dispose(System.Runtime.InteropServices.HandleRef)
+extern "C" {void DEFAULT_CALL SnapshotManager_SnapshotSelectUIResponse_Dispose(void*);}
+extern "C" void SnapshotManager_SnapshotManager_SnapshotSelectUIResponse_Dispose_m786 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotManager_SnapshotSelectUIResponse_Dispose;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotManager_SnapshotSelectUIResponse_Dispose'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+}
+// GooglePlayGames.Native.Cwrapper.CommonErrorStatus/UIStatus GooglePlayGames.Native.Cwrapper.SnapshotManager::SnapshotManager_SnapshotSelectUIResponse_GetStatus(System.Runtime.InteropServices.HandleRef)
+extern "C" {int32_t DEFAULT_CALL SnapshotManager_SnapshotSelectUIResponse_GetStatus(void*);}
+extern "C" int32_t SnapshotManager_SnapshotManager_SnapshotSelectUIResponse_GetStatus_m787 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotManager_SnapshotSelectUIResponse_GetStatus;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotManager_SnapshotSelectUIResponse_GetStatus'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int32_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.SnapshotManager::SnapshotManager_SnapshotSelectUIResponse_GetData(System.Runtime.InteropServices.HandleRef)
+extern "C" {intptr_t DEFAULT_CALL SnapshotManager_SnapshotSelectUIResponse_GetData(void*);}
+extern "C" IntPtr_t SnapshotManager_SnapshotManager_SnapshotSelectUIResponse_GetData_m788 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotManager_SnapshotSelectUIResponse_GetData;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotManager_SnapshotSelectUIResponse_GetData'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.SnapshotMetadata::SnapshotMetadata_Dispose(System.Runtime.InteropServices.HandleRef)
+extern "C" {void DEFAULT_CALL SnapshotMetadata_Dispose(void*);}
+extern "C" void SnapshotMetadata_SnapshotMetadata_Dispose_m789 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotMetadata_Dispose;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotMetadata_Dispose'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+}
+// System.UIntPtr GooglePlayGames.Native.Cwrapper.SnapshotMetadata::SnapshotMetadata_CoverImageURL(System.Runtime.InteropServices.HandleRef,System.Text.StringBuilder,System.UIntPtr)
+extern "C" {uintptr_t DEFAULT_CALL SnapshotMetadata_CoverImageURL(void*, char*, uintptr_t);}
+extern "C" UIntPtr_t  SnapshotMetadata_SnapshotMetadata_CoverImageURL_m790 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, StringBuilder_t361 * ___out_arg, UIntPtr_t  ___out_size, const MethodInfo* method)
+{
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*, char*, uintptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotMetadata_CoverImageURL;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotMetadata_CoverImageURL'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___out_arg' to native representation
+	char* ____out_arg_marshaled = { 0 };
+	____out_arg_marshaled = il2cpp_codegen_marshal_string_builder(___out_arg);
+
+	// Marshaling of parameter '___out_size' to native representation
+
+	// Native function invocation and marshaling of return value back from native representation
+	uintptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled, ____out_arg_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___out_size).____pointer_1)));
+	UIntPtr_t  __return_value_unmarshaled;
+	(__return_value_unmarshaled).____pointer_1 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling of parameter '___out_arg' back from native representation
+	il2cpp_codegen_marshal_string_builder_result(___out_arg, ____out_arg_marshaled);
+
+	// Marshaling cleanup of parameter '___out_arg' native representation
+	il2cpp_codegen_marshal_free(____out_arg_marshaled);
+	____out_arg_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___out_size' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.UIntPtr GooglePlayGames.Native.Cwrapper.SnapshotMetadata::SnapshotMetadata_Description(System.Runtime.InteropServices.HandleRef,System.Text.StringBuilder,System.UIntPtr)
+extern "C" {uintptr_t DEFAULT_CALL SnapshotMetadata_Description(void*, char*, uintptr_t);}
+extern "C" UIntPtr_t  SnapshotMetadata_SnapshotMetadata_Description_m791 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, StringBuilder_t361 * ___out_arg, UIntPtr_t  ___out_size, const MethodInfo* method)
+{
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*, char*, uintptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotMetadata_Description;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotMetadata_Description'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___out_arg' to native representation
+	char* ____out_arg_marshaled = { 0 };
+	____out_arg_marshaled = il2cpp_codegen_marshal_string_builder(___out_arg);
+
+	// Marshaling of parameter '___out_size' to native representation
+
+	// Native function invocation and marshaling of return value back from native representation
+	uintptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled, ____out_arg_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___out_size).____pointer_1)));
+	UIntPtr_t  __return_value_unmarshaled;
+	(__return_value_unmarshaled).____pointer_1 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling of parameter '___out_arg' back from native representation
+	il2cpp_codegen_marshal_string_builder_result(___out_arg, ____out_arg_marshaled);
+
+	// Marshaling cleanup of parameter '___out_arg' native representation
+	il2cpp_codegen_marshal_free(____out_arg_marshaled);
+	____out_arg_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___out_size' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.Boolean GooglePlayGames.Native.Cwrapper.SnapshotMetadata::SnapshotMetadata_IsOpen(System.Runtime.InteropServices.HandleRef)
+extern "C" {int8_t DEFAULT_CALL SnapshotMetadata_IsOpen(void*);}
+extern "C" bool SnapshotMetadata_SnapshotMetadata_IsOpen_m792 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int8_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotMetadata_IsOpen;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotMetadata_IsOpen'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int8_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.UIntPtr GooglePlayGames.Native.Cwrapper.SnapshotMetadata::SnapshotMetadata_FileName(System.Runtime.InteropServices.HandleRef,System.Text.StringBuilder,System.UIntPtr)
+extern "C" {uintptr_t DEFAULT_CALL SnapshotMetadata_FileName(void*, char*, uintptr_t);}
+extern "C" UIntPtr_t  SnapshotMetadata_SnapshotMetadata_FileName_m793 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, StringBuilder_t361 * ___out_arg, UIntPtr_t  ___out_size, const MethodInfo* method)
+{
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*, char*, uintptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotMetadata_FileName;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotMetadata_FileName'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___out_arg' to native representation
+	char* ____out_arg_marshaled = { 0 };
+	____out_arg_marshaled = il2cpp_codegen_marshal_string_builder(___out_arg);
+
+	// Marshaling of parameter '___out_size' to native representation
+
+	// Native function invocation and marshaling of return value back from native representation
+	uintptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled, ____out_arg_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___out_size).____pointer_1)));
+	UIntPtr_t  __return_value_unmarshaled;
+	(__return_value_unmarshaled).____pointer_1 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling of parameter '___out_arg' back from native representation
+	il2cpp_codegen_marshal_string_builder_result(___out_arg, ____out_arg_marshaled);
+
+	// Marshaling cleanup of parameter '___out_arg' native representation
+	il2cpp_codegen_marshal_free(____out_arg_marshaled);
+	____out_arg_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___out_size' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.Boolean GooglePlayGames.Native.Cwrapper.SnapshotMetadata::SnapshotMetadata_Valid(System.Runtime.InteropServices.HandleRef)
+extern "C" {int8_t DEFAULT_CALL SnapshotMetadata_Valid(void*);}
+extern "C" bool SnapshotMetadata_SnapshotMetadata_Valid_m794 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int8_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotMetadata_Valid;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotMetadata_Valid'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int8_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.Int64 GooglePlayGames.Native.Cwrapper.SnapshotMetadata::SnapshotMetadata_PlayedTime(System.Runtime.InteropServices.HandleRef)
+extern "C" {int64_t DEFAULT_CALL SnapshotMetadata_PlayedTime(void*);}
+extern "C" int64_t SnapshotMetadata_SnapshotMetadata_PlayedTime_m795 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int64_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotMetadata_PlayedTime;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotMetadata_PlayedTime'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int64_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.Int64 GooglePlayGames.Native.Cwrapper.SnapshotMetadata::SnapshotMetadata_LastModifiedTime(System.Runtime.InteropServices.HandleRef)
+extern "C" {int64_t DEFAULT_CALL SnapshotMetadata_LastModifiedTime(void*);}
+extern "C" int64_t SnapshotMetadata_SnapshotMetadata_LastModifiedTime_m796 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int64_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotMetadata_LastModifiedTime;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotMetadata_LastModifiedTime'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int64_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.UIntPtr GooglePlayGames.Native.Cwrapper.SnapshotMetadataChange::SnapshotMetadataChange_Description(System.Runtime.InteropServices.HandleRef,System.Text.StringBuilder,System.UIntPtr)
+extern "C" {uintptr_t DEFAULT_CALL SnapshotMetadataChange_Description(void*, char*, uintptr_t);}
+extern "C" UIntPtr_t  SnapshotMetadataChange_SnapshotMetadataChange_Description_m797 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, StringBuilder_t361 * ___out_arg, UIntPtr_t  ___out_size, const MethodInfo* method)
+{
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*, char*, uintptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotMetadataChange_Description;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotMetadataChange_Description'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___out_arg' to native representation
+	char* ____out_arg_marshaled = { 0 };
+	____out_arg_marshaled = il2cpp_codegen_marshal_string_builder(___out_arg);
+
+	// Marshaling of parameter '___out_size' to native representation
+
+	// Native function invocation and marshaling of return value back from native representation
+	uintptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled, ____out_arg_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___out_size).____pointer_1)));
+	UIntPtr_t  __return_value_unmarshaled;
+	(__return_value_unmarshaled).____pointer_1 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling of parameter '___out_arg' back from native representation
+	il2cpp_codegen_marshal_string_builder_result(___out_arg, ____out_arg_marshaled);
+
+	// Marshaling cleanup of parameter '___out_arg' native representation
+	il2cpp_codegen_marshal_free(____out_arg_marshaled);
+	____out_arg_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___out_size' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.SnapshotMetadataChange::SnapshotMetadataChange_Image(System.Runtime.InteropServices.HandleRef)
+extern "C" {intptr_t DEFAULT_CALL SnapshotMetadataChange_Image(void*);}
+extern "C" IntPtr_t SnapshotMetadataChange_SnapshotMetadataChange_Image_m798 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotMetadataChange_Image;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotMetadataChange_Image'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.Boolean GooglePlayGames.Native.Cwrapper.SnapshotMetadataChange::SnapshotMetadataChange_PlayedTimeIsChanged(System.Runtime.InteropServices.HandleRef)
+extern "C" {int8_t DEFAULT_CALL SnapshotMetadataChange_PlayedTimeIsChanged(void*);}
+extern "C" bool SnapshotMetadataChange_SnapshotMetadataChange_PlayedTimeIsChanged_m799 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int8_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotMetadataChange_PlayedTimeIsChanged;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotMetadataChange_PlayedTimeIsChanged'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int8_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.Boolean GooglePlayGames.Native.Cwrapper.SnapshotMetadataChange::SnapshotMetadataChange_Valid(System.Runtime.InteropServices.HandleRef)
+extern "C" {int8_t DEFAULT_CALL SnapshotMetadataChange_Valid(void*);}
+extern "C" bool SnapshotMetadataChange_SnapshotMetadataChange_Valid_m800 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int8_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotMetadataChange_Valid;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotMetadataChange_Valid'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int8_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.UInt64 GooglePlayGames.Native.Cwrapper.SnapshotMetadataChange::SnapshotMetadataChange_PlayedTime(System.Runtime.InteropServices.HandleRef)
+extern "C" {uint64_t DEFAULT_CALL SnapshotMetadataChange_PlayedTime(void*);}
+extern "C" uint64_t SnapshotMetadataChange_SnapshotMetadataChange_PlayedTime_m801 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef uint64_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotMetadataChange_PlayedTime;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotMetadataChange_PlayedTime'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	uint64_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.SnapshotMetadataChange::SnapshotMetadataChange_Dispose(System.Runtime.InteropServices.HandleRef)
+extern "C" {void DEFAULT_CALL SnapshotMetadataChange_Dispose(void*);}
+extern "C" void SnapshotMetadataChange_SnapshotMetadataChange_Dispose_m802 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotMetadataChange_Dispose;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotMetadataChange_Dispose'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+}
+// System.Boolean GooglePlayGames.Native.Cwrapper.SnapshotMetadataChange::SnapshotMetadataChange_ImageIsChanged(System.Runtime.InteropServices.HandleRef)
+extern "C" {int8_t DEFAULT_CALL SnapshotMetadataChange_ImageIsChanged(void*);}
+extern "C" bool SnapshotMetadataChange_SnapshotMetadataChange_ImageIsChanged_m803 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int8_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotMetadataChange_ImageIsChanged;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotMetadataChange_ImageIsChanged'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int8_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.Boolean GooglePlayGames.Native.Cwrapper.SnapshotMetadataChange::SnapshotMetadataChange_DescriptionIsChanged(System.Runtime.InteropServices.HandleRef)
+extern "C" {int8_t DEFAULT_CALL SnapshotMetadataChange_DescriptionIsChanged(void*);}
+extern "C" bool SnapshotMetadataChange_SnapshotMetadataChange_DescriptionIsChanged_m804 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int8_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotMetadataChange_DescriptionIsChanged;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotMetadataChange_DescriptionIsChanged'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int8_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.SnapshotMetadataChangeBuilder::SnapshotMetadataChange_Builder_SetDescription(System.Runtime.InteropServices.HandleRef,System.String)
+extern "C" {void DEFAULT_CALL SnapshotMetadataChange_Builder_SetDescription(void*, char*);}
+extern "C" void SnapshotMetadataChangeBuilder_SnapshotMetadataChange_Builder_SetDescription_m805 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, String_t* ___description, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, char*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotMetadataChange_Builder_SetDescription;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotMetadataChange_Builder_SetDescription'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___description' to native representation
+	char* ____description_marshaled = { 0 };
+	____description_marshaled = il2cpp_codegen_marshal_string(___description);
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, ____description_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___description' native representation
+	il2cpp_codegen_marshal_free(____description_marshaled);
+	____description_marshaled = NULL;
+
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.SnapshotMetadataChangeBuilder::SnapshotMetadataChange_Builder_Construct()
+extern "C" {intptr_t DEFAULT_CALL SnapshotMetadataChange_Builder_Construct();}
+extern "C" IntPtr_t SnapshotMetadataChangeBuilder_SnapshotMetadataChange_Builder_Construct_m806 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotMetadataChange_Builder_Construct;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotMetadataChange_Builder_Construct'"));
+		}
+	}
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func();
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	return __return_value_unmarshaled;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.SnapshotMetadataChangeBuilder::SnapshotMetadataChange_Builder_SetPlayedTime(System.Runtime.InteropServices.HandleRef,System.UInt64)
+extern "C" {void DEFAULT_CALL SnapshotMetadataChange_Builder_SetPlayedTime(void*, uint64_t);}
+extern "C" void SnapshotMetadataChangeBuilder_SnapshotMetadataChange_Builder_SetPlayedTime_m807 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, uint64_t ___played_time, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, uint64_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotMetadataChange_Builder_SetPlayedTime;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotMetadataChange_Builder_SetPlayedTime'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___played_time' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, ___played_time);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___played_time' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.SnapshotMetadataChangeBuilder::SnapshotMetadataChange_Builder_SetCoverImageFromPngData(System.Runtime.InteropServices.HandleRef,System.Byte[],System.UIntPtr)
+extern "C" {void DEFAULT_CALL SnapshotMetadataChange_Builder_SetCoverImageFromPngData(void*, uint8_t*, uintptr_t);}
+extern "C" void SnapshotMetadataChangeBuilder_SnapshotMetadataChange_Builder_SetCoverImageFromPngData_m808 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, ByteU5BU5D_t20* ___png_data, UIntPtr_t  ___png_data_size, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, uint8_t*, uintptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotMetadataChange_Builder_SetCoverImageFromPngData;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotMetadataChange_Builder_SetCoverImageFromPngData'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___png_data' to native representation
+	uint8_t* ____png_data_marshaled = { 0 };
+	____png_data_marshaled = il2cpp_codegen_marshal_array<uint8_t>((Il2CppCodeGenArray*)___png_data);
+
+	// Marshaling of parameter '___png_data_size' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, ____png_data_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___png_data_size).____pointer_1)));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___png_data' native representation
+
+	// Marshaling cleanup of parameter '___png_data_size' native representation
+
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.SnapshotMetadataChangeBuilder::SnapshotMetadataChange_Builder_Create(System.Runtime.InteropServices.HandleRef)
+extern "C" {intptr_t DEFAULT_CALL SnapshotMetadataChange_Builder_Create(void*);}
+extern "C" IntPtr_t SnapshotMetadataChangeBuilder_SnapshotMetadataChange_Builder_Create_m809 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotMetadataChange_Builder_Create;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotMetadataChange_Builder_Create'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.SnapshotMetadataChangeBuilder::SnapshotMetadataChange_Builder_Dispose(System.Runtime.InteropServices.HandleRef)
+extern "C" {void DEFAULT_CALL SnapshotMetadataChange_Builder_Dispose(void*);}
+extern "C" void SnapshotMetadataChangeBuilder_SnapshotMetadataChange_Builder_Dispose_m810 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)SnapshotMetadataChange_Builder_Dispose;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'SnapshotMetadataChange_Builder_Dispose'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+}
+// System.UInt32 GooglePlayGames.Native.Cwrapper.TurnBasedMatch::TurnBasedMatch_AutomatchingSlotsAvailable(System.Runtime.InteropServices.HandleRef)
+extern "C" {uint32_t DEFAULT_CALL TurnBasedMatch_AutomatchingSlotsAvailable(void*);}
+extern "C" uint32_t TurnBasedMatch_TurnBasedMatch_AutomatchingSlotsAvailable_m811 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatch_AutomatchingSlotsAvailable;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatch_AutomatchingSlotsAvailable'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	uint32_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.UInt64 GooglePlayGames.Native.Cwrapper.TurnBasedMatch::TurnBasedMatch_CreationTime(System.Runtime.InteropServices.HandleRef)
+extern "C" {uint64_t DEFAULT_CALL TurnBasedMatch_CreationTime(void*);}
+extern "C" uint64_t TurnBasedMatch_TurnBasedMatch_CreationTime_m812 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef uint64_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatch_CreationTime;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatch_CreationTime'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	uint64_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.UIntPtr GooglePlayGames.Native.Cwrapper.TurnBasedMatch::TurnBasedMatch_Participants_Length(System.Runtime.InteropServices.HandleRef)
+extern "C" {uintptr_t DEFAULT_CALL TurnBasedMatch_Participants_Length(void*);}
+extern "C" UIntPtr_t  TurnBasedMatch_TurnBasedMatch_Participants_Length_m813 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatch_Participants_Length;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatch_Participants_Length'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	uintptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	UIntPtr_t  __return_value_unmarshaled;
+	(__return_value_unmarshaled).____pointer_1 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.TurnBasedMatch::TurnBasedMatch_Participants_GetElement(System.Runtime.InteropServices.HandleRef,System.UIntPtr)
+extern "C" {intptr_t DEFAULT_CALL TurnBasedMatch_Participants_GetElement(void*, uintptr_t);}
+extern "C" IntPtr_t TurnBasedMatch_TurnBasedMatch_Participants_GetElement_m814 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, UIntPtr_t  ___index, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, uintptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatch_Participants_GetElement;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatch_Participants_GetElement'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___index' to native representation
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___index).____pointer_1)));
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___index' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.UInt32 GooglePlayGames.Native.Cwrapper.TurnBasedMatch::TurnBasedMatch_Version(System.Runtime.InteropServices.HandleRef)
+extern "C" {uint32_t DEFAULT_CALL TurnBasedMatch_Version(void*);}
+extern "C" uint32_t TurnBasedMatch_TurnBasedMatch_Version_m815 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatch_Version;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatch_Version'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	uint32_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.TurnBasedMatch::TurnBasedMatch_ParticipantResults(System.Runtime.InteropServices.HandleRef)
+extern "C" {intptr_t DEFAULT_CALL TurnBasedMatch_ParticipantResults(void*);}
+extern "C" IntPtr_t TurnBasedMatch_TurnBasedMatch_ParticipantResults_m816 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatch_ParticipantResults;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatch_ParticipantResults'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// GooglePlayGames.Native.Cwrapper.Types/MatchStatus GooglePlayGames.Native.Cwrapper.TurnBasedMatch::TurnBasedMatch_Status(System.Runtime.InteropServices.HandleRef)
+extern "C" {int32_t DEFAULT_CALL TurnBasedMatch_Status(void*);}
+extern "C" int32_t TurnBasedMatch_TurnBasedMatch_Status_m817 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatch_Status;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatch_Status'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int32_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.UIntPtr GooglePlayGames.Native.Cwrapper.TurnBasedMatch::TurnBasedMatch_Description(System.Runtime.InteropServices.HandleRef,System.Text.StringBuilder,System.UIntPtr)
+extern "C" {uintptr_t DEFAULT_CALL TurnBasedMatch_Description(void*, char*, uintptr_t);}
+extern "C" UIntPtr_t  TurnBasedMatch_TurnBasedMatch_Description_m818 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, StringBuilder_t361 * ___out_arg, UIntPtr_t  ___out_size, const MethodInfo* method)
+{
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*, char*, uintptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatch_Description;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatch_Description'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___out_arg' to native representation
+	char* ____out_arg_marshaled = { 0 };
+	____out_arg_marshaled = il2cpp_codegen_marshal_string_builder(___out_arg);
+
+	// Marshaling of parameter '___out_size' to native representation
+
+	// Native function invocation and marshaling of return value back from native representation
+	uintptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled, ____out_arg_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___out_size).____pointer_1)));
+	UIntPtr_t  __return_value_unmarshaled;
+	(__return_value_unmarshaled).____pointer_1 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling of parameter '___out_arg' back from native representation
+	il2cpp_codegen_marshal_string_builder_result(___out_arg, ____out_arg_marshaled);
+
+	// Marshaling cleanup of parameter '___out_arg' native representation
+	il2cpp_codegen_marshal_free(____out_arg_marshaled);
+	____out_arg_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___out_size' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.TurnBasedMatch::TurnBasedMatch_PendingParticipant(System.Runtime.InteropServices.HandleRef)
+extern "C" {intptr_t DEFAULT_CALL TurnBasedMatch_PendingParticipant(void*);}
+extern "C" IntPtr_t TurnBasedMatch_TurnBasedMatch_PendingParticipant_m819 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatch_PendingParticipant;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatch_PendingParticipant'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.UInt32 GooglePlayGames.Native.Cwrapper.TurnBasedMatch::TurnBasedMatch_Variant(System.Runtime.InteropServices.HandleRef)
+extern "C" {uint32_t DEFAULT_CALL TurnBasedMatch_Variant(void*);}
+extern "C" uint32_t TurnBasedMatch_TurnBasedMatch_Variant_m820 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatch_Variant;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatch_Variant'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	uint32_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.Boolean GooglePlayGames.Native.Cwrapper.TurnBasedMatch::TurnBasedMatch_HasPreviousMatchData(System.Runtime.InteropServices.HandleRef)
+extern "C" {int8_t DEFAULT_CALL TurnBasedMatch_HasPreviousMatchData(void*);}
+extern "C" bool TurnBasedMatch_TurnBasedMatch_HasPreviousMatchData_m821 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int8_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatch_HasPreviousMatchData;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatch_HasPreviousMatchData'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int8_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.UIntPtr GooglePlayGames.Native.Cwrapper.TurnBasedMatch::TurnBasedMatch_Data(System.Runtime.InteropServices.HandleRef,System.Byte[],System.UIntPtr)
+extern "C" {uintptr_t DEFAULT_CALL TurnBasedMatch_Data(void*, uint8_t*, uintptr_t);}
+extern TypeInfo* Byte_t496_il2cpp_TypeInfo_var;
+extern "C" UIntPtr_t  TurnBasedMatch_TurnBasedMatch_Data_m822 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, ByteU5BU5D_t20* ___out_arg, UIntPtr_t  ___out_size, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		Byte_t496_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(28);
+		s_Il2CppMethodIntialized = true;
+	}
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*, uint8_t*, uintptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatch_Data;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatch_Data'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___out_arg' to native representation
+	uint8_t* ____out_arg_marshaled = { 0 };
+	____out_arg_marshaled = il2cpp_codegen_marshal_array<uint8_t>((Il2CppCodeGenArray*)___out_arg);
+
+	// Marshaling of parameter '___out_size' to native representation
+
+	// Native function invocation and marshaling of return value back from native representation
+	uintptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled, ____out_arg_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___out_size).____pointer_1)));
+	UIntPtr_t  __return_value_unmarshaled;
+	(__return_value_unmarshaled).____pointer_1 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling of parameter '___out_arg' back from native representation
+	___out_arg = (ByteU5BU5D_t20*)il2cpp_codegen_marshal_array_result(Byte_t496_il2cpp_TypeInfo_var, ____out_arg_marshaled, 1);
+
+	// Marshaling cleanup of parameter '___out_arg' native representation
+
+	// Marshaling cleanup of parameter '___out_size' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.TurnBasedMatch::TurnBasedMatch_LastUpdatingParticipant(System.Runtime.InteropServices.HandleRef)
+extern "C" {intptr_t DEFAULT_CALL TurnBasedMatch_LastUpdatingParticipant(void*);}
+extern "C" IntPtr_t TurnBasedMatch_TurnBasedMatch_LastUpdatingParticipant_m823 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatch_LastUpdatingParticipant;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatch_LastUpdatingParticipant'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.Boolean GooglePlayGames.Native.Cwrapper.TurnBasedMatch::TurnBasedMatch_HasData(System.Runtime.InteropServices.HandleRef)
+extern "C" {int8_t DEFAULT_CALL TurnBasedMatch_HasData(void*);}
+extern "C" bool TurnBasedMatch_TurnBasedMatch_HasData_m824 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int8_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatch_HasData;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatch_HasData'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int8_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.TurnBasedMatch::TurnBasedMatch_SuggestedNextParticipant(System.Runtime.InteropServices.HandleRef)
+extern "C" {intptr_t DEFAULT_CALL TurnBasedMatch_SuggestedNextParticipant(void*);}
+extern "C" IntPtr_t TurnBasedMatch_TurnBasedMatch_SuggestedNextParticipant_m825 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatch_SuggestedNextParticipant;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatch_SuggestedNextParticipant'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.UIntPtr GooglePlayGames.Native.Cwrapper.TurnBasedMatch::TurnBasedMatch_PreviousMatchData(System.Runtime.InteropServices.HandleRef,System.Byte[],System.UIntPtr)
+extern "C" {uintptr_t DEFAULT_CALL TurnBasedMatch_PreviousMatchData(void*, uint8_t*, uintptr_t);}
+extern TypeInfo* Byte_t496_il2cpp_TypeInfo_var;
+extern "C" UIntPtr_t  TurnBasedMatch_TurnBasedMatch_PreviousMatchData_m826 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, ByteU5BU5D_t20* ___out_arg, UIntPtr_t  ___out_size, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		Byte_t496_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(28);
+		s_Il2CppMethodIntialized = true;
+	}
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*, uint8_t*, uintptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatch_PreviousMatchData;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatch_PreviousMatchData'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___out_arg' to native representation
+	uint8_t* ____out_arg_marshaled = { 0 };
+	____out_arg_marshaled = il2cpp_codegen_marshal_array<uint8_t>((Il2CppCodeGenArray*)___out_arg);
+
+	// Marshaling of parameter '___out_size' to native representation
+
+	// Native function invocation and marshaling of return value back from native representation
+	uintptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled, ____out_arg_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___out_size).____pointer_1)));
+	UIntPtr_t  __return_value_unmarshaled;
+	(__return_value_unmarshaled).____pointer_1 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling of parameter '___out_arg' back from native representation
+	___out_arg = (ByteU5BU5D_t20*)il2cpp_codegen_marshal_array_result(Byte_t496_il2cpp_TypeInfo_var, ____out_arg_marshaled, 1);
+
+	// Marshaling cleanup of parameter '___out_arg' native representation
+
+	// Marshaling cleanup of parameter '___out_size' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.UInt64 GooglePlayGames.Native.Cwrapper.TurnBasedMatch::TurnBasedMatch_LastUpdateTime(System.Runtime.InteropServices.HandleRef)
+extern "C" {uint64_t DEFAULT_CALL TurnBasedMatch_LastUpdateTime(void*);}
+extern "C" uint64_t TurnBasedMatch_TurnBasedMatch_LastUpdateTime_m827 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef uint64_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatch_LastUpdateTime;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatch_LastUpdateTime'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	uint64_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.UIntPtr GooglePlayGames.Native.Cwrapper.TurnBasedMatch::TurnBasedMatch_RematchId(System.Runtime.InteropServices.HandleRef,System.Text.StringBuilder,System.UIntPtr)
+extern "C" {uintptr_t DEFAULT_CALL TurnBasedMatch_RematchId(void*, char*, uintptr_t);}
+extern "C" UIntPtr_t  TurnBasedMatch_TurnBasedMatch_RematchId_m828 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, StringBuilder_t361 * ___out_arg, UIntPtr_t  ___out_size, const MethodInfo* method)
+{
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*, char*, uintptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatch_RematchId;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatch_RematchId'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___out_arg' to native representation
+	char* ____out_arg_marshaled = { 0 };
+	____out_arg_marshaled = il2cpp_codegen_marshal_string_builder(___out_arg);
+
+	// Marshaling of parameter '___out_size' to native representation
+
+	// Native function invocation and marshaling of return value back from native representation
+	uintptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled, ____out_arg_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___out_size).____pointer_1)));
+	UIntPtr_t  __return_value_unmarshaled;
+	(__return_value_unmarshaled).____pointer_1 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling of parameter '___out_arg' back from native representation
+	il2cpp_codegen_marshal_string_builder_result(___out_arg, ____out_arg_marshaled);
+
+	// Marshaling cleanup of parameter '___out_arg' native representation
+	il2cpp_codegen_marshal_free(____out_arg_marshaled);
+	____out_arg_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___out_size' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.UInt32 GooglePlayGames.Native.Cwrapper.TurnBasedMatch::TurnBasedMatch_Number(System.Runtime.InteropServices.HandleRef)
+extern "C" {uint32_t DEFAULT_CALL TurnBasedMatch_Number(void*);}
+extern "C" uint32_t TurnBasedMatch_TurnBasedMatch_Number_m829 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatch_Number;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatch_Number'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	uint32_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.Boolean GooglePlayGames.Native.Cwrapper.TurnBasedMatch::TurnBasedMatch_HasRematchId(System.Runtime.InteropServices.HandleRef)
+extern "C" {int8_t DEFAULT_CALL TurnBasedMatch_HasRematchId(void*);}
+extern "C" bool TurnBasedMatch_TurnBasedMatch_HasRematchId_m830 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int8_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatch_HasRematchId;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatch_HasRematchId'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int8_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.Boolean GooglePlayGames.Native.Cwrapper.TurnBasedMatch::TurnBasedMatch_Valid(System.Runtime.InteropServices.HandleRef)
+extern "C" {int8_t DEFAULT_CALL TurnBasedMatch_Valid(void*);}
+extern "C" bool TurnBasedMatch_TurnBasedMatch_Valid_m831 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int8_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatch_Valid;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatch_Valid'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int8_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.TurnBasedMatch::TurnBasedMatch_CreatingParticipant(System.Runtime.InteropServices.HandleRef)
+extern "C" {intptr_t DEFAULT_CALL TurnBasedMatch_CreatingParticipant(void*);}
+extern "C" IntPtr_t TurnBasedMatch_TurnBasedMatch_CreatingParticipant_m832 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatch_CreatingParticipant;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatch_CreatingParticipant'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.UIntPtr GooglePlayGames.Native.Cwrapper.TurnBasedMatch::TurnBasedMatch_Id(System.Runtime.InteropServices.HandleRef,System.Text.StringBuilder,System.UIntPtr)
+extern "C" {uintptr_t DEFAULT_CALL TurnBasedMatch_Id(void*, char*, uintptr_t);}
+extern "C" UIntPtr_t  TurnBasedMatch_TurnBasedMatch_Id_m833 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, StringBuilder_t361 * ___out_arg, UIntPtr_t  ___out_size, const MethodInfo* method)
+{
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*, char*, uintptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatch_Id;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatch_Id'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___out_arg' to native representation
+	char* ____out_arg_marshaled = { 0 };
+	____out_arg_marshaled = il2cpp_codegen_marshal_string_builder(___out_arg);
+
+	// Marshaling of parameter '___out_size' to native representation
+
+	// Native function invocation and marshaling of return value back from native representation
+	uintptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled, ____out_arg_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___out_size).____pointer_1)));
+	UIntPtr_t  __return_value_unmarshaled;
+	(__return_value_unmarshaled).____pointer_1 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling of parameter '___out_arg' back from native representation
+	il2cpp_codegen_marshal_string_builder_result(___out_arg, ____out_arg_marshaled);
+
+	// Marshaling cleanup of parameter '___out_arg' native representation
+	il2cpp_codegen_marshal_free(____out_arg_marshaled);
+	____out_arg_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___out_size' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMatch::TurnBasedMatch_Dispose(System.Runtime.InteropServices.HandleRef)
+extern "C" {void DEFAULT_CALL TurnBasedMatch_Dispose(void*);}
+extern "C" void TurnBasedMatch_TurnBasedMatch_Dispose_m834 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatch_Dispose;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatch_Dispose'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+}
+// System.UIntPtr GooglePlayGames.Native.Cwrapper.TurnBasedMatchConfig::TurnBasedMatchConfig_PlayerIdsToInvite_Length(System.Runtime.InteropServices.HandleRef)
+extern "C" {uintptr_t DEFAULT_CALL TurnBasedMatchConfig_PlayerIdsToInvite_Length(void*);}
+extern "C" UIntPtr_t  TurnBasedMatchConfig_TurnBasedMatchConfig_PlayerIdsToInvite_Length_m835 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatchConfig_PlayerIdsToInvite_Length;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatchConfig_PlayerIdsToInvite_Length'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	uintptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	UIntPtr_t  __return_value_unmarshaled;
+	(__return_value_unmarshaled).____pointer_1 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.UIntPtr GooglePlayGames.Native.Cwrapper.TurnBasedMatchConfig::TurnBasedMatchConfig_PlayerIdsToInvite_GetElement(System.Runtime.InteropServices.HandleRef,System.UIntPtr,System.Text.StringBuilder,System.UIntPtr)
+extern "C" {uintptr_t DEFAULT_CALL TurnBasedMatchConfig_PlayerIdsToInvite_GetElement(void*, uintptr_t, char*, uintptr_t);}
+extern "C" UIntPtr_t  TurnBasedMatchConfig_TurnBasedMatchConfig_PlayerIdsToInvite_GetElement_m836 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, UIntPtr_t  ___index, StringBuilder_t361 * ___out_arg, UIntPtr_t  ___out_size, const MethodInfo* method)
+{
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*, uintptr_t, char*, uintptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatchConfig_PlayerIdsToInvite_GetElement;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatchConfig_PlayerIdsToInvite_GetElement'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___index' to native representation
+
+	// Marshaling of parameter '___out_arg' to native representation
+	char* ____out_arg_marshaled = { 0 };
+	____out_arg_marshaled = il2cpp_codegen_marshal_string_builder(___out_arg);
+
+	// Marshaling of parameter '___out_size' to native representation
+
+	// Native function invocation and marshaling of return value back from native representation
+	uintptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___index).____pointer_1)), ____out_arg_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___out_size).____pointer_1)));
+	UIntPtr_t  __return_value_unmarshaled;
+	(__return_value_unmarshaled).____pointer_1 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___index' native representation
+
+	// Marshaling of parameter '___out_arg' back from native representation
+	il2cpp_codegen_marshal_string_builder_result(___out_arg, ____out_arg_marshaled);
+
+	// Marshaling cleanup of parameter '___out_arg' native representation
+	il2cpp_codegen_marshal_free(____out_arg_marshaled);
+	____out_arg_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___out_size' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.UInt32 GooglePlayGames.Native.Cwrapper.TurnBasedMatchConfig::TurnBasedMatchConfig_Variant(System.Runtime.InteropServices.HandleRef)
+extern "C" {uint32_t DEFAULT_CALL TurnBasedMatchConfig_Variant(void*);}
+extern "C" uint32_t TurnBasedMatchConfig_TurnBasedMatchConfig_Variant_m837 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatchConfig_Variant;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatchConfig_Variant'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	uint32_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.Int64 GooglePlayGames.Native.Cwrapper.TurnBasedMatchConfig::TurnBasedMatchConfig_ExclusiveBitMask(System.Runtime.InteropServices.HandleRef)
+extern "C" {int64_t DEFAULT_CALL TurnBasedMatchConfig_ExclusiveBitMask(void*);}
+extern "C" int64_t TurnBasedMatchConfig_TurnBasedMatchConfig_ExclusiveBitMask_m838 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int64_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatchConfig_ExclusiveBitMask;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatchConfig_ExclusiveBitMask'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int64_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.Boolean GooglePlayGames.Native.Cwrapper.TurnBasedMatchConfig::TurnBasedMatchConfig_Valid(System.Runtime.InteropServices.HandleRef)
+extern "C" {int8_t DEFAULT_CALL TurnBasedMatchConfig_Valid(void*);}
+extern "C" bool TurnBasedMatchConfig_TurnBasedMatchConfig_Valid_m839 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int8_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatchConfig_Valid;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatchConfig_Valid'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int8_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.UInt32 GooglePlayGames.Native.Cwrapper.TurnBasedMatchConfig::TurnBasedMatchConfig_MaximumAutomatchingPlayers(System.Runtime.InteropServices.HandleRef)
+extern "C" {uint32_t DEFAULT_CALL TurnBasedMatchConfig_MaximumAutomatchingPlayers(void*);}
+extern "C" uint32_t TurnBasedMatchConfig_TurnBasedMatchConfig_MaximumAutomatchingPlayers_m840 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatchConfig_MaximumAutomatchingPlayers;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatchConfig_MaximumAutomatchingPlayers'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	uint32_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.UInt32 GooglePlayGames.Native.Cwrapper.TurnBasedMatchConfig::TurnBasedMatchConfig_MinimumAutomatchingPlayers(System.Runtime.InteropServices.HandleRef)
+extern "C" {uint32_t DEFAULT_CALL TurnBasedMatchConfig_MinimumAutomatchingPlayers(void*);}
+extern "C" uint32_t TurnBasedMatchConfig_TurnBasedMatchConfig_MinimumAutomatchingPlayers_m841 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatchConfig_MinimumAutomatchingPlayers;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatchConfig_MinimumAutomatchingPlayers'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	uint32_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMatchConfig::TurnBasedMatchConfig_Dispose(System.Runtime.InteropServices.HandleRef)
+extern "C" {void DEFAULT_CALL TurnBasedMatchConfig_Dispose(void*);}
+extern "C" void TurnBasedMatchConfig_TurnBasedMatchConfig_Dispose_m842 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatchConfig_Dispose;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatchConfig_Dispose'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMatchConfigBuilder::TurnBasedMatchConfig_Builder_PopulateFromPlayerSelectUIResponse(System.Runtime.InteropServices.HandleRef,System.IntPtr)
+extern "C" {void DEFAULT_CALL TurnBasedMatchConfig_Builder_PopulateFromPlayerSelectUIResponse(void*, intptr_t);}
+extern "C" void TurnBasedMatchConfigBuilder_TurnBasedMatchConfig_Builder_PopulateFromPlayerSelectUIResponse_m843 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, IntPtr_t ___response, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatchConfig_Builder_PopulateFromPlayerSelectUIResponse;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatchConfig_Builder_PopulateFromPlayerSelectUIResponse'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___response' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, reinterpret_cast<intptr_t>((___response).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___response' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMatchConfigBuilder::TurnBasedMatchConfig_Builder_SetVariant(System.Runtime.InteropServices.HandleRef,System.UInt32)
+extern "C" {void DEFAULT_CALL TurnBasedMatchConfig_Builder_SetVariant(void*, uint32_t);}
+extern "C" void TurnBasedMatchConfigBuilder_TurnBasedMatchConfig_Builder_SetVariant_m844 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, uint32_t ___variant, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, uint32_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatchConfig_Builder_SetVariant;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatchConfig_Builder_SetVariant'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___variant' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, ___variant);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___variant' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMatchConfigBuilder::TurnBasedMatchConfig_Builder_AddPlayerToInvite(System.Runtime.InteropServices.HandleRef,System.String)
+extern "C" {void DEFAULT_CALL TurnBasedMatchConfig_Builder_AddPlayerToInvite(void*, char*);}
+extern "C" void TurnBasedMatchConfigBuilder_TurnBasedMatchConfig_Builder_AddPlayerToInvite_m845 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, String_t* ___player_id, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, char*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatchConfig_Builder_AddPlayerToInvite;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatchConfig_Builder_AddPlayerToInvite'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___player_id' to native representation
+	char* ____player_id_marshaled = { 0 };
+	____player_id_marshaled = il2cpp_codegen_marshal_string(___player_id);
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, ____player_id_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___player_id' native representation
+	il2cpp_codegen_marshal_free(____player_id_marshaled);
+	____player_id_marshaled = NULL;
+
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.TurnBasedMatchConfigBuilder::TurnBasedMatchConfig_Builder_Construct()
+extern "C" {intptr_t DEFAULT_CALL TurnBasedMatchConfig_Builder_Construct();}
+extern "C" IntPtr_t TurnBasedMatchConfigBuilder_TurnBasedMatchConfig_Builder_Construct_m846 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatchConfig_Builder_Construct;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatchConfig_Builder_Construct'"));
+		}
+	}
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func();
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	return __return_value_unmarshaled;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMatchConfigBuilder::TurnBasedMatchConfig_Builder_SetExclusiveBitMask(System.Runtime.InteropServices.HandleRef,System.UInt64)
+extern "C" {void DEFAULT_CALL TurnBasedMatchConfig_Builder_SetExclusiveBitMask(void*, uint64_t);}
+extern "C" void TurnBasedMatchConfigBuilder_TurnBasedMatchConfig_Builder_SetExclusiveBitMask_m847 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, uint64_t ___exclusive_bit_mask, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, uint64_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatchConfig_Builder_SetExclusiveBitMask;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatchConfig_Builder_SetExclusiveBitMask'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___exclusive_bit_mask' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, ___exclusive_bit_mask);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___exclusive_bit_mask' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMatchConfigBuilder::TurnBasedMatchConfig_Builder_SetMaximumAutomatchingPlayers(System.Runtime.InteropServices.HandleRef,System.UInt32)
+extern "C" {void DEFAULT_CALL TurnBasedMatchConfig_Builder_SetMaximumAutomatchingPlayers(void*, uint32_t);}
+extern "C" void TurnBasedMatchConfigBuilder_TurnBasedMatchConfig_Builder_SetMaximumAutomatchingPlayers_m848 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, uint32_t ___maximum_automatching_players, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, uint32_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatchConfig_Builder_SetMaximumAutomatchingPlayers;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatchConfig_Builder_SetMaximumAutomatchingPlayers'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___maximum_automatching_players' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, ___maximum_automatching_players);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___maximum_automatching_players' native representation
+
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.TurnBasedMatchConfigBuilder::TurnBasedMatchConfig_Builder_Create(System.Runtime.InteropServices.HandleRef)
+extern "C" {intptr_t DEFAULT_CALL TurnBasedMatchConfig_Builder_Create(void*);}
+extern "C" IntPtr_t TurnBasedMatchConfigBuilder_TurnBasedMatchConfig_Builder_Create_m849 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatchConfig_Builder_Create;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatchConfig_Builder_Create'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMatchConfigBuilder::TurnBasedMatchConfig_Builder_SetMinimumAutomatchingPlayers(System.Runtime.InteropServices.HandleRef,System.UInt32)
+extern "C" {void DEFAULT_CALL TurnBasedMatchConfig_Builder_SetMinimumAutomatchingPlayers(void*, uint32_t);}
+extern "C" void TurnBasedMatchConfigBuilder_TurnBasedMatchConfig_Builder_SetMinimumAutomatchingPlayers_m850 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, uint32_t ___minimum_automatching_players, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, uint32_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatchConfig_Builder_SetMinimumAutomatchingPlayers;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatchConfig_Builder_SetMinimumAutomatchingPlayers'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___minimum_automatching_players' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, ___minimum_automatching_players);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___minimum_automatching_players' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMatchConfigBuilder::TurnBasedMatchConfig_Builder_Dispose(System.Runtime.InteropServices.HandleRef)
+extern "C" {void DEFAULT_CALL TurnBasedMatchConfig_Builder_Dispose(void*);}
+extern "C" void TurnBasedMatchConfigBuilder_TurnBasedMatchConfig_Builder_Dispose_m851 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMatchConfig_Builder_Dispose;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMatchConfig_Builder_Dispose'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager/TurnBasedMatchCallback::.ctor(System.Object,System.IntPtr)
+extern "C" void TurnBasedMatchCallback__ctor_m852 (TurnBasedMatchCallback_t172 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+{
+	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
+	__this->___method_3 = ___method;
+	__this->___m_target_2 = ___object;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager/TurnBasedMatchCallback::Invoke(System.IntPtr,System.IntPtr)
+extern "C" void TurnBasedMatchCallback_Invoke_m853 (TurnBasedMatchCallback_t172 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method)
+{
+	if(__this->___prev_9 != NULL)
+	{
+		TurnBasedMatchCallback_Invoke_m853((TurnBasedMatchCallback_t172 *)__this->___prev_9,___arg0, ___arg1, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
+	if (__this->___m_target_2 != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Object_t *, Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(NULL,__this->___m_target_2,___arg0, ___arg1,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___arg0, ___arg1,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+}
+extern "C" void pinvoke_delegate_wrapper_TurnBasedMatchCallback_t172(Il2CppObject* delegate, IntPtr_t ___arg0, IntPtr_t ___arg1)
+{
+	typedef void (STDCALL *native_function_ptr_type)(intptr_t, intptr_t);
+	native_function_ptr_type _il2cpp_pinvoke_func = ((native_function_ptr_type)((Il2CppDelegate*)delegate)->method->method);
+	// Marshaling of parameter '___arg0' to native representation
+
+	// Marshaling of parameter '___arg1' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(reinterpret_cast<intptr_t>((___arg0).___m_value_0), reinterpret_cast<intptr_t>((___arg1).___m_value_0));
+
+	// Marshaling cleanup of parameter '___arg0' native representation
+
+	// Marshaling cleanup of parameter '___arg1' native representation
+
+}
+// System.IAsyncResult GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager/TurnBasedMatchCallback::BeginInvoke(System.IntPtr,System.IntPtr,System.AsyncCallback,System.Object)
+extern TypeInfo* IntPtr_t_il2cpp_TypeInfo_var;
+extern "C" Object_t * TurnBasedMatchCallback_BeginInvoke_m854 (TurnBasedMatchCallback_t172 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, AsyncCallback_t74 * ___callback, Object_t * ___object, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		IntPtr_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(69);
+		s_Il2CppMethodIntialized = true;
+	}
+	void *__d_args[3] = {0};
+	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg0);
+	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg1);
+	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager/TurnBasedMatchCallback::EndInvoke(System.IAsyncResult)
+extern "C" void TurnBasedMatchCallback_EndInvoke_m855 (TurnBasedMatchCallback_t172 * __this, Object_t * ___result, const MethodInfo* method)
+{
+	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager/MultiplayerStatusCallback::.ctor(System.Object,System.IntPtr)
+extern "C" void MultiplayerStatusCallback__ctor_m856 (MultiplayerStatusCallback_t173 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+{
+	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
+	__this->___method_3 = ___method;
+	__this->___m_target_2 = ___object;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager/MultiplayerStatusCallback::Invoke(GooglePlayGames.Native.Cwrapper.CommonErrorStatus/MultiplayerStatus,System.IntPtr)
+extern "C" void MultiplayerStatusCallback_Invoke_m857 (MultiplayerStatusCallback_t173 * __this, int32_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method)
+{
+	if(__this->___prev_9 != NULL)
+	{
+		MultiplayerStatusCallback_Invoke_m857((MultiplayerStatusCallback_t173 *)__this->___prev_9,___arg0, ___arg1, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
+	if (__this->___m_target_2 != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Object_t *, Object_t * __this, int32_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(NULL,__this->___m_target_2,___arg0, ___arg1,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (Object_t * __this, int32_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___arg0, ___arg1,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+}
+extern "C" void pinvoke_delegate_wrapper_MultiplayerStatusCallback_t173(Il2CppObject* delegate, int32_t ___arg0, IntPtr_t ___arg1)
+{
+	typedef void (STDCALL *native_function_ptr_type)(int32_t, intptr_t);
+	native_function_ptr_type _il2cpp_pinvoke_func = ((native_function_ptr_type)((Il2CppDelegate*)delegate)->method->method);
+	// Marshaling of parameter '___arg0' to native representation
+
+	// Marshaling of parameter '___arg1' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(___arg0, reinterpret_cast<intptr_t>((___arg1).___m_value_0));
+
+	// Marshaling cleanup of parameter '___arg0' native representation
+
+	// Marshaling cleanup of parameter '___arg1' native representation
+
+}
+// System.IAsyncResult GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager/MultiplayerStatusCallback::BeginInvoke(GooglePlayGames.Native.Cwrapper.CommonErrorStatus/MultiplayerStatus,System.IntPtr,System.AsyncCallback,System.Object)
+extern TypeInfo* MultiplayerStatus_t89_il2cpp_TypeInfo_var;
+extern TypeInfo* IntPtr_t_il2cpp_TypeInfo_var;
+extern "C" Object_t * MultiplayerStatusCallback_BeginInvoke_m858 (MultiplayerStatusCallback_t173 * __this, int32_t ___arg0, IntPtr_t ___arg1, AsyncCallback_t74 * ___callback, Object_t * ___object, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		MultiplayerStatus_t89_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(76);
+		IntPtr_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(69);
+		s_Il2CppMethodIntialized = true;
+	}
+	void *__d_args[3] = {0};
+	__d_args[0] = Box(MultiplayerStatus_t89_il2cpp_TypeInfo_var, &___arg0);
+	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg1);
+	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager/MultiplayerStatusCallback::EndInvoke(System.IAsyncResult)
+extern "C" void MultiplayerStatusCallback_EndInvoke_m859 (MultiplayerStatusCallback_t173 * __this, Object_t * ___result, const MethodInfo* method)
+{
+	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager/TurnBasedMatchesCallback::.ctor(System.Object,System.IntPtr)
+extern "C" void TurnBasedMatchesCallback__ctor_m860 (TurnBasedMatchesCallback_t174 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+{
+	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
+	__this->___method_3 = ___method;
+	__this->___m_target_2 = ___object;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager/TurnBasedMatchesCallback::Invoke(System.IntPtr,System.IntPtr)
+extern "C" void TurnBasedMatchesCallback_Invoke_m861 (TurnBasedMatchesCallback_t174 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method)
+{
+	if(__this->___prev_9 != NULL)
+	{
+		TurnBasedMatchesCallback_Invoke_m861((TurnBasedMatchesCallback_t174 *)__this->___prev_9,___arg0, ___arg1, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
+	if (__this->___m_target_2 != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Object_t *, Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(NULL,__this->___m_target_2,___arg0, ___arg1,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___arg0, ___arg1,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+}
+extern "C" void pinvoke_delegate_wrapper_TurnBasedMatchesCallback_t174(Il2CppObject* delegate, IntPtr_t ___arg0, IntPtr_t ___arg1)
+{
+	typedef void (STDCALL *native_function_ptr_type)(intptr_t, intptr_t);
+	native_function_ptr_type _il2cpp_pinvoke_func = ((native_function_ptr_type)((Il2CppDelegate*)delegate)->method->method);
+	// Marshaling of parameter '___arg0' to native representation
+
+	// Marshaling of parameter '___arg1' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(reinterpret_cast<intptr_t>((___arg0).___m_value_0), reinterpret_cast<intptr_t>((___arg1).___m_value_0));
+
+	// Marshaling cleanup of parameter '___arg0' native representation
+
+	// Marshaling cleanup of parameter '___arg1' native representation
+
+}
+// System.IAsyncResult GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager/TurnBasedMatchesCallback::BeginInvoke(System.IntPtr,System.IntPtr,System.AsyncCallback,System.Object)
+extern TypeInfo* IntPtr_t_il2cpp_TypeInfo_var;
+extern "C" Object_t * TurnBasedMatchesCallback_BeginInvoke_m862 (TurnBasedMatchesCallback_t174 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, AsyncCallback_t74 * ___callback, Object_t * ___object, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		IntPtr_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(69);
+		s_Il2CppMethodIntialized = true;
+	}
+	void *__d_args[3] = {0};
+	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg0);
+	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg1);
+	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager/TurnBasedMatchesCallback::EndInvoke(System.IAsyncResult)
+extern "C" void TurnBasedMatchesCallback_EndInvoke_m863 (TurnBasedMatchesCallback_t174 * __this, Object_t * ___result, const MethodInfo* method)
+{
+	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager/MatchInboxUICallback::.ctor(System.Object,System.IntPtr)
+extern "C" void MatchInboxUICallback__ctor_m864 (MatchInboxUICallback_t175 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+{
+	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
+	__this->___method_3 = ___method;
+	__this->___m_target_2 = ___object;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager/MatchInboxUICallback::Invoke(System.IntPtr,System.IntPtr)
+extern "C" void MatchInboxUICallback_Invoke_m865 (MatchInboxUICallback_t175 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method)
+{
+	if(__this->___prev_9 != NULL)
+	{
+		MatchInboxUICallback_Invoke_m865((MatchInboxUICallback_t175 *)__this->___prev_9,___arg0, ___arg1, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
+	if (__this->___m_target_2 != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Object_t *, Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(NULL,__this->___m_target_2,___arg0, ___arg1,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___arg0, ___arg1,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+}
+extern "C" void pinvoke_delegate_wrapper_MatchInboxUICallback_t175(Il2CppObject* delegate, IntPtr_t ___arg0, IntPtr_t ___arg1)
+{
+	typedef void (STDCALL *native_function_ptr_type)(intptr_t, intptr_t);
+	native_function_ptr_type _il2cpp_pinvoke_func = ((native_function_ptr_type)((Il2CppDelegate*)delegate)->method->method);
+	// Marshaling of parameter '___arg0' to native representation
+
+	// Marshaling of parameter '___arg1' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(reinterpret_cast<intptr_t>((___arg0).___m_value_0), reinterpret_cast<intptr_t>((___arg1).___m_value_0));
+
+	// Marshaling cleanup of parameter '___arg0' native representation
+
+	// Marshaling cleanup of parameter '___arg1' native representation
+
+}
+// System.IAsyncResult GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager/MatchInboxUICallback::BeginInvoke(System.IntPtr,System.IntPtr,System.AsyncCallback,System.Object)
+extern TypeInfo* IntPtr_t_il2cpp_TypeInfo_var;
+extern "C" Object_t * MatchInboxUICallback_BeginInvoke_m866 (MatchInboxUICallback_t175 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, AsyncCallback_t74 * ___callback, Object_t * ___object, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		IntPtr_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(69);
+		s_Il2CppMethodIntialized = true;
+	}
+	void *__d_args[3] = {0};
+	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg0);
+	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg1);
+	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager/MatchInboxUICallback::EndInvoke(System.IAsyncResult)
+extern "C" void MatchInboxUICallback_EndInvoke_m867 (MatchInboxUICallback_t175 * __this, Object_t * ___result, const MethodInfo* method)
+{
+	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager/PlayerSelectUICallback::.ctor(System.Object,System.IntPtr)
+extern "C" void PlayerSelectUICallback__ctor_m868 (PlayerSelectUICallback_t176 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+{
+	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
+	__this->___method_3 = ___method;
+	__this->___m_target_2 = ___object;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager/PlayerSelectUICallback::Invoke(System.IntPtr,System.IntPtr)
+extern "C" void PlayerSelectUICallback_Invoke_m869 (PlayerSelectUICallback_t176 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method)
+{
+	if(__this->___prev_9 != NULL)
+	{
+		PlayerSelectUICallback_Invoke_m869((PlayerSelectUICallback_t176 *)__this->___prev_9,___arg0, ___arg1, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
+	if (__this->___m_target_2 != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Object_t *, Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(NULL,__this->___m_target_2,___arg0, ___arg1,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (Object_t * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___arg0, ___arg1,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+}
+extern "C" void pinvoke_delegate_wrapper_PlayerSelectUICallback_t176(Il2CppObject* delegate, IntPtr_t ___arg0, IntPtr_t ___arg1)
+{
+	typedef void (STDCALL *native_function_ptr_type)(intptr_t, intptr_t);
+	native_function_ptr_type _il2cpp_pinvoke_func = ((native_function_ptr_type)((Il2CppDelegate*)delegate)->method->method);
+	// Marshaling of parameter '___arg0' to native representation
+
+	// Marshaling of parameter '___arg1' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(reinterpret_cast<intptr_t>((___arg0).___m_value_0), reinterpret_cast<intptr_t>((___arg1).___m_value_0));
+
+	// Marshaling cleanup of parameter '___arg0' native representation
+
+	// Marshaling cleanup of parameter '___arg1' native representation
+
+}
+// System.IAsyncResult GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager/PlayerSelectUICallback::BeginInvoke(System.IntPtr,System.IntPtr,System.AsyncCallback,System.Object)
+extern TypeInfo* IntPtr_t_il2cpp_TypeInfo_var;
+extern "C" Object_t * PlayerSelectUICallback_BeginInvoke_m870 (PlayerSelectUICallback_t176 * __this, IntPtr_t ___arg0, IntPtr_t ___arg1, AsyncCallback_t74 * ___callback, Object_t * ___object, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		IntPtr_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(69);
+		s_Il2CppMethodIntialized = true;
+	}
+	void *__d_args[3] = {0};
+	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg0);
+	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___arg1);
+	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager/PlayerSelectUICallback::EndInvoke(System.IAsyncResult)
+extern "C" void PlayerSelectUICallback_EndInvoke_m871 (PlayerSelectUICallback_t176 * __this, Object_t * ___result, const MethodInfo* method)
+{
+	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager::TurnBasedMultiplayerManager_ShowPlayerSelectUI(System.Runtime.InteropServices.HandleRef,System.UInt32,System.UInt32,System.Boolean,GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager/PlayerSelectUICallback,System.IntPtr)
+extern "C" {void DEFAULT_CALL TurnBasedMultiplayerManager_ShowPlayerSelectUI(void*, uint32_t, uint32_t, int8_t, methodPointerType, intptr_t);}
+extern "C" void TurnBasedMultiplayerManager_TurnBasedMultiplayerManager_ShowPlayerSelectUI_m872 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, uint32_t ___minimum_players, uint32_t ___maximum_players, bool ___allow_automatch, PlayerSelectUICallback_t176 * ___callback, IntPtr_t ___callback_arg, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, uint32_t, uint32_t, int8_t, methodPointerType, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMultiplayerManager_ShowPlayerSelectUI;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMultiplayerManager_ShowPlayerSelectUI'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___minimum_players' to native representation
+
+	// Marshaling of parameter '___maximum_players' to native representation
+
+	// Marshaling of parameter '___allow_automatch' to native representation
+
+	// Marshaling of parameter '___callback' to native representation
+	methodPointerType ____callback_marshaled = { 0 };
+	____callback_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___callback));
+
+	// Marshaling of parameter '___callback_arg' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, ___minimum_players, ___maximum_players, ___allow_automatch, ____callback_marshaled, reinterpret_cast<intptr_t>((___callback_arg).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___minimum_players' native representation
+
+	// Marshaling cleanup of parameter '___maximum_players' native representation
+
+	// Marshaling cleanup of parameter '___allow_automatch' native representation
+
+	// Marshaling cleanup of parameter '___callback' native representation
+
+	// Marshaling cleanup of parameter '___callback_arg' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager::TurnBasedMultiplayerManager_CancelMatch(System.Runtime.InteropServices.HandleRef,System.IntPtr,GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager/MultiplayerStatusCallback,System.IntPtr)
+extern "C" {void DEFAULT_CALL TurnBasedMultiplayerManager_CancelMatch(void*, intptr_t, methodPointerType, intptr_t);}
+extern "C" void TurnBasedMultiplayerManager_TurnBasedMultiplayerManager_CancelMatch_m873 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, IntPtr_t ___match, MultiplayerStatusCallback_t173 * ___callback, IntPtr_t ___callback_arg, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, intptr_t, methodPointerType, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMultiplayerManager_CancelMatch;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMultiplayerManager_CancelMatch'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___match' to native representation
+
+	// Marshaling of parameter '___callback' to native representation
+	methodPointerType ____callback_marshaled = { 0 };
+	____callback_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___callback));
+
+	// Marshaling of parameter '___callback_arg' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, reinterpret_cast<intptr_t>((___match).___m_value_0), ____callback_marshaled, reinterpret_cast<intptr_t>((___callback_arg).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___match' native representation
+
+	// Marshaling cleanup of parameter '___callback' native representation
+
+	// Marshaling cleanup of parameter '___callback_arg' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager::TurnBasedMultiplayerManager_DismissMatch(System.Runtime.InteropServices.HandleRef,System.IntPtr)
+extern "C" {void DEFAULT_CALL TurnBasedMultiplayerManager_DismissMatch(void*, intptr_t);}
+extern "C" void TurnBasedMultiplayerManager_TurnBasedMultiplayerManager_DismissMatch_m874 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, IntPtr_t ___match, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMultiplayerManager_DismissMatch;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMultiplayerManager_DismissMatch'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___match' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, reinterpret_cast<intptr_t>((___match).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___match' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager::TurnBasedMultiplayerManager_ShowMatchInboxUI(System.Runtime.InteropServices.HandleRef,GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager/MatchInboxUICallback,System.IntPtr)
+extern "C" {void DEFAULT_CALL TurnBasedMultiplayerManager_ShowMatchInboxUI(void*, methodPointerType, intptr_t);}
+extern "C" void TurnBasedMultiplayerManager_TurnBasedMultiplayerManager_ShowMatchInboxUI_m875 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, MatchInboxUICallback_t175 * ___callback, IntPtr_t ___callback_arg, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, methodPointerType, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMultiplayerManager_ShowMatchInboxUI;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMultiplayerManager_ShowMatchInboxUI'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___callback' to native representation
+	methodPointerType ____callback_marshaled = { 0 };
+	____callback_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___callback));
+
+	// Marshaling of parameter '___callback_arg' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, ____callback_marshaled, reinterpret_cast<intptr_t>((___callback_arg).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___callback' native representation
+
+	// Marshaling cleanup of parameter '___callback_arg' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager::TurnBasedMultiplayerManager_SynchronizeData(System.Runtime.InteropServices.HandleRef)
+extern "C" {void DEFAULT_CALL TurnBasedMultiplayerManager_SynchronizeData(void*);}
+extern "C" void TurnBasedMultiplayerManager_TurnBasedMultiplayerManager_SynchronizeData_m876 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMultiplayerManager_SynchronizeData;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMultiplayerManager_SynchronizeData'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager::TurnBasedMultiplayerManager_Rematch(System.Runtime.InteropServices.HandleRef,System.IntPtr,GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager/TurnBasedMatchCallback,System.IntPtr)
+extern "C" {void DEFAULT_CALL TurnBasedMultiplayerManager_Rematch(void*, intptr_t, methodPointerType, intptr_t);}
+extern "C" void TurnBasedMultiplayerManager_TurnBasedMultiplayerManager_Rematch_m877 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, IntPtr_t ___match, TurnBasedMatchCallback_t172 * ___callback, IntPtr_t ___callback_arg, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, intptr_t, methodPointerType, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMultiplayerManager_Rematch;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMultiplayerManager_Rematch'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___match' to native representation
+
+	// Marshaling of parameter '___callback' to native representation
+	methodPointerType ____callback_marshaled = { 0 };
+	____callback_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___callback));
+
+	// Marshaling of parameter '___callback_arg' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, reinterpret_cast<intptr_t>((___match).___m_value_0), ____callback_marshaled, reinterpret_cast<intptr_t>((___callback_arg).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___match' native representation
+
+	// Marshaling cleanup of parameter '___callback' native representation
+
+	// Marshaling cleanup of parameter '___callback_arg' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager::TurnBasedMultiplayerManager_DismissInvitation(System.Runtime.InteropServices.HandleRef,System.IntPtr)
+extern "C" {void DEFAULT_CALL TurnBasedMultiplayerManager_DismissInvitation(void*, intptr_t);}
+extern "C" void TurnBasedMultiplayerManager_TurnBasedMultiplayerManager_DismissInvitation_m878 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, IntPtr_t ___invitation, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMultiplayerManager_DismissInvitation;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMultiplayerManager_DismissInvitation'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___invitation' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, reinterpret_cast<intptr_t>((___invitation).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___invitation' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager::TurnBasedMultiplayerManager_FetchMatch(System.Runtime.InteropServices.HandleRef,System.String,GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager/TurnBasedMatchCallback,System.IntPtr)
+extern "C" {void DEFAULT_CALL TurnBasedMultiplayerManager_FetchMatch(void*, char*, methodPointerType, intptr_t);}
+extern "C" void TurnBasedMultiplayerManager_TurnBasedMultiplayerManager_FetchMatch_m879 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, String_t* ___match_id, TurnBasedMatchCallback_t172 * ___callback, IntPtr_t ___callback_arg, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, char*, methodPointerType, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMultiplayerManager_FetchMatch;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMultiplayerManager_FetchMatch'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___match_id' to native representation
+	char* ____match_id_marshaled = { 0 };
+	____match_id_marshaled = il2cpp_codegen_marshal_string(___match_id);
+
+	// Marshaling of parameter '___callback' to native representation
+	methodPointerType ____callback_marshaled = { 0 };
+	____callback_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___callback));
+
+	// Marshaling of parameter '___callback_arg' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, ____match_id_marshaled, ____callback_marshaled, reinterpret_cast<intptr_t>((___callback_arg).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___match_id' native representation
+	il2cpp_codegen_marshal_free(____match_id_marshaled);
+	____match_id_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___callback' native representation
+
+	// Marshaling cleanup of parameter '___callback_arg' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager::TurnBasedMultiplayerManager_DeclineInvitation(System.Runtime.InteropServices.HandleRef,System.IntPtr)
+extern "C" {void DEFAULT_CALL TurnBasedMultiplayerManager_DeclineInvitation(void*, intptr_t);}
+extern "C" void TurnBasedMultiplayerManager_TurnBasedMultiplayerManager_DeclineInvitation_m880 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, IntPtr_t ___invitation, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMultiplayerManager_DeclineInvitation;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMultiplayerManager_DeclineInvitation'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___invitation' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, reinterpret_cast<intptr_t>((___invitation).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___invitation' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager::TurnBasedMultiplayerManager_FinishMatchDuringMyTurn(System.Runtime.InteropServices.HandleRef,System.IntPtr,System.Byte[],System.UIntPtr,System.IntPtr,GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager/TurnBasedMatchCallback,System.IntPtr)
+extern "C" {void DEFAULT_CALL TurnBasedMultiplayerManager_FinishMatchDuringMyTurn(void*, intptr_t, uint8_t*, uintptr_t, intptr_t, methodPointerType, intptr_t);}
+extern "C" void TurnBasedMultiplayerManager_TurnBasedMultiplayerManager_FinishMatchDuringMyTurn_m881 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, IntPtr_t ___match, ByteU5BU5D_t20* ___match_data, UIntPtr_t  ___match_data_size, IntPtr_t ___results, TurnBasedMatchCallback_t172 * ___callback, IntPtr_t ___callback_arg, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, intptr_t, uint8_t*, uintptr_t, intptr_t, methodPointerType, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMultiplayerManager_FinishMatchDuringMyTurn;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMultiplayerManager_FinishMatchDuringMyTurn'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___match' to native representation
+
+	// Marshaling of parameter '___match_data' to native representation
+	uint8_t* ____match_data_marshaled = { 0 };
+	____match_data_marshaled = il2cpp_codegen_marshal_array<uint8_t>((Il2CppCodeGenArray*)___match_data);
+
+	// Marshaling of parameter '___match_data_size' to native representation
+
+	// Marshaling of parameter '___results' to native representation
+
+	// Marshaling of parameter '___callback' to native representation
+	methodPointerType ____callback_marshaled = { 0 };
+	____callback_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___callback));
+
+	// Marshaling of parameter '___callback_arg' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, reinterpret_cast<intptr_t>((___match).___m_value_0), ____match_data_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___match_data_size).____pointer_1)), reinterpret_cast<intptr_t>((___results).___m_value_0), ____callback_marshaled, reinterpret_cast<intptr_t>((___callback_arg).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___match' native representation
+
+	// Marshaling cleanup of parameter '___match_data' native representation
+
+	// Marshaling cleanup of parameter '___match_data_size' native representation
+
+	// Marshaling cleanup of parameter '___results' native representation
+
+	// Marshaling cleanup of parameter '___callback' native representation
+
+	// Marshaling cleanup of parameter '___callback_arg' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager::TurnBasedMultiplayerManager_FetchMatches(System.Runtime.InteropServices.HandleRef,GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager/TurnBasedMatchesCallback,System.IntPtr)
+extern "C" {void DEFAULT_CALL TurnBasedMultiplayerManager_FetchMatches(void*, methodPointerType, intptr_t);}
+extern "C" void TurnBasedMultiplayerManager_TurnBasedMultiplayerManager_FetchMatches_m882 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, TurnBasedMatchesCallback_t174 * ___callback, IntPtr_t ___callback_arg, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, methodPointerType, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMultiplayerManager_FetchMatches;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMultiplayerManager_FetchMatches'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___callback' to native representation
+	methodPointerType ____callback_marshaled = { 0 };
+	____callback_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___callback));
+
+	// Marshaling of parameter '___callback_arg' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, ____callback_marshaled, reinterpret_cast<intptr_t>((___callback_arg).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___callback' native representation
+
+	// Marshaling cleanup of parameter '___callback_arg' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager::TurnBasedMultiplayerManager_CreateTurnBasedMatch(System.Runtime.InteropServices.HandleRef,System.IntPtr,GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager/TurnBasedMatchCallback,System.IntPtr)
+extern "C" {void DEFAULT_CALL TurnBasedMultiplayerManager_CreateTurnBasedMatch(void*, intptr_t, methodPointerType, intptr_t);}
+extern "C" void TurnBasedMultiplayerManager_TurnBasedMultiplayerManager_CreateTurnBasedMatch_m883 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, IntPtr_t ___config, TurnBasedMatchCallback_t172 * ___callback, IntPtr_t ___callback_arg, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, intptr_t, methodPointerType, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMultiplayerManager_CreateTurnBasedMatch;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMultiplayerManager_CreateTurnBasedMatch'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___config' to native representation
+
+	// Marshaling of parameter '___callback' to native representation
+	methodPointerType ____callback_marshaled = { 0 };
+	____callback_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___callback));
+
+	// Marshaling of parameter '___callback_arg' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, reinterpret_cast<intptr_t>((___config).___m_value_0), ____callback_marshaled, reinterpret_cast<intptr_t>((___callback_arg).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___config' native representation
+
+	// Marshaling cleanup of parameter '___callback' native representation
+
+	// Marshaling cleanup of parameter '___callback_arg' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager::TurnBasedMultiplayerManager_AcceptInvitation(System.Runtime.InteropServices.HandleRef,System.IntPtr,GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager/TurnBasedMatchCallback,System.IntPtr)
+extern "C" {void DEFAULT_CALL TurnBasedMultiplayerManager_AcceptInvitation(void*, intptr_t, methodPointerType, intptr_t);}
+extern "C" void TurnBasedMultiplayerManager_TurnBasedMultiplayerManager_AcceptInvitation_m884 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, IntPtr_t ___invitation, TurnBasedMatchCallback_t172 * ___callback, IntPtr_t ___callback_arg, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, intptr_t, methodPointerType, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMultiplayerManager_AcceptInvitation;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMultiplayerManager_AcceptInvitation'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___invitation' to native representation
+
+	// Marshaling of parameter '___callback' to native representation
+	methodPointerType ____callback_marshaled = { 0 };
+	____callback_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___callback));
+
+	// Marshaling of parameter '___callback_arg' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, reinterpret_cast<intptr_t>((___invitation).___m_value_0), ____callback_marshaled, reinterpret_cast<intptr_t>((___callback_arg).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___invitation' native representation
+
+	// Marshaling cleanup of parameter '___callback' native representation
+
+	// Marshaling cleanup of parameter '___callback_arg' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager::TurnBasedMultiplayerManager_TakeMyTurn(System.Runtime.InteropServices.HandleRef,System.IntPtr,System.Byte[],System.UIntPtr,System.IntPtr,System.IntPtr,GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager/TurnBasedMatchCallback,System.IntPtr)
+extern "C" {void DEFAULT_CALL TurnBasedMultiplayerManager_TakeMyTurn(void*, intptr_t, uint8_t*, uintptr_t, intptr_t, intptr_t, methodPointerType, intptr_t);}
+extern "C" void TurnBasedMultiplayerManager_TurnBasedMultiplayerManager_TakeMyTurn_m885 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, IntPtr_t ___match, ByteU5BU5D_t20* ___match_data, UIntPtr_t  ___match_data_size, IntPtr_t ___results, IntPtr_t ___next_participant, TurnBasedMatchCallback_t172 * ___callback, IntPtr_t ___callback_arg, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, intptr_t, uint8_t*, uintptr_t, intptr_t, intptr_t, methodPointerType, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMultiplayerManager_TakeMyTurn;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMultiplayerManager_TakeMyTurn'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___match' to native representation
+
+	// Marshaling of parameter '___match_data' to native representation
+	uint8_t* ____match_data_marshaled = { 0 };
+	____match_data_marshaled = il2cpp_codegen_marshal_array<uint8_t>((Il2CppCodeGenArray*)___match_data);
+
+	// Marshaling of parameter '___match_data_size' to native representation
+
+	// Marshaling of parameter '___results' to native representation
+
+	// Marshaling of parameter '___next_participant' to native representation
+
+	// Marshaling of parameter '___callback' to native representation
+	methodPointerType ____callback_marshaled = { 0 };
+	____callback_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___callback));
+
+	// Marshaling of parameter '___callback_arg' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, reinterpret_cast<intptr_t>((___match).___m_value_0), ____match_data_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___match_data_size).____pointer_1)), reinterpret_cast<intptr_t>((___results).___m_value_0), reinterpret_cast<intptr_t>((___next_participant).___m_value_0), ____callback_marshaled, reinterpret_cast<intptr_t>((___callback_arg).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___match' native representation
+
+	// Marshaling cleanup of parameter '___match_data' native representation
+
+	// Marshaling cleanup of parameter '___match_data_size' native representation
+
+	// Marshaling cleanup of parameter '___results' native representation
+
+	// Marshaling cleanup of parameter '___next_participant' native representation
+
+	// Marshaling cleanup of parameter '___callback' native representation
+
+	// Marshaling cleanup of parameter '___callback_arg' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager::TurnBasedMultiplayerManager_ConfirmPendingCompletion(System.Runtime.InteropServices.HandleRef,System.IntPtr,GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager/TurnBasedMatchCallback,System.IntPtr)
+extern "C" {void DEFAULT_CALL TurnBasedMultiplayerManager_ConfirmPendingCompletion(void*, intptr_t, methodPointerType, intptr_t);}
+extern "C" void TurnBasedMultiplayerManager_TurnBasedMultiplayerManager_ConfirmPendingCompletion_m886 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, IntPtr_t ___match, TurnBasedMatchCallback_t172 * ___callback, IntPtr_t ___callback_arg, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, intptr_t, methodPointerType, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMultiplayerManager_ConfirmPendingCompletion;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMultiplayerManager_ConfirmPendingCompletion'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___match' to native representation
+
+	// Marshaling of parameter '___callback' to native representation
+	methodPointerType ____callback_marshaled = { 0 };
+	____callback_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___callback));
+
+	// Marshaling of parameter '___callback_arg' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, reinterpret_cast<intptr_t>((___match).___m_value_0), ____callback_marshaled, reinterpret_cast<intptr_t>((___callback_arg).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___match' native representation
+
+	// Marshaling cleanup of parameter '___callback' native representation
+
+	// Marshaling cleanup of parameter '___callback_arg' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager::TurnBasedMultiplayerManager_LeaveMatchDuringMyTurn(System.Runtime.InteropServices.HandleRef,System.IntPtr,System.IntPtr,GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager/MultiplayerStatusCallback,System.IntPtr)
+extern "C" {void DEFAULT_CALL TurnBasedMultiplayerManager_LeaveMatchDuringMyTurn(void*, intptr_t, intptr_t, methodPointerType, intptr_t);}
+extern "C" void TurnBasedMultiplayerManager_TurnBasedMultiplayerManager_LeaveMatchDuringMyTurn_m887 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, IntPtr_t ___match, IntPtr_t ___next_participant, MultiplayerStatusCallback_t173 * ___callback, IntPtr_t ___callback_arg, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, intptr_t, intptr_t, methodPointerType, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMultiplayerManager_LeaveMatchDuringMyTurn;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMultiplayerManager_LeaveMatchDuringMyTurn'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___match' to native representation
+
+	// Marshaling of parameter '___next_participant' to native representation
+
+	// Marshaling of parameter '___callback' to native representation
+	methodPointerType ____callback_marshaled = { 0 };
+	____callback_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___callback));
+
+	// Marshaling of parameter '___callback_arg' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, reinterpret_cast<intptr_t>((___match).___m_value_0), reinterpret_cast<intptr_t>((___next_participant).___m_value_0), ____callback_marshaled, reinterpret_cast<intptr_t>((___callback_arg).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___match' native representation
+
+	// Marshaling cleanup of parameter '___next_participant' native representation
+
+	// Marshaling cleanup of parameter '___callback' native representation
+
+	// Marshaling cleanup of parameter '___callback_arg' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager::TurnBasedMultiplayerManager_LeaveMatchDuringTheirTurn(System.Runtime.InteropServices.HandleRef,System.IntPtr,GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager/MultiplayerStatusCallback,System.IntPtr)
+extern "C" {void DEFAULT_CALL TurnBasedMultiplayerManager_LeaveMatchDuringTheirTurn(void*, intptr_t, methodPointerType, intptr_t);}
+extern "C" void TurnBasedMultiplayerManager_TurnBasedMultiplayerManager_LeaveMatchDuringTheirTurn_m888 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, IntPtr_t ___match, MultiplayerStatusCallback_t173 * ___callback, IntPtr_t ___callback_arg, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, intptr_t, methodPointerType, intptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMultiplayerManager_LeaveMatchDuringTheirTurn;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMultiplayerManager_LeaveMatchDuringTheirTurn'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___match' to native representation
+
+	// Marshaling of parameter '___callback' to native representation
+	methodPointerType ____callback_marshaled = { 0 };
+	____callback_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___callback));
+
+	// Marshaling of parameter '___callback_arg' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled, reinterpret_cast<intptr_t>((___match).___m_value_0), ____callback_marshaled, reinterpret_cast<intptr_t>((___callback_arg).___m_value_0));
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___match' native representation
+
+	// Marshaling cleanup of parameter '___callback' native representation
+
+	// Marshaling cleanup of parameter '___callback_arg' native representation
+
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager::TurnBasedMultiplayerManager_TurnBasedMatchResponse_Dispose(System.Runtime.InteropServices.HandleRef)
+extern "C" {void DEFAULT_CALL TurnBasedMultiplayerManager_TurnBasedMatchResponse_Dispose(void*);}
+extern "C" void TurnBasedMultiplayerManager_TurnBasedMultiplayerManager_TurnBasedMatchResponse_Dispose_m889 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMultiplayerManager_TurnBasedMatchResponse_Dispose;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMultiplayerManager_TurnBasedMatchResponse_Dispose'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+}
+// GooglePlayGames.Native.Cwrapper.CommonErrorStatus/MultiplayerStatus GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager::TurnBasedMultiplayerManager_TurnBasedMatchResponse_GetStatus(System.Runtime.InteropServices.HandleRef)
+extern "C" {int32_t DEFAULT_CALL TurnBasedMultiplayerManager_TurnBasedMatchResponse_GetStatus(void*);}
+extern "C" int32_t TurnBasedMultiplayerManager_TurnBasedMultiplayerManager_TurnBasedMatchResponse_GetStatus_m890 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMultiplayerManager_TurnBasedMatchResponse_GetStatus;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMultiplayerManager_TurnBasedMatchResponse_GetStatus'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int32_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager::TurnBasedMultiplayerManager_TurnBasedMatchResponse_GetMatch(System.Runtime.InteropServices.HandleRef)
+extern "C" {intptr_t DEFAULT_CALL TurnBasedMultiplayerManager_TurnBasedMatchResponse_GetMatch(void*);}
+extern "C" IntPtr_t TurnBasedMultiplayerManager_TurnBasedMultiplayerManager_TurnBasedMatchResponse_GetMatch_m891 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMultiplayerManager_TurnBasedMatchResponse_GetMatch;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMultiplayerManager_TurnBasedMatchResponse_GetMatch'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager::TurnBasedMultiplayerManager_TurnBasedMatchesResponse_Dispose(System.Runtime.InteropServices.HandleRef)
+extern "C" {void DEFAULT_CALL TurnBasedMultiplayerManager_TurnBasedMatchesResponse_Dispose(void*);}
+extern "C" void TurnBasedMultiplayerManager_TurnBasedMultiplayerManager_TurnBasedMatchesResponse_Dispose_m892 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMultiplayerManager_TurnBasedMatchesResponse_Dispose;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMultiplayerManager_TurnBasedMatchesResponse_Dispose'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+}
+// GooglePlayGames.Native.Cwrapper.CommonErrorStatus/MultiplayerStatus GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager::TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetStatus(System.Runtime.InteropServices.HandleRef)
+extern "C" {int32_t DEFAULT_CALL TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetStatus(void*);}
+extern "C" int32_t TurnBasedMultiplayerManager_TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetStatus_m893 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetStatus;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetStatus'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int32_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.UIntPtr GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager::TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetInvitations_Length(System.Runtime.InteropServices.HandleRef)
+extern "C" {uintptr_t DEFAULT_CALL TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetInvitations_Length(void*);}
+extern "C" UIntPtr_t  TurnBasedMultiplayerManager_TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetInvitations_Length_m894 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetInvitations_Length;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetInvitations_Length'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	uintptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	UIntPtr_t  __return_value_unmarshaled;
+	(__return_value_unmarshaled).____pointer_1 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager::TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetInvitations_GetElement(System.Runtime.InteropServices.HandleRef,System.UIntPtr)
+extern "C" {intptr_t DEFAULT_CALL TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetInvitations_GetElement(void*, uintptr_t);}
+extern "C" IntPtr_t TurnBasedMultiplayerManager_TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetInvitations_GetElement_m895 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, UIntPtr_t  ___index, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, uintptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetInvitations_GetElement;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetInvitations_GetElement'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___index' to native representation
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___index).____pointer_1)));
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___index' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.UIntPtr GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager::TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetMyTurnMatches_Length(System.Runtime.InteropServices.HandleRef)
+extern "C" {uintptr_t DEFAULT_CALL TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetMyTurnMatches_Length(void*);}
+extern "C" UIntPtr_t  TurnBasedMultiplayerManager_TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetMyTurnMatches_Length_m896 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetMyTurnMatches_Length;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetMyTurnMatches_Length'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	uintptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	UIntPtr_t  __return_value_unmarshaled;
+	(__return_value_unmarshaled).____pointer_1 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager::TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetMyTurnMatches_GetElement(System.Runtime.InteropServices.HandleRef,System.UIntPtr)
+extern "C" {intptr_t DEFAULT_CALL TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetMyTurnMatches_GetElement(void*, uintptr_t);}
+extern "C" IntPtr_t TurnBasedMultiplayerManager_TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetMyTurnMatches_GetElement_m897 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, UIntPtr_t  ___index, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, uintptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetMyTurnMatches_GetElement;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetMyTurnMatches_GetElement'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___index' to native representation
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___index).____pointer_1)));
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___index' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.UIntPtr GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager::TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetTheirTurnMatches_Length(System.Runtime.InteropServices.HandleRef)
+extern "C" {uintptr_t DEFAULT_CALL TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetTheirTurnMatches_Length(void*);}
+extern "C" UIntPtr_t  TurnBasedMultiplayerManager_TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetTheirTurnMatches_Length_m898 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetTheirTurnMatches_Length;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetTheirTurnMatches_Length'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	uintptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	UIntPtr_t  __return_value_unmarshaled;
+	(__return_value_unmarshaled).____pointer_1 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager::TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetTheirTurnMatches_GetElement(System.Runtime.InteropServices.HandleRef,System.UIntPtr)
+extern "C" {intptr_t DEFAULT_CALL TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetTheirTurnMatches_GetElement(void*, uintptr_t);}
+extern "C" IntPtr_t TurnBasedMultiplayerManager_TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetTheirTurnMatches_GetElement_m899 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, UIntPtr_t  ___index, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, uintptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetTheirTurnMatches_GetElement;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetTheirTurnMatches_GetElement'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___index' to native representation
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___index).____pointer_1)));
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___index' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.UIntPtr GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager::TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetCompletedMatches_Length(System.Runtime.InteropServices.HandleRef)
+extern "C" {uintptr_t DEFAULT_CALL TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetCompletedMatches_Length(void*);}
+extern "C" UIntPtr_t  TurnBasedMultiplayerManager_TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetCompletedMatches_Length_m900 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetCompletedMatches_Length;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetCompletedMatches_Length'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	uintptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	UIntPtr_t  __return_value_unmarshaled;
+	(__return_value_unmarshaled).____pointer_1 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager::TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetCompletedMatches_GetElement(System.Runtime.InteropServices.HandleRef,System.UIntPtr)
+extern "C" {intptr_t DEFAULT_CALL TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetCompletedMatches_GetElement(void*, uintptr_t);}
+extern "C" IntPtr_t TurnBasedMultiplayerManager_TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetCompletedMatches_GetElement_m901 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, UIntPtr_t  ___index, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, uintptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetCompletedMatches_GetElement;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMultiplayerManager_TurnBasedMatchesResponse_GetCompletedMatches_GetElement'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___index' to native representation
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___index).____pointer_1)));
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___index' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager::TurnBasedMultiplayerManager_MatchInboxUIResponse_Dispose(System.Runtime.InteropServices.HandleRef)
+extern "C" {void DEFAULT_CALL TurnBasedMultiplayerManager_MatchInboxUIResponse_Dispose(void*);}
+extern "C" void TurnBasedMultiplayerManager_TurnBasedMultiplayerManager_MatchInboxUIResponse_Dispose_m902 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMultiplayerManager_MatchInboxUIResponse_Dispose;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMultiplayerManager_MatchInboxUIResponse_Dispose'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+}
+// GooglePlayGames.Native.Cwrapper.CommonErrorStatus/UIStatus GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager::TurnBasedMultiplayerManager_MatchInboxUIResponse_GetStatus(System.Runtime.InteropServices.HandleRef)
+extern "C" {int32_t DEFAULT_CALL TurnBasedMultiplayerManager_MatchInboxUIResponse_GetStatus(void*);}
+extern "C" int32_t TurnBasedMultiplayerManager_TurnBasedMultiplayerManager_MatchInboxUIResponse_GetStatus_m903 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMultiplayerManager_MatchInboxUIResponse_GetStatus;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMultiplayerManager_MatchInboxUIResponse_GetStatus'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int32_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.IntPtr GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager::TurnBasedMultiplayerManager_MatchInboxUIResponse_GetMatch(System.Runtime.InteropServices.HandleRef)
+extern "C" {intptr_t DEFAULT_CALL TurnBasedMultiplayerManager_MatchInboxUIResponse_GetMatch(void*);}
+extern "C" IntPtr_t TurnBasedMultiplayerManager_TurnBasedMultiplayerManager_MatchInboxUIResponse_GetMatch_m904 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMultiplayerManager_MatchInboxUIResponse_GetMatch;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMultiplayerManager_MatchInboxUIResponse_GetMatch'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	intptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	IntPtr_t __return_value_unmarshaled;
+	(__return_value_unmarshaled).___m_value_0 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.Void GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager::TurnBasedMultiplayerManager_PlayerSelectUIResponse_Dispose(System.Runtime.InteropServices.HandleRef)
+extern "C" {void DEFAULT_CALL TurnBasedMultiplayerManager_PlayerSelectUIResponse_Dispose(void*);}
+extern "C" void TurnBasedMultiplayerManager_TurnBasedMultiplayerManager_PlayerSelectUIResponse_Dispose_m905 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMultiplayerManager_PlayerSelectUIResponse_Dispose;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMultiplayerManager_PlayerSelectUIResponse_Dispose'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+}
+// GooglePlayGames.Native.Cwrapper.CommonErrorStatus/UIStatus GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager::TurnBasedMultiplayerManager_PlayerSelectUIResponse_GetStatus(System.Runtime.InteropServices.HandleRef)
+extern "C" {int32_t DEFAULT_CALL TurnBasedMultiplayerManager_PlayerSelectUIResponse_GetStatus(void*);}
+extern "C" int32_t TurnBasedMultiplayerManager_TurnBasedMultiplayerManager_PlayerSelectUIResponse_GetStatus_m906 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMultiplayerManager_PlayerSelectUIResponse_GetStatus;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMultiplayerManager_PlayerSelectUIResponse_GetStatus'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	int32_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.UIntPtr GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager::TurnBasedMultiplayerManager_PlayerSelectUIResponse_GetPlayerIds_Length(System.Runtime.InteropServices.HandleRef)
+extern "C" {uintptr_t DEFAULT_CALL TurnBasedMultiplayerManager_PlayerSelectUIResponse_GetPlayerIds_Length(void*);}
+extern "C" UIntPtr_t  TurnBasedMultiplayerManager_TurnBasedMultiplayerManager_PlayerSelectUIResponse_GetPlayerIds_Length_m907 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMultiplayerManager_PlayerSelectUIResponse_GetPlayerIds_Length;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMultiplayerManager_PlayerSelectUIResponse_GetPlayerIds_Length'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	uintptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+	UIntPtr_t  __return_value_unmarshaled;
+	(__return_value_unmarshaled).____pointer_1 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.UIntPtr GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager::TurnBasedMultiplayerManager_PlayerSelectUIResponse_GetPlayerIds_GetElement(System.Runtime.InteropServices.HandleRef,System.UIntPtr,System.Text.StringBuilder,System.UIntPtr)
+extern "C" {uintptr_t DEFAULT_CALL TurnBasedMultiplayerManager_PlayerSelectUIResponse_GetPlayerIds_GetElement(void*, uintptr_t, char*, uintptr_t);}
+extern "C" UIntPtr_t  TurnBasedMultiplayerManager_TurnBasedMultiplayerManager_PlayerSelectUIResponse_GetPlayerIds_GetElement_m908 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, UIntPtr_t  ___index, StringBuilder_t361 * ___out_arg, UIntPtr_t  ___out_size, const MethodInfo* method)
+{
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*, uintptr_t, char*, uintptr_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMultiplayerManager_PlayerSelectUIResponse_GetPlayerIds_GetElement;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMultiplayerManager_PlayerSelectUIResponse_GetPlayerIds_GetElement'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Marshaling of parameter '___index' to native representation
+
+	// Marshaling of parameter '___out_arg' to native representation
+	char* ____out_arg_marshaled = { 0 };
+	____out_arg_marshaled = il2cpp_codegen_marshal_string_builder(___out_arg);
+
+	// Marshaling of parameter '___out_size' to native representation
+
+	// Native function invocation and marshaling of return value back from native representation
+	uintptr_t _return_value = _il2cpp_pinvoke_func(____self_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___index).____pointer_1)), ____out_arg_marshaled, static_cast<uintptr_t>(reinterpret_cast<intptr_t>((___out_size).____pointer_1)));
+	UIntPtr_t  __return_value_unmarshaled;
+	(__return_value_unmarshaled).____pointer_1 = reinterpret_cast<void*>(_return_value);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	// Marshaling cleanup of parameter '___index' native representation
+
+	// Marshaling of parameter '___out_arg' back from native representation
+	il2cpp_codegen_marshal_string_builder_result(___out_arg, ____out_arg_marshaled);
+
+	// Marshaling cleanup of parameter '___out_arg' native representation
+	il2cpp_codegen_marshal_free(____out_arg_marshaled);
+	____out_arg_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___out_size' native representation
+
+	return __return_value_unmarshaled;
+}
+// System.UInt32 GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager::TurnBasedMultiplayerManager_PlayerSelectUIResponse_GetMinimumAutomatchingPlayers(System.Runtime.InteropServices.HandleRef)
+extern "C" {uint32_t DEFAULT_CALL TurnBasedMultiplayerManager_PlayerSelectUIResponse_GetMinimumAutomatchingPlayers(void*);}
+extern "C" uint32_t TurnBasedMultiplayerManager_TurnBasedMultiplayerManager_PlayerSelectUIResponse_GetMinimumAutomatchingPlayers_m909 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMultiplayerManager_PlayerSelectUIResponse_GetMinimumAutomatchingPlayers;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMultiplayerManager_PlayerSelectUIResponse_GetMinimumAutomatchingPlayers'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	uint32_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.UInt32 GooglePlayGames.Native.Cwrapper.TurnBasedMultiplayerManager::TurnBasedMultiplayerManager_PlayerSelectUIResponse_GetMaximumAutomatchingPlayers(System.Runtime.InteropServices.HandleRef)
+extern "C" {uint32_t DEFAULT_CALL TurnBasedMultiplayerManager_PlayerSelectUIResponse_GetMaximumAutomatchingPlayers(void*);}
+extern "C" uint32_t TurnBasedMultiplayerManager_TurnBasedMultiplayerManager_PlayerSelectUIResponse_GetMaximumAutomatchingPlayers_m910 (Object_t * __this /* static, unused */, HandleRef_t336  ___self, const MethodInfo* method)
+{
+	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)TurnBasedMultiplayerManager_PlayerSelectUIResponse_GetMaximumAutomatchingPlayers;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'TurnBasedMultiplayerManager_PlayerSelectUIResponse_GetMaximumAutomatchingPlayers'"));
+		}
+	}
+
+	// Marshaling of parameter '___self' to native representation
+	void* ____self_marshaled = { 0 };
+	____self_marshaled = ___self.___handle_1.___m_value_0;
+
+	// Native function invocation and marshaling of return value back from native representation
+	uint32_t _return_value = _il2cpp_pinvoke_func(____self_marshaled);
+
+	// Marshaling cleanup of parameter '___self' native representation
+
+	return _return_value;
+}
+// System.Void GooglePlayGames.Native.NativeClient/<HandleAuthTransition>c__AnonStoreyF::.ctor()
+extern "C" void U3CHandleAuthTransitionU3Ec__AnonStoreyF__ctor_m911 (U3CHandleAuthTransitionU3Ec__AnonStoreyF_t200 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1915(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeClient/<HandleAuthTransition>c__AnonStoreyF::<>m__11(GooglePlayGames.Native.PInvoke.AchievementManager/FetchAllResponse)
+extern "C" void U3CHandleAuthTransitionU3Ec__AnonStoreyF_U3CU3Em__11_m912 (U3CHandleAuthTransitionU3Ec__AnonStoreyF_t200 * __this, FetchAllResponse_t334 * ___results, const MethodInfo* method)
+{
+	{
+		NativeClient_t201 * L_0 = (__this->___U3CU3Ef__this_1);
+		uint32_t L_1 = (__this->___currentAuthGeneration_0);
+		FetchAllResponse_t334 * L_2 = ___results;
+		NullCheck(L_0);
+		NativeClient_PopulateAchievements_m936(L_0, L_1, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeClient/<HandleAuthTransition>c__AnonStoreyF::<>m__12(GooglePlayGames.Native.PlayerManager/FetchSelfResponse)
+extern "C" void U3CHandleAuthTransitionU3Ec__AnonStoreyF_U3CU3Em__12_m913 (U3CHandleAuthTransitionU3Ec__AnonStoreyF_t200 * __this, FetchSelfResponse_t364 * ___results, const MethodInfo* method)
+{
+	{
+		NativeClient_t201 * L_0 = (__this->___U3CU3Ef__this_1);
+		uint32_t L_1 = (__this->___currentAuthGeneration_0);
+		FetchSelfResponse_t364 * L_2 = ___results;
+		NullCheck(L_0);
+		NativeClient_PopulateUser_m938(L_0, L_1, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeClient/<UnlockAchievement>c__AnonStorey10::.ctor()
+extern "C" void U3CUnlockAchievementU3Ec__AnonStorey10__ctor_m914 (U3CUnlockAchievementU3Ec__AnonStorey10_t202 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1915(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeClient/<UnlockAchievement>c__AnonStorey10::<>m__14(GooglePlayGames.BasicApi.Achievement)
+extern "C" void U3CUnlockAchievementU3Ec__AnonStorey10_U3CU3Em__14_m915 (U3CUnlockAchievementU3Ec__AnonStorey10_t202 * __this, Achievement_t1 * ___a, const MethodInfo* method)
+{
+	{
+		Achievement_t1 * L_0 = ___a;
+		NullCheck(L_0);
+		Achievement_set_IsUnlocked_m9(L_0, 1, /*hidden argument*/NULL);
+		NativeClient_t201 * L_1 = (__this->___U3CU3Ef__this_1);
+		NullCheck(L_1);
+		GameServices_t210 * L_2 = NativeClient_GameServices_m929(L_1, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		AchievementManager_t335 * L_3 = GameServices_AchievementManager_m1338(L_2, /*hidden argument*/NULL);
+		String_t* L_4 = (__this->___achId_0);
+		NullCheck(L_3);
+		AchievementManager_Unlock_m1296(L_3, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeClient/<RevealAchievement>c__AnonStorey11::.ctor()
+extern "C" void U3CRevealAchievementU3Ec__AnonStorey11__ctor_m916 (U3CRevealAchievementU3Ec__AnonStorey11_t203 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1915(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeClient/<RevealAchievement>c__AnonStorey11::<>m__16(GooglePlayGames.BasicApi.Achievement)
+extern "C" void U3CRevealAchievementU3Ec__AnonStorey11_U3CU3Em__16_m917 (U3CRevealAchievementU3Ec__AnonStorey11_t203 * __this, Achievement_t1 * ___a, const MethodInfo* method)
+{
+	{
+		Achievement_t1 * L_0 = ___a;
+		NullCheck(L_0);
+		Achievement_set_IsRevealed_m11(L_0, 1, /*hidden argument*/NULL);
+		NativeClient_t201 * L_1 = (__this->___U3CU3Ef__this_1);
+		NullCheck(L_1);
+		GameServices_t210 * L_2 = NativeClient_GameServices_m929(L_1, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		AchievementManager_t335 * L_3 = GameServices_AchievementManager_m1338(L_2, /*hidden argument*/NULL);
+		String_t* L_4 = (__this->___achId_0);
+		NullCheck(L_3);
+		AchievementManager_Reveal_m1295(L_3, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeClient/<UpdateAchievement>c__AnonStorey12::.ctor()
+extern "C" void U3CUpdateAchievementU3Ec__AnonStorey12__ctor_m918 (U3CUpdateAchievementU3Ec__AnonStorey12_t204 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1915(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeClient/<UpdateAchievement>c__AnonStorey12::<>m__17(GooglePlayGames.Native.PInvoke.AchievementManager/FetchResponse)
+extern TypeInfo* ObjectU5BU5D_t488_il2cpp_TypeInfo_var;
+extern TypeInfo* ResponseStatus_t85_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* Logger_t61_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m1917_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral106;
+extern Il2CppCodeGenString* _stringLiteral107;
+extern "C" void U3CUpdateAchievementU3Ec__AnonStorey12_U3CU3Em__17_m919 (U3CUpdateAchievementU3Ec__AnonStorey12_t204 * __this, FetchResponse_t332 * ___rsp, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		ObjectU5BU5D_t488_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2);
+		ResponseStatus_t85_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(66);
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
+		Logger_t61_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
+		Action_1_Invoke_m1917_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483649);
+		_stringLiteral106 = il2cpp_codegen_string_literal_from_index(106);
+		_stringLiteral107 = il2cpp_codegen_string_literal_from_index(107);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		FetchResponse_t332 * L_0 = ___rsp;
+		NullCheck(L_0);
+		int32_t L_1 = FetchResponse_Status_m1275(L_0, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_1) == ((uint32_t)1))))
+		{
+			goto IL_0059;
+		}
+	}
+	{
+		Action_1_t66 * L_2 = (__this->___callback_0);
+		NullCheck(L_2);
+		Action_1_Invoke_m1917(L_2, 1, /*hidden argument*/Action_1_Invoke_m1917_MethodInfo_var);
+		NativeClient_t201 * L_3 = (__this->___U3CU3Ef__this_2);
+		NullCheck(L_3);
+		Dictionary_2_t214 * L_4 = (L_3->___mAchievements_14);
+		il2cpp_codegen_memory_barrier();
+		String_t* L_5 = (__this->___achId_1);
+		NullCheck(L_4);
+		VirtFuncInvoker1< bool, String_t* >::Invoke(31 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,GooglePlayGames.BasicApi.Achievement>::Remove(!0) */, L_4, L_5);
+		NativeClient_t201 * L_6 = (__this->___U3CU3Ef__this_2);
+		NullCheck(L_6);
+		Dictionary_2_t214 * L_7 = (L_6->___mAchievements_14);
+		il2cpp_codegen_memory_barrier();
+		String_t* L_8 = (__this->___achId_1);
+		FetchResponse_t332 * L_9 = ___rsp;
+		NullCheck(L_9);
+		NativeAchievement_t352 * L_10 = FetchResponse_Achievement_m1276(L_9, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		Achievement_t1 * L_11 = NativeAchievement_AsAchievement_m1407(L_10, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		VirtActionInvoker2< String_t*, Achievement_t1 * >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,GooglePlayGames.BasicApi.Achievement>::Add(!0,!1) */, L_7, L_8, L_11);
+		goto IL_009c;
+	}
+
+IL_0059:
+	{
+		ObjectU5BU5D_t488* L_12 = ((ObjectU5BU5D_t488*)SZArrayNew(ObjectU5BU5D_t488_il2cpp_TypeInfo_var, 4));
+		NullCheck(L_12);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_12, 0);
+		ArrayElementTypeCheck (L_12, _stringLiteral106);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_12, 0, sizeof(Object_t *))) = (Object_t *)_stringLiteral106;
+		ObjectU5BU5D_t488* L_13 = L_12;
+		String_t* L_14 = (__this->___achId_1);
+		NullCheck(L_13);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_13, 1);
+		ArrayElementTypeCheck (L_13, L_14);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_13, 1, sizeof(Object_t *))) = (Object_t *)L_14;
+		ObjectU5BU5D_t488* L_15 = L_13;
+		NullCheck(L_15);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_15, 2);
+		ArrayElementTypeCheck (L_15, _stringLiteral107);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_15, 2, sizeof(Object_t *))) = (Object_t *)_stringLiteral107;
+		ObjectU5BU5D_t488* L_16 = L_15;
+		FetchResponse_t332 * L_17 = ___rsp;
+		NullCheck(L_17);
+		int32_t L_18 = FetchResponse_Status_m1275(L_17, /*hidden argument*/NULL);
+		int32_t L_19 = L_18;
+		Object_t * L_20 = Box(ResponseStatus_t85_il2cpp_TypeInfo_var, &L_19);
+		NullCheck(L_16);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_16, 3);
+		ArrayElementTypeCheck (L_16, L_20);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_16, 3, sizeof(Object_t *))) = (Object_t *)L_20;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_21 = String_Concat_m1973(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Logger_t61_il2cpp_TypeInfo_var);
+		Logger_e_m266(NULL /*static, unused*/, L_21, /*hidden argument*/NULL);
+		Action_1_t66 * L_22 = (__this->___callback_0);
+		NullCheck(L_22);
+		Action_1_Invoke_m1917(L_22, 0, /*hidden argument*/Action_1_Invoke_m1917_MethodInfo_var);
+	}
+
+IL_009c:
+	{
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeClient/<IncrementAchievement>c__AnonStorey13::.ctor()
+extern "C" void U3CIncrementAchievementU3Ec__AnonStorey13__ctor_m920 (U3CIncrementAchievementU3Ec__AnonStorey13_t205 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1915(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeClient/<IncrementAchievement>c__AnonStorey13::<>m__18(GooglePlayGames.Native.PInvoke.AchievementManager/FetchResponse)
+extern TypeInfo* ObjectU5BU5D_t488_il2cpp_TypeInfo_var;
+extern TypeInfo* ResponseStatus_t85_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* Logger_t61_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m1917_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral106;
+extern Il2CppCodeGenString* _stringLiteral107;
+extern "C" void U3CIncrementAchievementU3Ec__AnonStorey13_U3CU3Em__18_m921 (U3CIncrementAchievementU3Ec__AnonStorey13_t205 * __this, FetchResponse_t332 * ___rsp, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		ObjectU5BU5D_t488_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2);
+		ResponseStatus_t85_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(66);
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
+		Logger_t61_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
+		Action_1_Invoke_m1917_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483649);
+		_stringLiteral106 = il2cpp_codegen_string_literal_from_index(106);
+		_stringLiteral107 = il2cpp_codegen_string_literal_from_index(107);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		FetchResponse_t332 * L_0 = ___rsp;
+		NullCheck(L_0);
+		int32_t L_1 = FetchResponse_Status_m1275(L_0, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_1) == ((uint32_t)1))))
+		{
+			goto IL_0059;
+		}
+	}
+	{
+		Action_1_t66 * L_2 = (__this->___callback_0);
+		NullCheck(L_2);
+		Action_1_Invoke_m1917(L_2, 1, /*hidden argument*/Action_1_Invoke_m1917_MethodInfo_var);
+		NativeClient_t201 * L_3 = (__this->___U3CU3Ef__this_2);
+		NullCheck(L_3);
+		Dictionary_2_t214 * L_4 = (L_3->___mAchievements_14);
+		il2cpp_codegen_memory_barrier();
+		String_t* L_5 = (__this->___achId_1);
+		NullCheck(L_4);
+		VirtFuncInvoker1< bool, String_t* >::Invoke(31 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,GooglePlayGames.BasicApi.Achievement>::Remove(!0) */, L_4, L_5);
+		NativeClient_t201 * L_6 = (__this->___U3CU3Ef__this_2);
+		NullCheck(L_6);
+		Dictionary_2_t214 * L_7 = (L_6->___mAchievements_14);
+		il2cpp_codegen_memory_barrier();
+		String_t* L_8 = (__this->___achId_1);
+		FetchResponse_t332 * L_9 = ___rsp;
+		NullCheck(L_9);
+		NativeAchievement_t352 * L_10 = FetchResponse_Achievement_m1276(L_9, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		Achievement_t1 * L_11 = NativeAchievement_AsAchievement_m1407(L_10, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		VirtActionInvoker2< String_t*, Achievement_t1 * >::Invoke(27 /* System.Void System.Collections.Generic.Dictionary`2<System.String,GooglePlayGames.BasicApi.Achievement>::Add(!0,!1) */, L_7, L_8, L_11);
+		goto IL_009c;
+	}
+
+IL_0059:
+	{
+		ObjectU5BU5D_t488* L_12 = ((ObjectU5BU5D_t488*)SZArrayNew(ObjectU5BU5D_t488_il2cpp_TypeInfo_var, 4));
+		NullCheck(L_12);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_12, 0);
+		ArrayElementTypeCheck (L_12, _stringLiteral106);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_12, 0, sizeof(Object_t *))) = (Object_t *)_stringLiteral106;
+		ObjectU5BU5D_t488* L_13 = L_12;
+		String_t* L_14 = (__this->___achId_1);
+		NullCheck(L_13);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_13, 1);
+		ArrayElementTypeCheck (L_13, L_14);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_13, 1, sizeof(Object_t *))) = (Object_t *)L_14;
+		ObjectU5BU5D_t488* L_15 = L_13;
+		NullCheck(L_15);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_15, 2);
+		ArrayElementTypeCheck (L_15, _stringLiteral107);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_15, 2, sizeof(Object_t *))) = (Object_t *)_stringLiteral107;
+		ObjectU5BU5D_t488* L_16 = L_15;
+		FetchResponse_t332 * L_17 = ___rsp;
+		NullCheck(L_17);
+		int32_t L_18 = FetchResponse_Status_m1275(L_17, /*hidden argument*/NULL);
+		int32_t L_19 = L_18;
+		Object_t * L_20 = Box(ResponseStatus_t85_il2cpp_TypeInfo_var, &L_19);
+		NullCheck(L_16);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_16, 3);
+		ArrayElementTypeCheck (L_16, L_20);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_16, 3, sizeof(Object_t *))) = (Object_t *)L_20;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_21 = String_Concat_m1973(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Logger_t61_il2cpp_TypeInfo_var);
+		Logger_e_m266(NULL /*static, unused*/, L_21, /*hidden argument*/NULL);
+		Action_1_t66 * L_22 = (__this->___callback_0);
+		NullCheck(L_22);
+		Action_1_Invoke_m1917(L_22, 0, /*hidden argument*/Action_1_Invoke_m1917_MethodInfo_var);
+	}
+
+IL_009c:
+	{
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeClient/<ShowAchievementsUI>c__AnonStorey14::.ctor()
+extern "C" void U3CShowAchievementsUIU3Ec__AnonStorey14__ctor_m922 (U3CShowAchievementsUIU3Ec__AnonStorey14_t206 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1915(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeClient/<ShowAchievementsUI>c__AnonStorey14::<>m__19(GooglePlayGames.Native.Cwrapper.CommonErrorStatus/UIStatus)
+extern const MethodInfo* Action_1_Invoke_m1919_MethodInfo_var;
+extern "C" void U3CShowAchievementsUIU3Ec__AnonStorey14_U3CU3Em__19_m923 (U3CShowAchievementsUIU3Ec__AnonStorey14_t206 * __this, int32_t ___result, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		Action_1_Invoke_m1919_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483651);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Action_1_t207 * L_0 = (__this->___cb_0);
+		int32_t L_1 = ___result;
+		NullCheck(L_0);
+		Action_1_Invoke_m1919(L_0, L_1, /*hidden argument*/Action_1_Invoke_m1919_MethodInfo_var);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeClient/<ShowLeaderboardUI>c__AnonStorey15::.ctor()
+extern "C" void U3CShowLeaderboardUIU3Ec__AnonStorey15__ctor_m924 (U3CShowLeaderboardUIU3Ec__AnonStorey15_t208 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1915(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeClient/<ShowLeaderboardUI>c__AnonStorey15::<>m__1A(GooglePlayGames.Native.Cwrapper.CommonErrorStatus/UIStatus)
+extern const MethodInfo* Action_1_Invoke_m1919_MethodInfo_var;
+extern "C" void U3CShowLeaderboardUIU3Ec__AnonStorey15_U3CU3Em__1A_m925 (U3CShowLeaderboardUIU3Ec__AnonStorey15_t208 * __this, int32_t ___result, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		Action_1_Invoke_m1919_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483651);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Action_1_t207 * L_0 = (__this->___cb_0);
+		int32_t L_1 = ___result;
+		NullCheck(L_0);
+		Action_1_Invoke_m1919(L_0, L_1, /*hidden argument*/Action_1_Invoke_m1919_MethodInfo_var);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeClient/<RegisterInvitationDelegate>c__AnonStorey16::.ctor()
+extern "C" void U3CRegisterInvitationDelegateU3Ec__AnonStorey16__ctor_m926 (U3CRegisterInvitationDelegateU3Ec__AnonStorey16_t209 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1915(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeClient/<RegisterInvitationDelegate>c__AnonStorey16::<>m__1B(GooglePlayGames.BasicApi.Multiplayer.Invitation,System.Boolean)
+extern "C" void U3CRegisterInvitationDelegateU3Ec__AnonStorey16_U3CU3Em__1B_m927 (U3CRegisterInvitationDelegateU3Ec__AnonStorey16_t209 * __this, Invitation_t8 * ___invitation, bool ___autoAccept, const MethodInfo* method)
+{
+	{
+		InvitationReceivedDelegate_t33 * L_0 = (__this->___invitationDelegate_0);
+		Invitation_t8 * L_1 = ___invitation;
+		bool L_2 = ___autoAccept;
+		NullCheck(L_0);
+		InvitationReceivedDelegate_Invoke_m1900(L_0, L_1, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeClient::.ctor(GooglePlayGames.BasicApi.PlayGamesClientConfiguration)
+extern TypeInfo* Object_t_il2cpp_TypeInfo_var;
+extern TypeInfo* PlayGamesHelperObject_t63_il2cpp_TypeInfo_var;
+extern const MethodInfo* Misc_CheckNotNull_TisPlayGamesClientConfiguration_t35_m2005_MethodInfo_var;
+extern "C" void NativeClient__ctor_m928 (NativeClient_t201 * __this, PlayGamesClientConfiguration_t35  ___configuration, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		Object_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(0);
+		PlayGamesHelperObject_t63_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(62);
+		Misc_CheckNotNull_TisPlayGamesClientConfiguration_t35_m2005_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483690);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Object_t * L_0 = (Object_t *)il2cpp_codegen_object_new (Object_t_il2cpp_TypeInfo_var);
+		Object__ctor_m1915(L_0, /*hidden argument*/NULL);
+		__this->___GameServicesLock_3 = L_0;
+		Object_t * L_1 = (Object_t *)il2cpp_codegen_object_new (Object_t_il2cpp_TypeInfo_var);
+		Object__ctor_m1915(L_1, /*hidden argument*/NULL);
+		__this->___AuthStateLock_4 = L_1;
+		Object__ctor_m1915(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(PlayGamesHelperObject_t63_il2cpp_TypeInfo_var);
+		PlayGamesHelperObject_CreateObject_m273(NULL /*static, unused*/, /*hidden argument*/NULL);
+		PlayGamesClientConfiguration_t35  L_2 = ___configuration;
+		PlayGamesClientConfiguration_t35  L_3 = Misc_CheckNotNull_TisPlayGamesClientConfiguration_t35_m2005(NULL /*static, unused*/, L_2, /*hidden argument*/Misc_CheckNotNull_TisPlayGamesClientConfiguration_t35_m2005_MethodInfo_var);
+		__this->___mConfiguration_5 = L_3;
+		return;
+	}
+}
+// GooglePlayGames.Native.PInvoke.GameServices GooglePlayGames.Native.NativeClient::GameServices()
+extern "C" GameServices_t210 * NativeClient_GameServices_m929 (NativeClient_t201 * __this, const MethodInfo* method)
+{
+	Object_t * V_0 = {0};
+	GameServices_t210 * V_1 = {0};
+	Exception_t492 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t492 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Object_t * L_0 = (__this->___GameServicesLock_3);
+		V_0 = L_0;
+		Object_t * L_1 = V_0;
+		Monitor_Enter_m1995(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+	}
+
+IL_000d:
+	try
+	{ // begin try (depth: 1)
+		{
+			GameServices_t210 * L_2 = (__this->___mServices_6);
+			V_1 = L_2;
+			IL2CPP_LEAVE(0x25, FINALLY_001e);
+		}
+
+IL_0019:
+		{
+			; // IL_0019: leave IL_0025
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t492 *)e.ex;
+		goto FINALLY_001e;
+	}
+
+FINALLY_001e:
+	{ // begin finally (depth: 1)
+		Object_t * L_3 = V_0;
+		Monitor_Exit_m1996(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(30)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(30)
+	{
+		IL2CPP_JUMP_TBL(0x25, IL_0025)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t492 *)
+	}
+
+IL_0025:
+	{
+		GameServices_t210 * L_4 = V_1;
+		return L_4;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeClient::Authenticate(System.Action`1<System.Boolean>,System.Boolean)
+extern TypeInfo* Action_1_t66_il2cpp_TypeInfo_var;
+extern const MethodInfo* NativeClient_InvokeCallbackOnGameThread_TisBoolean_t489_m2006_MethodInfo_var;
+extern "C" void NativeClient_Authenticate_m930 (NativeClient_t201 * __this, Action_1_t66 * ___callback, bool ___silent, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		Action_1_t66_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(77);
+		NativeClient_InvokeCallbackOnGameThread_TisBoolean_t489_m2006_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483691);
+		s_Il2CppMethodIntialized = true;
+	}
+	Object_t * V_0 = {0};
+	Exception_t492 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t492 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Object_t * L_0 = (__this->___AuthStateLock_4);
+		V_0 = L_0;
+		Object_t * L_1 = V_0;
+		Monitor_Enter_m1995(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+	}
+
+IL_000d:
+	try
+	{ // begin try (depth: 1)
+		{
+			int32_t L_2 = (__this->___mAuthState_18);
+			il2cpp_codegen_memory_barrier();
+			if ((!(((uint32_t)L_2) == ((uint32_t)1))))
+			{
+				goto IL_0027;
+			}
+		}
+
+IL_001b:
+		{
+			Action_1_t66 * L_3 = ___callback;
+			NativeClient_InvokeCallbackOnGameThread_TisBoolean_t489_m2006(NULL /*static, unused*/, L_3, 1, /*hidden argument*/NativeClient_InvokeCallbackOnGameThread_TisBoolean_t489_m2006_MethodInfo_var);
+			IL2CPP_LEAVE(0xB0, FINALLY_0092);
+		}
+
+IL_0027:
+		{
+			bool L_4 = (__this->___mSilentAuthFailed_20);
+			il2cpp_codegen_memory_barrier();
+			if (!L_4)
+			{
+				goto IL_0046;
+			}
+		}
+
+IL_0034:
+		{
+			bool L_5 = ___silent;
+			if (!L_5)
+			{
+				goto IL_0046;
+			}
+		}
+
+IL_003a:
+		{
+			Action_1_t66 * L_6 = ___callback;
+			NativeClient_InvokeCallbackOnGameThread_TisBoolean_t489_m2006(NULL /*static, unused*/, L_6, 0, /*hidden argument*/NativeClient_InvokeCallbackOnGameThread_TisBoolean_t489_m2006_MethodInfo_var);
+			IL2CPP_LEAVE(0xB0, FINALLY_0092);
+		}
+
+IL_0046:
+		{
+			Action_1_t66 * L_7 = ___callback;
+			if (!L_7)
+			{
+				goto IL_008d;
+			}
+		}
+
+IL_004c:
+		{
+			bool L_8 = ___silent;
+			if (!L_8)
+			{
+				goto IL_0072;
+			}
+		}
+
+IL_0052:
+		{
+			Action_1_t66 * L_9 = (__this->___mSilentAuthCallbacks_17);
+			il2cpp_codegen_memory_barrier();
+			Action_1_t66 * L_10 = ___callback;
+			Delegate_t453 * L_11 = Delegate_Combine_m2007(NULL /*static, unused*/, L_9, L_10, /*hidden argument*/NULL);
+			il2cpp_codegen_memory_barrier();
+			__this->___mSilentAuthCallbacks_17 = ((Action_1_t66 *)CastclassSealed(L_11, Action_1_t66_il2cpp_TypeInfo_var));
+			goto IL_008d;
+		}
+
+IL_0072:
+		{
+			Action_1_t66 * L_12 = (__this->___mPendingAuthCallbacks_16);
+			il2cpp_codegen_memory_barrier();
+			Action_1_t66 * L_13 = ___callback;
+			Delegate_t453 * L_14 = Delegate_Combine_m2007(NULL /*static, unused*/, L_12, L_13, /*hidden argument*/NULL);
+			il2cpp_codegen_memory_barrier();
+			__this->___mPendingAuthCallbacks_16 = ((Action_1_t66 *)CastclassSealed(L_14, Action_1_t66_il2cpp_TypeInfo_var));
+		}
+
+IL_008d:
+		{
+			IL2CPP_LEAVE(0x99, FINALLY_0092);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t492 *)e.ex;
+		goto FINALLY_0092;
+	}
+
+FINALLY_0092:
+	{ // begin finally (depth: 1)
+		Object_t * L_15 = V_0;
+		Monitor_Exit_m1996(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(146)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(146)
+	{
+		IL2CPP_JUMP_TBL(0xB0, IL_00b0)
+		IL2CPP_JUMP_TBL(0x99, IL_0099)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t492 *)
+	}
+
+IL_0099:
+	{
+		NativeClient_InitializeGameServices_m931(__this, /*hidden argument*/NULL);
+		bool L_16 = ___silent;
+		if (L_16)
+		{
+			goto IL_00b0;
+		}
+	}
+	{
+		GameServices_t210 * L_17 = NativeClient_GameServices_m929(__this, /*hidden argument*/NULL);
+		NullCheck(L_17);
+		GameServices_StartAuthorizationUI_m1337(L_17, /*hidden argument*/NULL);
+	}
+
+IL_00b0:
+	{
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeClient::InitializeGameServices()
+extern TypeInfo* AuthFinishedCallback_t344_il2cpp_TypeInfo_var;
+extern TypeInfo* Action_3_t457_il2cpp_TypeInfo_var;
+extern TypeInfo* Action_3_t458_il2cpp_TypeInfo_var;
+extern TypeInfo* EventManager_t225_il2cpp_TypeInfo_var;
+extern TypeInfo* NativeEventClient_t224_il2cpp_TypeInfo_var;
+extern TypeInfo* QuestManager_t237_il2cpp_TypeInfo_var;
+extern TypeInfo* NativeQuestClient_t236_il2cpp_TypeInfo_var;
+extern TypeInfo* TurnBasedManager_t330_il2cpp_TypeInfo_var;
+extern TypeInfo* NativeTurnBasedMultiplayerClient_t211_il2cpp_TypeInfo_var;
+extern TypeInfo* RealtimeManager_t241_il2cpp_TypeInfo_var;
+extern TypeInfo* NativeRealtimeMultiplayerClient_t212_il2cpp_TypeInfo_var;
+extern TypeInfo* SnapshotManager_t289_il2cpp_TypeInfo_var;
+extern TypeInfo* NativeSavedGameClient_t302_il2cpp_TypeInfo_var;
+extern TypeInfo* UnsupportedSavedGamesClient_t394_il2cpp_TypeInfo_var;
+extern TypeInfo* IDisposable_t494_il2cpp_TypeInfo_var;
+extern const MethodInfo* NativeClient_HandleAuthTransition_m939_MethodInfo_var;
+extern const MethodInfo* NativeClient_U3CInitializeGameServicesU3Em__10_m961_MethodInfo_var;
+extern const MethodInfo* Action_3__ctor_m2008_MethodInfo_var;
+extern const MethodInfo* NativeClient_HandleInvitation_m933_MethodInfo_var;
+extern const MethodInfo* Action_3__ctor_m2009_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral108;
+extern "C" void NativeClient_InitializeGameServices_m931 (NativeClient_t201 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		AuthFinishedCallback_t344_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(80);
+		Action_3_t457_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(81);
+		Action_3_t458_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(82);
+		EventManager_t225_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(83);
+		NativeEventClient_t224_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(84);
+		QuestManager_t237_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(85);
+		NativeQuestClient_t236_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(86);
+		TurnBasedManager_t330_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(87);
+		NativeTurnBasedMultiplayerClient_t211_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(88);
+		RealtimeManager_t241_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(89);
+		NativeRealtimeMultiplayerClient_t212_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(90);
+		SnapshotManager_t289_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(91);
+		NativeSavedGameClient_t302_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(92);
+		UnsupportedSavedGamesClient_t394_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(93);
+		IDisposable_t494_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(17);
+		NativeClient_HandleAuthTransition_m939_MethodInfo_var = il2cpp_codegen_method_info_from_index(44);
+		NativeClient_U3CInitializeGameServicesU3Em__10_m961_MethodInfo_var = il2cpp_codegen_method_info_from_index(45);
+		Action_3__ctor_m2008_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483694);
+		NativeClient_HandleInvitation_m933_MethodInfo_var = il2cpp_codegen_method_info_from_index(47);
+		Action_3__ctor_m2009_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483696);
+		_stringLiteral108 = il2cpp_codegen_string_literal_from_index(108);
+		s_Il2CppMethodIntialized = true;
+	}
+	Object_t * V_0 = {0};
+	GameServicesBuilder_t346 * V_1 = {0};
+	PlatformConfiguration_t348 * V_2 = {0};
+	PlayGamesClientConfiguration_t35  V_3 = {0};
+	PlayGamesClientConfiguration_t35  V_4 = {0};
+	PlayGamesClientConfiguration_t35  V_5 = {0};
+	PlayGamesClientConfiguration_t35  V_6 = {0};
+	Exception_t492 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t492 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Object_t * L_0 = (__this->___GameServicesLock_3);
+		V_0 = L_0;
+		Object_t * L_1 = V_0;
+		Monitor_Enter_m1995(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+	}
+
+IL_000d:
+	try
+	{ // begin try (depth: 1)
+		{
+			GameServices_t210 * L_2 = (__this->___mServices_6);
+			if (!L_2)
+			{
+				goto IL_001d;
+			}
+		}
+
+IL_0018:
+		{
+			IL2CPP_LEAVE(0x1A2, FINALLY_019b);
+		}
+
+IL_001d:
+		{
+			GameServicesBuilder_t346 * L_3 = GameServicesBuilder_Create_m1363(NULL /*static, unused*/, /*hidden argument*/NULL);
+			V_1 = L_3;
+		}
+
+IL_0023:
+		try
+		{ // begin try (depth: 2)
+			{
+				PlatformConfiguration_t348 * L_4 = NativeClient_CreatePlatformConfiguration_m934(NULL /*static, unused*/, /*hidden argument*/NULL);
+				V_2 = L_4;
+			}
+
+IL_0029:
+			try
+			{ // begin try (depth: 3)
+				{
+					PlayGamesClientConfiguration_t35  L_5 = (__this->___mConfiguration_5);
+					V_3 = L_5;
+					InvitationReceivedDelegate_t33 * L_6 = PlayGamesClientConfiguration_get_InvitationDelegate_m154((&V_3), /*hidden argument*/NULL);
+					VirtActionInvoker1< InvitationReceivedDelegate_t33 * >::Invoke(24 /* System.Void GooglePlayGames.Native.NativeClient::RegisterInvitationDelegate(GooglePlayGames.BasicApi.InvitationReceivedDelegate) */, __this, L_6);
+					GameServicesBuilder_t346 * L_7 = V_1;
+					IntPtr_t L_8 = { (void*)NativeClient_HandleAuthTransition_m939_MethodInfo_var };
+					AuthFinishedCallback_t344 * L_9 = (AuthFinishedCallback_t344 *)il2cpp_codegen_object_new (AuthFinishedCallback_t344_il2cpp_TypeInfo_var);
+					AuthFinishedCallback__ctor_m1343(L_9, __this, L_8, /*hidden argument*/NULL);
+					NullCheck(L_7);
+					GameServicesBuilder_SetOnAuthFinishedCallback_m1352(L_7, L_9, /*hidden argument*/NULL);
+					GameServicesBuilder_t346 * L_10 = V_1;
+					IntPtr_t L_11 = { (void*)NativeClient_U3CInitializeGameServicesU3Em__10_m961_MethodInfo_var };
+					Action_3_t457 * L_12 = (Action_3_t457 *)il2cpp_codegen_object_new (Action_3_t457_il2cpp_TypeInfo_var);
+					Action_3__ctor_m2008(L_12, __this, L_11, /*hidden argument*/Action_3__ctor_m2008_MethodInfo_var);
+					NullCheck(L_10);
+					GameServicesBuilder_SetOnTurnBasedMatchEventCallback_m1359(L_10, L_12, /*hidden argument*/NULL);
+					GameServicesBuilder_t346 * L_13 = V_1;
+					IntPtr_t L_14 = { (void*)NativeClient_HandleInvitation_m933_MethodInfo_var };
+					Action_3_t458 * L_15 = (Action_3_t458 *)il2cpp_codegen_object_new (Action_3_t458_il2cpp_TypeInfo_var);
+					Action_3__ctor_m2009(L_15, __this, L_14, /*hidden argument*/Action_3__ctor_m2009_MethodInfo_var);
+					NullCheck(L_13);
+					GameServicesBuilder_SetOnMultiplayerInvitationEventCallback_m1361(L_13, L_15, /*hidden argument*/NULL);
+					PlayGamesClientConfiguration_t35  L_16 = (__this->___mConfiguration_5);
+					V_4 = L_16;
+					bool L_17 = PlayGamesClientConfiguration_get_EnableSavedGames_m152((&V_4), /*hidden argument*/NULL);
+					if (!L_17)
+					{
+						goto IL_008d;
+					}
+				}
+
+IL_0087:
+				{
+					GameServicesBuilder_t346 * L_18 = V_1;
+					NullCheck(L_18);
+					GameServicesBuilder_EnableSnapshots_m1353(L_18, /*hidden argument*/NULL);
+				}
+
+IL_008d:
+				{
+					GameServicesBuilder_t346 * L_19 = V_1;
+					PlatformConfiguration_t348 * L_20 = V_2;
+					NullCheck(L_19);
+					GameServices_t210 * L_21 = GameServicesBuilder_Build_m1362(L_19, L_20, /*hidden argument*/NULL);
+					__this->___mServices_6 = L_21;
+					GameServices_t210 * L_22 = (__this->___mServices_6);
+					EventManager_t225 * L_23 = (EventManager_t225 *)il2cpp_codegen_object_new (EventManager_t225_il2cpp_TypeInfo_var);
+					EventManager__ctor_m1328(L_23, L_22, /*hidden argument*/NULL);
+					NativeEventClient_t224 * L_24 = (NativeEventClient_t224 *)il2cpp_codegen_object_new (NativeEventClient_t224_il2cpp_TypeInfo_var);
+					NativeEventClient__ctor_m968(L_24, L_23, /*hidden argument*/NULL);
+					il2cpp_codegen_memory_barrier();
+					__this->___mEventsClient_10 = L_24;
+					GameServices_t210 * L_25 = (__this->___mServices_6);
+					QuestManager_t237 * L_26 = (QuestManager_t237 *)il2cpp_codegen_object_new (QuestManager_t237_il2cpp_TypeInfo_var);
+					QuestManager__ctor_m1595(L_26, L_25, /*hidden argument*/NULL);
+					NativeQuestClient_t236 * L_27 = (NativeQuestClient_t236 *)il2cpp_codegen_object_new (NativeQuestClient_t236_il2cpp_TypeInfo_var);
+					NativeQuestClient__ctor_m982(L_27, L_26, /*hidden argument*/NULL);
+					il2cpp_codegen_memory_barrier();
+					__this->___mQuestsClient_11 = L_27;
+					GameServices_t210 * L_28 = (__this->___mServices_6);
+					TurnBasedManager_t330 * L_29 = (TurnBasedManager_t330 *)il2cpp_codegen_object_new (TurnBasedManager_t330_il2cpp_TypeInfo_var);
+					TurnBasedManager__ctor_m1753(L_29, L_28, /*hidden argument*/NULL);
+					NativeTurnBasedMultiplayerClient_t211 * L_30 = (NativeTurnBasedMultiplayerClient_t211 *)il2cpp_codegen_object_new (NativeTurnBasedMultiplayerClient_t211_il2cpp_TypeInfo_var);
+					NativeTurnBasedMultiplayerClient__ctor_m1252(L_30, __this, L_29, /*hidden argument*/NULL);
+					il2cpp_codegen_memory_barrier();
+					__this->___mTurnBasedClient_7 = L_30;
+					NativeTurnBasedMultiplayerClient_t211 * L_31 = (__this->___mTurnBasedClient_7);
+					il2cpp_codegen_memory_barrier();
+					PlayGamesClientConfiguration_t35  L_32 = (__this->___mConfiguration_5);
+					V_5 = L_32;
+					MatchDelegate_t34 * L_33 = PlayGamesClientConfiguration_get_MatchDelegate_m155((&V_5), /*hidden argument*/NULL);
+					NullCheck(L_31);
+					VirtActionInvoker1< MatchDelegate_t34 * >::Invoke(8 /* System.Void GooglePlayGames.Native.NativeTurnBasedMultiplayerClient::RegisterMatchDelegate(GooglePlayGames.BasicApi.Multiplayer.MatchDelegate) */, L_31, L_33);
+					GameServices_t210 * L_34 = (__this->___mServices_6);
+					RealtimeManager_t241 * L_35 = (RealtimeManager_t241 *)il2cpp_codegen_object_new (RealtimeManager_t241_il2cpp_TypeInfo_var);
+					RealtimeManager__ctor_m1649(L_35, L_34, /*hidden argument*/NULL);
+					NativeRealtimeMultiplayerClient_t212 * L_36 = (NativeRealtimeMultiplayerClient_t212 *)il2cpp_codegen_object_new (NativeRealtimeMultiplayerClient_t212_il2cpp_TypeInfo_var);
+					NativeRealtimeMultiplayerClient__ctor_m1150(L_36, __this, L_35, /*hidden argument*/NULL);
+					il2cpp_codegen_memory_barrier();
+					__this->___mRealTimeClient_8 = L_36;
+					PlayGamesClientConfiguration_t35  L_37 = (__this->___mConfiguration_5);
+					V_6 = L_37;
+					bool L_38 = PlayGamesClientConfiguration_get_EnableSavedGames_m152((&V_6), /*hidden argument*/NULL);
+					if (!L_38)
+					{
+						goto IL_0149;
+					}
+				}
+
+IL_012c:
+				{
+					GameServices_t210 * L_39 = (__this->___mServices_6);
+					SnapshotManager_t289 * L_40 = (SnapshotManager_t289 *)il2cpp_codegen_object_new (SnapshotManager_t289_il2cpp_TypeInfo_var);
+					SnapshotManager__ctor_m1719(L_40, L_39, /*hidden argument*/NULL);
+					NativeSavedGameClient_t302 * L_41 = (NativeSavedGameClient_t302 *)il2cpp_codegen_object_new (NativeSavedGameClient_t302_il2cpp_TypeInfo_var);
+					NativeSavedGameClient__ctor_m1197(L_41, L_40, /*hidden argument*/NULL);
+					il2cpp_codegen_memory_barrier();
+					__this->___mSavedGameClient_9 = L_41;
+					goto IL_015b;
+				}
+
+IL_0149:
+				{
+					UnsupportedSavedGamesClient_t394 * L_42 = (UnsupportedSavedGamesClient_t394 *)il2cpp_codegen_object_new (UnsupportedSavedGamesClient_t394_il2cpp_TypeInfo_var);
+					UnsupportedSavedGamesClient__ctor_m1797(L_42, _stringLiteral108, /*hidden argument*/NULL);
+					il2cpp_codegen_memory_barrier();
+					__this->___mSavedGameClient_9 = L_42;
+				}
+
+IL_015b:
+				{
+					Object_t * L_43 = NativeClient_CreateAppStateClient_m932(__this, /*hidden argument*/NULL);
+					il2cpp_codegen_memory_barrier();
+					__this->___mAppStateClient_12 = L_43;
+					il2cpp_codegen_memory_barrier();
+					__this->___mAuthState_18 = 2;
+					IL2CPP_LEAVE(0x184, FINALLY_0177);
+				}
+			} // end try (depth: 3)
+			catch(Il2CppExceptionWrapper& e)
+			{
+				__last_unhandled_exception = (Exception_t492 *)e.ex;
+				goto FINALLY_0177;
+			}
+
+FINALLY_0177:
+			{ // begin finally (depth: 3)
+				{
+					PlatformConfiguration_t348 * L_44 = V_2;
+					if (!L_44)
+					{
+						goto IL_0183;
+					}
+				}
+
+IL_017d:
+				{
+					PlatformConfiguration_t348 * L_45 = V_2;
+					NullCheck(L_45);
+					InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t494_il2cpp_TypeInfo_var, L_45);
+				}
+
+IL_0183:
+				{
+					IL2CPP_END_FINALLY(375)
+				}
+			} // end finally (depth: 3)
+			IL2CPP_CLEANUP(375)
+			{
+				IL2CPP_JUMP_TBL(0x184, IL_0184)
+				IL2CPP_RETHROW_IF_UNHANDLED(Exception_t492 *)
+			}
+
+IL_0184:
+			{
+				IL2CPP_LEAVE(0x196, FINALLY_0189);
+			}
+		} // end try (depth: 2)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__last_unhandled_exception = (Exception_t492 *)e.ex;
+			goto FINALLY_0189;
+		}
+
+FINALLY_0189:
+		{ // begin finally (depth: 2)
+			{
+				GameServicesBuilder_t346 * L_46 = V_1;
+				if (!L_46)
+				{
+					goto IL_0195;
+				}
+			}
+
+IL_018f:
+			{
+				GameServicesBuilder_t346 * L_47 = V_1;
+				NullCheck(L_47);
+				InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t494_il2cpp_TypeInfo_var, L_47);
+			}
+
+IL_0195:
+			{
+				IL2CPP_END_FINALLY(393)
+			}
+		} // end finally (depth: 2)
+		IL2CPP_CLEANUP(393)
+		{
+			IL2CPP_JUMP_TBL(0x196, IL_0196)
+			IL2CPP_RETHROW_IF_UNHANDLED(Exception_t492 *)
+		}
+
+IL_0196:
+		{
+			IL2CPP_LEAVE(0x1A2, FINALLY_019b);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t492 *)e.ex;
+		goto FINALLY_019b;
+	}
+
+FINALLY_019b:
+	{ // begin finally (depth: 1)
+		Object_t * L_48 = V_0;
+		Monitor_Exit_m1996(NULL /*static, unused*/, L_48, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(411)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(411)
+	{
+		IL2CPP_JUMP_TBL(0x1A2, IL_01a2)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t492 *)
+	}
+
+IL_01a2:
+	{
+		return;
+	}
+}
+// GooglePlayGames.Native.AppStateClient GooglePlayGames.Native.NativeClient::CreateAppStateClient()
+extern TypeInfo* UnsupportedAppStateClient_t393_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral109;
+extern "C" Object_t * NativeClient_CreateAppStateClient_m932 (NativeClient_t201 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		UnsupportedAppStateClient_t393_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(94);
+		_stringLiteral109 = il2cpp_codegen_string_literal_from_index(109);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		UnsupportedAppStateClient_t393 * L_0 = (UnsupportedAppStateClient_t393 *)il2cpp_codegen_object_new (UnsupportedAppStateClient_t393_il2cpp_TypeInfo_var);
+		UnsupportedAppStateClient__ctor_m1794(L_0, _stringLiteral109, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeClient::HandleInvitation(GooglePlayGames.Native.Cwrapper.Types/MultiplayerEvent,System.String,GooglePlayGames.Native.PInvoke.MultiplayerInvitation)
+extern TypeInfo* ObjectU5BU5D_t488_il2cpp_TypeInfo_var;
+extern TypeInfo* MultiplayerEvent_t194_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* Logger_t61_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_2_Invoke_m2010_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral110;
+extern Il2CppCodeGenString* _stringLiteral111;
+extern Il2CppCodeGenString* _stringLiteral112;
+extern Il2CppCodeGenString* _stringLiteral113;
+extern "C" void NativeClient_HandleInvitation_m933 (NativeClient_t201 * __this, int32_t ___eventType, String_t* ___invitationId, MultiplayerInvitation_t280 * ___invitation, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		ObjectU5BU5D_t488_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2);
+		MultiplayerEvent_t194_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(73);
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
+		Logger_t61_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
+		Action_2_Invoke_m2010_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483697);
+		_stringLiteral110 = il2cpp_codegen_string_literal_from_index(110);
+		_stringLiteral111 = il2cpp_codegen_string_literal_from_index(111);
+		_stringLiteral112 = il2cpp_codegen_string_literal_from_index(112);
+		_stringLiteral113 = il2cpp_codegen_string_literal_from_index(113);
+		s_Il2CppMethodIntialized = true;
+	}
+	Action_2_t213 * V_0 = {0};
+	bool V_1 = false;
+	{
+		Action_2_t213 * L_0 = (__this->___mInvitationDelegate_13);
+		il2cpp_codegen_memory_barrier();
+		V_0 = L_0;
+		Action_2_t213 * L_1 = V_0;
+		if (L_1)
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		ObjectU5BU5D_t488* L_2 = ((ObjectU5BU5D_t488*)SZArrayNew(ObjectU5BU5D_t488_il2cpp_TypeInfo_var, 5));
+		NullCheck(L_2);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, 0);
+		ArrayElementTypeCheck (L_2, _stringLiteral110);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_2, 0, sizeof(Object_t *))) = (Object_t *)_stringLiteral110;
+		ObjectU5BU5D_t488* L_3 = L_2;
+		int32_t L_4 = ___eventType;
+		int32_t L_5 = L_4;
+		Object_t * L_6 = Box(MultiplayerEvent_t194_il2cpp_TypeInfo_var, &L_5);
+		NullCheck(L_3);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_3, 1);
+		ArrayElementTypeCheck (L_3, L_6);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_3, 1, sizeof(Object_t *))) = (Object_t *)L_6;
+		ObjectU5BU5D_t488* L_7 = L_3;
+		NullCheck(L_7);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_7, 2);
+		ArrayElementTypeCheck (L_7, _stringLiteral111);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_7, 2, sizeof(Object_t *))) = (Object_t *)_stringLiteral111;
+		ObjectU5BU5D_t488* L_8 = L_7;
+		String_t* L_9 = ___invitationId;
+		NullCheck(L_8);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_8, 3);
+		ArrayElementTypeCheck (L_8, L_9);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_8, 3, sizeof(Object_t *))) = (Object_t *)L_9;
+		ObjectU5BU5D_t488* L_10 = L_8;
+		NullCheck(L_10);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_10, 4);
+		ArrayElementTypeCheck (L_10, _stringLiteral112);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_10, 4, sizeof(Object_t *))) = (Object_t *)_stringLiteral112;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_11 = String_Concat_m1973(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Logger_t61_il2cpp_TypeInfo_var);
+		Logger_d_m264(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0045:
+	{
+		int32_t L_12 = ___eventType;
+		if ((!(((uint32_t)L_12) == ((uint32_t)3))))
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		String_t* L_13 = ___invitationId;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_14 = String_Concat_m1926(NULL /*static, unused*/, _stringLiteral113, L_13, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Logger_t61_il2cpp_TypeInfo_var);
+		Logger_d_m264(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_005d:
+	{
+		int32_t L_15 = ___eventType;
+		V_1 = ((((int32_t)L_15) == ((int32_t)2))? 1 : 0);
+		Action_2_t213 * L_16 = V_0;
+		MultiplayerInvitation_t280 * L_17 = ___invitation;
+		NullCheck(L_17);
+		Invitation_t8 * L_18 = MultiplayerInvitation_AsInvitation_m1381(L_17, /*hidden argument*/NULL);
+		bool L_19 = V_1;
+		NullCheck(L_16);
+		Action_2_Invoke_m2010(L_16, L_18, L_19, /*hidden argument*/Action_2_Invoke_m2010_MethodInfo_var);
+		return;
+	}
+}
+// GooglePlayGames.Native.PInvoke.PlatformConfiguration GooglePlayGames.Native.NativeClient::CreatePlatformConfiguration()
+extern TypeInfo* InvalidOperationException_t497_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral114;
+extern Il2CppCodeGenString* _stringLiteral34;
+extern "C" PlatformConfiguration_t348 * NativeClient_CreatePlatformConfiguration_m934 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		InvalidOperationException_t497_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(38);
+		_stringLiteral114 = il2cpp_codegen_string_literal_from_index(114);
+		_stringLiteral34 = il2cpp_codegen_string_literal_from_index(34);
+		s_Il2CppMethodIntialized = true;
+	}
+	IosPlatformConfiguration_t347 * V_0 = {0};
+	{
+		bool L_0 = GameInfo_IosClientIdInitialized_m168(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		InvalidOperationException_t497 * L_1 = (InvalidOperationException_t497 *)il2cpp_codegen_object_new (InvalidOperationException_t497_il2cpp_TypeInfo_var);
+		InvalidOperationException__ctor_m1953(L_1, _stringLiteral114, /*hidden argument*/NULL);
+		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_1);
+	}
+
+IL_0015:
+	{
+		IosPlatformConfiguration_t347 * L_2 = IosPlatformConfiguration_Create_m1367(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_2;
+		IosPlatformConfiguration_t347 * L_3 = V_0;
+		NullCheck(L_3);
+		IosPlatformConfiguration_SetClientId_m1365(L_3, _stringLiteral34, /*hidden argument*/NULL);
+		IosPlatformConfiguration_t347 * L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Boolean GooglePlayGames.Native.NativeClient::IsAuthenticated()
+extern "C" bool NativeClient_IsAuthenticated_m935 (NativeClient_t201 * __this, const MethodInfo* method)
+{
+	Object_t * V_0 = {0};
+	bool V_1 = false;
+	Exception_t492 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t492 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Object_t * L_0 = (__this->___AuthStateLock_4);
+		V_0 = L_0;
+		Object_t * L_1 = V_0;
+		Monitor_Enter_m1995(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+	}
+
+IL_000d:
+	try
+	{ // begin try (depth: 1)
+		{
+			int32_t L_2 = (__this->___mAuthState_18);
+			il2cpp_codegen_memory_barrier();
+			V_1 = ((((int32_t)L_2) == ((int32_t)1))? 1 : 0);
+			IL2CPP_LEAVE(0x2A, FINALLY_0023);
+		}
+
+IL_001e:
+		{
+			; // IL_001e: leave IL_002a
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t492 *)e.ex;
+		goto FINALLY_0023;
+	}
+
+FINALLY_0023:
+	{ // begin finally (depth: 1)
+		Object_t * L_3 = V_0;
+		Monitor_Exit_m1996(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(35)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(35)
+	{
+		IL2CPP_JUMP_TBL(0x2A, IL_002a)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t492 *)
+	}
+
+IL_002a:
+	{
+		bool L_4 = V_1;
+		return L_4;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeClient::PopulateAchievements(System.UInt32,GooglePlayGames.Native.PInvoke.AchievementManager/FetchAllResponse)
+extern TypeInfo* Logger_t61_il2cpp_TypeInfo_var;
+extern TypeInfo* ResponseStatus_t85_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* Dictionary_2_t214_il2cpp_TypeInfo_var;
+extern TypeInfo* IEnumerator_1_t450_il2cpp_TypeInfo_var;
+extern TypeInfo* IDisposable_t494_il2cpp_TypeInfo_var;
+extern TypeInfo* IEnumerator_t449_il2cpp_TypeInfo_var;
+extern TypeInfo* Int32_t490_il2cpp_TypeInfo_var;
+extern const MethodInfo* NativeClient_InvokeCallbackOnGameThread_TisBoolean_t489_m2006_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2011_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral115;
+extern Il2CppCodeGenString* _stringLiteral116;
+extern Il2CppCodeGenString* _stringLiteral117;
+extern Il2CppCodeGenString* _stringLiteral118;
+extern Il2CppCodeGenString* _stringLiteral119;
+extern Il2CppCodeGenString* _stringLiteral120;
+extern "C" void NativeClient_PopulateAchievements_m936 (NativeClient_t201 * __this, uint32_t ___authGeneration, FetchAllResponse_t334 * ___response, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		Logger_t61_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
+		ResponseStatus_t85_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(66);
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
+		Dictionary_2_t214_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(96);
+		IEnumerator_1_t450_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(97);
+		IDisposable_t494_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(17);
+		IEnumerator_t449_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(99);
+		Int32_t490_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(4);
+		NativeClient_InvokeCallbackOnGameThread_TisBoolean_t489_m2006_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483691);
+		Dictionary_2__ctor_m2011_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483698);
+		_stringLiteral115 = il2cpp_codegen_string_literal_from_index(115);
+		_stringLiteral116 = il2cpp_codegen_string_literal_from_index(116);
+		_stringLiteral117 = il2cpp_codegen_string_literal_from_index(117);
+		_stringLiteral118 = il2cpp_codegen_string_literal_from_index(118);
+		_stringLiteral119 = il2cpp_codegen_string_literal_from_index(119);
+		_stringLiteral120 = il2cpp_codegen_string_literal_from_index(120);
+		s_Il2CppMethodIntialized = true;
+	}
+	Object_t * V_0 = {0};
+	Action_1_t66 * V_1 = {0};
+	Dictionary_2_t214 * V_2 = {0};
+	NativeAchievement_t352 * V_3 = {0};
+	Object_t* V_4 = {0};
+	NativeAchievement_t352 * V_5 = {0};
+	Exception_t492 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t492 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		uint32_t L_0 = ___authGeneration;
+		uint32_t L_1 = (__this->___mAuthGeneration_19);
+		il2cpp_codegen_memory_barrier();
+		if ((((int32_t)L_0) == ((int32_t)L_1)))
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Logger_t61_il2cpp_TypeInfo_var);
+		Logger_d_m264(NULL /*static, unused*/, _stringLiteral115, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0019:
+	{
+		FetchAllResponse_t334 * L_2 = ___response;
+		NullCheck(L_2);
+		int32_t L_3 = FetchAllResponse_Status_m1281(L_2, /*hidden argument*/NULL);
+		int32_t L_4 = L_3;
+		Object_t * L_5 = Box(ResponseStatus_t85_il2cpp_TypeInfo_var, &L_4);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_6 = String_Concat_m1971(NULL /*static, unused*/, _stringLiteral116, L_5, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Logger_t61_il2cpp_TypeInfo_var);
+		Logger_d_m264(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		Object_t * L_7 = (__this->___AuthStateLock_4);
+		V_0 = L_7;
+		Object_t * L_8 = V_0;
+		Monitor_Enter_m1995(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+	}
+
+IL_0040:
+	try
+	{ // begin try (depth: 1)
+		{
+			FetchAllResponse_t334 * L_9 = ___response;
+			NullCheck(L_9);
+			int32_t L_10 = FetchAllResponse_Status_m1281(L_9, /*hidden argument*/NULL);
+			if ((((int32_t)L_10) == ((int32_t)1)))
+			{
+				goto IL_008c;
+			}
+		}
+
+IL_004c:
+		{
+			FetchAllResponse_t334 * L_11 = ___response;
+			NullCheck(L_11);
+			int32_t L_12 = FetchAllResponse_Status_m1281(L_11, /*hidden argument*/NULL);
+			if ((((int32_t)L_12) == ((int32_t)2)))
+			{
+				goto IL_008c;
+			}
+		}
+
+IL_0058:
+		{
+			IL2CPP_RUNTIME_CLASS_INIT(Logger_t61_il2cpp_TypeInfo_var);
+			Logger_e_m266(NULL /*static, unused*/, _stringLiteral117, /*hidden argument*/NULL);
+			Action_1_t66 * L_13 = (__this->___mPendingAuthCallbacks_16);
+			il2cpp_codegen_memory_barrier();
+			V_1 = L_13;
+			il2cpp_codegen_memory_barrier();
+			__this->___mPendingAuthCallbacks_16 = (Action_1_t66 *)NULL;
+			Action_1_t66 * L_14 = V_1;
+			if (!L_14)
+			{
+				goto IL_0081;
+			}
+		}
+
+IL_007a:
+		{
+			Action_1_t66 * L_15 = V_1;
+			NativeClient_InvokeCallbackOnGameThread_TisBoolean_t489_m2006(NULL /*static, unused*/, L_15, 0, /*hidden argument*/NativeClient_InvokeCallbackOnGameThread_TisBoolean_t489_m2006_MethodInfo_var);
+		}
+
+IL_0081:
+		{
+			VirtActionInvoker0::Invoke(6 /* System.Void GooglePlayGames.Native.NativeClient::SignOut() */, __this);
+			IL2CPP_LEAVE(0x132, FINALLY_011b);
+		}
+
+IL_008c:
+		{
+			Dictionary_2_t214 * L_16 = (Dictionary_2_t214 *)il2cpp_codegen_object_new (Dictionary_2_t214_il2cpp_TypeInfo_var);
+			Dictionary_2__ctor_m2011(L_16, /*hidden argument*/Dictionary_2__ctor_m2011_MethodInfo_var);
+			V_2 = L_16;
+			FetchAllResponse_t334 * L_17 = ___response;
+			NullCheck(L_17);
+			Object_t* L_18 = (Object_t*)VirtFuncInvoker0< Object_t* >::Invoke(7 /* System.Collections.Generic.IEnumerator`1<GooglePlayGames.Native.NativeAchievement> GooglePlayGames.Native.PInvoke.AchievementManager/FetchAllResponse::GetEnumerator() */, L_17);
+			V_4 = L_18;
+		}
+
+IL_009a:
+		try
+		{ // begin try (depth: 2)
+			{
+				goto IL_00d0;
+			}
+
+IL_009f:
+			{
+				Object_t* L_19 = V_4;
+				NullCheck(L_19);
+				NativeAchievement_t352 * L_20 = (NativeAchievement_t352 *)InterfaceFuncInvoker0< NativeAchievement_t352 * >::Invoke(0 /* !0 System.Collections.Generic.IEnumerator`1<GooglePlayGames.Native.NativeAchievement>::get_Current() */, IEnumerator_1_t450_il2cpp_TypeInfo_var, L_19);
+				V_3 = L_20;
+				NativeAchievement_t352 * L_21 = V_3;
+				V_5 = L_21;
+			}
+
+IL_00aa:
+			try
+			{ // begin try (depth: 3)
+				Dictionary_2_t214 * L_22 = V_2;
+				NativeAchievement_t352 * L_23 = V_3;
+				NullCheck(L_23);
+				String_t* L_24 = NativeAchievement_Id_m1401(L_23, /*hidden argument*/NULL);
+				NativeAchievement_t352 * L_25 = V_3;
+				NullCheck(L_25);
+				Achievement_t1 * L_26 = NativeAchievement_AsAchievement_m1407(L_25, /*hidden argument*/NULL);
+				NullCheck(L_22);
+				VirtActionInvoker2< String_t*, Achievement_t1 * >::Invoke(26 /* System.Void System.Collections.Generic.Dictionary`2<System.String,GooglePlayGames.BasicApi.Achievement>::set_Item(!0,!1) */, L_22, L_24, L_26);
+				IL2CPP_LEAVE(0xD0, FINALLY_00c1);
+			} // end try (depth: 3)
+			catch(Il2CppExceptionWrapper& e)
+			{
+				__last_unhandled_exception = (Exception_t492 *)e.ex;
+				goto FINALLY_00c1;
+			}
+
+FINALLY_00c1:
+			{ // begin finally (depth: 3)
+				{
+					NativeAchievement_t352 * L_27 = V_5;
+					if (!L_27)
+					{
+						goto IL_00cf;
+					}
+				}
+
+IL_00c8:
+				{
+					NativeAchievement_t352 * L_28 = V_5;
+					NullCheck(L_28);
+					InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t494_il2cpp_TypeInfo_var, L_28);
+				}
+
+IL_00cf:
+				{
+					IL2CPP_END_FINALLY(193)
+				}
+			} // end finally (depth: 3)
+			IL2CPP_CLEANUP(193)
+			{
+				IL2CPP_JUMP_TBL(0xD0, IL_00d0)
+				IL2CPP_RETHROW_IF_UNHANDLED(Exception_t492 *)
+			}
+
+IL_00d0:
+			{
+				Object_t* L_29 = V_4;
+				NullCheck(L_29);
+				bool L_30 = (bool)InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t449_il2cpp_TypeInfo_var, L_29);
+				if (L_30)
+				{
+					goto IL_009f;
+				}
+			}
+
+IL_00dc:
+			{
+				IL2CPP_LEAVE(0xEE, FINALLY_00e1);
+			}
+		} // end try (depth: 2)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__last_unhandled_exception = (Exception_t492 *)e.ex;
+			goto FINALLY_00e1;
+		}
+
+FINALLY_00e1:
+		{ // begin finally (depth: 2)
+			{
+				Object_t* L_31 = V_4;
+				if (L_31)
+				{
+					goto IL_00e6;
+				}
+			}
+
+IL_00e5:
+			{
+				IL2CPP_END_FINALLY(225)
+			}
+
+IL_00e6:
+			{
+				Object_t* L_32 = V_4;
+				NullCheck(L_32);
+				InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t494_il2cpp_TypeInfo_var, L_32);
+				IL2CPP_END_FINALLY(225)
+			}
+		} // end finally (depth: 2)
+		IL2CPP_CLEANUP(225)
+		{
+			IL2CPP_JUMP_TBL(0xEE, IL_00ee)
+			IL2CPP_RETHROW_IF_UNHANDLED(Exception_t492 *)
+		}
+
+IL_00ee:
+		{
+			Dictionary_2_t214 * L_33 = V_2;
+			NullCheck(L_33);
+			int32_t L_34 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(10 /* System.Int32 System.Collections.Generic.Dictionary`2<System.String,GooglePlayGames.BasicApi.Achievement>::get_Count() */, L_33);
+			int32_t L_35 = L_34;
+			Object_t * L_36 = Box(Int32_t490_il2cpp_TypeInfo_var, &L_35);
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			String_t* L_37 = String_Concat_m1974(NULL /*static, unused*/, _stringLiteral118, L_36, _stringLiteral119, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(Logger_t61_il2cpp_TypeInfo_var);
+			Logger_d_m264(NULL /*static, unused*/, L_37, /*hidden argument*/NULL);
+			Dictionary_2_t214 * L_38 = V_2;
+			il2cpp_codegen_memory_barrier();
+			__this->___mAchievements_14 = L_38;
+			IL2CPP_LEAVE(0x122, FINALLY_011b);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t492 *)e.ex;
+		goto FINALLY_011b;
+	}
+
+FINALLY_011b:
+	{ // begin finally (depth: 1)
+		Object_t * L_39 = V_0;
+		Monitor_Exit_m1996(NULL /*static, unused*/, L_39, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(283)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(283)
+	{
+		IL2CPP_JUMP_TBL(0x132, IL_0132)
+		IL2CPP_JUMP_TBL(0x122, IL_0122)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t492 *)
+	}
+
+IL_0122:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Logger_t61_il2cpp_TypeInfo_var);
+		Logger_d_m264(NULL /*static, unused*/, _stringLiteral120, /*hidden argument*/NULL);
+		NativeClient_MaybeFinishAuthentication_m937(__this, /*hidden argument*/NULL);
+	}
+
+IL_0132:
+	{
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeClient::MaybeFinishAuthentication()
+extern TypeInfo* ObjectU5BU5D_t488_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* Logger_t61_il2cpp_TypeInfo_var;
+extern const MethodInfo* NativeClient_InvokeCallbackOnGameThread_TisBoolean_t489_m2006_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral121;
+extern Il2CppCodeGenString* _stringLiteral122;
+extern Il2CppCodeGenString* _stringLiteral123;
+extern Il2CppCodeGenString* _stringLiteral124;
+extern "C" void NativeClient_MaybeFinishAuthentication_m937 (NativeClient_t201 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		ObjectU5BU5D_t488_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2);
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
+		Logger_t61_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
+		NativeClient_InvokeCallbackOnGameThread_TisBoolean_t489_m2006_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483691);
+		_stringLiteral121 = il2cpp_codegen_string_literal_from_index(121);
+		_stringLiteral122 = il2cpp_codegen_string_literal_from_index(122);
+		_stringLiteral123 = il2cpp_codegen_string_literal_from_index(123);
+		_stringLiteral124 = il2cpp_codegen_string_literal_from_index(124);
+		s_Il2CppMethodIntialized = true;
+	}
+	Action_1_t66 * V_0 = {0};
+	Object_t * V_1 = {0};
+	Exception_t492 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t492 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		V_0 = (Action_1_t66 *)NULL;
+		Object_t * L_0 = (__this->___AuthStateLock_4);
+		V_1 = L_0;
+		Object_t * L_1 = V_1;
+		Monitor_Enter_m1995(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+	}
+
+IL_000f:
+	try
+	{ // begin try (depth: 1)
+		{
+			Player_t16 * L_2 = (__this->___mUser_15);
+			il2cpp_codegen_memory_barrier();
+			if (!L_2)
+			{
+				goto IL_0029;
+			}
+		}
+
+IL_001c:
+		{
+			Dictionary_2_t214 * L_3 = (__this->___mAchievements_14);
+			il2cpp_codegen_memory_barrier();
+			if (L_3)
+			{
+				goto IL_0064;
+			}
+		}
+
+IL_0029:
+		{
+			ObjectU5BU5D_t488* L_4 = ((ObjectU5BU5D_t488*)SZArrayNew(ObjectU5BU5D_t488_il2cpp_TypeInfo_var, 4));
+			NullCheck(L_4);
+			IL2CPP_ARRAY_BOUNDS_CHECK(L_4, 0);
+			ArrayElementTypeCheck (L_4, _stringLiteral121);
+			*((Object_t **)(Object_t **)SZArrayLdElema(L_4, 0, sizeof(Object_t *))) = (Object_t *)_stringLiteral121;
+			ObjectU5BU5D_t488* L_5 = L_4;
+			Player_t16 * L_6 = (__this->___mUser_15);
+			il2cpp_codegen_memory_barrier();
+			NullCheck(L_5);
+			IL2CPP_ARRAY_BOUNDS_CHECK(L_5, 1);
+			ArrayElementTypeCheck (L_5, L_6);
+			*((Object_t **)(Object_t **)SZArrayLdElema(L_5, 1, sizeof(Object_t *))) = (Object_t *)L_6;
+			ObjectU5BU5D_t488* L_7 = L_5;
+			NullCheck(L_7);
+			IL2CPP_ARRAY_BOUNDS_CHECK(L_7, 2);
+			ArrayElementTypeCheck (L_7, _stringLiteral122);
+			*((Object_t **)(Object_t **)SZArrayLdElema(L_7, 2, sizeof(Object_t *))) = (Object_t *)_stringLiteral122;
+			ObjectU5BU5D_t488* L_8 = L_7;
+			Dictionary_2_t214 * L_9 = (__this->___mAchievements_14);
+			il2cpp_codegen_memory_barrier();
+			NullCheck(L_8);
+			IL2CPP_ARRAY_BOUNDS_CHECK(L_8, 3);
+			ArrayElementTypeCheck (L_8, L_9);
+			*((Object_t **)(Object_t **)SZArrayLdElema(L_8, 3, sizeof(Object_t *))) = (Object_t *)L_9;
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			String_t* L_10 = String_Concat_m1973(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(Logger_t61_il2cpp_TypeInfo_var);
+			Logger_d_m264(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+			IL2CPP_LEAVE(0xB2, FINALLY_008e);
+		}
+
+IL_0064:
+		{
+			IL2CPP_RUNTIME_CLASS_INIT(Logger_t61_il2cpp_TypeInfo_var);
+			Logger_d_m264(NULL /*static, unused*/, _stringLiteral123, /*hidden argument*/NULL);
+			Action_1_t66 * L_11 = (__this->___mPendingAuthCallbacks_16);
+			il2cpp_codegen_memory_barrier();
+			V_0 = L_11;
+			il2cpp_codegen_memory_barrier();
+			__this->___mPendingAuthCallbacks_16 = (Action_1_t66 *)NULL;
+			il2cpp_codegen_memory_barrier();
+			__this->___mAuthState_18 = 1;
+			IL2CPP_LEAVE(0x95, FINALLY_008e);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t492 *)e.ex;
+		goto FINALLY_008e;
+	}
+
+FINALLY_008e:
+	{ // begin finally (depth: 1)
+		Object_t * L_12 = V_1;
+		Monitor_Exit_m1996(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(142)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(142)
+	{
+		IL2CPP_JUMP_TBL(0xB2, IL_00b2)
+		IL2CPP_JUMP_TBL(0x95, IL_0095)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t492 *)
+	}
+
+IL_0095:
+	{
+		Action_1_t66 * L_13 = V_0;
+		if (!L_13)
+		{
+			goto IL_00b2;
+		}
+	}
+	{
+		Action_1_t66 * L_14 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_15 = String_Concat_m1971(NULL /*static, unused*/, _stringLiteral124, L_14, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Logger_t61_il2cpp_TypeInfo_var);
+		Logger_d_m264(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
+		Action_1_t66 * L_16 = V_0;
+		NativeClient_InvokeCallbackOnGameThread_TisBoolean_t489_m2006(NULL /*static, unused*/, L_16, 1, /*hidden argument*/NativeClient_InvokeCallbackOnGameThread_TisBoolean_t489_m2006_MethodInfo_var);
+	}
+
+IL_00b2:
+	{
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeClient::PopulateUser(System.UInt32,GooglePlayGames.Native.PlayerManager/FetchSelfResponse)
+extern TypeInfo* Logger_t61_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern const MethodInfo* NativeClient_InvokeCallbackOnGameThread_TisBoolean_t489_m2006_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral125;
+extern Il2CppCodeGenString* _stringLiteral126;
+extern Il2CppCodeGenString* _stringLiteral127;
+extern Il2CppCodeGenString* _stringLiteral128;
+extern Il2CppCodeGenString* _stringLiteral129;
+extern "C" void NativeClient_PopulateUser_m938 (NativeClient_t201 * __this, uint32_t ___authGeneration, FetchSelfResponse_t364 * ___response, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		Logger_t61_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
+		NativeClient_InvokeCallbackOnGameThread_TisBoolean_t489_m2006_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483691);
+		_stringLiteral125 = il2cpp_codegen_string_literal_from_index(125);
+		_stringLiteral126 = il2cpp_codegen_string_literal_from_index(126);
+		_stringLiteral127 = il2cpp_codegen_string_literal_from_index(127);
+		_stringLiteral128 = il2cpp_codegen_string_literal_from_index(128);
+		_stringLiteral129 = il2cpp_codegen_string_literal_from_index(129);
+		s_Il2CppMethodIntialized = true;
+	}
+	Object_t * V_0 = {0};
+	Action_1_t66 * V_1 = {0};
+	Exception_t492 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t492 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Logger_t61_il2cpp_TypeInfo_var);
+		Logger_d_m264(NULL /*static, unused*/, _stringLiteral125, /*hidden argument*/NULL);
+		uint32_t L_0 = ___authGeneration;
+		uint32_t L_1 = (__this->___mAuthGeneration_19);
+		il2cpp_codegen_memory_barrier();
+		if ((((int32_t)L_0) == ((int32_t)L_1)))
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Logger_t61_il2cpp_TypeInfo_var);
+		Logger_d_m264(NULL /*static, unused*/, _stringLiteral126, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0023:
+	{
+		Object_t * L_2 = (__this->___AuthStateLock_4);
+		V_0 = L_2;
+		Object_t * L_3 = V_0;
+		Monitor_Enter_m1995(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+	}
+
+IL_0030:
+	try
+	{ // begin try (depth: 1)
+		{
+			FetchSelfResponse_t364 * L_4 = ___response;
+			NullCheck(L_4);
+			int32_t L_5 = FetchSelfResponse_Status_m1544(L_4, /*hidden argument*/NULL);
+			if ((((int32_t)L_5) == ((int32_t)1)))
+			{
+				goto IL_007c;
+			}
+		}
+
+IL_003c:
+		{
+			FetchSelfResponse_t364 * L_6 = ___response;
+			NullCheck(L_6);
+			int32_t L_7 = FetchSelfResponse_Status_m1544(L_6, /*hidden argument*/NULL);
+			if ((((int32_t)L_7) == ((int32_t)2)))
+			{
+				goto IL_007c;
+			}
+		}
+
+IL_0048:
+		{
+			IL2CPP_RUNTIME_CLASS_INIT(Logger_t61_il2cpp_TypeInfo_var);
+			Logger_e_m266(NULL /*static, unused*/, _stringLiteral127, /*hidden argument*/NULL);
+			Action_1_t66 * L_8 = (__this->___mPendingAuthCallbacks_16);
+			il2cpp_codegen_memory_barrier();
+			V_1 = L_8;
+			il2cpp_codegen_memory_barrier();
+			__this->___mPendingAuthCallbacks_16 = (Action_1_t66 *)NULL;
+			Action_1_t66 * L_9 = V_1;
+			if (!L_9)
+			{
+				goto IL_0071;
+			}
+		}
+
+IL_006a:
+		{
+			Action_1_t66 * L_10 = V_1;
+			NativeClient_InvokeCallbackOnGameThread_TisBoolean_t489_m2006(NULL /*static, unused*/, L_10, 0, /*hidden argument*/NativeClient_InvokeCallbackOnGameThread_TisBoolean_t489_m2006_MethodInfo_var);
+		}
+
+IL_0071:
+		{
+			VirtActionInvoker0::Invoke(6 /* System.Void GooglePlayGames.Native.NativeClient::SignOut() */, __this);
+			IL2CPP_LEAVE(0xC2, FINALLY_0094);
+		}
+
+IL_007c:
+		{
+			FetchSelfResponse_t364 * L_11 = ___response;
+			NullCheck(L_11);
+			NativePlayer_t354 * L_12 = FetchSelfResponse_Self_m1545(L_11, /*hidden argument*/NULL);
+			NullCheck(L_12);
+			Player_t16 * L_13 = NativePlayer_AsPlayer_m1429(L_12, /*hidden argument*/NULL);
+			il2cpp_codegen_memory_barrier();
+			__this->___mUser_15 = L_13;
+			IL2CPP_LEAVE(0x9B, FINALLY_0094);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t492 *)e.ex;
+		goto FINALLY_0094;
+	}
+
+FINALLY_0094:
+	{ // begin finally (depth: 1)
+		Object_t * L_14 = V_0;
+		Monitor_Exit_m1996(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(148)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(148)
+	{
+		IL2CPP_JUMP_TBL(0xC2, IL_00c2)
+		IL2CPP_JUMP_TBL(0x9B, IL_009b)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t492 *)
+	}
+
+IL_009b:
+	{
+		Player_t16 * L_15 = (__this->___mUser_15);
+		il2cpp_codegen_memory_barrier();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_16 = String_Concat_m1971(NULL /*static, unused*/, _stringLiteral128, L_15, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Logger_t61_il2cpp_TypeInfo_var);
+		Logger_d_m264(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
+		Logger_d_m264(NULL /*static, unused*/, _stringLiteral129, /*hidden argument*/NULL);
+		NativeClient_MaybeFinishAuthentication_m937(__this, /*hidden argument*/NULL);
+	}
+
+IL_00c2:
+	{
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeClient::HandleAuthTransition(GooglePlayGames.Native.Cwrapper.Types/AuthOperation,GooglePlayGames.Native.Cwrapper.CommonErrorStatus/AuthStatus)
+extern TypeInfo* ObjectU5BU5D_t488_il2cpp_TypeInfo_var;
+extern TypeInfo* AuthOperation_t180_il2cpp_TypeInfo_var;
+extern TypeInfo* AuthStatus_t87_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* Logger_t61_il2cpp_TypeInfo_var;
+extern TypeInfo* U3CHandleAuthTransitionU3Ec__AnonStoreyF_t200_il2cpp_TypeInfo_var;
+extern TypeInfo* Action_1_t66_il2cpp_TypeInfo_var;
+extern TypeInfo* Action_1_t451_il2cpp_TypeInfo_var;
+extern TypeInfo* Action_1_t461_il2cpp_TypeInfo_var;
+extern const MethodInfo* U3CHandleAuthTransitionU3Ec__AnonStoreyF_U3CU3Em__11_m912_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2012_MethodInfo_var;
+extern const MethodInfo* U3CHandleAuthTransitionU3Ec__AnonStoreyF_U3CU3Em__12_m913_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2013_MethodInfo_var;
+extern const MethodInfo* NativeClient_InvokeCallbackOnGameThread_TisBoolean_t489_m2006_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral130;
+extern Il2CppCodeGenString* _stringLiteral131;
+extern Il2CppCodeGenString* _stringLiteral132;
+extern "C" void NativeClient_HandleAuthTransition_m939 (NativeClient_t201 * __this, int32_t ___operation, int32_t ___status, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		ObjectU5BU5D_t488_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2);
+		AuthOperation_t180_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(71);
+		AuthStatus_t87_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(72);
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
+		Logger_t61_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
+		U3CHandleAuthTransitionU3Ec__AnonStoreyF_t200_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(102);
+		Action_1_t66_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(77);
+		Action_1_t451_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(103);
+		Action_1_t461_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(104);
+		U3CHandleAuthTransitionU3Ec__AnonStoreyF_U3CU3Em__11_m912_MethodInfo_var = il2cpp_codegen_method_info_from_index(51);
+		Action_1__ctor_m2012_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483700);
+		U3CHandleAuthTransitionU3Ec__AnonStoreyF_U3CU3Em__12_m913_MethodInfo_var = il2cpp_codegen_method_info_from_index(53);
+		Action_1__ctor_m2013_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483702);
+		NativeClient_InvokeCallbackOnGameThread_TisBoolean_t489_m2006_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483691);
+		_stringLiteral130 = il2cpp_codegen_string_literal_from_index(130);
+		_stringLiteral131 = il2cpp_codegen_string_literal_from_index(131);
+		_stringLiteral132 = il2cpp_codegen_string_literal_from_index(132);
+		s_Il2CppMethodIntialized = true;
+	}
+	Object_t * V_0 = {0};
+	Action_1_t66 * V_1 = {0};
+	Action_1_t66 * V_2 = {0};
+	int32_t V_3 = {0};
+	U3CHandleAuthTransitionU3Ec__AnonStoreyF_t200 * V_4 = {0};
+	Exception_t492 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t492 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		ObjectU5BU5D_t488* L_0 = ((ObjectU5BU5D_t488*)SZArrayNew(ObjectU5BU5D_t488_il2cpp_TypeInfo_var, 4));
+		NullCheck(L_0);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_0, 0);
+		ArrayElementTypeCheck (L_0, _stringLiteral130);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_0, 0, sizeof(Object_t *))) = (Object_t *)_stringLiteral130;
+		ObjectU5BU5D_t488* L_1 = L_0;
+		int32_t L_2 = ___operation;
+		int32_t L_3 = L_2;
+		Object_t * L_4 = Box(AuthOperation_t180_il2cpp_TypeInfo_var, &L_3);
+		NullCheck(L_1);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_1, 1);
+		ArrayElementTypeCheck (L_1, L_4);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_1, 1, sizeof(Object_t *))) = (Object_t *)L_4;
+		ObjectU5BU5D_t488* L_5 = L_1;
+		NullCheck(L_5);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_5, 2);
+		ArrayElementTypeCheck (L_5, _stringLiteral131);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_5, 2, sizeof(Object_t *))) = (Object_t *)_stringLiteral131;
+		ObjectU5BU5D_t488* L_6 = L_5;
+		int32_t L_7 = ___status;
+		int32_t L_8 = L_7;
+		Object_t * L_9 = Box(AuthStatus_t87_il2cpp_TypeInfo_var, &L_8);
+		NullCheck(L_6);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_6, 3);
+		ArrayElementTypeCheck (L_6, L_9);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_6, 3, sizeof(Object_t *))) = (Object_t *)L_9;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_10 = String_Concat_m1973(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Logger_t61_il2cpp_TypeInfo_var);
+		Logger_d_m264(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		Object_t * L_11 = (__this->___AuthStateLock_4);
+		V_0 = L_11;
+		Object_t * L_12 = V_0;
+		Monitor_Enter_m1995(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
+	}
+
+IL_003f:
+	try
+	{ // begin try (depth: 1)
+		{
+			int32_t L_13 = ___operation;
+			V_3 = L_13;
+			int32_t L_14 = V_3;
+			if ((((int32_t)L_14) == ((int32_t)1)))
+			{
+				goto IL_0054;
+			}
+		}
+
+IL_0048:
+		{
+			int32_t L_15 = V_3;
+			if ((((int32_t)L_15) == ((int32_t)2)))
+			{
+				goto IL_0164;
+			}
+		}
+
+IL_004f:
+		{
+			goto IL_0172;
+		}
+
+IL_0054:
+		{
+			int32_t L_16 = ___status;
+			if ((!(((uint32_t)L_16) == ((uint32_t)1))))
+			{
+				goto IL_00f0;
+			}
+		}
+
+IL_005b:
+		{
+			U3CHandleAuthTransitionU3Ec__AnonStoreyF_t200 * L_17 = (U3CHandleAuthTransitionU3Ec__AnonStoreyF_t200 *)il2cpp_codegen_object_new (U3CHandleAuthTransitionU3Ec__AnonStoreyF_t200_il2cpp_TypeInfo_var);
+			U3CHandleAuthTransitionU3Ec__AnonStoreyF__ctor_m911(L_17, /*hidden argument*/NULL);
+			V_4 = L_17;
+			U3CHandleAuthTransitionU3Ec__AnonStoreyF_t200 * L_18 = V_4;
+			NullCheck(L_18);
+			L_18->___U3CU3Ef__this_1 = __this;
+			Action_1_t66 * L_19 = (__this->___mSilentAuthCallbacks_17);
+			il2cpp_codegen_memory_barrier();
+			if (!L_19)
+			{
+				goto IL_00a2;
+			}
+		}
+
+IL_0077:
+		{
+			Action_1_t66 * L_20 = (__this->___mPendingAuthCallbacks_16);
+			il2cpp_codegen_memory_barrier();
+			Action_1_t66 * L_21 = (__this->___mSilentAuthCallbacks_17);
+			il2cpp_codegen_memory_barrier();
+			Delegate_t453 * L_22 = Delegate_Combine_m2007(NULL /*static, unused*/, L_20, L_21, /*hidden argument*/NULL);
+			il2cpp_codegen_memory_barrier();
+			__this->___mPendingAuthCallbacks_16 = ((Action_1_t66 *)CastclassSealed(L_22, Action_1_t66_il2cpp_TypeInfo_var));
+			il2cpp_codegen_memory_barrier();
+			__this->___mSilentAuthCallbacks_17 = (Action_1_t66 *)NULL;
+		}
+
+IL_00a2:
+		{
+			U3CHandleAuthTransitionU3Ec__AnonStoreyF_t200 * L_23 = V_4;
+			uint32_t L_24 = (__this->___mAuthGeneration_19);
+			il2cpp_codegen_memory_barrier();
+			NullCheck(L_23);
+			L_23->___currentAuthGeneration_0 = L_24;
+			GameServices_t210 * L_25 = (__this->___mServices_6);
+			NullCheck(L_25);
+			AchievementManager_t335 * L_26 = GameServices_AchievementManager_m1338(L_25, /*hidden argument*/NULL);
+			U3CHandleAuthTransitionU3Ec__AnonStoreyF_t200 * L_27 = V_4;
+			IntPtr_t L_28 = { (void*)U3CHandleAuthTransitionU3Ec__AnonStoreyF_U3CU3Em__11_m912_MethodInfo_var };
+			Action_1_t451 * L_29 = (Action_1_t451 *)il2cpp_codegen_object_new (Action_1_t451_il2cpp_TypeInfo_var);
+			Action_1__ctor_m2012(L_29, L_27, L_28, /*hidden argument*/Action_1__ctor_m2012_MethodInfo_var);
+			NullCheck(L_26);
+			AchievementManager_FetchAll_m1290(L_26, L_29, /*hidden argument*/NULL);
+			GameServices_t210 * L_30 = (__this->___mServices_6);
+			NullCheck(L_30);
+			PlayerManager_t365 * L_31 = GameServices_PlayerManager_m1340(L_30, /*hidden argument*/NULL);
+			U3CHandleAuthTransitionU3Ec__AnonStoreyF_t200 * L_32 = V_4;
+			IntPtr_t L_33 = { (void*)U3CHandleAuthTransitionU3Ec__AnonStoreyF_U3CU3Em__12_m913_MethodInfo_var };
+			Action_1_t461 * L_34 = (Action_1_t461 *)il2cpp_codegen_object_new (Action_1_t461_il2cpp_TypeInfo_var);
+			Action_1__ctor_m2013(L_34, L_32, L_33, /*hidden argument*/Action_1__ctor_m2013_MethodInfo_var);
+			NullCheck(L_31);
+			PlayerManager_FetchSelf_m1549(L_31, L_34, /*hidden argument*/NULL);
+			goto IL_015f;
+		}
+
+IL_00f0:
+		{
+			int32_t L_35 = (__this->___mAuthState_18);
+			il2cpp_codegen_memory_barrier();
+			if ((!(((uint32_t)L_35) == ((uint32_t)2))))
+			{
+				goto IL_0146;
+			}
+		}
+
+IL_00fe:
+		{
+			il2cpp_codegen_memory_barrier();
+			__this->___mSilentAuthFailed_20 = 1;
+			il2cpp_codegen_memory_barrier();
+			__this->___mAuthState_18 = 0;
+			Action_1_t66 * L_36 = (__this->___mSilentAuthCallbacks_17);
+			il2cpp_codegen_memory_barrier();
+			V_1 = L_36;
+			il2cpp_codegen_memory_barrier();
+			__this->___mSilentAuthCallbacks_17 = (Action_1_t66 *)NULL;
+			Action_1_t66 * L_37 = V_1;
+			NativeClient_InvokeCallbackOnGameThread_TisBoolean_t489_m2006(NULL /*static, unused*/, L_37, 0, /*hidden argument*/NativeClient_InvokeCallbackOnGameThread_TisBoolean_t489_m2006_MethodInfo_var);
+			Action_1_t66 * L_38 = (__this->___mPendingAuthCallbacks_16);
+			il2cpp_codegen_memory_barrier();
+			if (!L_38)
+			{
+				goto IL_0141;
+			}
+		}
+
+IL_0136:
+		{
+			GameServices_t210 * L_39 = NativeClient_GameServices_m929(__this, /*hidden argument*/NULL);
+			NullCheck(L_39);
+			GameServices_StartAuthorizationUI_m1337(L_39, /*hidden argument*/NULL);
+		}
+
+IL_0141:
+		{
+			goto IL_015f;
+		}
+
+IL_0146:
+		{
+			Action_1_t66 * L_40 = (__this->___mPendingAuthCallbacks_16);
+			il2cpp_codegen_memory_barrier();
+			V_2 = L_40;
+			il2cpp_codegen_memory_barrier();
+			__this->___mPendingAuthCallbacks_16 = (Action_1_t66 *)NULL;
+			Action_1_t66 * L_41 = V_2;
+			NativeClient_InvokeCallbackOnGameThread_TisBoolean_t489_m2006(NULL /*static, unused*/, L_41, 0, /*hidden argument*/NativeClient_InvokeCallbackOnGameThread_TisBoolean_t489_m2006_MethodInfo_var);
+		}
+
+IL_015f:
+		{
+			goto IL_018c;
+		}
+
+IL_0164:
+		{
+			il2cpp_codegen_memory_barrier();
+			__this->___mAuthState_18 = 0;
+			goto IL_018c;
+		}
+
+IL_0172:
+		{
+			int32_t L_42 = ___operation;
+			int32_t L_43 = L_42;
+			Object_t * L_44 = Box(AuthOperation_t180_il2cpp_TypeInfo_var, &L_43);
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			String_t* L_45 = String_Concat_m1971(NULL /*static, unused*/, _stringLiteral132, L_44, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(Logger_t61_il2cpp_TypeInfo_var);
+			Logger_e_m266(NULL /*static, unused*/, L_45, /*hidden argument*/NULL);
+			goto IL_018c;
+		}
+
+IL_018c:
+		{
+			IL2CPP_LEAVE(0x198, FINALLY_0191);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t492 *)e.ex;
+		goto FINALLY_0191;
+	}
+
+FINALLY_0191:
+	{ // begin finally (depth: 1)
+		Object_t * L_46 = V_0;
+		Monitor_Exit_m1996(NULL /*static, unused*/, L_46, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(401)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(401)
+	{
+		IL2CPP_JUMP_TBL(0x198, IL_0198)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t492 *)
+	}
+
+IL_0198:
+	{
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeClient::ToUnauthenticated()
+extern "C" void NativeClient_ToUnauthenticated_m940 (NativeClient_t201 * __this, const MethodInfo* method)
+{
+	Object_t * V_0 = {0};
+	Exception_t492 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t492 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Object_t * L_0 = (__this->___AuthStateLock_4);
+		V_0 = L_0;
+		Object_t * L_1 = V_0;
+		Monitor_Enter_m1995(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+	}
+
+IL_000d:
+	try
+	{ // begin try (depth: 1)
+		il2cpp_codegen_memory_barrier();
+		__this->___mUser_15 = (Player_t16 *)NULL;
+		il2cpp_codegen_memory_barrier();
+		__this->___mAchievements_14 = (Dictionary_2_t214 *)NULL;
+		il2cpp_codegen_memory_barrier();
+		__this->___mAuthState_18 = 0;
+		uint32_t L_2 = (__this->___mAuthGeneration_19);
+		il2cpp_codegen_memory_barrier();
+		il2cpp_codegen_memory_barrier();
+		__this->___mAuthGeneration_19 = ((int32_t)((int32_t)L_2+(int32_t)1));
+		IL2CPP_LEAVE(0x46, FINALLY_003f);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t492 *)e.ex;
+		goto FINALLY_003f;
+	}
+
+FINALLY_003f:
+	{ // begin finally (depth: 1)
+		Object_t * L_3 = V_0;
+		Monitor_Exit_m1996(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(63)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(63)
+	{
+		IL2CPP_JUMP_TBL(0x46, IL_0046)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t492 *)
+	}
+
+IL_0046:
+	{
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeClient::SignOut()
+extern "C" void NativeClient_SignOut_m941 (NativeClient_t201 * __this, const MethodInfo* method)
+{
+	{
+		NativeClient_ToUnauthenticated_m940(__this, /*hidden argument*/NULL);
+		GameServices_t210 * L_0 = NativeClient_GameServices_m929(__this, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0012:
+	{
+		GameServices_t210 * L_1 = NativeClient_GameServices_m929(__this, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		GameServices_SignOut_m1336(L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.String GooglePlayGames.Native.NativeClient::GetUserId()
+extern "C" String_t* NativeClient_GetUserId_m942 (NativeClient_t201 * __this, const MethodInfo* method)
+{
+	{
+		Player_t16 * L_0 = (__this->___mUser_15);
+		il2cpp_codegen_memory_barrier();
+		if (L_0)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		return (String_t*)NULL;
+	}
+
+IL_000f:
+	{
+		Player_t16 * L_1 = (__this->___mUser_15);
+		il2cpp_codegen_memory_barrier();
+		NullCheck(L_1);
+		String_t* L_2 = Player_get_PlayerId_m71(L_1, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
+// System.String GooglePlayGames.Native.NativeClient::GetUserDisplayName()
+extern "C" String_t* NativeClient_GetUserDisplayName_m943 (NativeClient_t201 * __this, const MethodInfo* method)
+{
+	{
+		Player_t16 * L_0 = (__this->___mUser_15);
+		il2cpp_codegen_memory_barrier();
+		if (L_0)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		return (String_t*)NULL;
+	}
+
+IL_000f:
+	{
+		Player_t16 * L_1 = (__this->___mUser_15);
+		il2cpp_codegen_memory_barrier();
+		NullCheck(L_1);
+		String_t* L_2 = Player_get_DisplayName_m70(L_1, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
+// System.String GooglePlayGames.Native.NativeClient::GetUserImageUrl()
+extern "C" String_t* NativeClient_GetUserImageUrl_m944 (NativeClient_t201 * __this, const MethodInfo* method)
+{
+	{
+		Player_t16 * L_0 = (__this->___mUser_15);
+		il2cpp_codegen_memory_barrier();
+		if (L_0)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		return (String_t*)NULL;
+	}
+
+IL_000f:
+	{
+		Player_t16 * L_1 = (__this->___mUser_15);
+		il2cpp_codegen_memory_barrier();
+		NullCheck(L_1);
+		String_t* L_2 = Player_get_AvatarURL_m72(L_1, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
+// GooglePlayGames.BasicApi.Achievement GooglePlayGames.Native.NativeClient::GetAchievement(System.String)
+extern "C" Achievement_t1 * NativeClient_GetAchievement_m945 (NativeClient_t201 * __this, String_t* ___achId, const MethodInfo* method)
+{
+	{
+		Dictionary_2_t214 * L_0 = (__this->___mAchievements_14);
+		il2cpp_codegen_memory_barrier();
+		if (!L_0)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		Dictionary_2_t214 * L_1 = (__this->___mAchievements_14);
+		il2cpp_codegen_memory_barrier();
+		String_t* L_2 = ___achId;
+		NullCheck(L_1);
+		bool L_3 = (bool)VirtFuncInvoker1< bool, String_t* >::Invoke(28 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,GooglePlayGames.BasicApi.Achievement>::ContainsKey(!0) */, L_1, L_2);
+		if (L_3)
+		{
+			goto IL_0022;
+		}
+	}
+
+IL_0020:
+	{
+		return (Achievement_t1 *)NULL;
+	}
+
+IL_0022:
+	{
+		Dictionary_2_t214 * L_4 = (__this->___mAchievements_14);
+		il2cpp_codegen_memory_barrier();
+		String_t* L_5 = ___achId;
+		NullCheck(L_4);
+		Achievement_t1 * L_6 = (Achievement_t1 *)VirtFuncInvoker1< Achievement_t1 *, String_t* >::Invoke(25 /* !1 System.Collections.Generic.Dictionary`2<System.String,GooglePlayGames.BasicApi.Achievement>::get_Item(!0) */, L_4, L_5);
+		return L_6;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeClient::UnlockAchievement(System.String,System.Action`1<System.Boolean>)
+extern TypeInfo* U3CUnlockAchievementU3Ec__AnonStorey10_t202_il2cpp_TypeInfo_var;
+extern TypeInfo* NativeClient_t201_il2cpp_TypeInfo_var;
+extern TypeInfo* Predicate_1_t215_il2cpp_TypeInfo_var;
+extern TypeInfo* Action_1_t444_il2cpp_TypeInfo_var;
+extern const MethodInfo* NativeClient_U3CUnlockAchievementU3Em__13_m962_MethodInfo_var;
+extern const MethodInfo* Predicate_1__ctor_m2014_MethodInfo_var;
+extern const MethodInfo* U3CUnlockAchievementU3Ec__AnonStorey10_U3CU3Em__14_m915_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2015_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral133;
+extern "C" void NativeClient_UnlockAchievement_m946 (NativeClient_t201 * __this, String_t* ___achId, Action_1_t66 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		U3CUnlockAchievementU3Ec__AnonStorey10_t202_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(105);
+		NativeClient_t201_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(106);
+		Predicate_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(107);
+		Action_1_t444_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(108);
+		NativeClient_U3CUnlockAchievementU3Em__13_m962_MethodInfo_var = il2cpp_codegen_method_info_from_index(55);
+		Predicate_1__ctor_m2014_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483704);
+		U3CUnlockAchievementU3Ec__AnonStorey10_U3CU3Em__14_m915_MethodInfo_var = il2cpp_codegen_method_info_from_index(57);
+		Action_1__ctor_m2015_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483706);
+		_stringLiteral133 = il2cpp_codegen_string_literal_from_index(133);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CUnlockAchievementU3Ec__AnonStorey10_t202 * V_0 = {0};
+	Action_1_t66 * G_B2_0 = {0};
+	String_t* G_B2_1 = {0};
+	String_t* G_B2_2 = {0};
+	NativeClient_t201 * G_B2_3 = {0};
+	Action_1_t66 * G_B1_0 = {0};
+	String_t* G_B1_1 = {0};
+	String_t* G_B1_2 = {0};
+	NativeClient_t201 * G_B1_3 = {0};
+	{
+		U3CUnlockAchievementU3Ec__AnonStorey10_t202 * L_0 = (U3CUnlockAchievementU3Ec__AnonStorey10_t202 *)il2cpp_codegen_object_new (U3CUnlockAchievementU3Ec__AnonStorey10_t202_il2cpp_TypeInfo_var);
+		U3CUnlockAchievementU3Ec__AnonStorey10__ctor_m914(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CUnlockAchievementU3Ec__AnonStorey10_t202 * L_1 = V_0;
+		String_t* L_2 = ___achId;
+		NullCheck(L_1);
+		L_1->___achId_0 = L_2;
+		U3CUnlockAchievementU3Ec__AnonStorey10_t202 * L_3 = V_0;
+		NullCheck(L_3);
+		L_3->___U3CU3Ef__this_1 = __this;
+		U3CUnlockAchievementU3Ec__AnonStorey10_t202 * L_4 = V_0;
+		NullCheck(L_4);
+		String_t* L_5 = (L_4->___achId_0);
+		Action_1_t66 * L_6 = ___callback;
+		Predicate_1_t215 * L_7 = ((NativeClient_t201_StaticFields*)NativeClient_t201_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache12_21;
+		G_B1_0 = L_6;
+		G_B1_1 = L_5;
+		G_B1_2 = _stringLiteral133;
+		G_B1_3 = __this;
+		if (L_7)
+		{
+			G_B2_0 = L_6;
+			G_B2_1 = L_5;
+			G_B2_2 = _stringLiteral133;
+			G_B2_3 = __this;
+			goto IL_0039;
+		}
+	}
+	{
+		IntPtr_t L_8 = { (void*)NativeClient_U3CUnlockAchievementU3Em__13_m962_MethodInfo_var };
+		Predicate_1_t215 * L_9 = (Predicate_1_t215 *)il2cpp_codegen_object_new (Predicate_1_t215_il2cpp_TypeInfo_var);
+		Predicate_1__ctor_m2014(L_9, NULL, L_8, /*hidden argument*/Predicate_1__ctor_m2014_MethodInfo_var);
+		((NativeClient_t201_StaticFields*)NativeClient_t201_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache12_21 = L_9;
+		G_B2_0 = G_B1_0;
+		G_B2_1 = G_B1_1;
+		G_B2_2 = G_B1_2;
+		G_B2_3 = G_B1_3;
+	}
+
+IL_0039:
+	{
+		Predicate_1_t215 * L_10 = ((NativeClient_t201_StaticFields*)NativeClient_t201_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache12_21;
+		U3CUnlockAchievementU3Ec__AnonStorey10_t202 * L_11 = V_0;
+		IntPtr_t L_12 = { (void*)U3CUnlockAchievementU3Ec__AnonStorey10_U3CU3Em__14_m915_MethodInfo_var };
+		Action_1_t444 * L_13 = (Action_1_t444 *)il2cpp_codegen_object_new (Action_1_t444_il2cpp_TypeInfo_var);
+		Action_1__ctor_m2015(L_13, L_11, L_12, /*hidden argument*/Action_1__ctor_m2015_MethodInfo_var);
+		NullCheck(G_B2_3);
+		NativeClient_UpdateAchievement_m948(G_B2_3, G_B2_2, G_B2_1, G_B2_0, L_10, L_13, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeClient::RevealAchievement(System.String,System.Action`1<System.Boolean>)
+extern TypeInfo* U3CRevealAchievementU3Ec__AnonStorey11_t203_il2cpp_TypeInfo_var;
+extern TypeInfo* NativeClient_t201_il2cpp_TypeInfo_var;
+extern TypeInfo* Predicate_1_t215_il2cpp_TypeInfo_var;
+extern TypeInfo* Action_1_t444_il2cpp_TypeInfo_var;
+extern const MethodInfo* NativeClient_U3CRevealAchievementU3Em__15_m963_MethodInfo_var;
+extern const MethodInfo* Predicate_1__ctor_m2014_MethodInfo_var;
+extern const MethodInfo* U3CRevealAchievementU3Ec__AnonStorey11_U3CU3Em__16_m917_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2015_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral134;
+extern "C" void NativeClient_RevealAchievement_m947 (NativeClient_t201 * __this, String_t* ___achId, Action_1_t66 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		U3CRevealAchievementU3Ec__AnonStorey11_t203_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(109);
+		NativeClient_t201_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(106);
+		Predicate_1_t215_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(107);
+		Action_1_t444_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(108);
+		NativeClient_U3CRevealAchievementU3Em__15_m963_MethodInfo_var = il2cpp_codegen_method_info_from_index(59);
+		Predicate_1__ctor_m2014_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483704);
+		U3CRevealAchievementU3Ec__AnonStorey11_U3CU3Em__16_m917_MethodInfo_var = il2cpp_codegen_method_info_from_index(60);
+		Action_1__ctor_m2015_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483706);
+		_stringLiteral134 = il2cpp_codegen_string_literal_from_index(134);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CRevealAchievementU3Ec__AnonStorey11_t203 * V_0 = {0};
+	Action_1_t66 * G_B2_0 = {0};
+	String_t* G_B2_1 = {0};
+	String_t* G_B2_2 = {0};
+	NativeClient_t201 * G_B2_3 = {0};
+	Action_1_t66 * G_B1_0 = {0};
+	String_t* G_B1_1 = {0};
+	String_t* G_B1_2 = {0};
+	NativeClient_t201 * G_B1_3 = {0};
+	{
+		U3CRevealAchievementU3Ec__AnonStorey11_t203 * L_0 = (U3CRevealAchievementU3Ec__AnonStorey11_t203 *)il2cpp_codegen_object_new (U3CRevealAchievementU3Ec__AnonStorey11_t203_il2cpp_TypeInfo_var);
+		U3CRevealAchievementU3Ec__AnonStorey11__ctor_m916(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CRevealAchievementU3Ec__AnonStorey11_t203 * L_1 = V_0;
+		String_t* L_2 = ___achId;
+		NullCheck(L_1);
+		L_1->___achId_0 = L_2;
+		U3CRevealAchievementU3Ec__AnonStorey11_t203 * L_3 = V_0;
+		NullCheck(L_3);
+		L_3->___U3CU3Ef__this_1 = __this;
+		U3CRevealAchievementU3Ec__AnonStorey11_t203 * L_4 = V_0;
+		NullCheck(L_4);
+		String_t* L_5 = (L_4->___achId_0);
+		Action_1_t66 * L_6 = ___callback;
+		Predicate_1_t215 * L_7 = ((NativeClient_t201_StaticFields*)NativeClient_t201_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache13_22;
+		G_B1_0 = L_6;
+		G_B1_1 = L_5;
+		G_B1_2 = _stringLiteral134;
+		G_B1_3 = __this;
+		if (L_7)
+		{
+			G_B2_0 = L_6;
+			G_B2_1 = L_5;
+			G_B2_2 = _stringLiteral134;
+			G_B2_3 = __this;
+			goto IL_0039;
+		}
+	}
+	{
+		IntPtr_t L_8 = { (void*)NativeClient_U3CRevealAchievementU3Em__15_m963_MethodInfo_var };
+		Predicate_1_t215 * L_9 = (Predicate_1_t215 *)il2cpp_codegen_object_new (Predicate_1_t215_il2cpp_TypeInfo_var);
+		Predicate_1__ctor_m2014(L_9, NULL, L_8, /*hidden argument*/Predicate_1__ctor_m2014_MethodInfo_var);
+		((NativeClient_t201_StaticFields*)NativeClient_t201_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache13_22 = L_9;
+		G_B2_0 = G_B1_0;
+		G_B2_1 = G_B1_1;
+		G_B2_2 = G_B1_2;
+		G_B2_3 = G_B1_3;
+	}
+
+IL_0039:
+	{
+		Predicate_1_t215 * L_10 = ((NativeClient_t201_StaticFields*)NativeClient_t201_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache13_22;
+		U3CRevealAchievementU3Ec__AnonStorey11_t203 * L_11 = V_0;
+		IntPtr_t L_12 = { (void*)U3CRevealAchievementU3Ec__AnonStorey11_U3CU3Em__16_m917_MethodInfo_var };
+		Action_1_t444 * L_13 = (Action_1_t444 *)il2cpp_codegen_object_new (Action_1_t444_il2cpp_TypeInfo_var);
+		Action_1__ctor_m2015(L_13, L_11, L_12, /*hidden argument*/Action_1__ctor_m2015_MethodInfo_var);
+		NullCheck(G_B2_3);
+		NativeClient_UpdateAchievement_m948(G_B2_3, G_B2_2, G_B2_1, G_B2_0, L_10, L_13, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeClient::UpdateAchievement(System.String,System.String,System.Action`1<System.Boolean>,System.Predicate`1<GooglePlayGames.BasicApi.Achievement>,System.Action`1<GooglePlayGames.BasicApi.Achievement>)
+extern TypeInfo* U3CUpdateAchievementU3Ec__AnonStorey12_t204_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* Logger_t61_il2cpp_TypeInfo_var;
+extern TypeInfo* Action_1_t452_il2cpp_TypeInfo_var;
+extern const MethodInfo* NativeClient_AsOnGameThreadCallback_TisBoolean_t489_m2016_MethodInfo_var;
+extern const MethodInfo* Misc_CheckNotNull_TisString_t_m1944_MethodInfo_var;
+extern const MethodInfo* Action_1_Invoke_m1917_MethodInfo_var;
+extern const MethodInfo* Predicate_1_Invoke_m2017_MethodInfo_var;
+extern const MethodInfo* Action_1_Invoke_m2018_MethodInfo_var;
+extern const MethodInfo* U3CUpdateAchievementU3Ec__AnonStorey12_U3CU3Em__17_m919_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2019_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral135;
+extern Il2CppCodeGenString* _stringLiteral136;
+extern Il2CppCodeGenString* _stringLiteral137;
+extern Il2CppCodeGenString* _stringLiteral138;
+extern Il2CppCodeGenString* _stringLiteral139;
+extern Il2CppCodeGenString* _stringLiteral140;
+extern "C" void NativeClient_UpdateAchievement_m948 (NativeClient_t201 * __this, String_t* ___updateType, String_t* ___achId, Action_1_t66 * ___callback, Predicate_1_t215 * ___alreadyDone, Action_1_t444 * ___updateAchievment, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		U3CUpdateAchievementU3Ec__AnonStorey12_t204_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(111);
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
+		Logger_t61_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
+		Action_1_t452_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(112);
+		NativeClient_AsOnGameThreadCallback_TisBoolean_t489_m2016_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483709);
+		Misc_CheckNotNull_TisString_t_m1944_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483666);
+		Action_1_Invoke_m1917_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483649);
+		Predicate_1_Invoke_m2017_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483710);
+		Action_1_Invoke_m2018_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483711);
+		U3CUpdateAchievementU3Ec__AnonStorey12_U3CU3Em__17_m919_MethodInfo_var = il2cpp_codegen_method_info_from_index(64);
+		Action_1__ctor_m2019_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
+		_stringLiteral135 = il2cpp_codegen_string_literal_from_index(135);
+		_stringLiteral136 = il2cpp_codegen_string_literal_from_index(136);
+		_stringLiteral137 = il2cpp_codegen_string_literal_from_index(137);
+		_stringLiteral138 = il2cpp_codegen_string_literal_from_index(138);
+		_stringLiteral139 = il2cpp_codegen_string_literal_from_index(139);
+		_stringLiteral140 = il2cpp_codegen_string_literal_from_index(140);
+		s_Il2CppMethodIntialized = true;
+	}
+	Achievement_t1 * V_0 = {0};
+	U3CUpdateAchievementU3Ec__AnonStorey12_t204 * V_1 = {0};
+	{
+		U3CUpdateAchievementU3Ec__AnonStorey12_t204 * L_0 = (U3CUpdateAchievementU3Ec__AnonStorey12_t204 *)il2cpp_codegen_object_new (U3CUpdateAchievementU3Ec__AnonStorey12_t204_il2cpp_TypeInfo_var);
+		U3CUpdateAchievementU3Ec__AnonStorey12__ctor_m918(L_0, /*hidden argument*/NULL);
+		V_1 = L_0;
+		U3CUpdateAchievementU3Ec__AnonStorey12_t204 * L_1 = V_1;
+		Action_1_t66 * L_2 = ___callback;
+		NullCheck(L_1);
+		L_1->___callback_0 = L_2;
+		U3CUpdateAchievementU3Ec__AnonStorey12_t204 * L_3 = V_1;
+		String_t* L_4 = ___achId;
+		NullCheck(L_3);
+		L_3->___achId_1 = L_4;
+		U3CUpdateAchievementU3Ec__AnonStorey12_t204 * L_5 = V_1;
+		NullCheck(L_5);
+		L_5->___U3CU3Ef__this_2 = __this;
+		U3CUpdateAchievementU3Ec__AnonStorey12_t204 * L_6 = V_1;
+		U3CUpdateAchievementU3Ec__AnonStorey12_t204 * L_7 = V_1;
+		NullCheck(L_7);
+		Action_1_t66 * L_8 = (L_7->___callback_0);
+		Action_1_t66 * L_9 = NativeClient_AsOnGameThreadCallback_TisBoolean_t489_m2016(NULL /*static, unused*/, L_8, /*hidden argument*/NativeClient_AsOnGameThreadCallback_TisBoolean_t489_m2016_MethodInfo_var);
+		NullCheck(L_6);
+		L_6->___callback_0 = L_9;
+		U3CUpdateAchievementU3Ec__AnonStorey12_t204 * L_10 = V_1;
+		NullCheck(L_10);
+		String_t* L_11 = (L_10->___achId_1);
+		Misc_CheckNotNull_TisString_t_m1944(NULL /*static, unused*/, L_11, /*hidden argument*/Misc_CheckNotNull_TisString_t_m1944_MethodInfo_var);
+		NativeClient_InitializeGameServices_m931(__this, /*hidden argument*/NULL);
+		U3CUpdateAchievementU3Ec__AnonStorey12_t204 * L_12 = V_1;
+		NullCheck(L_12);
+		String_t* L_13 = (L_12->___achId_1);
+		Achievement_t1 * L_14 = (Achievement_t1 *)VirtFuncInvoker1< Achievement_t1 *, String_t* >::Invoke(10 /* GooglePlayGames.BasicApi.Achievement GooglePlayGames.Native.NativeClient::GetAchievement(System.String) */, __this, L_13);
+		V_0 = L_14;
+		Achievement_t1 * L_15 = V_0;
+		if (L_15)
+		{
+			goto IL_0079;
+		}
+	}
+	{
+		String_t* L_16 = ___updateType;
+		U3CUpdateAchievementU3Ec__AnonStorey12_t204 * L_17 = V_1;
+		NullCheck(L_17);
+		String_t* L_18 = (L_17->___achId_1);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_19 = String_Concat_m1978(NULL /*static, unused*/, _stringLiteral135, L_16, _stringLiteral136, L_18, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Logger_t61_il2cpp_TypeInfo_var);
+		Logger_d_m264(NULL /*static, unused*/, L_19, /*hidden argument*/NULL);
+		U3CUpdateAchievementU3Ec__AnonStorey12_t204 * L_20 = V_1;
+		NullCheck(L_20);
+		Action_1_t66 * L_21 = (L_20->___callback_0);
+		NullCheck(L_21);
+		Action_1_Invoke_m1917(L_21, 0, /*hidden argument*/Action_1_Invoke_m1917_MethodInfo_var);
+		return;
+	}
+
+IL_0079:
+	{
+		Predicate_1_t215 * L_22 = ___alreadyDone;
+		Achievement_t1 * L_23 = V_0;
+		NullCheck(L_22);
+		bool L_24 = Predicate_1_Invoke_m2017(L_22, L_23, /*hidden argument*/Predicate_1_Invoke_m2017_MethodInfo_var);
+		if (!L_24)
+		{
+			goto IL_00ae;
+		}
+	}
+	{
+		String_t* L_25 = ___updateType;
+		U3CUpdateAchievementU3Ec__AnonStorey12_t204 * L_26 = V_1;
+		NullCheck(L_26);
+		String_t* L_27 = (L_26->___achId_1);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_28 = String_Concat_m1978(NULL /*static, unused*/, _stringLiteral137, L_25, _stringLiteral138, L_27, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Logger_t61_il2cpp_TypeInfo_var);
+		Logger_d_m264(NULL /*static, unused*/, L_28, /*hidden argument*/NULL);
+		U3CUpdateAchievementU3Ec__AnonStorey12_t204 * L_29 = V_1;
+		NullCheck(L_29);
+		Action_1_t66 * L_30 = (L_29->___callback_0);
+		NullCheck(L_30);
+		Action_1_Invoke_m1917(L_30, 1, /*hidden argument*/Action_1_Invoke_m1917_MethodInfo_var);
+		return;
+	}
+
+IL_00ae:
+	{
+		String_t* L_31 = ___updateType;
+		U3CUpdateAchievementU3Ec__AnonStorey12_t204 * L_32 = V_1;
+		NullCheck(L_32);
+		String_t* L_33 = (L_32->___achId_1);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_34 = String_Concat_m1978(NULL /*static, unused*/, _stringLiteral139, L_31, _stringLiteral140, L_33, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Logger_t61_il2cpp_TypeInfo_var);
+		Logger_d_m264(NULL /*static, unused*/, L_34, /*hidden argument*/NULL);
+		Action_1_t444 * L_35 = ___updateAchievment;
+		Achievement_t1 * L_36 = V_0;
+		NullCheck(L_35);
+		Action_1_Invoke_m2018(L_35, L_36, /*hidden argument*/Action_1_Invoke_m2018_MethodInfo_var);
+		GameServices_t210 * L_37 = NativeClient_GameServices_m929(__this, /*hidden argument*/NULL);
+		NullCheck(L_37);
+		AchievementManager_t335 * L_38 = GameServices_AchievementManager_m1338(L_37, /*hidden argument*/NULL);
+		U3CUpdateAchievementU3Ec__AnonStorey12_t204 * L_39 = V_1;
+		NullCheck(L_39);
+		String_t* L_40 = (L_39->___achId_1);
+		U3CUpdateAchievementU3Ec__AnonStorey12_t204 * L_41 = V_1;
+		IntPtr_t L_42 = { (void*)U3CUpdateAchievementU3Ec__AnonStorey12_U3CU3Em__17_m919_MethodInfo_var };
+		Action_1_t452 * L_43 = (Action_1_t452 *)il2cpp_codegen_object_new (Action_1_t452_il2cpp_TypeInfo_var);
+		Action_1__ctor_m2019(L_43, L_41, L_42, /*hidden argument*/Action_1__ctor_m2019_MethodInfo_var);
+		NullCheck(L_38);
+		AchievementManager_Fetch_m1292(L_38, L_40, L_43, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeClient::IncrementAchievement(System.String,System.Int32,System.Action`1<System.Boolean>)
+extern TypeInfo* U3CIncrementAchievementU3Ec__AnonStorey13_t205_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* Logger_t61_il2cpp_TypeInfo_var;
+extern TypeInfo* Convert_t510_il2cpp_TypeInfo_var;
+extern TypeInfo* Action_1_t452_il2cpp_TypeInfo_var;
+extern const MethodInfo* Misc_CheckNotNull_TisString_t_m1944_MethodInfo_var;
+extern const MethodInfo* NativeClient_AsOnGameThreadCallback_TisBoolean_t489_m2016_MethodInfo_var;
+extern const MethodInfo* Action_1_Invoke_m1917_MethodInfo_var;
+extern const MethodInfo* U3CIncrementAchievementU3Ec__AnonStorey13_U3CU3Em__18_m921_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2019_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral141;
+extern Il2CppCodeGenString* _stringLiteral142;
+extern Il2CppCodeGenString* _stringLiteral143;
+extern Il2CppCodeGenString* _stringLiteral144;
+extern "C" void NativeClient_IncrementAchievement_m949 (NativeClient_t201 * __this, String_t* ___achId, int32_t ___steps, Action_1_t66 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		U3CIncrementAchievementU3Ec__AnonStorey13_t205_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(113);
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
+		Logger_t61_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
+		Convert_t510_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(114);
+		Action_1_t452_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(112);
+		Misc_CheckNotNull_TisString_t_m1944_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483666);
+		NativeClient_AsOnGameThreadCallback_TisBoolean_t489_m2016_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483709);
+		Action_1_Invoke_m1917_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483649);
+		U3CIncrementAchievementU3Ec__AnonStorey13_U3CU3Em__18_m921_MethodInfo_var = il2cpp_codegen_method_info_from_index(66);
+		Action_1__ctor_m2019_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483713);
+		_stringLiteral141 = il2cpp_codegen_string_literal_from_index(141);
+		_stringLiteral142 = il2cpp_codegen_string_literal_from_index(142);
+		_stringLiteral143 = il2cpp_codegen_string_literal_from_index(143);
+		_stringLiteral144 = il2cpp_codegen_string_literal_from_index(144);
+		s_Il2CppMethodIntialized = true;
+	}
+	Achievement_t1 * V_0 = {0};
+	U3CIncrementAchievementU3Ec__AnonStorey13_t205 * V_1 = {0};
+	{
+		U3CIncrementAchievementU3Ec__AnonStorey13_t205 * L_0 = (U3CIncrementAchievementU3Ec__AnonStorey13_t205 *)il2cpp_codegen_object_new (U3CIncrementAchievementU3Ec__AnonStorey13_t205_il2cpp_TypeInfo_var);
+		U3CIncrementAchievementU3Ec__AnonStorey13__ctor_m920(L_0, /*hidden argument*/NULL);
+		V_1 = L_0;
+		U3CIncrementAchievementU3Ec__AnonStorey13_t205 * L_1 = V_1;
+		Action_1_t66 * L_2 = ___callback;
+		NullCheck(L_1);
+		L_1->___callback_0 = L_2;
+		U3CIncrementAchievementU3Ec__AnonStorey13_t205 * L_3 = V_1;
+		String_t* L_4 = ___achId;
+		NullCheck(L_3);
+		L_3->___achId_1 = L_4;
+		U3CIncrementAchievementU3Ec__AnonStorey13_t205 * L_5 = V_1;
+		NullCheck(L_5);
+		L_5->___U3CU3Ef__this_2 = __this;
+		U3CIncrementAchievementU3Ec__AnonStorey13_t205 * L_6 = V_1;
+		NullCheck(L_6);
+		String_t* L_7 = (L_6->___achId_1);
+		Misc_CheckNotNull_TisString_t_m1944(NULL /*static, unused*/, L_7, /*hidden argument*/Misc_CheckNotNull_TisString_t_m1944_MethodInfo_var);
+		U3CIncrementAchievementU3Ec__AnonStorey13_t205 * L_8 = V_1;
+		U3CIncrementAchievementU3Ec__AnonStorey13_t205 * L_9 = V_1;
+		NullCheck(L_9);
+		Action_1_t66 * L_10 = (L_9->___callback_0);
+		Action_1_t66 * L_11 = NativeClient_AsOnGameThreadCallback_TisBoolean_t489_m2016(NULL /*static, unused*/, L_10, /*hidden argument*/NativeClient_AsOnGameThreadCallback_TisBoolean_t489_m2016_MethodInfo_var);
+		NullCheck(L_8);
+		L_8->___callback_0 = L_11;
+		NativeClient_InitializeGameServices_m931(__this, /*hidden argument*/NULL);
+		U3CIncrementAchievementU3Ec__AnonStorey13_t205 * L_12 = V_1;
+		NullCheck(L_12);
+		String_t* L_13 = (L_12->___achId_1);
+		Achievement_t1 * L_14 = (Achievement_t1 *)VirtFuncInvoker1< Achievement_t1 *, String_t* >::Invoke(10 /* GooglePlayGames.BasicApi.Achievement GooglePlayGames.Native.NativeClient::GetAchievement(System.String) */, __this, L_13);
+		V_0 = L_14;
+		Achievement_t1 * L_15 = V_0;
+		if (L_15)
+		{
+			goto IL_0073;
+		}
+	}
+	{
+		U3CIncrementAchievementU3Ec__AnonStorey13_t205 * L_16 = V_1;
+		NullCheck(L_16);
+		String_t* L_17 = (L_16->___achId_1);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_18 = String_Concat_m1926(NULL /*static, unused*/, _stringLiteral141, L_17, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Logger_t61_il2cpp_TypeInfo_var);
+		Logger_e_m266(NULL /*static, unused*/, L_18, /*hidden argument*/NULL);
+		U3CIncrementAchievementU3Ec__AnonStorey13_t205 * L_19 = V_1;
+		NullCheck(L_19);
+		Action_1_t66 * L_20 = (L_19->___callback_0);
+		NullCheck(L_20);
+		Action_1_Invoke_m1917(L_20, 0, /*hidden argument*/Action_1_Invoke_m1917_MethodInfo_var);
+		return;
+	}
+
+IL_0073:
+	{
+		Achievement_t1 * L_21 = V_0;
+		NullCheck(L_21);
+		bool L_22 = Achievement_get_IsIncremental_m2(L_21, /*hidden argument*/NULL);
+		if (L_22)
+		{
+			goto IL_00a5;
+		}
+	}
+	{
+		U3CIncrementAchievementU3Ec__AnonStorey13_t205 * L_23 = V_1;
+		NullCheck(L_23);
+		String_t* L_24 = (L_23->___achId_1);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_25 = String_Concat_m2020(NULL /*static, unused*/, _stringLiteral142, L_24, _stringLiteral143, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Logger_t61_il2cpp_TypeInfo_var);
+		Logger_e_m266(NULL /*static, unused*/, L_25, /*hidden argument*/NULL);
+		U3CIncrementAchievementU3Ec__AnonStorey13_t205 * L_26 = V_1;
+		NullCheck(L_26);
+		Action_1_t66 * L_27 = (L_26->___callback_0);
+		NullCheck(L_27);
+		Action_1_Invoke_m1917(L_27, 0, /*hidden argument*/Action_1_Invoke_m1917_MethodInfo_var);
+		return;
+	}
+
+IL_00a5:
+	{
+		int32_t L_28 = ___steps;
+		if ((((int32_t)L_28) >= ((int32_t)0)))
+		{
+			goto IL_00c3;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Logger_t61_il2cpp_TypeInfo_var);
+		Logger_e_m266(NULL /*static, unused*/, _stringLiteral144, /*hidden argument*/NULL);
+		U3CIncrementAchievementU3Ec__AnonStorey13_t205 * L_29 = V_1;
+		NullCheck(L_29);
+		Action_1_t66 * L_30 = (L_29->___callback_0);
+		NullCheck(L_30);
+		Action_1_Invoke_m1917(L_30, 0, /*hidden argument*/Action_1_Invoke_m1917_MethodInfo_var);
+		return;
+	}
+
+IL_00c3:
+	{
+		GameServices_t210 * L_31 = NativeClient_GameServices_m929(__this, /*hidden argument*/NULL);
+		NullCheck(L_31);
+		AchievementManager_t335 * L_32 = GameServices_AchievementManager_m1338(L_31, /*hidden argument*/NULL);
+		U3CIncrementAchievementU3Ec__AnonStorey13_t205 * L_33 = V_1;
+		NullCheck(L_33);
+		String_t* L_34 = (L_33->___achId_1);
+		int32_t L_35 = ___steps;
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t510_il2cpp_TypeInfo_var);
+		uint32_t L_36 = Convert_ToUInt32_m2021(NULL /*static, unused*/, L_35, /*hidden argument*/NULL);
+		NullCheck(L_32);
+		AchievementManager_Increment_m1294(L_32, L_34, L_36, /*hidden argument*/NULL);
+		GameServices_t210 * L_37 = NativeClient_GameServices_m929(__this, /*hidden argument*/NULL);
+		NullCheck(L_37);
+		AchievementManager_t335 * L_38 = GameServices_AchievementManager_m1338(L_37, /*hidden argument*/NULL);
+		U3CIncrementAchievementU3Ec__AnonStorey13_t205 * L_39 = V_1;
+		NullCheck(L_39);
+		String_t* L_40 = (L_39->___achId_1);
+		U3CIncrementAchievementU3Ec__AnonStorey13_t205 * L_41 = V_1;
+		IntPtr_t L_42 = { (void*)U3CIncrementAchievementU3Ec__AnonStorey13_U3CU3Em__18_m921_MethodInfo_var };
+		Action_1_t452 * L_43 = (Action_1_t452 *)il2cpp_codegen_object_new (Action_1_t452_il2cpp_TypeInfo_var);
+		Action_1__ctor_m2019(L_43, L_41, L_42, /*hidden argument*/Action_1__ctor_m2019_MethodInfo_var);
+		NullCheck(L_38);
+		AchievementManager_Fetch_m1292(L_38, L_40, L_43, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeClient::ShowAchievementsUI(System.Action`1<GooglePlayGames.BasicApi.UIStatus>)
+extern TypeInfo* U3CShowAchievementsUIU3Ec__AnonStorey14_t206_il2cpp_TypeInfo_var;
+extern TypeInfo* Callbacks_t339_il2cpp_TypeInfo_var;
+extern TypeInfo* Action_1_t340_il2cpp_TypeInfo_var;
+extern const MethodInfo* U3CShowAchievementsUIU3Ec__AnonStorey14_U3CU3Em__19_m923_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2022_MethodInfo_var;
+extern const MethodInfo* NativeClient_AsOnGameThreadCallback_TisUIStatus_t88_m2023_MethodInfo_var;
+extern "C" void NativeClient_ShowAchievementsUI_m950 (NativeClient_t201 * __this, Action_1_t207 * ___cb, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		U3CShowAchievementsUIU3Ec__AnonStorey14_t206_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(115);
+		Callbacks_t339_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(116);
+		Action_1_t340_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(117);
+		U3CShowAchievementsUIU3Ec__AnonStorey14_U3CU3Em__19_m923_MethodInfo_var = il2cpp_codegen_method_info_from_index(67);
+		Action_1__ctor_m2022_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483716);
+		NativeClient_AsOnGameThreadCallback_TisUIStatus_t88_m2023_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483717);
+		s_Il2CppMethodIntialized = true;
+	}
+	Action_1_t340 * V_0 = {0};
+	U3CShowAchievementsUIU3Ec__AnonStorey14_t206 * V_1 = {0};
+	{
+		U3CShowAchievementsUIU3Ec__AnonStorey14_t206 * L_0 = (U3CShowAchievementsUIU3Ec__AnonStorey14_t206 *)il2cpp_codegen_object_new (U3CShowAchievementsUIU3Ec__AnonStorey14_t206_il2cpp_TypeInfo_var);
+		U3CShowAchievementsUIU3Ec__AnonStorey14__ctor_m922(L_0, /*hidden argument*/NULL);
+		V_1 = L_0;
+		U3CShowAchievementsUIU3Ec__AnonStorey14_t206 * L_1 = V_1;
+		Action_1_t207 * L_2 = ___cb;
+		NullCheck(L_1);
+		L_1->___cb_0 = L_2;
+		bool L_3 = (bool)VirtFuncInvoker0< bool >::Invoke(5 /* System.Boolean GooglePlayGames.Native.NativeClient::IsAuthenticated() */, __this);
+		if (L_3)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0019:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Callbacks_t339_il2cpp_TypeInfo_var);
+		Action_1_t340 * L_4 = ((Callbacks_t339_StaticFields*)Callbacks_t339_il2cpp_TypeInfo_var->static_fields)->___NoopUICallback_0;
+		V_0 = L_4;
+		U3CShowAchievementsUIU3Ec__AnonStorey14_t206 * L_5 = V_1;
+		NullCheck(L_5);
+		Action_1_t207 * L_6 = (L_5->___cb_0);
+		if (!L_6)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		U3CShowAchievementsUIU3Ec__AnonStorey14_t206 * L_7 = V_1;
+		IntPtr_t L_8 = { (void*)U3CShowAchievementsUIU3Ec__AnonStorey14_U3CU3Em__19_m923_MethodInfo_var };
+		Action_1_t340 * L_9 = (Action_1_t340 *)il2cpp_codegen_object_new (Action_1_t340_il2cpp_TypeInfo_var);
+		Action_1__ctor_m2022(L_9, L_7, L_8, /*hidden argument*/Action_1__ctor_m2022_MethodInfo_var);
+		V_0 = L_9;
+	}
+
+IL_0037:
+	{
+		Action_1_t340 * L_10 = V_0;
+		Action_1_t340 * L_11 = NativeClient_AsOnGameThreadCallback_TisUIStatus_t88_m2023(NULL /*static, unused*/, L_10, /*hidden argument*/NativeClient_AsOnGameThreadCallback_TisUIStatus_t88_m2023_MethodInfo_var);
+		V_0 = L_11;
+		GameServices_t210 * L_12 = NativeClient_GameServices_m929(__this, /*hidden argument*/NULL);
+		NullCheck(L_12);
+		AchievementManager_t335 * L_13 = GameServices_AchievementManager_m1338(L_12, /*hidden argument*/NULL);
+		Action_1_t340 * L_14 = V_0;
+		NullCheck(L_13);
+		AchievementManager_ShowAllUI_m1289(L_13, L_14, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeClient::ShowLeaderboardUI(System.String,System.Action`1<GooglePlayGames.BasicApi.UIStatus>)
+extern TypeInfo* U3CShowLeaderboardUIU3Ec__AnonStorey15_t208_il2cpp_TypeInfo_var;
+extern TypeInfo* Callbacks_t339_il2cpp_TypeInfo_var;
+extern TypeInfo* Action_1_t340_il2cpp_TypeInfo_var;
+extern const MethodInfo* U3CShowLeaderboardUIU3Ec__AnonStorey15_U3CU3Em__1A_m925_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2022_MethodInfo_var;
+extern const MethodInfo* NativeClient_AsOnGameThreadCallback_TisUIStatus_t88_m2023_MethodInfo_var;
+extern "C" void NativeClient_ShowLeaderboardUI_m951 (NativeClient_t201 * __this, String_t* ___leaderboardId, Action_1_t207 * ___cb, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		U3CShowLeaderboardUIU3Ec__AnonStorey15_t208_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(118);
+		Callbacks_t339_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(116);
+		Action_1_t340_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(117);
+		U3CShowLeaderboardUIU3Ec__AnonStorey15_U3CU3Em__1A_m925_MethodInfo_var = il2cpp_codegen_method_info_from_index(70);
+		Action_1__ctor_m2022_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483716);
+		NativeClient_AsOnGameThreadCallback_TisUIStatus_t88_m2023_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483717);
+		s_Il2CppMethodIntialized = true;
+	}
+	Action_1_t340 * V_0 = {0};
+	U3CShowLeaderboardUIU3Ec__AnonStorey15_t208 * V_1 = {0};
+	{
+		U3CShowLeaderboardUIU3Ec__AnonStorey15_t208 * L_0 = (U3CShowLeaderboardUIU3Ec__AnonStorey15_t208 *)il2cpp_codegen_object_new (U3CShowLeaderboardUIU3Ec__AnonStorey15_t208_il2cpp_TypeInfo_var);
+		U3CShowLeaderboardUIU3Ec__AnonStorey15__ctor_m924(L_0, /*hidden argument*/NULL);
+		V_1 = L_0;
+		U3CShowLeaderboardUIU3Ec__AnonStorey15_t208 * L_1 = V_1;
+		Action_1_t207 * L_2 = ___cb;
+		NullCheck(L_1);
+		L_1->___cb_0 = L_2;
+		bool L_3 = (bool)VirtFuncInvoker0< bool >::Invoke(5 /* System.Boolean GooglePlayGames.Native.NativeClient::IsAuthenticated() */, __this);
+		if (L_3)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0019:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Callbacks_t339_il2cpp_TypeInfo_var);
+		Action_1_t340 * L_4 = ((Callbacks_t339_StaticFields*)Callbacks_t339_il2cpp_TypeInfo_var->static_fields)->___NoopUICallback_0;
+		V_0 = L_4;
+		U3CShowLeaderboardUIU3Ec__AnonStorey15_t208 * L_5 = V_1;
+		NullCheck(L_5);
+		Action_1_t207 * L_6 = (L_5->___cb_0);
+		if (!L_6)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		U3CShowLeaderboardUIU3Ec__AnonStorey15_t208 * L_7 = V_1;
+		IntPtr_t L_8 = { (void*)U3CShowLeaderboardUIU3Ec__AnonStorey15_U3CU3Em__1A_m925_MethodInfo_var };
+		Action_1_t340 * L_9 = (Action_1_t340 *)il2cpp_codegen_object_new (Action_1_t340_il2cpp_TypeInfo_var);
+		Action_1__ctor_m2022(L_9, L_7, L_8, /*hidden argument*/Action_1__ctor_m2022_MethodInfo_var);
+		V_0 = L_9;
+	}
+
+IL_0037:
+	{
+		Action_1_t340 * L_10 = V_0;
+		Action_1_t340 * L_11 = NativeClient_AsOnGameThreadCallback_TisUIStatus_t88_m2023(NULL /*static, unused*/, L_10, /*hidden argument*/NativeClient_AsOnGameThreadCallback_TisUIStatus_t88_m2023_MethodInfo_var);
+		V_0 = L_11;
+		String_t* L_12 = ___leaderboardId;
+		if (L_12)
+		{
+			goto IL_005a;
+		}
+	}
+	{
+		GameServices_t210 * L_13 = NativeClient_GameServices_m929(__this, /*hidden argument*/NULL);
+		NullCheck(L_13);
+		LeaderboardManager_t349 * L_14 = GameServices_LeaderboardManager_m1339(L_13, /*hidden argument*/NULL);
+		Action_1_t340 * L_15 = V_0;
+		NullCheck(L_14);
+		LeaderboardManager_ShowAllUI_m1370(L_14, L_15, /*hidden argument*/NULL);
+		goto IL_006c;
+	}
+
+IL_005a:
+	{
+		GameServices_t210 * L_16 = NativeClient_GameServices_m929(__this, /*hidden argument*/NULL);
+		NullCheck(L_16);
+		LeaderboardManager_t349 * L_17 = GameServices_LeaderboardManager_m1339(L_16, /*hidden argument*/NULL);
+		String_t* L_18 = ___leaderboardId;
+		Action_1_t340 * L_19 = V_0;
+		NullCheck(L_17);
+		LeaderboardManager_ShowUI_m1371(L_17, L_18, L_19, /*hidden argument*/NULL);
+	}
+
+IL_006c:
+	{
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeClient::SubmitScore(System.String,System.Int64,System.Action`1<System.Boolean>)
+extern TypeInfo* ArgumentNullException_t504_il2cpp_TypeInfo_var;
+extern const MethodInfo* NativeClient_AsOnGameThreadCallback_TisBoolean_t489_m2016_MethodInfo_var;
+extern const MethodInfo* Action_1_Invoke_m1917_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral145;
+extern "C" void NativeClient_SubmitScore_m952 (NativeClient_t201 * __this, String_t* ___leaderboardId, int64_t ___score, Action_1_t66 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		ArgumentNullException_t504_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(59);
+		NativeClient_AsOnGameThreadCallback_TisBoolean_t489_m2016_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483709);
+		Action_1_Invoke_m1917_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483649);
+		_stringLiteral145 = il2cpp_codegen_string_literal_from_index(145);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Action_1_t66 * L_0 = ___callback;
+		Action_1_t66 * L_1 = NativeClient_AsOnGameThreadCallback_TisBoolean_t489_m2016(NULL /*static, unused*/, L_0, /*hidden argument*/NativeClient_AsOnGameThreadCallback_TisBoolean_t489_m2016_MethodInfo_var);
+		___callback = L_1;
+		bool L_2 = (bool)VirtFuncInvoker0< bool >::Invoke(5 /* System.Boolean GooglePlayGames.Native.NativeClient::IsAuthenticated() */, __this);
+		if (L_2)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		Action_1_t66 * L_3 = ___callback;
+		NullCheck(L_3);
+		Action_1_Invoke_m1917(L_3, 0, /*hidden argument*/Action_1_Invoke_m1917_MethodInfo_var);
+	}
+
+IL_001a:
+	{
+		NativeClient_InitializeGameServices_m931(__this, /*hidden argument*/NULL);
+		String_t* L_4 = ___leaderboardId;
+		if (L_4)
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		ArgumentNullException_t504 * L_5 = (ArgumentNullException_t504 *)il2cpp_codegen_object_new (ArgumentNullException_t504_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m1984(L_5, _stringLiteral145, /*hidden argument*/NULL);
+		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_5);
+	}
+
+IL_0031:
+	{
+		GameServices_t210 * L_6 = NativeClient_GameServices_m929(__this, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		LeaderboardManager_t349 * L_7 = GameServices_LeaderboardManager_m1339(L_6, /*hidden argument*/NULL);
+		String_t* L_8 = ___leaderboardId;
+		int64_t L_9 = ___score;
+		NullCheck(L_7);
+		LeaderboardManager_SubmitScore_m1369(L_7, L_8, L_9, /*hidden argument*/NULL);
+		Action_1_t66 * L_10 = ___callback;
+		NullCheck(L_10);
+		Action_1_Invoke_m1917(L_10, 1, /*hidden argument*/Action_1_Invoke_m1917_MethodInfo_var);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeClient::LoadState(System.Int32,GooglePlayGames.BasicApi.OnStateLoadedListener)
+extern TypeInfo* Logger_t61_il2cpp_TypeInfo_var;
+extern TypeInfo* OnStateLoadedListener_t425_il2cpp_TypeInfo_var;
+extern TypeInfo* AppStateClient_t219_il2cpp_TypeInfo_var;
+extern const MethodInfo* Misc_CheckNotNull_TisOnStateLoadedListener_t425_m2024_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral146;
+extern "C" void NativeClient_LoadState_m953 (NativeClient_t201 * __this, int32_t ___slot, Object_t * ___listener, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		Logger_t61_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
+		OnStateLoadedListener_t425_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(8);
+		AppStateClient_t219_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(119);
+		Misc_CheckNotNull_TisOnStateLoadedListener_t425_m2024_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483719);
+		_stringLiteral146 = il2cpp_codegen_string_literal_from_index(146);
+		s_Il2CppMethodIntialized = true;
+	}
+	Object_t * V_0 = {0};
+	Exception_t492 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t492 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Object_t * L_0 = ___listener;
+		Misc_CheckNotNull_TisOnStateLoadedListener_t425_m2024(NULL /*static, unused*/, L_0, /*hidden argument*/Misc_CheckNotNull_TisOnStateLoadedListener_t425_m2024_MethodInfo_var);
+		Object_t * L_1 = (__this->___GameServicesLock_3);
+		V_0 = L_1;
+		Object_t * L_2 = V_0;
+		Monitor_Enter_m1995(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+	}
+
+IL_0014:
+	try
+	{ // begin try (depth: 1)
+		{
+			int32_t L_3 = (__this->___mAuthState_18);
+			il2cpp_codegen_memory_barrier();
+			if ((((int32_t)L_3) == ((int32_t)1)))
+			{
+				goto IL_0035;
+			}
+		}
+
+IL_0022:
+		{
+			IL2CPP_RUNTIME_CLASS_INIT(Logger_t61_il2cpp_TypeInfo_var);
+			Logger_e_m266(NULL /*static, unused*/, _stringLiteral146, /*hidden argument*/NULL);
+			Object_t * L_4 = ___listener;
+			int32_t L_5 = ___slot;
+			NullCheck(L_4);
+			InterfaceActionInvoker3< bool, int32_t, ByteU5BU5D_t20* >::Invoke(0 /* System.Void GooglePlayGames.BasicApi.OnStateLoadedListener::OnStateLoaded(System.Boolean,System.Int32,System.Byte[]) */, OnStateLoadedListener_t425_il2cpp_TypeInfo_var, L_4, 0, L_5, (ByteU5BU5D_t20*)(ByteU5BU5D_t20*)NULL);
+		}
+
+IL_0035:
+		{
+			Object_t * L_6 = (__this->___mAppStateClient_12);
+			il2cpp_codegen_memory_barrier();
+			int32_t L_7 = ___slot;
+			Object_t * L_8 = ___listener;
+			NullCheck(L_6);
+			InterfaceActionInvoker2< int32_t, Object_t * >::Invoke(0 /* System.Void GooglePlayGames.Native.AppStateClient::LoadState(System.Int32,GooglePlayGames.BasicApi.OnStateLoadedListener) */, AppStateClient_t219_il2cpp_TypeInfo_var, L_6, L_7, L_8);
+			IL2CPP_LEAVE(0x50, FINALLY_0049);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t492 *)e.ex;
+		goto FINALLY_0049;
+	}
+
+FINALLY_0049:
+	{ // begin finally (depth: 1)
+		Object_t * L_9 = V_0;
+		Monitor_Exit_m1996(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(73)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(73)
+	{
+		IL2CPP_JUMP_TBL(0x50, IL_0050)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t492 *)
+	}
+
+IL_0050:
+	{
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeClient::UpdateState(System.Int32,System.Byte[],GooglePlayGames.BasicApi.OnStateLoadedListener)
+extern TypeInfo* Logger_t61_il2cpp_TypeInfo_var;
+extern TypeInfo* OnStateLoadedListener_t425_il2cpp_TypeInfo_var;
+extern TypeInfo* AppStateClient_t219_il2cpp_TypeInfo_var;
+extern const MethodInfo* Misc_CheckNotNull_TisOnStateLoadedListener_t425_m2024_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral147;
+extern "C" void NativeClient_UpdateState_m954 (NativeClient_t201 * __this, int32_t ___slot, ByteU5BU5D_t20* ___data, Object_t * ___listener, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		Logger_t61_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
+		OnStateLoadedListener_t425_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(8);
+		AppStateClient_t219_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(119);
+		Misc_CheckNotNull_TisOnStateLoadedListener_t425_m2024_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483719);
+		_stringLiteral147 = il2cpp_codegen_string_literal_from_index(147);
+		s_Il2CppMethodIntialized = true;
+	}
+	Object_t * V_0 = {0};
+	Exception_t492 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t492 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Object_t * L_0 = ___listener;
+		Misc_CheckNotNull_TisOnStateLoadedListener_t425_m2024(NULL /*static, unused*/, L_0, /*hidden argument*/Misc_CheckNotNull_TisOnStateLoadedListener_t425_m2024_MethodInfo_var);
+		Object_t * L_1 = (__this->___GameServicesLock_3);
+		V_0 = L_1;
+		Object_t * L_2 = V_0;
+		Monitor_Enter_m1995(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+	}
+
+IL_0014:
+	try
+	{ // begin try (depth: 1)
+		{
+			int32_t L_3 = (__this->___mAuthState_18);
+			il2cpp_codegen_memory_barrier();
+			if ((((int32_t)L_3) == ((int32_t)1)))
+			{
+				goto IL_0034;
+			}
+		}
+
+IL_0022:
+		{
+			IL2CPP_RUNTIME_CLASS_INIT(Logger_t61_il2cpp_TypeInfo_var);
+			Logger_e_m266(NULL /*static, unused*/, _stringLiteral147, /*hidden argument*/NULL);
+			Object_t * L_4 = ___listener;
+			int32_t L_5 = ___slot;
+			NullCheck(L_4);
+			InterfaceActionInvoker2< bool, int32_t >::Invoke(2 /* System.Void GooglePlayGames.BasicApi.OnStateLoadedListener::OnStateSaved(System.Boolean,System.Int32) */, OnStateLoadedListener_t425_il2cpp_TypeInfo_var, L_4, 0, L_5);
+		}
+
+IL_0034:
+		{
+			Object_t * L_6 = (__this->___mAppStateClient_12);
+			il2cpp_codegen_memory_barrier();
+			int32_t L_7 = ___slot;
+			ByteU5BU5D_t20* L_8 = ___data;
+			Object_t * L_9 = ___listener;
+			NullCheck(L_6);
+			InterfaceActionInvoker3< int32_t, ByteU5BU5D_t20*, Object_t * >::Invoke(1 /* System.Void GooglePlayGames.Native.AppStateClient::UpdateState(System.Int32,System.Byte[],GooglePlayGames.BasicApi.OnStateLoadedListener) */, AppStateClient_t219_il2cpp_TypeInfo_var, L_6, L_7, L_8, L_9);
+			IL2CPP_LEAVE(0x50, FINALLY_0049);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t492 *)e.ex;
+		goto FINALLY_0049;
+	}
+
+FINALLY_0049:
+	{ // begin finally (depth: 1)
+		Object_t * L_10 = V_0;
+		Monitor_Exit_m1996(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(73)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(73)
+	{
+		IL2CPP_JUMP_TBL(0x50, IL_0050)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t492 *)
+	}
+
+IL_0050:
+	{
+		return;
+	}
+}
+// GooglePlayGames.BasicApi.Multiplayer.IRealTimeMultiplayerClient GooglePlayGames.Native.NativeClient::GetRtmpClient()
+extern "C" Object_t * NativeClient_GetRtmpClient_m955 (NativeClient_t201 * __this, const MethodInfo* method)
+{
+	Object_t * V_0 = {0};
+	Object_t * V_1 = {0};
+	Exception_t492 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t492 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		bool L_0 = (bool)VirtFuncInvoker0< bool >::Invoke(5 /* System.Boolean GooglePlayGames.Native.NativeClient::IsAuthenticated() */, __this);
+		if (L_0)
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		return (Object_t *)NULL;
+	}
+
+IL_000d:
+	{
+		Object_t * L_1 = (__this->___GameServicesLock_3);
+		V_0 = L_1;
+		Object_t * L_2 = V_0;
+		Monitor_Enter_m1995(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+	}
+
+IL_001a:
+	try
+	{ // begin try (depth: 1)
+		{
+			NativeRealtimeMultiplayerClient_t212 * L_3 = (__this->___mRealTimeClient_8);
+			il2cpp_codegen_memory_barrier();
+			V_1 = L_3;
+			IL2CPP_LEAVE(0x34, FINALLY_002d);
+		}
+
+IL_0028:
+		{
+			; // IL_0028: leave IL_0034
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t492 *)e.ex;
+		goto FINALLY_002d;
+	}
+
+FINALLY_002d:
+	{ // begin finally (depth: 1)
+		Object_t * L_4 = V_0;
+		Monitor_Exit_m1996(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(45)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(45)
+	{
+		IL2CPP_JUMP_TBL(0x34, IL_0034)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t492 *)
+	}
+
+IL_0034:
+	{
+		Object_t * L_5 = V_1;
+		return L_5;
+	}
+}
+// GooglePlayGames.BasicApi.Multiplayer.ITurnBasedMultiplayerClient GooglePlayGames.Native.NativeClient::GetTbmpClient()
+extern "C" Object_t * NativeClient_GetTbmpClient_m956 (NativeClient_t201 * __this, const MethodInfo* method)
+{
+	Object_t * V_0 = {0};
+	Object_t * V_1 = {0};
+	Exception_t492 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t492 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Object_t * L_0 = (__this->___GameServicesLock_3);
+		V_0 = L_0;
+		Object_t * L_1 = V_0;
+		Monitor_Enter_m1995(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+	}
+
+IL_000d:
+	try
+	{ // begin try (depth: 1)
+		{
+			NativeTurnBasedMultiplayerClient_t211 * L_2 = (__this->___mTurnBasedClient_7);
+			il2cpp_codegen_memory_barrier();
+			V_1 = L_2;
+			IL2CPP_LEAVE(0x27, FINALLY_0020);
+		}
+
+IL_001b:
+		{
+			; // IL_001b: leave IL_0027
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t492 *)e.ex;
+		goto FINALLY_0020;
+	}
+
+FINALLY_0020:
+	{ // begin finally (depth: 1)
+		Object_t * L_3 = V_0;
+		Monitor_Exit_m1996(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(32)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(32)
+	{
+		IL2CPP_JUMP_TBL(0x27, IL_0027)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t492 *)
+	}
+
+IL_0027:
+	{
+		Object_t * L_4 = V_1;
+		return L_4;
+	}
+}
+// GooglePlayGames.BasicApi.SavedGame.ISavedGameClient GooglePlayGames.Native.NativeClient::GetSavedGameClient()
+extern "C" Object_t * NativeClient_GetSavedGameClient_m957 (NativeClient_t201 * __this, const MethodInfo* method)
+{
+	Object_t * V_0 = {0};
+	Object_t * V_1 = {0};
+	Exception_t492 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t492 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Object_t * L_0 = (__this->___GameServicesLock_3);
+		V_0 = L_0;
+		Object_t * L_1 = V_0;
+		Monitor_Enter_m1995(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+	}
+
+IL_000d:
+	try
+	{ // begin try (depth: 1)
+		{
+			Object_t * L_2 = (__this->___mSavedGameClient_9);
+			il2cpp_codegen_memory_barrier();
+			V_1 = L_2;
+			IL2CPP_LEAVE(0x27, FINALLY_0020);
+		}
+
+IL_001b:
+		{
+			; // IL_001b: leave IL_0027
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t492 *)e.ex;
+		goto FINALLY_0020;
+	}
+
+FINALLY_0020:
+	{ // begin finally (depth: 1)
+		Object_t * L_3 = V_0;
+		Monitor_Exit_m1996(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(32)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(32)
+	{
+		IL2CPP_JUMP_TBL(0x27, IL_0027)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t492 *)
+	}
+
+IL_0027:
+	{
+		Object_t * L_4 = V_1;
+		return L_4;
+	}
+}
+// GooglePlayGames.BasicApi.Events.IEventsClient GooglePlayGames.Native.NativeClient::GetEventsClient()
+extern "C" Object_t * NativeClient_GetEventsClient_m958 (NativeClient_t201 * __this, const MethodInfo* method)
+{
+	Object_t * V_0 = {0};
+	Object_t * V_1 = {0};
+	Exception_t492 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t492 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Object_t * L_0 = (__this->___GameServicesLock_3);
+		V_0 = L_0;
+		Object_t * L_1 = V_0;
+		Monitor_Enter_m1995(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+	}
+
+IL_000d:
+	try
+	{ // begin try (depth: 1)
+		{
+			Object_t * L_2 = (__this->___mEventsClient_10);
+			il2cpp_codegen_memory_barrier();
+			V_1 = L_2;
+			IL2CPP_LEAVE(0x27, FINALLY_0020);
+		}
+
+IL_001b:
+		{
+			; // IL_001b: leave IL_0027
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t492 *)e.ex;
+		goto FINALLY_0020;
+	}
+
+FINALLY_0020:
+	{ // begin finally (depth: 1)
+		Object_t * L_3 = V_0;
+		Monitor_Exit_m1996(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(32)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(32)
+	{
+		IL2CPP_JUMP_TBL(0x27, IL_0027)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t492 *)
+	}
+
+IL_0027:
+	{
+		Object_t * L_4 = V_1;
+		return L_4;
+	}
+}
+// GooglePlayGames.BasicApi.Quests.IQuestsClient GooglePlayGames.Native.NativeClient::GetQuestsClient()
+extern "C" Object_t * NativeClient_GetQuestsClient_m959 (NativeClient_t201 * __this, const MethodInfo* method)
+{
+	Object_t * V_0 = {0};
+	Object_t * V_1 = {0};
+	Exception_t492 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t492 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Object_t * L_0 = (__this->___GameServicesLock_3);
+		V_0 = L_0;
+		Object_t * L_1 = V_0;
+		Monitor_Enter_m1995(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+	}
+
+IL_000d:
+	try
+	{ // begin try (depth: 1)
+		{
+			Object_t * L_2 = (__this->___mQuestsClient_11);
+			il2cpp_codegen_memory_barrier();
+			V_1 = L_2;
+			IL2CPP_LEAVE(0x27, FINALLY_0020);
+		}
+
+IL_001b:
+		{
+			; // IL_001b: leave IL_0027
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t492 *)e.ex;
+		goto FINALLY_0020;
+	}
+
+FINALLY_0020:
+	{ // begin finally (depth: 1)
+		Object_t * L_3 = V_0;
+		Monitor_Exit_m1996(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(32)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(32)
+	{
+		IL2CPP_JUMP_TBL(0x27, IL_0027)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t492 *)
+	}
+
+IL_0027:
+	{
+		Object_t * L_4 = V_1;
+		return L_4;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeClient::RegisterInvitationDelegate(GooglePlayGames.BasicApi.InvitationReceivedDelegate)
+extern TypeInfo* U3CRegisterInvitationDelegateU3Ec__AnonStorey16_t209_il2cpp_TypeInfo_var;
+extern TypeInfo* Action_2_t213_il2cpp_TypeInfo_var;
+extern TypeInfo* Callbacks_t339_il2cpp_TypeInfo_var;
+extern const MethodInfo* U3CRegisterInvitationDelegateU3Ec__AnonStorey16_U3CU3Em__1B_m927_MethodInfo_var;
+extern const MethodInfo* Action_2__ctor_m2025_MethodInfo_var;
+extern const MethodInfo* Callbacks_AsOnGameThreadCallback_TisInvitation_t8_TisBoolean_t489_m2026_MethodInfo_var;
+extern "C" void NativeClient_RegisterInvitationDelegate_m960 (NativeClient_t201 * __this, InvitationReceivedDelegate_t33 * ___invitationDelegate, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		U3CRegisterInvitationDelegateU3Ec__AnonStorey16_t209_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(120);
+		Action_2_t213_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(121);
+		Callbacks_t339_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(116);
+		U3CRegisterInvitationDelegateU3Ec__AnonStorey16_U3CU3Em__1B_m927_MethodInfo_var = il2cpp_codegen_method_info_from_index(72);
+		Action_2__ctor_m2025_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483721);
+		Callbacks_AsOnGameThreadCallback_TisInvitation_t8_TisBoolean_t489_m2026_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483722);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CRegisterInvitationDelegateU3Ec__AnonStorey16_t209 * V_0 = {0};
+	{
+		U3CRegisterInvitationDelegateU3Ec__AnonStorey16_t209 * L_0 = (U3CRegisterInvitationDelegateU3Ec__AnonStorey16_t209 *)il2cpp_codegen_object_new (U3CRegisterInvitationDelegateU3Ec__AnonStorey16_t209_il2cpp_TypeInfo_var);
+		U3CRegisterInvitationDelegateU3Ec__AnonStorey16__ctor_m926(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CRegisterInvitationDelegateU3Ec__AnonStorey16_t209 * L_1 = V_0;
+		InvitationReceivedDelegate_t33 * L_2 = ___invitationDelegate;
+		NullCheck(L_1);
+		L_1->___invitationDelegate_0 = L_2;
+		U3CRegisterInvitationDelegateU3Ec__AnonStorey16_t209 * L_3 = V_0;
+		NullCheck(L_3);
+		InvitationReceivedDelegate_t33 * L_4 = (L_3->___invitationDelegate_0);
+		if (L_4)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		il2cpp_codegen_memory_barrier();
+		__this->___mInvitationDelegate_13 = (Action_2_t213 *)NULL;
+		goto IL_003f;
+	}
+
+IL_0026:
+	{
+		U3CRegisterInvitationDelegateU3Ec__AnonStorey16_t209 * L_5 = V_0;
+		IntPtr_t L_6 = { (void*)U3CRegisterInvitationDelegateU3Ec__AnonStorey16_U3CU3Em__1B_m927_MethodInfo_var };
+		Action_2_t213 * L_7 = (Action_2_t213 *)il2cpp_codegen_object_new (Action_2_t213_il2cpp_TypeInfo_var);
+		Action_2__ctor_m2025(L_7, L_5, L_6, /*hidden argument*/Action_2__ctor_m2025_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(Callbacks_t339_il2cpp_TypeInfo_var);
+		Action_2_t213 * L_8 = Callbacks_AsOnGameThreadCallback_TisInvitation_t8_TisBoolean_t489_m2026(NULL /*static, unused*/, L_7, /*hidden argument*/Callbacks_AsOnGameThreadCallback_TisInvitation_t8_TisBoolean_t489_m2026_MethodInfo_var);
+		il2cpp_codegen_memory_barrier();
+		__this->___mInvitationDelegate_13 = L_8;
+	}
+
+IL_003f:
+	{
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeClient::<InitializeGameServices>m__10(GooglePlayGames.Native.Cwrapper.Types/MultiplayerEvent,System.String,GooglePlayGames.Native.PInvoke.NativeTurnBasedMatch)
+extern "C" void NativeClient_U3CInitializeGameServicesU3Em__10_m961 (NativeClient_t201 * __this, int32_t ___eventType, String_t* ___matchId, NativeTurnBasedMatch_t359 * ___match, const MethodInfo* method)
+{
+	{
+		NativeTurnBasedMultiplayerClient_t211 * L_0 = (__this->___mTurnBasedClient_7);
+		il2cpp_codegen_memory_barrier();
+		int32_t L_1 = ___eventType;
+		String_t* L_2 = ___matchId;
+		NativeTurnBasedMatch_t359 * L_3 = ___match;
+		NullCheck(L_0);
+		NativeTurnBasedMultiplayerClient_HandleMatchEvent_m1260(L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean GooglePlayGames.Native.NativeClient::<UnlockAchievement>m__13(GooglePlayGames.BasicApi.Achievement)
+extern "C" bool NativeClient_U3CUnlockAchievementU3Em__13_m962 (Object_t * __this /* static, unused */, Achievement_t1 * ___a, const MethodInfo* method)
+{
+	{
+		Achievement_t1 * L_0 = ___a;
+		NullCheck(L_0);
+		bool L_1 = Achievement_get_IsUnlocked_m8(L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Boolean GooglePlayGames.Native.NativeClient::<RevealAchievement>m__15(GooglePlayGames.BasicApi.Achievement)
+extern "C" bool NativeClient_U3CRevealAchievementU3Em__15_m963 (Object_t * __this /* static, unused */, Achievement_t1 * ___a, const MethodInfo* method)
+{
+	{
+		Achievement_t1 * L_0 = ___a;
+		NullCheck(L_0);
+		bool L_1 = Achievement_get_IsRevealed_m10(L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeEventClient/<FetchAllEvents>c__AnonStorey17::.ctor()
+extern "C" void U3CFetchAllEventsU3Ec__AnonStorey17__ctor_m964 (U3CFetchAllEventsU3Ec__AnonStorey17_t220 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1915(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeEventClient/<FetchAllEvents>c__AnonStorey17::<>m__1C(GooglePlayGames.Native.PInvoke.EventManager/FetchAllResponse)
+extern TypeInfo* List_1_t511_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m2027_MethodInfo_var;
+extern const MethodInfo* Action_2_Invoke_m2028_MethodInfo_var;
+extern const MethodInfo* Enumerable_Cast_TisIEvent_t512_m2029_MethodInfo_var;
+extern const MethodInfo* Enumerable_ToList_TisIEvent_t512_m2030_MethodInfo_var;
+extern "C" void U3CFetchAllEventsU3Ec__AnonStorey17_U3CU3Em__1C_m965 (U3CFetchAllEventsU3Ec__AnonStorey17_t220 * __this, FetchAllResponse_t342 * ___response, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		List_1_t511_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(124);
+		List_1__ctor_m2027_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483723);
+		Action_2_Invoke_m2028_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483724);
+		Enumerable_Cast_TisIEvent_t512_m2029_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483725);
+		Enumerable_ToList_TisIEvent_t512_m2030_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483726);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = {0};
+	{
+		FetchAllResponse_t342 * L_0 = ___response;
+		NullCheck(L_0);
+		int32_t L_1 = FetchAllResponse_ResponseStatus_m1321(L_0, /*hidden argument*/NULL);
+		int32_t L_2 = ConversionUtils_ConvertResponseStatus_m283(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		FetchAllResponse_t342 * L_3 = ___response;
+		NullCheck(L_3);
+		bool L_4 = FetchAllResponse_RequestSucceeded_m1323(L_3, /*hidden argument*/NULL);
+		if (L_4)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		Action_2_t221 * L_5 = (__this->___callback_0);
+		int32_t L_6 = V_0;
+		List_1_t511 * L_7 = (List_1_t511 *)il2cpp_codegen_object_new (List_1_t511_il2cpp_TypeInfo_var);
+		List_1__ctor_m2027(L_7, /*hidden argument*/List_1__ctor_m2027_MethodInfo_var);
+		NullCheck(L_5);
+		Action_2_Invoke_m2028(L_5, L_6, L_7, /*hidden argument*/Action_2_Invoke_m2028_MethodInfo_var);
+		goto IL_0049;
+	}
+
+IL_002d:
+	{
+		Action_2_t221 * L_8 = (__this->___callback_0);
+		int32_t L_9 = V_0;
+		FetchAllResponse_t342 * L_10 = ___response;
+		NullCheck(L_10);
+		List_1_t454 * L_11 = FetchAllResponse_Data_m1322(L_10, /*hidden argument*/NULL);
+		Object_t* L_12 = Enumerable_Cast_TisIEvent_t512_m2029(NULL /*static, unused*/, L_11, /*hidden argument*/Enumerable_Cast_TisIEvent_t512_m2029_MethodInfo_var);
+		List_1_t511 * L_13 = Enumerable_ToList_TisIEvent_t512_m2030(NULL /*static, unused*/, L_12, /*hidden argument*/Enumerable_ToList_TisIEvent_t512_m2030_MethodInfo_var);
+		NullCheck(L_8);
+		Action_2_Invoke_m2028(L_8, L_9, L_13, /*hidden argument*/Action_2_Invoke_m2028_MethodInfo_var);
+	}
+
+IL_0049:
+	{
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeEventClient/<FetchEvent>c__AnonStorey18::.ctor()
+extern "C" void U3CFetchEventU3Ec__AnonStorey18__ctor_m966 (U3CFetchEventU3Ec__AnonStorey18_t222 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1915(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeEventClient/<FetchEvent>c__AnonStorey18::<>m__1D(GooglePlayGames.Native.PInvoke.EventManager/FetchResponse)
+extern const MethodInfo* Action_2_Invoke_m2031_MethodInfo_var;
+extern "C" void U3CFetchEventU3Ec__AnonStorey18_U3CU3Em__1D_m967 (U3CFetchEventU3Ec__AnonStorey18_t222 * __this, FetchResponse_t341 * ___response, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		Action_2_Invoke_m2031_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483727);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = {0};
+	{
+		FetchResponse_t341 * L_0 = ___response;
+		NullCheck(L_0);
+		int32_t L_1 = FetchResponse_ResponseStatus_m1315(L_0, /*hidden argument*/NULL);
+		int32_t L_2 = ConversionUtils_ConvertResponseStatus_m283(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		FetchResponse_t341 * L_3 = ___response;
+		NullCheck(L_3);
+		bool L_4 = FetchResponse_RequestSucceeded_m1316(L_3, /*hidden argument*/NULL);
+		if (L_4)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		Action_2_t223 * L_5 = (__this->___callback_0);
+		int32_t L_6 = V_0;
+		NullCheck(L_5);
+		Action_2_Invoke_m2031(L_5, L_6, (Object_t *)NULL, /*hidden argument*/Action_2_Invoke_m2031_MethodInfo_var);
+		goto IL_003b;
+	}
+
+IL_0029:
+	{
+		Action_2_t223 * L_7 = (__this->___callback_0);
+		int32_t L_8 = V_0;
+		FetchResponse_t341 * L_9 = ___response;
+		NullCheck(L_9);
+		NativeEvent_t353 * L_10 = FetchResponse_Data_m1317(L_9, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		Action_2_Invoke_m2031(L_7, L_8, L_10, /*hidden argument*/Action_2_Invoke_m2031_MethodInfo_var);
+	}
+
+IL_003b:
+	{
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeEventClient::.ctor(GooglePlayGames.Native.PInvoke.EventManager)
+extern const MethodInfo* Misc_CheckNotNull_TisEventManager_t225_m2032_MethodInfo_var;
+extern "C" void NativeEventClient__ctor_m968 (NativeEventClient_t224 * __this, EventManager_t225 * ___manager, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		Misc_CheckNotNull_TisEventManager_t225_m2032_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483728);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Object__ctor_m1915(__this, /*hidden argument*/NULL);
+		EventManager_t225 * L_0 = ___manager;
+		EventManager_t225 * L_1 = Misc_CheckNotNull_TisEventManager_t225_m2032(NULL /*static, unused*/, L_0, /*hidden argument*/Misc_CheckNotNull_TisEventManager_t225_m2032_MethodInfo_var);
+		__this->___mEventManager_0 = L_1;
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeEventClient::FetchAllEvents(GooglePlayGames.BasicApi.DataSource,System.Action`2<GooglePlayGames.BasicApi.ResponseStatus,System.Collections.Generic.List`1<GooglePlayGames.BasicApi.Events.IEvent>>)
+extern TypeInfo* U3CFetchAllEventsU3Ec__AnonStorey17_t220_il2cpp_TypeInfo_var;
+extern TypeInfo* Action_1_t455_il2cpp_TypeInfo_var;
+extern const MethodInfo* Misc_CheckNotNull_TisAction_2_t221_m2033_MethodInfo_var;
+extern const MethodInfo* CallbackUtils_ToOnGameThread_TisResponseStatus_t3_TisList_1_t511_m2034_MethodInfo_var;
+extern const MethodInfo* U3CFetchAllEventsU3Ec__AnonStorey17_U3CU3Em__1C_m965_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2035_MethodInfo_var;
+extern "C" void NativeEventClient_FetchAllEvents_m969 (NativeEventClient_t224 * __this, int32_t ___source, Action_2_t221 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		U3CFetchAllEventsU3Ec__AnonStorey17_t220_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(127);
+		Action_1_t455_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(128);
+		Misc_CheckNotNull_TisAction_2_t221_m2033_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483729);
+		CallbackUtils_ToOnGameThread_TisResponseStatus_t3_TisList_1_t511_m2034_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483730);
+		U3CFetchAllEventsU3Ec__AnonStorey17_U3CU3Em__1C_m965_MethodInfo_var = il2cpp_codegen_method_info_from_index(83);
+		Action_1__ctor_m2035_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483732);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CFetchAllEventsU3Ec__AnonStorey17_t220 * V_0 = {0};
+	{
+		U3CFetchAllEventsU3Ec__AnonStorey17_t220 * L_0 = (U3CFetchAllEventsU3Ec__AnonStorey17_t220 *)il2cpp_codegen_object_new (U3CFetchAllEventsU3Ec__AnonStorey17_t220_il2cpp_TypeInfo_var);
+		U3CFetchAllEventsU3Ec__AnonStorey17__ctor_m964(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CFetchAllEventsU3Ec__AnonStorey17_t220 * L_1 = V_0;
+		Action_2_t221 * L_2 = ___callback;
+		NullCheck(L_1);
+		L_1->___callback_0 = L_2;
+		U3CFetchAllEventsU3Ec__AnonStorey17_t220 * L_3 = V_0;
+		NullCheck(L_3);
+		Action_2_t221 * L_4 = (L_3->___callback_0);
+		Misc_CheckNotNull_TisAction_2_t221_m2033(NULL /*static, unused*/, L_4, /*hidden argument*/Misc_CheckNotNull_TisAction_2_t221_m2033_MethodInfo_var);
+		U3CFetchAllEventsU3Ec__AnonStorey17_t220 * L_5 = V_0;
+		U3CFetchAllEventsU3Ec__AnonStorey17_t220 * L_6 = V_0;
+		NullCheck(L_6);
+		Action_2_t221 * L_7 = (L_6->___callback_0);
+		Action_2_t221 * L_8 = CallbackUtils_ToOnGameThread_TisResponseStatus_t3_TisList_1_t511_m2034(NULL /*static, unused*/, L_7, /*hidden argument*/CallbackUtils_ToOnGameThread_TisResponseStatus_t3_TisList_1_t511_m2034_MethodInfo_var);
+		NullCheck(L_5);
+		L_5->___callback_0 = L_8;
+		EventManager_t225 * L_9 = (__this->___mEventManager_0);
+		int32_t L_10 = ___source;
+		int32_t L_11 = ConversionUtils_AsDataSource_m285(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		U3CFetchAllEventsU3Ec__AnonStorey17_t220 * L_12 = V_0;
+		IntPtr_t L_13 = { (void*)U3CFetchAllEventsU3Ec__AnonStorey17_U3CU3Em__1C_m965_MethodInfo_var };
+		Action_1_t455 * L_14 = (Action_1_t455 *)il2cpp_codegen_object_new (Action_1_t455_il2cpp_TypeInfo_var);
+		Action_1__ctor_m2035(L_14, L_12, L_13, /*hidden argument*/Action_1__ctor_m2035_MethodInfo_var);
+		NullCheck(L_9);
+		EventManager_FetchAll_m1329(L_9, L_11, L_14, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeEventClient::FetchEvent(GooglePlayGames.BasicApi.DataSource,System.String,System.Action`2<GooglePlayGames.BasicApi.ResponseStatus,GooglePlayGames.BasicApi.Events.IEvent>)
+extern TypeInfo* U3CFetchEventU3Ec__AnonStorey18_t222_il2cpp_TypeInfo_var;
+extern TypeInfo* Action_1_t456_il2cpp_TypeInfo_var;
+extern const MethodInfo* Misc_CheckNotNull_TisString_t_m1944_MethodInfo_var;
+extern const MethodInfo* Misc_CheckNotNull_TisAction_2_t223_m2036_MethodInfo_var;
+extern const MethodInfo* U3CFetchEventU3Ec__AnonStorey18_U3CU3Em__1D_m967_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2037_MethodInfo_var;
+extern "C" void NativeEventClient_FetchEvent_m970 (NativeEventClient_t224 * __this, int32_t ___source, String_t* ___eventId, Action_2_t223 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		U3CFetchEventU3Ec__AnonStorey18_t222_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(131);
+		Action_1_t456_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(132);
+		Misc_CheckNotNull_TisString_t_m1944_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483666);
+		Misc_CheckNotNull_TisAction_2_t223_m2036_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483733);
+		U3CFetchEventU3Ec__AnonStorey18_U3CU3Em__1D_m967_MethodInfo_var = il2cpp_codegen_method_info_from_index(86);
+		Action_1__ctor_m2037_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483735);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CFetchEventU3Ec__AnonStorey18_t222 * V_0 = {0};
+	{
+		U3CFetchEventU3Ec__AnonStorey18_t222 * L_0 = (U3CFetchEventU3Ec__AnonStorey18_t222 *)il2cpp_codegen_object_new (U3CFetchEventU3Ec__AnonStorey18_t222_il2cpp_TypeInfo_var);
+		U3CFetchEventU3Ec__AnonStorey18__ctor_m966(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CFetchEventU3Ec__AnonStorey18_t222 * L_1 = V_0;
+		Action_2_t223 * L_2 = ___callback;
+		NullCheck(L_1);
+		L_1->___callback_0 = L_2;
+		String_t* L_3 = ___eventId;
+		Misc_CheckNotNull_TisString_t_m1944(NULL /*static, unused*/, L_3, /*hidden argument*/Misc_CheckNotNull_TisString_t_m1944_MethodInfo_var);
+		U3CFetchEventU3Ec__AnonStorey18_t222 * L_4 = V_0;
+		NullCheck(L_4);
+		Action_2_t223 * L_5 = (L_4->___callback_0);
+		Misc_CheckNotNull_TisAction_2_t223_m2036(NULL /*static, unused*/, L_5, /*hidden argument*/Misc_CheckNotNull_TisAction_2_t223_m2036_MethodInfo_var);
+		EventManager_t225 * L_6 = (__this->___mEventManager_0);
+		int32_t L_7 = ___source;
+		int32_t L_8 = ConversionUtils_AsDataSource_m285(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		String_t* L_9 = ___eventId;
+		U3CFetchEventU3Ec__AnonStorey18_t222 * L_10 = V_0;
+		IntPtr_t L_11 = { (void*)U3CFetchEventU3Ec__AnonStorey18_U3CU3Em__1D_m967_MethodInfo_var };
+		Action_1_t456 * L_12 = (Action_1_t456 *)il2cpp_codegen_object_new (Action_1_t456_il2cpp_TypeInfo_var);
+		Action_1__ctor_m2037(L_12, L_10, L_11, /*hidden argument*/Action_1__ctor_m2037_MethodInfo_var);
+		NullCheck(L_6);
+		EventManager_Fetch_m1331(L_6, L_8, L_9, L_12, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeEventClient::IncrementEvent(System.String,System.UInt32)
+extern const MethodInfo* Misc_CheckNotNull_TisString_t_m1944_MethodInfo_var;
+extern "C" void NativeEventClient_IncrementEvent_m971 (NativeEventClient_t224 * __this, String_t* ___eventId, uint32_t ___stepsToIncrement, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		Misc_CheckNotNull_TisString_t_m1944_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483666);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		String_t* L_0 = ___eventId;
+		Misc_CheckNotNull_TisString_t_m1944(NULL /*static, unused*/, L_0, /*hidden argument*/Misc_CheckNotNull_TisString_t_m1944_MethodInfo_var);
+		EventManager_t225 * L_1 = (__this->___mEventManager_0);
+		String_t* L_2 = ___eventId;
+		uint32_t L_3 = ___stepsToIncrement;
+		NullCheck(L_1);
+		EventManager_Increment_m1333(L_1, L_2, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeQuestClient/<Fetch>c__AnonStorey19::.ctor()
+extern "C" void U3CFetchU3Ec__AnonStorey19__ctor_m972 (U3CFetchU3Ec__AnonStorey19_t226 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1915(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeQuestClient/<Fetch>c__AnonStorey19::<>m__1E(GooglePlayGames.Native.PInvoke.QuestManager/FetchResponse)
+extern const MethodInfo* Action_2_Invoke_m2038_MethodInfo_var;
+extern "C" void U3CFetchU3Ec__AnonStorey19_U3CU3Em__1E_m973 (U3CFetchU3Ec__AnonStorey19_t226 * __this, FetchResponse_t368 * ___response, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		Action_2_Invoke_m2038_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483736);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = {0};
+	{
+		FetchResponse_t368 * L_0 = ___response;
+		NullCheck(L_0);
+		int32_t L_1 = FetchResponse_ResponseStatus_m1563(L_0, /*hidden argument*/NULL);
+		int32_t L_2 = ConversionUtils_ConvertResponseStatus_m283(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		FetchResponse_t368 * L_3 = ___response;
+		NullCheck(L_3);
+		bool L_4 = FetchResponse_RequestSucceeded_m1565(L_3, /*hidden argument*/NULL);
+		if (L_4)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		Action_2_t227 * L_5 = (__this->___callback_0);
+		int32_t L_6 = V_0;
+		NullCheck(L_5);
+		Action_2_Invoke_m2038(L_5, L_6, (Object_t *)NULL, /*hidden argument*/Action_2_Invoke_m2038_MethodInfo_var);
+		goto IL_003b;
+	}
+
+IL_0029:
+	{
+		Action_2_t227 * L_7 = (__this->___callback_0);
+		int32_t L_8 = V_0;
+		FetchResponse_t368 * L_9 = ___response;
+		NullCheck(L_9);
+		NativeQuest_t355 * L_10 = FetchResponse_Data_m1564(L_9, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		Action_2_Invoke_m2038(L_7, L_8, L_10, /*hidden argument*/Action_2_Invoke_m2038_MethodInfo_var);
+	}
+
+IL_003b:
+	{
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeQuestClient/<FetchMatchingState>c__AnonStorey1A::.ctor()
+extern "C" void U3CFetchMatchingStateU3Ec__AnonStorey1A__ctor_m974 (U3CFetchMatchingStateU3Ec__AnonStorey1A_t228 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1915(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeQuestClient/<FetchMatchingState>c__AnonStorey1A::<>m__1F(GooglePlayGames.Native.PInvoke.QuestManager/FetchListResponse)
+extern const MethodInfo* Action_2_Invoke_m2039_MethodInfo_var;
+extern const MethodInfo* Enumerable_Cast_TisIQuest_t446_m2040_MethodInfo_var;
+extern const MethodInfo* Enumerable_ToList_TisIQuest_t446_m2041_MethodInfo_var;
+extern "C" void U3CFetchMatchingStateU3Ec__AnonStorey1A_U3CU3Em__1F_m975 (U3CFetchMatchingStateU3Ec__AnonStorey1A_t228 * __this, FetchListResponse_t369 * ___response, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		Action_2_Invoke_m2039_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483737);
+		Enumerable_Cast_TisIQuest_t446_m2040_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483738);
+		Enumerable_ToList_TisIQuest_t446_m2041_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483739);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = {0};
+	{
+		FetchListResponse_t369 * L_0 = ___response;
+		NullCheck(L_0);
+		int32_t L_1 = FetchListResponse_ResponseStatus_m1569(L_0, /*hidden argument*/NULL);
+		int32_t L_2 = ConversionUtils_ConvertResponseStatus_m283(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		FetchListResponse_t369 * L_3 = ___response;
+		NullCheck(L_3);
+		bool L_4 = FetchListResponse_RequestSucceeded_m1570(L_3, /*hidden argument*/NULL);
+		if (L_4)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		Action_2_t229 * L_5 = (__this->___callback_0);
+		int32_t L_6 = V_0;
+		NullCheck(L_5);
+		Action_2_Invoke_m2039(L_5, L_6, (List_1_t513 *)NULL, /*hidden argument*/Action_2_Invoke_m2039_MethodInfo_var);
+		goto IL_0045;
+	}
+
+IL_0029:
+	{
+		Action_2_t229 * L_7 = (__this->___callback_0);
+		int32_t L_8 = V_0;
+		FetchListResponse_t369 * L_9 = ___response;
+		NullCheck(L_9);
+		Object_t* L_10 = FetchListResponse_Data_m1571(L_9, /*hidden argument*/NULL);
+		Object_t* L_11 = Enumerable_Cast_TisIQuest_t446_m2040(NULL /*static, unused*/, L_10, /*hidden argument*/Enumerable_Cast_TisIQuest_t446_m2040_MethodInfo_var);
+		List_1_t513 * L_12 = Enumerable_ToList_TisIQuest_t446_m2041(NULL /*static, unused*/, L_11, /*hidden argument*/Enumerable_ToList_TisIQuest_t446_m2041_MethodInfo_var);
+		NullCheck(L_7);
+		Action_2_Invoke_m2039(L_7, L_8, L_12, /*hidden argument*/Action_2_Invoke_m2039_MethodInfo_var);
+	}
+
+IL_0045:
+	{
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeQuestClient/<FromQuestUICallback>c__AnonStorey1B::.ctor()
+extern "C" void U3CFromQuestUICallbackU3Ec__AnonStorey1B__ctor_m976 (U3CFromQuestUICallbackU3Ec__AnonStorey1B_t230 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1915(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeQuestClient/<FromQuestUICallback>c__AnonStorey1B::<>m__20(GooglePlayGames.Native.PInvoke.QuestManager/QuestUIResponse)
+extern TypeInfo* Logger_t61_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_3_Invoke_m2042_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral148;
+extern "C" void U3CFromQuestUICallbackU3Ec__AnonStorey1B_U3CU3Em__20_m977 (U3CFromQuestUICallbackU3Ec__AnonStorey1B_t230 * __this, QuestUIResponse_t372 * ___response, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		Logger_t61_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
+		Action_3_Invoke_m2042_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483740);
+		_stringLiteral148 = il2cpp_codegen_string_literal_from_index(148);
+		s_Il2CppMethodIntialized = true;
+	}
+	NativeQuest_t355 * V_0 = {0};
+	NativeQuestMilestone_t356 * V_1 = {0};
+	{
+		QuestUIResponse_t372 * L_0 = ___response;
+		NullCheck(L_0);
+		bool L_1 = QuestUIResponse_RequestSucceeded_m1590(L_0, /*hidden argument*/NULL);
+		if (L_1)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		Action_3_t231 * L_2 = (__this->___callback_0);
+		QuestUIResponse_t372 * L_3 = ___response;
+		NullCheck(L_3);
+		int32_t L_4 = QuestUIResponse_RequestStatus_m1589(L_3, /*hidden argument*/NULL);
+		int32_t L_5 = NativeQuestClient_UiErrorToQuestUiResult_m987(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Action_3_Invoke_m2042(L_2, L_5, (Object_t *)NULL, (Object_t *)NULL, /*hidden argument*/Action_3_Invoke_m2042_MethodInfo_var);
+		return;
+	}
+
+IL_0024:
+	{
+		QuestUIResponse_t372 * L_6 = ___response;
+		NullCheck(L_6);
+		NativeQuest_t355 * L_7 = QuestUIResponse_AcceptedQuest_m1591(L_6, /*hidden argument*/NULL);
+		V_0 = L_7;
+		QuestUIResponse_t372 * L_8 = ___response;
+		NullCheck(L_8);
+		NativeQuestMilestone_t356 * L_9 = QuestUIResponse_MilestoneToClaim_m1592(L_8, /*hidden argument*/NULL);
+		V_1 = L_9;
+		NativeQuest_t355 * L_10 = V_0;
+		if (!L_10)
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		Action_3_t231 * L_11 = (__this->___callback_0);
+		NativeQuest_t355 * L_12 = V_0;
+		NullCheck(L_11);
+		Action_3_Invoke_m2042(L_11, 0, L_12, (Object_t *)NULL, /*hidden argument*/Action_3_Invoke_m2042_MethodInfo_var);
+		NativeQuestMilestone_t356 * L_13 = V_1;
+		NullCheck(L_13);
+		VirtActionInvoker0::Invoke(4 /* System.Void GooglePlayGames.Native.PInvoke.BaseReferenceHolder::Dispose() */, L_13);
+		goto IL_0099;
+	}
+
+IL_0051:
+	{
+		NativeQuestMilestone_t356 * L_14 = V_1;
+		if (!L_14)
+		{
+			goto IL_0075;
+		}
+	}
+	{
+		Action_3_t231 * L_15 = (__this->___callback_0);
+		QuestUIResponse_t372 * L_16 = ___response;
+		NullCheck(L_16);
+		NativeQuestMilestone_t356 * L_17 = QuestUIResponse_MilestoneToClaim_m1592(L_16, /*hidden argument*/NULL);
+		NullCheck(L_15);
+		Action_3_Invoke_m2042(L_15, 1, (Object_t *)NULL, L_17, /*hidden argument*/Action_3_Invoke_m2042_MethodInfo_var);
+		NativeQuest_t355 * L_18 = V_0;
+		NullCheck(L_18);
+		VirtActionInvoker0::Invoke(4 /* System.Void GooglePlayGames.Native.PInvoke.BaseReferenceHolder::Dispose() */, L_18);
+		goto IL_0099;
+	}
+
+IL_0075:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Logger_t61_il2cpp_TypeInfo_var);
+		Logger_e_m266(NULL /*static, unused*/, _stringLiteral148, /*hidden argument*/NULL);
+		NativeQuest_t355 * L_19 = V_0;
+		NullCheck(L_19);
+		VirtActionInvoker0::Invoke(4 /* System.Void GooglePlayGames.Native.PInvoke.BaseReferenceHolder::Dispose() */, L_19);
+		NativeQuestMilestone_t356 * L_20 = V_1;
+		NullCheck(L_20);
+		VirtActionInvoker0::Invoke(4 /* System.Void GooglePlayGames.Native.PInvoke.BaseReferenceHolder::Dispose() */, L_20);
+		Action_3_t231 * L_21 = (__this->___callback_0);
+		NullCheck(L_21);
+		Action_3_Invoke_m2042(L_21, 3, (Object_t *)NULL, (Object_t *)NULL, /*hidden argument*/Action_3_Invoke_m2042_MethodInfo_var);
+	}
+
+IL_0099:
+	{
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeQuestClient/<Accept>c__AnonStorey1C::.ctor()
+extern "C" void U3CAcceptU3Ec__AnonStorey1C__ctor_m978 (U3CAcceptU3Ec__AnonStorey1C_t232 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1915(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeQuestClient/<Accept>c__AnonStorey1C::<>m__21(GooglePlayGames.Native.PInvoke.QuestManager/AcceptResponse)
+extern const MethodInfo* Action_2_Invoke_m2043_MethodInfo_var;
+extern "C" void U3CAcceptU3Ec__AnonStorey1C_U3CU3Em__21_m979 (U3CAcceptU3Ec__AnonStorey1C_t232 * __this, AcceptResponse_t371 * ___response, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		Action_2_Invoke_m2043_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483741);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		AcceptResponse_t371 * L_0 = ___response;
+		NullCheck(L_0);
+		bool L_1 = AcceptResponse_RequestSucceeded_m1585(L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		Action_2_t233 * L_2 = (__this->___callback_0);
+		AcceptResponse_t371 * L_3 = ___response;
+		NullCheck(L_3);
+		NativeQuest_t355 * L_4 = AcceptResponse_AcceptedQuest_m1584(L_3, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Action_2_Invoke_m2043(L_2, 0, L_4, /*hidden argument*/Action_2_Invoke_m2043_MethodInfo_var);
+		goto IL_0039;
+	}
+
+IL_0022:
+	{
+		Action_2_t233 * L_5 = (__this->___callback_0);
+		AcceptResponse_t371 * L_6 = ___response;
+		NullCheck(L_6);
+		int32_t L_7 = AcceptResponse_ResponseStatus_m1583(L_6, /*hidden argument*/NULL);
+		int32_t L_8 = NativeQuestClient_FromAcceptStatus_m990(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		Action_2_Invoke_m2043(L_5, L_8, (Object_t *)NULL, /*hidden argument*/Action_2_Invoke_m2043_MethodInfo_var);
+	}
+
+IL_0039:
+	{
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeQuestClient/<ClaimMilestone>c__AnonStorey1D::.ctor()
+extern "C" void U3CClaimMilestoneU3Ec__AnonStorey1D__ctor_m980 (U3CClaimMilestoneU3Ec__AnonStorey1D_t234 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1915(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeQuestClient/<ClaimMilestone>c__AnonStorey1D::<>m__22(GooglePlayGames.Native.PInvoke.QuestManager/ClaimMilestoneResponse)
+extern const MethodInfo* Action_3_Invoke_m2044_MethodInfo_var;
+extern "C" void U3CClaimMilestoneU3Ec__AnonStorey1D_U3CU3Em__22_m981 (U3CClaimMilestoneU3Ec__AnonStorey1D_t234 * __this, ClaimMilestoneResponse_t370 * ___response, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		Action_3_Invoke_m2044_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483742);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		ClaimMilestoneResponse_t370 * L_0 = ___response;
+		NullCheck(L_0);
+		bool L_1 = ClaimMilestoneResponse_RequestSucceeded_m1579(L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		Action_3_t235 * L_2 = (__this->___callback_0);
+		ClaimMilestoneResponse_t370 * L_3 = ___response;
+		NullCheck(L_3);
+		NativeQuest_t355 * L_4 = ClaimMilestoneResponse_Quest_m1577(L_3, /*hidden argument*/NULL);
+		ClaimMilestoneResponse_t370 * L_5 = ___response;
+		NullCheck(L_5);
+		NativeQuestMilestone_t356 * L_6 = ClaimMilestoneResponse_ClaimedMilestone_m1578(L_5, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Action_3_Invoke_m2044(L_2, 0, L_4, L_6, /*hidden argument*/Action_3_Invoke_m2044_MethodInfo_var);
+		goto IL_0040;
+	}
+
+IL_0028:
+	{
+		Action_3_t235 * L_7 = (__this->___callback_0);
+		ClaimMilestoneResponse_t370 * L_8 = ___response;
+		NullCheck(L_8);
+		int32_t L_9 = ClaimMilestoneResponse_ResponseStatus_m1576(L_8, /*hidden argument*/NULL);
+		int32_t L_10 = NativeQuestClient_FromClaimStatus_m992(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		Action_3_Invoke_m2044(L_7, L_10, (Object_t *)NULL, (Object_t *)NULL, /*hidden argument*/Action_3_Invoke_m2044_MethodInfo_var);
+	}
+
+IL_0040:
+	{
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeQuestClient::.ctor(GooglePlayGames.Native.PInvoke.QuestManager)
+extern const MethodInfo* Misc_CheckNotNull_TisQuestManager_t237_m2045_MethodInfo_var;
+extern "C" void NativeQuestClient__ctor_m982 (NativeQuestClient_t236 * __this, QuestManager_t237 * ___manager, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		Misc_CheckNotNull_TisQuestManager_t237_m2045_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483743);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Object__ctor_m1915(__this, /*hidden argument*/NULL);
+		QuestManager_t237 * L_0 = ___manager;
+		QuestManager_t237 * L_1 = Misc_CheckNotNull_TisQuestManager_t237_m2045(NULL /*static, unused*/, L_0, /*hidden argument*/Misc_CheckNotNull_TisQuestManager_t237_m2045_MethodInfo_var);
+		__this->___mManager_0 = L_1;
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeQuestClient::Fetch(GooglePlayGames.BasicApi.DataSource,System.String,System.Action`2<GooglePlayGames.BasicApi.ResponseStatus,GooglePlayGames.BasicApi.Quests.IQuest>)
+extern TypeInfo* U3CFetchU3Ec__AnonStorey19_t226_il2cpp_TypeInfo_var;
+extern TypeInfo* Action_1_t464_il2cpp_TypeInfo_var;
+extern const MethodInfo* Misc_CheckNotNull_TisString_t_m1944_MethodInfo_var;
+extern const MethodInfo* Misc_CheckNotNull_TisAction_2_t227_m2046_MethodInfo_var;
+extern const MethodInfo* CallbackUtils_ToOnGameThread_TisResponseStatus_t3_TisIQuest_t446_m2047_MethodInfo_var;
+extern const MethodInfo* U3CFetchU3Ec__AnonStorey19_U3CU3Em__1E_m973_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2048_MethodInfo_var;
+extern "C" void NativeQuestClient_Fetch_m983 (NativeQuestClient_t236 * __this, int32_t ___source, String_t* ___questId, Action_2_t227 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		U3CFetchU3Ec__AnonStorey19_t226_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(141);
+		Action_1_t464_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(142);
+		Misc_CheckNotNull_TisString_t_m1944_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483666);
+		Misc_CheckNotNull_TisAction_2_t227_m2046_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483744);
+		CallbackUtils_ToOnGameThread_TisResponseStatus_t3_TisIQuest_t446_m2047_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483745);
+		U3CFetchU3Ec__AnonStorey19_U3CU3Em__1E_m973_MethodInfo_var = il2cpp_codegen_method_info_from_index(98);
+		Action_1__ctor_m2048_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483747);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CFetchU3Ec__AnonStorey19_t226 * V_0 = {0};
+	{
+		U3CFetchU3Ec__AnonStorey19_t226 * L_0 = (U3CFetchU3Ec__AnonStorey19_t226 *)il2cpp_codegen_object_new (U3CFetchU3Ec__AnonStorey19_t226_il2cpp_TypeInfo_var);
+		U3CFetchU3Ec__AnonStorey19__ctor_m972(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CFetchU3Ec__AnonStorey19_t226 * L_1 = V_0;
+		Action_2_t227 * L_2 = ___callback;
+		NullCheck(L_1);
+		L_1->___callback_0 = L_2;
+		String_t* L_3 = ___questId;
+		Misc_CheckNotNull_TisString_t_m1944(NULL /*static, unused*/, L_3, /*hidden argument*/Misc_CheckNotNull_TisString_t_m1944_MethodInfo_var);
+		U3CFetchU3Ec__AnonStorey19_t226 * L_4 = V_0;
+		NullCheck(L_4);
+		Action_2_t227 * L_5 = (L_4->___callback_0);
+		Misc_CheckNotNull_TisAction_2_t227_m2046(NULL /*static, unused*/, L_5, /*hidden argument*/Misc_CheckNotNull_TisAction_2_t227_m2046_MethodInfo_var);
+		U3CFetchU3Ec__AnonStorey19_t226 * L_6 = V_0;
+		U3CFetchU3Ec__AnonStorey19_t226 * L_7 = V_0;
+		NullCheck(L_7);
+		Action_2_t227 * L_8 = (L_7->___callback_0);
+		Action_2_t227 * L_9 = CallbackUtils_ToOnGameThread_TisResponseStatus_t3_TisIQuest_t446_m2047(NULL /*static, unused*/, L_8, /*hidden argument*/CallbackUtils_ToOnGameThread_TisResponseStatus_t3_TisIQuest_t446_m2047_MethodInfo_var);
+		NullCheck(L_6);
+		L_6->___callback_0 = L_9;
+		QuestManager_t237 * L_10 = (__this->___mManager_0);
+		int32_t L_11 = ___source;
+		int32_t L_12 = ConversionUtils_AsDataSource_m285(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
+		String_t* L_13 = ___questId;
+		U3CFetchU3Ec__AnonStorey19_t226 * L_14 = V_0;
+		IntPtr_t L_15 = { (void*)U3CFetchU3Ec__AnonStorey19_U3CU3Em__1E_m973_MethodInfo_var };
+		Action_1_t464 * L_16 = (Action_1_t464 *)il2cpp_codegen_object_new (Action_1_t464_il2cpp_TypeInfo_var);
+		Action_1__ctor_m2048(L_16, L_14, L_15, /*hidden argument*/Action_1__ctor_m2048_MethodInfo_var);
+		NullCheck(L_10);
+		QuestManager_Fetch_m1596(L_10, L_12, L_13, L_16, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeQuestClient::FetchMatchingState(GooglePlayGames.BasicApi.DataSource,GooglePlayGames.BasicApi.Quests.QuestFetchFlags,System.Action`2<GooglePlayGames.BasicApi.ResponseStatus,System.Collections.Generic.List`1<GooglePlayGames.BasicApi.Quests.IQuest>>)
+extern TypeInfo* U3CFetchMatchingStateU3Ec__AnonStorey1A_t228_il2cpp_TypeInfo_var;
+extern TypeInfo* Action_1_t465_il2cpp_TypeInfo_var;
+extern const MethodInfo* Misc_CheckNotNull_TisAction_2_t229_m2049_MethodInfo_var;
+extern const MethodInfo* CallbackUtils_ToOnGameThread_TisResponseStatus_t3_TisList_1_t513_m2050_MethodInfo_var;
+extern const MethodInfo* U3CFetchMatchingStateU3Ec__AnonStorey1A_U3CU3Em__1F_m975_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2051_MethodInfo_var;
+extern "C" void NativeQuestClient_FetchMatchingState_m984 (NativeQuestClient_t236 * __this, int32_t ___source, int32_t ___flags, Action_2_t229 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		U3CFetchMatchingStateU3Ec__AnonStorey1A_t228_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(145);
+		Action_1_t465_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(146);
+		Misc_CheckNotNull_TisAction_2_t229_m2049_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483748);
+		CallbackUtils_ToOnGameThread_TisResponseStatus_t3_TisList_1_t513_m2050_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483749);
+		U3CFetchMatchingStateU3Ec__AnonStorey1A_U3CU3Em__1F_m975_MethodInfo_var = il2cpp_codegen_method_info_from_index(102);
+		Action_1__ctor_m2051_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483751);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CFetchMatchingStateU3Ec__AnonStorey1A_t228 * V_0 = {0};
+	{
+		U3CFetchMatchingStateU3Ec__AnonStorey1A_t228 * L_0 = (U3CFetchMatchingStateU3Ec__AnonStorey1A_t228 *)il2cpp_codegen_object_new (U3CFetchMatchingStateU3Ec__AnonStorey1A_t228_il2cpp_TypeInfo_var);
+		U3CFetchMatchingStateU3Ec__AnonStorey1A__ctor_m974(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CFetchMatchingStateU3Ec__AnonStorey1A_t228 * L_1 = V_0;
+		Action_2_t229 * L_2 = ___callback;
+		NullCheck(L_1);
+		L_1->___callback_0 = L_2;
+		U3CFetchMatchingStateU3Ec__AnonStorey1A_t228 * L_3 = V_0;
+		NullCheck(L_3);
+		Action_2_t229 * L_4 = (L_3->___callback_0);
+		Misc_CheckNotNull_TisAction_2_t229_m2049(NULL /*static, unused*/, L_4, /*hidden argument*/Misc_CheckNotNull_TisAction_2_t229_m2049_MethodInfo_var);
+		U3CFetchMatchingStateU3Ec__AnonStorey1A_t228 * L_5 = V_0;
+		U3CFetchMatchingStateU3Ec__AnonStorey1A_t228 * L_6 = V_0;
+		NullCheck(L_6);
+		Action_2_t229 * L_7 = (L_6->___callback_0);
+		Action_2_t229 * L_8 = CallbackUtils_ToOnGameThread_TisResponseStatus_t3_TisList_1_t513_m2050(NULL /*static, unused*/, L_7, /*hidden argument*/CallbackUtils_ToOnGameThread_TisResponseStatus_t3_TisList_1_t513_m2050_MethodInfo_var);
+		NullCheck(L_5);
+		L_5->___callback_0 = L_8;
+		QuestManager_t237 * L_9 = (__this->___mManager_0);
+		int32_t L_10 = ___source;
+		int32_t L_11 = ConversionUtils_AsDataSource_m285(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		int32_t L_12 = ___flags;
+		U3CFetchMatchingStateU3Ec__AnonStorey1A_t228 * L_13 = V_0;
+		IntPtr_t L_14 = { (void*)U3CFetchMatchingStateU3Ec__AnonStorey1A_U3CU3Em__1F_m975_MethodInfo_var };
+		Action_1_t465 * L_15 = (Action_1_t465 *)il2cpp_codegen_object_new (Action_1_t465_il2cpp_TypeInfo_var);
+		Action_1__ctor_m2051(L_15, L_13, L_14, /*hidden argument*/Action_1__ctor_m2051_MethodInfo_var);
+		NullCheck(L_9);
+		QuestManager_FetchList_m1598(L_9, L_11, L_12, L_15, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeQuestClient::ShowAllQuestsUI(System.Action`3<GooglePlayGames.BasicApi.Quests.QuestUiResult,GooglePlayGames.BasicApi.Quests.IQuest,GooglePlayGames.BasicApi.Quests.IQuestMilestone>)
+extern const MethodInfo* Misc_CheckNotNull_TisAction_3_t231_m2052_MethodInfo_var;
+extern const MethodInfo* CallbackUtils_ToOnGameThread_TisQuestUiResult_t41_TisIQuest_t446_TisIQuestMilestone_t447_m2053_MethodInfo_var;
+extern "C" void NativeQuestClient_ShowAllQuestsUI_m985 (NativeQuestClient_t236 * __this, Action_3_t231 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		Misc_CheckNotNull_TisAction_3_t231_m2052_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483752);
+		CallbackUtils_ToOnGameThread_TisQuestUiResult_t41_TisIQuest_t446_TisIQuestMilestone_t447_m2053_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483753);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Action_3_t231 * L_0 = ___callback;
+		Misc_CheckNotNull_TisAction_3_t231_m2052(NULL /*static, unused*/, L_0, /*hidden argument*/Misc_CheckNotNull_TisAction_3_t231_m2052_MethodInfo_var);
+		Action_3_t231 * L_1 = ___callback;
+		Action_3_t231 * L_2 = CallbackUtils_ToOnGameThread_TisQuestUiResult_t41_TisIQuest_t446_TisIQuestMilestone_t447_m2053(NULL /*static, unused*/, L_1, /*hidden argument*/CallbackUtils_ToOnGameThread_TisQuestUiResult_t41_TisIQuest_t446_TisIQuestMilestone_t447_m2053_MethodInfo_var);
+		___callback = L_2;
+		QuestManager_t237 * L_3 = (__this->___mManager_0);
+		Action_3_t231 * L_4 = ___callback;
+		Action_1_t445 * L_5 = NativeQuestClient_FromQuestUICallback_m988(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		QuestManager_ShowAllQuestUI_m1600(L_3, L_5, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeQuestClient::ShowSpecificQuestUI(GooglePlayGames.BasicApi.Quests.IQuest,System.Action`3<GooglePlayGames.BasicApi.Quests.QuestUiResult,GooglePlayGames.BasicApi.Quests.IQuest,GooglePlayGames.BasicApi.Quests.IQuestMilestone>)
+extern TypeInfo* NativeQuest_t355_il2cpp_TypeInfo_var;
+extern TypeInfo* Logger_t61_il2cpp_TypeInfo_var;
+extern const MethodInfo* Misc_CheckNotNull_TisIQuest_t446_m2054_MethodInfo_var;
+extern const MethodInfo* Misc_CheckNotNull_TisAction_3_t231_m2052_MethodInfo_var;
+extern const MethodInfo* CallbackUtils_ToOnGameThread_TisQuestUiResult_t41_TisIQuest_t446_TisIQuestMilestone_t447_m2053_MethodInfo_var;
+extern const MethodInfo* Action_3_Invoke_m2042_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral149;
+extern "C" void NativeQuestClient_ShowSpecificQuestUI_m986 (NativeQuestClient_t236 * __this, Object_t * ___quest, Action_3_t231 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		NativeQuest_t355_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(148);
+		Logger_t61_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
+		Misc_CheckNotNull_TisIQuest_t446_m2054_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483754);
+		Misc_CheckNotNull_TisAction_3_t231_m2052_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483752);
+		CallbackUtils_ToOnGameThread_TisQuestUiResult_t41_TisIQuest_t446_TisIQuestMilestone_t447_m2053_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483753);
+		Action_3_Invoke_m2042_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483740);
+		_stringLiteral149 = il2cpp_codegen_string_literal_from_index(149);
+		s_Il2CppMethodIntialized = true;
+	}
+	NativeQuest_t355 * V_0 = {0};
+	{
+		Object_t * L_0 = ___quest;
+		Misc_CheckNotNull_TisIQuest_t446_m2054(NULL /*static, unused*/, L_0, /*hidden argument*/Misc_CheckNotNull_TisIQuest_t446_m2054_MethodInfo_var);
+		Action_3_t231 * L_1 = ___callback;
+		Misc_CheckNotNull_TisAction_3_t231_m2052(NULL /*static, unused*/, L_1, /*hidden argument*/Misc_CheckNotNull_TisAction_3_t231_m2052_MethodInfo_var);
+		Action_3_t231 * L_2 = ___callback;
+		Action_3_t231 * L_3 = CallbackUtils_ToOnGameThread_TisQuestUiResult_t41_TisIQuest_t446_TisIQuestMilestone_t447_m2053(NULL /*static, unused*/, L_2, /*hidden argument*/CallbackUtils_ToOnGameThread_TisQuestUiResult_t41_TisIQuest_t446_TisIQuestMilestone_t447_m2053_MethodInfo_var);
+		___callback = L_3;
+		Object_t * L_4 = ___quest;
+		V_0 = ((NativeQuest_t355 *)IsInstClass(L_4, NativeQuest_t355_il2cpp_TypeInfo_var));
+		NativeQuest_t355 * L_5 = V_0;
+		if (L_5)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Logger_t61_il2cpp_TypeInfo_var);
+		Logger_e_m266(NULL /*static, unused*/, _stringLiteral149, /*hidden argument*/NULL);
+		Action_3_t231 * L_6 = ___callback;
+		NullCheck(L_6);
+		Action_3_Invoke_m2042(L_6, 2, (Object_t *)NULL, (Object_t *)NULL, /*hidden argument*/Action_3_Invoke_m2042_MethodInfo_var);
+		return;
+	}
+
+IL_0037:
+	{
+		QuestManager_t237 * L_7 = (__this->___mManager_0);
+		NativeQuest_t355 * L_8 = V_0;
+		Action_3_t231 * L_9 = ___callback;
+		Action_1_t445 * L_10 = NativeQuestClient_FromQuestUICallback_m988(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		QuestManager_ShowQuestUI_m1601(L_7, L_8, L_10, /*hidden argument*/NULL);
+		return;
+	}
+}
+// GooglePlayGames.BasicApi.Quests.QuestUiResult GooglePlayGames.Native.NativeQuestClient::UiErrorToQuestUiResult(GooglePlayGames.Native.Cwrapper.CommonErrorStatus/UIStatus)
+extern TypeInfo* UIStatus_t88_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* Logger_t61_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral150;
+extern "C" int32_t NativeQuestClient_UiErrorToQuestUiResult_m987 (Object_t * __this /* static, unused */, int32_t ___status, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		UIStatus_t88_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(67);
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
+		Logger_t61_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
+		_stringLiteral150 = il2cpp_codegen_string_literal_from_index(150);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = {0};
+	{
+		int32_t L_0 = ___status;
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		if (((int32_t)((int32_t)L_1+(int32_t)((int32_t)12))) == 0)
+		{
+			goto IL_0046;
+		}
+		if (((int32_t)((int32_t)L_1+(int32_t)((int32_t)12))) == 1)
+		{
+			goto IL_0048;
+		}
+		if (((int32_t)((int32_t)L_1+(int32_t)((int32_t)12))) == 2)
+		{
+			goto IL_0048;
+		}
+		if (((int32_t)((int32_t)L_1+(int32_t)((int32_t)12))) == 3)
+		{
+			goto IL_0048;
+		}
+		if (((int32_t)((int32_t)L_1+(int32_t)((int32_t)12))) == 4)
+		{
+			goto IL_0048;
+		}
+		if (((int32_t)((int32_t)L_1+(int32_t)((int32_t)12))) == 5)
+		{
+			goto IL_0048;
+		}
+		if (((int32_t)((int32_t)L_1+(int32_t)((int32_t)12))) == 6)
+		{
+			goto IL_0040;
+		}
+		if (((int32_t)((int32_t)L_1+(int32_t)((int32_t)12))) == 7)
+		{
+			goto IL_0044;
+		}
+		if (((int32_t)((int32_t)L_1+(int32_t)((int32_t)12))) == 8)
+		{
+			goto IL_0042;
+		}
+		if (((int32_t)((int32_t)L_1+(int32_t)((int32_t)12))) == 9)
+		{
+			goto IL_003e;
+		}
+		if (((int32_t)((int32_t)L_1+(int32_t)((int32_t)12))) == 10)
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		goto IL_0048;
+	}
+
+IL_003c:
+	{
+		return (int32_t)(3);
+	}
+
+IL_003e:
+	{
+		return (int32_t)(5);
+	}
+
+IL_0040:
+	{
+		return (int32_t)(4);
+	}
+
+IL_0042:
+	{
+		return (int32_t)(6);
+	}
+
+IL_0044:
+	{
+		return (int32_t)(7);
+	}
+
+IL_0046:
+	{
+		return (int32_t)(8);
+	}
+
+IL_0048:
+	{
+		int32_t L_2 = ___status;
+		int32_t L_3 = L_2;
+		Object_t * L_4 = Box(UIStatus_t88_il2cpp_TypeInfo_var, &L_3);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_5 = String_Concat_m1971(NULL /*static, unused*/, _stringLiteral150, L_4, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Logger_t61_il2cpp_TypeInfo_var);
+		Logger_e_m266(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		return (int32_t)(3);
+	}
+}
+// System.Action`1<GooglePlayGames.Native.PInvoke.QuestManager/QuestUIResponse> GooglePlayGames.Native.NativeQuestClient::FromQuestUICallback(System.Action`3<GooglePlayGames.BasicApi.Quests.QuestUiResult,GooglePlayGames.BasicApi.Quests.IQuest,GooglePlayGames.BasicApi.Quests.IQuestMilestone>)
+extern TypeInfo* U3CFromQuestUICallbackU3Ec__AnonStorey1B_t230_il2cpp_TypeInfo_var;
+extern TypeInfo* Action_1_t445_il2cpp_TypeInfo_var;
+extern const MethodInfo* U3CFromQuestUICallbackU3Ec__AnonStorey1B_U3CU3Em__20_m977_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2055_MethodInfo_var;
+extern "C" Action_1_t445 * NativeQuestClient_FromQuestUICallback_m988 (Object_t * __this /* static, unused */, Action_3_t231 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		U3CFromQuestUICallbackU3Ec__AnonStorey1B_t230_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(150);
+		Action_1_t445_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(151);
+		U3CFromQuestUICallbackU3Ec__AnonStorey1B_U3CU3Em__20_m977_MethodInfo_var = il2cpp_codegen_method_info_from_index(107);
+		Action_1__ctor_m2055_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483756);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CFromQuestUICallbackU3Ec__AnonStorey1B_t230 * V_0 = {0};
+	{
+		U3CFromQuestUICallbackU3Ec__AnonStorey1B_t230 * L_0 = (U3CFromQuestUICallbackU3Ec__AnonStorey1B_t230 *)il2cpp_codegen_object_new (U3CFromQuestUICallbackU3Ec__AnonStorey1B_t230_il2cpp_TypeInfo_var);
+		U3CFromQuestUICallbackU3Ec__AnonStorey1B__ctor_m976(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CFromQuestUICallbackU3Ec__AnonStorey1B_t230 * L_1 = V_0;
+		Action_3_t231 * L_2 = ___callback;
+		NullCheck(L_1);
+		L_1->___callback_0 = L_2;
+		U3CFromQuestUICallbackU3Ec__AnonStorey1B_t230 * L_3 = V_0;
+		IntPtr_t L_4 = { (void*)U3CFromQuestUICallbackU3Ec__AnonStorey1B_U3CU3Em__20_m977_MethodInfo_var };
+		Action_1_t445 * L_5 = (Action_1_t445 *)il2cpp_codegen_object_new (Action_1_t445_il2cpp_TypeInfo_var);
+		Action_1__ctor_m2055(L_5, L_3, L_4, /*hidden argument*/Action_1__ctor_m2055_MethodInfo_var);
+		return L_5;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeQuestClient::Accept(GooglePlayGames.BasicApi.Quests.IQuest,System.Action`2<GooglePlayGames.BasicApi.Quests.QuestAcceptStatus,GooglePlayGames.BasicApi.Quests.IQuest>)
+extern TypeInfo* U3CAcceptU3Ec__AnonStorey1C_t232_il2cpp_TypeInfo_var;
+extern TypeInfo* NativeQuest_t355_il2cpp_TypeInfo_var;
+extern TypeInfo* Logger_t61_il2cpp_TypeInfo_var;
+extern TypeInfo* Action_1_t466_il2cpp_TypeInfo_var;
+extern const MethodInfo* Misc_CheckNotNull_TisIQuest_t446_m2054_MethodInfo_var;
+extern const MethodInfo* Misc_CheckNotNull_TisAction_2_t233_m2056_MethodInfo_var;
+extern const MethodInfo* CallbackUtils_ToOnGameThread_TisQuestAcceptStatus_t39_TisIQuest_t446_m2057_MethodInfo_var;
+extern const MethodInfo* Action_2_Invoke_m2043_MethodInfo_var;
+extern const MethodInfo* U3CAcceptU3Ec__AnonStorey1C_U3CU3Em__21_m979_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2058_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral149;
+extern "C" void NativeQuestClient_Accept_m989 (NativeQuestClient_t236 * __this, Object_t * ___quest, Action_2_t233 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		U3CAcceptU3Ec__AnonStorey1C_t232_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(154);
+		NativeQuest_t355_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(148);
+		Logger_t61_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
+		Action_1_t466_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(155);
+		Misc_CheckNotNull_TisIQuest_t446_m2054_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483754);
+		Misc_CheckNotNull_TisAction_2_t233_m2056_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483757);
+		CallbackUtils_ToOnGameThread_TisQuestAcceptStatus_t39_TisIQuest_t446_m2057_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483758);
+		Action_2_Invoke_m2043_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483741);
+		U3CAcceptU3Ec__AnonStorey1C_U3CU3Em__21_m979_MethodInfo_var = il2cpp_codegen_method_info_from_index(111);
+		Action_1__ctor_m2058_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483760);
+		_stringLiteral149 = il2cpp_codegen_string_literal_from_index(149);
+		s_Il2CppMethodIntialized = true;
+	}
+	NativeQuest_t355 * V_0 = {0};
+	U3CAcceptU3Ec__AnonStorey1C_t232 * V_1 = {0};
+	{
+		U3CAcceptU3Ec__AnonStorey1C_t232 * L_0 = (U3CAcceptU3Ec__AnonStorey1C_t232 *)il2cpp_codegen_object_new (U3CAcceptU3Ec__AnonStorey1C_t232_il2cpp_TypeInfo_var);
+		U3CAcceptU3Ec__AnonStorey1C__ctor_m978(L_0, /*hidden argument*/NULL);
+		V_1 = L_0;
+		U3CAcceptU3Ec__AnonStorey1C_t232 * L_1 = V_1;
+		Action_2_t233 * L_2 = ___callback;
+		NullCheck(L_1);
+		L_1->___callback_0 = L_2;
+		Object_t * L_3 = ___quest;
+		Misc_CheckNotNull_TisIQuest_t446_m2054(NULL /*static, unused*/, L_3, /*hidden argument*/Misc_CheckNotNull_TisIQuest_t446_m2054_MethodInfo_var);
+		U3CAcceptU3Ec__AnonStorey1C_t232 * L_4 = V_1;
+		NullCheck(L_4);
+		Action_2_t233 * L_5 = (L_4->___callback_0);
+		Misc_CheckNotNull_TisAction_2_t233_m2056(NULL /*static, unused*/, L_5, /*hidden argument*/Misc_CheckNotNull_TisAction_2_t233_m2056_MethodInfo_var);
+		U3CAcceptU3Ec__AnonStorey1C_t232 * L_6 = V_1;
+		U3CAcceptU3Ec__AnonStorey1C_t232 * L_7 = V_1;
+		NullCheck(L_7);
+		Action_2_t233 * L_8 = (L_7->___callback_0);
+		Action_2_t233 * L_9 = CallbackUtils_ToOnGameThread_TisQuestAcceptStatus_t39_TisIQuest_t446_m2057(NULL /*static, unused*/, L_8, /*hidden argument*/CallbackUtils_ToOnGameThread_TisQuestAcceptStatus_t39_TisIQuest_t446_m2057_MethodInfo_var);
+		NullCheck(L_6);
+		L_6->___callback_0 = L_9;
+		Object_t * L_10 = ___quest;
+		V_0 = ((NativeQuest_t355 *)IsInstClass(L_10, NativeQuest_t355_il2cpp_TypeInfo_var));
+		NativeQuest_t355 * L_11 = V_0;
+		if (L_11)
+		{
+			goto IL_0056;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Logger_t61_il2cpp_TypeInfo_var);
+		Logger_e_m266(NULL /*static, unused*/, _stringLiteral149, /*hidden argument*/NULL);
+		U3CAcceptU3Ec__AnonStorey1C_t232 * L_12 = V_1;
+		NullCheck(L_12);
+		Action_2_t233 * L_13 = (L_12->___callback_0);
+		NullCheck(L_13);
+		Action_2_Invoke_m2043(L_13, 1, (Object_t *)NULL, /*hidden argument*/Action_2_Invoke_m2043_MethodInfo_var);
+		return;
+	}
+
+IL_0056:
+	{
+		QuestManager_t237 * L_14 = (__this->___mManager_0);
+		NativeQuest_t355 * L_15 = V_0;
+		U3CAcceptU3Ec__AnonStorey1C_t232 * L_16 = V_1;
+		IntPtr_t L_17 = { (void*)U3CAcceptU3Ec__AnonStorey1C_U3CU3Em__21_m979_MethodInfo_var };
+		Action_1_t466 * L_18 = (Action_1_t466 *)il2cpp_codegen_object_new (Action_1_t466_il2cpp_TypeInfo_var);
+		Action_1__ctor_m2058(L_18, L_16, L_17, /*hidden argument*/Action_1__ctor_m2058_MethodInfo_var);
+		NullCheck(L_14);
+		QuestManager_Accept_m1603(L_14, L_15, L_18, /*hidden argument*/NULL);
+		return;
+	}
+}
+// GooglePlayGames.BasicApi.Quests.QuestAcceptStatus GooglePlayGames.Native.NativeQuestClient::FromAcceptStatus(GooglePlayGames.Native.Cwrapper.CommonErrorStatus/QuestAcceptStatus)
+extern TypeInfo* QuestAcceptStatus_t90_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* Logger_t61_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral151;
+extern "C" int32_t NativeQuestClient_FromAcceptStatus_m990 (Object_t * __this /* static, unused */, int32_t ___status, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		QuestAcceptStatus_t90_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(156);
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
+		Logger_t61_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
+		_stringLiteral151 = il2cpp_codegen_string_literal_from_index(151);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = {0};
+	{
+		int32_t L_0 = ___status;
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		if (((int32_t)((int32_t)L_1+(int32_t)5)) == 0)
+		{
+			goto IL_0043;
+		}
+		if (((int32_t)((int32_t)L_1+(int32_t)5)) == 1)
+		{
+			goto IL_0026;
+		}
+		if (((int32_t)((int32_t)L_1+(int32_t)5)) == 2)
+		{
+			goto IL_003d;
+		}
+		if (((int32_t)((int32_t)L_1+(int32_t)5)) == 3)
+		{
+			goto IL_003b;
+		}
+		if (((int32_t)((int32_t)L_1+(int32_t)5)) == 4)
+		{
+			goto IL_0026;
+		}
+		if (((int32_t)((int32_t)L_1+(int32_t)5)) == 5)
+		{
+			goto IL_0026;
+		}
+		if (((int32_t)((int32_t)L_1+(int32_t)5)) == 6)
+		{
+			goto IL_0045;
+		}
+	}
+
+IL_0026:
+	{
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) == ((int32_t)((int32_t)-14))))
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)((int32_t)-13))))
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		goto IL_0047;
+	}
+
+IL_003b:
+	{
+		return (int32_t)(2);
+	}
+
+IL_003d:
+	{
+		return (int32_t)(3);
+	}
+
+IL_003f:
+	{
+		return (int32_t)(6);
+	}
+
+IL_0041:
+	{
+		return (int32_t)(5);
+	}
+
+IL_0043:
+	{
+		return (int32_t)(4);
+	}
+
+IL_0045:
+	{
+		return (int32_t)(0);
+	}
+
+IL_0047:
+	{
+		int32_t L_4 = ___status;
+		int32_t L_5 = L_4;
+		Object_t * L_6 = Box(QuestAcceptStatus_t90_il2cpp_TypeInfo_var, &L_5);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_7 = String_Concat_m1971(NULL /*static, unused*/, _stringLiteral151, L_6, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Logger_t61_il2cpp_TypeInfo_var);
+		Logger_e_m266(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		return (int32_t)(2);
+	}
+}
+// System.Void GooglePlayGames.Native.NativeQuestClient::ClaimMilestone(GooglePlayGames.BasicApi.Quests.IQuestMilestone,System.Action`3<GooglePlayGames.BasicApi.Quests.QuestClaimMilestoneStatus,GooglePlayGames.BasicApi.Quests.IQuest,GooglePlayGames.BasicApi.Quests.IQuestMilestone>)
+extern TypeInfo* U3CClaimMilestoneU3Ec__AnonStorey1D_t234_il2cpp_TypeInfo_var;
+extern TypeInfo* NativeQuestMilestone_t356_il2cpp_TypeInfo_var;
+extern TypeInfo* Logger_t61_il2cpp_TypeInfo_var;
+extern TypeInfo* Action_1_t467_il2cpp_TypeInfo_var;
+extern const MethodInfo* Misc_CheckNotNull_TisIQuestMilestone_t447_m2059_MethodInfo_var;
+extern const MethodInfo* Misc_CheckNotNull_TisAction_3_t235_m2060_MethodInfo_var;
+extern const MethodInfo* CallbackUtils_ToOnGameThread_TisQuestClaimMilestoneStatus_t40_TisIQuest_t446_TisIQuestMilestone_t447_m2061_MethodInfo_var;
+extern const MethodInfo* Action_3_Invoke_m2044_MethodInfo_var;
+extern const MethodInfo* U3CClaimMilestoneU3Ec__AnonStorey1D_U3CU3Em__22_m981_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2062_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral152;
+extern "C" void NativeQuestClient_ClaimMilestone_m991 (NativeQuestClient_t236 * __this, Object_t * ___milestone, Action_3_t235 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		U3CClaimMilestoneU3Ec__AnonStorey1D_t234_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(159);
+		NativeQuestMilestone_t356_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(160);
+		Logger_t61_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
+		Action_1_t467_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(161);
+		Misc_CheckNotNull_TisIQuestMilestone_t447_m2059_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483761);
+		Misc_CheckNotNull_TisAction_3_t235_m2060_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483762);
+		CallbackUtils_ToOnGameThread_TisQuestClaimMilestoneStatus_t40_TisIQuest_t446_TisIQuestMilestone_t447_m2061_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483763);
+		Action_3_Invoke_m2044_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483742);
+		U3CClaimMilestoneU3Ec__AnonStorey1D_U3CU3Em__22_m981_MethodInfo_var = il2cpp_codegen_method_info_from_index(116);
+		Action_1__ctor_m2062_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483765);
+		_stringLiteral152 = il2cpp_codegen_string_literal_from_index(152);
+		s_Il2CppMethodIntialized = true;
+	}
+	NativeQuestMilestone_t356 * V_0 = {0};
+	U3CClaimMilestoneU3Ec__AnonStorey1D_t234 * V_1 = {0};
+	{
+		U3CClaimMilestoneU3Ec__AnonStorey1D_t234 * L_0 = (U3CClaimMilestoneU3Ec__AnonStorey1D_t234 *)il2cpp_codegen_object_new (U3CClaimMilestoneU3Ec__AnonStorey1D_t234_il2cpp_TypeInfo_var);
+		U3CClaimMilestoneU3Ec__AnonStorey1D__ctor_m980(L_0, /*hidden argument*/NULL);
+		V_1 = L_0;
+		U3CClaimMilestoneU3Ec__AnonStorey1D_t234 * L_1 = V_1;
+		Action_3_t235 * L_2 = ___callback;
+		NullCheck(L_1);
+		L_1->___callback_0 = L_2;
+		Object_t * L_3 = ___milestone;
+		Misc_CheckNotNull_TisIQuestMilestone_t447_m2059(NULL /*static, unused*/, L_3, /*hidden argument*/Misc_CheckNotNull_TisIQuestMilestone_t447_m2059_MethodInfo_var);
+		U3CClaimMilestoneU3Ec__AnonStorey1D_t234 * L_4 = V_1;
+		NullCheck(L_4);
+		Action_3_t235 * L_5 = (L_4->___callback_0);
+		Misc_CheckNotNull_TisAction_3_t235_m2060(NULL /*static, unused*/, L_5, /*hidden argument*/Misc_CheckNotNull_TisAction_3_t235_m2060_MethodInfo_var);
+		U3CClaimMilestoneU3Ec__AnonStorey1D_t234 * L_6 = V_1;
+		U3CClaimMilestoneU3Ec__AnonStorey1D_t234 * L_7 = V_1;
+		NullCheck(L_7);
+		Action_3_t235 * L_8 = (L_7->___callback_0);
+		Action_3_t235 * L_9 = CallbackUtils_ToOnGameThread_TisQuestClaimMilestoneStatus_t40_TisIQuest_t446_TisIQuestMilestone_t447_m2061(NULL /*static, unused*/, L_8, /*hidden argument*/CallbackUtils_ToOnGameThread_TisQuestClaimMilestoneStatus_t40_TisIQuest_t446_TisIQuestMilestone_t447_m2061_MethodInfo_var);
+		NullCheck(L_6);
+		L_6->___callback_0 = L_9;
+		Object_t * L_10 = ___milestone;
+		V_0 = ((NativeQuestMilestone_t356 *)IsInstClass(L_10, NativeQuestMilestone_t356_il2cpp_TypeInfo_var));
+		NativeQuestMilestone_t356 * L_11 = V_0;
+		if (L_11)
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Logger_t61_il2cpp_TypeInfo_var);
+		Logger_e_m266(NULL /*static, unused*/, _stringLiteral152, /*hidden argument*/NULL);
+		U3CClaimMilestoneU3Ec__AnonStorey1D_t234 * L_12 = V_1;
+		NullCheck(L_12);
+		Action_3_t235 * L_13 = (L_12->___callback_0);
+		NullCheck(L_13);
+		Action_3_Invoke_m2044(L_13, 1, (Object_t *)NULL, (Object_t *)NULL, /*hidden argument*/Action_3_Invoke_m2044_MethodInfo_var);
+		return;
+	}
+
+IL_0057:
+	{
+		QuestManager_t237 * L_14 = (__this->___mManager_0);
+		NativeQuestMilestone_t356 * L_15 = V_0;
+		U3CClaimMilestoneU3Ec__AnonStorey1D_t234 * L_16 = V_1;
+		IntPtr_t L_17 = { (void*)U3CClaimMilestoneU3Ec__AnonStorey1D_U3CU3Em__22_m981_MethodInfo_var };
+		Action_1_t467 * L_18 = (Action_1_t467 *)il2cpp_codegen_object_new (Action_1_t467_il2cpp_TypeInfo_var);
+		Action_1__ctor_m2062(L_18, L_16, L_17, /*hidden argument*/Action_1__ctor_m2062_MethodInfo_var);
+		NullCheck(L_14);
+		QuestManager_ClaimMilestone_m1605(L_14, L_15, L_18, /*hidden argument*/NULL);
+		return;
+	}
+}
+// GooglePlayGames.BasicApi.Quests.QuestClaimMilestoneStatus GooglePlayGames.Native.NativeQuestClient::FromClaimStatus(GooglePlayGames.Native.Cwrapper.CommonErrorStatus/QuestClaimMilestoneStatus)
+extern TypeInfo* QuestClaimMilestoneStatus_t91_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* Logger_t61_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral151;
+extern "C" int32_t NativeQuestClient_FromClaimStatus_m992 (Object_t * __this /* static, unused */, int32_t ___status, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		QuestClaimMilestoneStatus_t91_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(162);
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
+		Logger_t61_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
+		_stringLiteral151 = il2cpp_codegen_string_literal_from_index(151);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = {0};
+	{
+		int32_t L_0 = ___status;
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		if (((int32_t)((int32_t)L_1+(int32_t)5)) == 0)
+		{
+			goto IL_0045;
+		}
+		if (((int32_t)((int32_t)L_1+(int32_t)5)) == 1)
+		{
+			goto IL_0026;
+		}
+		if (((int32_t)((int32_t)L_1+(int32_t)5)) == 2)
+		{
+			goto IL_0043;
+		}
+		if (((int32_t)((int32_t)L_1+(int32_t)5)) == 3)
+		{
+			goto IL_003d;
+		}
+		if (((int32_t)((int32_t)L_1+(int32_t)5)) == 4)
+		{
+			goto IL_0026;
+		}
+		if (((int32_t)((int32_t)L_1+(int32_t)5)) == 5)
+		{
+			goto IL_0026;
+		}
+		if (((int32_t)((int32_t)L_1+(int32_t)5)) == 6)
+		{
+			goto IL_003b;
+		}
+	}
+
+IL_0026:
+	{
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) == ((int32_t)((int32_t)-16))))
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)((int32_t)-15))))
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		goto IL_0047;
+	}
+
+IL_003b:
+	{
+		return (int32_t)(0);
+	}
+
+IL_003d:
+	{
+		return (int32_t)(2);
+	}
+
+IL_003f:
+	{
+		return (int32_t)(5);
+	}
+
+IL_0041:
+	{
+		return (int32_t)(6);
+	}
+
+IL_0043:
+	{
+		return (int32_t)(3);
+	}
+
+IL_0045:
+	{
+		return (int32_t)(4);
+	}
+
+IL_0047:
+	{
+		int32_t L_4 = ___status;
+		int32_t L_5 = L_4;
+		Object_t * L_6 = Box(QuestClaimMilestoneStatus_t91_il2cpp_TypeInfo_var, &L_5);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_7 = String_Concat_m1971(NULL /*static, unused*/, _stringLiteral151, L_6, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Logger_t61_il2cpp_TypeInfo_var);
+		Logger_e_m266(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		return (int32_t)(2);
+	}
+}
+// System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/NoopListener::.ctor()
+extern "C" void NoopListener__ctor_m993 (NoopListener_t238 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1915(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/NoopListener::OnRoomSetupProgress(System.Single)
+extern "C" void NoopListener_OnRoomSetupProgress_m994 (NoopListener_t238 * __this, float ___percent, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/NoopListener::OnRoomConnected(System.Boolean)
+extern "C" void NoopListener_OnRoomConnected_m995 (NoopListener_t238 * __this, bool ___success, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/NoopListener::OnLeftRoom()
+extern "C" void NoopListener_OnLeftRoom_m996 (NoopListener_t238 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/NoopListener::OnParticipantLeft(GooglePlayGames.BasicApi.Multiplayer.Participant)
+extern "C" void NoopListener_OnParticipantLeft_m997 (NoopListener_t238 * __this, Participant_t9 * ___participant, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/NoopListener::OnPeersConnected(System.String[])
+extern "C" void NoopListener_OnPeersConnected_m998 (NoopListener_t238 * __this, StringU5BU5D_t246* ___participantIds, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/NoopListener::OnPeersDisconnected(System.String[])
+extern "C" void NoopListener_OnPeersDisconnected_m999 (NoopListener_t238 * __this, StringU5BU5D_t246* ___participantIds, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/NoopListener::OnRealTimeMessageReceived(System.Boolean,System.String,System.Byte[])
+extern "C" void NoopListener_OnRealTimeMessageReceived_m1000 (NoopListener_t238 * __this, bool ___isReliable, String_t* ___senderId, ByteU5BU5D_t20* ___data, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/RoomSession::.ctor(GooglePlayGames.Native.PInvoke.RealtimeManager,GooglePlayGames.BasicApi.Multiplayer.RealTimeMultiplayerListener)
+extern TypeInfo* Object_t_il2cpp_TypeInfo_var;
+extern TypeInfo* OnGameThreadForwardingListener_t240_il2cpp_TypeInfo_var;
+extern TypeInfo* BeforeRoomCreateStartedState_t258_il2cpp_TypeInfo_var;
+extern const MethodInfo* Misc_CheckNotNull_TisRealtimeManager_t241_m2063_MethodInfo_var;
+extern "C" void RoomSession__ctor_m1001 (RoomSession_t239 * __this, RealtimeManager_t241 * ___manager, Object_t * ___listener, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		Object_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(0);
+		OnGameThreadForwardingListener_t240_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(163);
+		BeforeRoomCreateStartedState_t258_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(164);
+		Misc_CheckNotNull_TisRealtimeManager_t241_m2063_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483766);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Object_t * L_0 = (Object_t *)il2cpp_codegen_object_new (Object_t_il2cpp_TypeInfo_var);
+		Object__ctor_m1915(L_0, /*hidden argument*/NULL);
+		__this->___mLifecycleLock_0 = L_0;
+		Object__ctor_m1915(__this, /*hidden argument*/NULL);
+		RealtimeManager_t241 * L_1 = ___manager;
+		RealtimeManager_t241 * L_2 = Misc_CheckNotNull_TisRealtimeManager_t241_m2063(NULL /*static, unused*/, L_1, /*hidden argument*/Misc_CheckNotNull_TisRealtimeManager_t241_m2063_MethodInfo_var);
+		__this->___mManager_2 = L_2;
+		Object_t * L_3 = ___listener;
+		OnGameThreadForwardingListener_t240 * L_4 = (OnGameThreadForwardingListener_t240 *)il2cpp_codegen_object_new (OnGameThreadForwardingListener_t240_il2cpp_TypeInfo_var);
+		OnGameThreadForwardingListener__ctor_m1037(L_4, L_3, /*hidden argument*/NULL);
+		__this->___mListener_1 = L_4;
+		BeforeRoomCreateStartedState_t258 * L_5 = (BeforeRoomCreateStartedState_t258 *)il2cpp_codegen_object_new (BeforeRoomCreateStartedState_t258_il2cpp_TypeInfo_var);
+		BeforeRoomCreateStartedState__ctor_m1078(L_5, __this, /*hidden argument*/NULL);
+		RoomSession_EnterState_m1008(__this, L_5, /*hidden argument*/NULL);
+		il2cpp_codegen_memory_barrier();
+		__this->___mStillPreRoomCreation_5 = 1;
+		return;
+	}
+}
+// System.UInt32 GooglePlayGames.Native.NativeRealtimeMultiplayerClient/RoomSession::get_MinPlayersToStart()
+extern "C" uint32_t RoomSession_get_MinPlayersToStart_m1002 (RoomSession_t239 * __this, const MethodInfo* method)
+{
+	{
+		uint32_t L_0 = (__this->___mMinPlayersToStart_6);
+		return L_0;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/RoomSession::set_MinPlayersToStart(System.UInt32)
+extern "C" void RoomSession_set_MinPlayersToStart_m1003 (RoomSession_t239 * __this, uint32_t ___value, const MethodInfo* method)
+{
+	{
+		uint32_t L_0 = ___value;
+		__this->___mMinPlayersToStart_6 = L_0;
+		return;
+	}
+}
+// GooglePlayGames.Native.PInvoke.RealtimeManager GooglePlayGames.Native.NativeRealtimeMultiplayerClient/RoomSession::Manager()
+extern "C" RealtimeManager_t241 * RoomSession_Manager_m1004 (RoomSession_t239 * __this, const MethodInfo* method)
+{
+	{
+		RealtimeManager_t241 * L_0 = (__this->___mManager_2);
+		return L_0;
+	}
+}
+// System.Boolean GooglePlayGames.Native.NativeRealtimeMultiplayerClient/RoomSession::IsActive()
+extern "C" bool RoomSession_IsActive_m1005 (RoomSession_t239 * __this, const MethodInfo* method)
+{
+	{
+		State_t242 * L_0 = (__this->___mState_4);
+		il2cpp_codegen_memory_barrier();
+		NullCheck(L_0);
+		bool L_1 = (bool)VirtFuncInvoker0< bool >::Invoke(5 /* System.Boolean GooglePlayGames.Native.NativeRealtimeMultiplayerClient/State::IsActive() */, L_0);
+		return L_1;
+	}
+}
+// System.String GooglePlayGames.Native.NativeRealtimeMultiplayerClient/RoomSession::SelfPlayerId()
+extern "C" String_t* RoomSession_SelfPlayerId_m1006 (RoomSession_t239 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = (__this->___mCurrentPlayerId_3);
+		il2cpp_codegen_memory_barrier();
+		return L_0;
+	}
+}
+// GooglePlayGames.Native.NativeRealtimeMultiplayerClient/OnGameThreadForwardingListener GooglePlayGames.Native.NativeRealtimeMultiplayerClient/RoomSession::OnGameThreadListener()
+extern "C" OnGameThreadForwardingListener_t240 * RoomSession_OnGameThreadListener_m1007 (RoomSession_t239 * __this, const MethodInfo* method)
+{
+	{
+		OnGameThreadForwardingListener_t240 * L_0 = (__this->___mListener_1);
+		return L_0;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/RoomSession::EnterState(GooglePlayGames.Native.NativeRealtimeMultiplayerClient/State)
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* Logger_t61_il2cpp_TypeInfo_var;
+extern const MethodInfo* Misc_CheckNotNull_TisState_t242_m2064_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral153;
+extern "C" void RoomSession_EnterState_m1008 (RoomSession_t239 * __this, State_t242 * ___handler, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
+		Logger_t61_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
+		Misc_CheckNotNull_TisState_t242_m2064_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483767);
+		_stringLiteral153 = il2cpp_codegen_string_literal_from_index(153);
+		s_Il2CppMethodIntialized = true;
+	}
+	Object_t * V_0 = {0};
+	Exception_t492 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t492 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Object_t * L_0 = (__this->___mLifecycleLock_0);
+		V_0 = L_0;
+		Object_t * L_1 = V_0;
+		Monitor_Enter_m1995(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+	}
+
+IL_000d:
+	try
+	{ // begin try (depth: 1)
+		State_t242 * L_2 = ___handler;
+		State_t242 * L_3 = Misc_CheckNotNull_TisState_t242_m2064(NULL /*static, unused*/, L_2, /*hidden argument*/Misc_CheckNotNull_TisState_t242_m2064_MethodInfo_var);
+		il2cpp_codegen_memory_barrier();
+		__this->___mState_4 = L_3;
+		State_t242 * L_4 = ___handler;
+		NullCheck(L_4);
+		Type_t * L_5 = Object_GetType_m1930(L_4, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		String_t* L_6 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_5);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_7 = String_Concat_m1926(NULL /*static, unused*/, _stringLiteral153, L_6, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Logger_t61_il2cpp_TypeInfo_var);
+		Logger_d_m264(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		State_t242 * L_8 = (__this->___mState_4);
+		il2cpp_codegen_memory_barrier();
+		NullCheck(L_8);
+		VirtActionInvoker0::Invoke(8 /* System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/State::OnStateEntered() */, L_8);
+		IL2CPP_LEAVE(0x4E, FINALLY_0047);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t492 *)e.ex;
+		goto FINALLY_0047;
+	}
+
+FINALLY_0047:
+	{ // begin finally (depth: 1)
+		Object_t * L_9 = V_0;
+		Monitor_Exit_m1996(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(71)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(71)
+	{
+		IL2CPP_JUMP_TBL(0x4E, IL_004e)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t492 *)
+	}
+
+IL_004e:
+	{
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/RoomSession::LeaveRoom()
+extern "C" void RoomSession_LeaveRoom_m1009 (RoomSession_t239 * __this, const MethodInfo* method)
+{
+	Object_t * V_0 = {0};
+	Exception_t492 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t492 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Object_t * L_0 = (__this->___mLifecycleLock_0);
+		V_0 = L_0;
+		Object_t * L_1 = V_0;
+		Monitor_Enter_m1995(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+	}
+
+IL_000d:
+	try
+	{ // begin try (depth: 1)
+		State_t242 * L_2 = (__this->___mState_4);
+		il2cpp_codegen_memory_barrier();
+		NullCheck(L_2);
+		VirtActionInvoker0::Invoke(6 /* System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/State::LeaveRoom() */, L_2);
+		IL2CPP_LEAVE(0x26, FINALLY_001f);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t492 *)e.ex;
+		goto FINALLY_001f;
+	}
+
+FINALLY_001f:
+	{ // begin finally (depth: 1)
+		Object_t * L_3 = V_0;
+		Monitor_Exit_m1996(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(31)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(31)
+	{
+		IL2CPP_JUMP_TBL(0x26, IL_0026)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t492 *)
+	}
+
+IL_0026:
+	{
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/RoomSession::ShowWaitingRoomUI()
+extern "C" void RoomSession_ShowWaitingRoomUI_m1010 (RoomSession_t239 * __this, const MethodInfo* method)
+{
+	{
+		State_t242 * L_0 = (__this->___mState_4);
+		il2cpp_codegen_memory_barrier();
+		uint32_t L_1 = RoomSession_get_MinPlayersToStart_m1002(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		VirtActionInvoker1< uint32_t >::Invoke(7 /* System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/State::ShowWaitingRoomUI(System.UInt32) */, L_0, L_1);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/RoomSession::StartRoomCreation(System.String,System.Action)
+extern TypeInfo* Logger_t61_il2cpp_TypeInfo_var;
+extern TypeInfo* RoomCreationPendingState_t259_il2cpp_TypeInfo_var;
+extern const MethodInfo* Misc_CheckNotNull_TisString_t_m1944_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral154;
+extern Il2CppCodeGenString* _stringLiteral155;
+extern "C" void RoomSession_StartRoomCreation_m1011 (RoomSession_t239 * __this, String_t* ___currentPlayerId, Action_t267 * ___createRoom, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		Logger_t61_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
+		RoomCreationPendingState_t259_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(166);
+		Misc_CheckNotNull_TisString_t_m1944_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483666);
+		_stringLiteral154 = il2cpp_codegen_string_literal_from_index(154);
+		_stringLiteral155 = il2cpp_codegen_string_literal_from_index(155);
+		s_Il2CppMethodIntialized = true;
+	}
+	Object_t * V_0 = {0};
+	Exception_t492 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t492 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Object_t * L_0 = (__this->___mLifecycleLock_0);
+		V_0 = L_0;
+		Object_t * L_1 = V_0;
+		Monitor_Enter_m1995(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+	}
+
+IL_000d:
+	try
+	{ // begin try (depth: 1)
+		{
+			bool L_2 = (__this->___mStillPreRoomCreation_5);
+			il2cpp_codegen_memory_barrier();
+			if (L_2)
+			{
+				goto IL_0029;
+			}
+		}
+
+IL_001a:
+		{
+			IL2CPP_RUNTIME_CLASS_INIT(Logger_t61_il2cpp_TypeInfo_var);
+			Logger_e_m266(NULL /*static, unused*/, _stringLiteral154, /*hidden argument*/NULL);
+			IL2CPP_LEAVE(0x7F, FINALLY_0078);
+		}
+
+IL_0029:
+		{
+			State_t242 * L_3 = (__this->___mState_4);
+			il2cpp_codegen_memory_barrier();
+			NullCheck(L_3);
+			bool L_4 = (bool)VirtFuncInvoker0< bool >::Invoke(5 /* System.Boolean GooglePlayGames.Native.NativeRealtimeMultiplayerClient/State::IsActive() */, L_3);
+			if (L_4)
+			{
+				goto IL_004a;
+			}
+		}
+
+IL_003b:
+		{
+			IL2CPP_RUNTIME_CLASS_INIT(Logger_t61_il2cpp_TypeInfo_var);
+			Logger_w_m265(NULL /*static, unused*/, _stringLiteral155, /*hidden argument*/NULL);
+			IL2CPP_LEAVE(0x7F, FINALLY_0078);
+		}
+
+IL_004a:
+		{
+			String_t* L_5 = ___currentPlayerId;
+			String_t* L_6 = Misc_CheckNotNull_TisString_t_m1944(NULL /*static, unused*/, L_5, /*hidden argument*/Misc_CheckNotNull_TisString_t_m1944_MethodInfo_var);
+			il2cpp_codegen_memory_barrier();
+			__this->___mCurrentPlayerId_3 = L_6;
+			il2cpp_codegen_memory_barrier();
+			__this->___mStillPreRoomCreation_5 = 0;
+			RoomCreationPendingState_t259 * L_7 = (RoomCreationPendingState_t259 *)il2cpp_codegen_object_new (RoomCreationPendingState_t259_il2cpp_TypeInfo_var);
+			RoomCreationPendingState__ctor_m1080(L_7, __this, /*hidden argument*/NULL);
+			RoomSession_EnterState_m1008(__this, L_7, /*hidden argument*/NULL);
+			Action_t267 * L_8 = ___createRoom;
+			NullCheck(L_8);
+			Action_Invoke_m2000(L_8, /*hidden argument*/NULL);
+			IL2CPP_LEAVE(0x7F, FINALLY_0078);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t492 *)e.ex;
+		goto FINALLY_0078;
+	}
+
+FINALLY_0078:
+	{ // begin finally (depth: 1)
+		Object_t * L_9 = V_0;
+		Monitor_Exit_m1996(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(120)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(120)
+	{
+		IL2CPP_JUMP_TBL(0x7F, IL_007f)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t492 *)
+	}
+
+IL_007f:
+	{
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/RoomSession::OnRoomStatusChanged(GooglePlayGames.Native.PInvoke.NativeRealTimeRoom)
+extern "C" void RoomSession_OnRoomStatusChanged_m1012 (RoomSession_t239 * __this, NativeRealTimeRoom_t252 * ___room, const MethodInfo* method)
+{
+	Object_t * V_0 = {0};
+	Exception_t492 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t492 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Object_t * L_0 = (__this->___mLifecycleLock_0);
+		V_0 = L_0;
+		Object_t * L_1 = V_0;
+		Monitor_Enter_m1995(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+	}
+
+IL_000d:
+	try
+	{ // begin try (depth: 1)
+		State_t242 * L_2 = (__this->___mState_4);
+		il2cpp_codegen_memory_barrier();
+		NativeRealTimeRoom_t252 * L_3 = ___room;
+		NullCheck(L_2);
+		VirtActionInvoker1< NativeRealTimeRoom_t252 * >::Invoke(9 /* System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/State::OnRoomStatusChanged(GooglePlayGames.Native.PInvoke.NativeRealTimeRoom) */, L_2, L_3);
+		IL2CPP_LEAVE(0x27, FINALLY_0020);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t492 *)e.ex;
+		goto FINALLY_0020;
+	}
+
+FINALLY_0020:
+	{ // begin finally (depth: 1)
+		Object_t * L_4 = V_0;
+		Monitor_Exit_m1996(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(32)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(32)
+	{
+		IL2CPP_JUMP_TBL(0x27, IL_0027)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t492 *)
+	}
+
+IL_0027:
+	{
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/RoomSession::OnConnectedSetChanged(GooglePlayGames.Native.PInvoke.NativeRealTimeRoom)
+extern "C" void RoomSession_OnConnectedSetChanged_m1013 (RoomSession_t239 * __this, NativeRealTimeRoom_t252 * ___room, const MethodInfo* method)
+{
+	Object_t * V_0 = {0};
+	Exception_t492 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t492 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Object_t * L_0 = (__this->___mLifecycleLock_0);
+		V_0 = L_0;
+		Object_t * L_1 = V_0;
+		Monitor_Enter_m1995(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+	}
+
+IL_000d:
+	try
+	{ // begin try (depth: 1)
+		State_t242 * L_2 = (__this->___mState_4);
+		il2cpp_codegen_memory_barrier();
+		NativeRealTimeRoom_t252 * L_3 = ___room;
+		NullCheck(L_2);
+		VirtActionInvoker1< NativeRealTimeRoom_t252 * >::Invoke(10 /* System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/State::OnConnectedSetChanged(GooglePlayGames.Native.PInvoke.NativeRealTimeRoom) */, L_2, L_3);
+		IL2CPP_LEAVE(0x27, FINALLY_0020);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t492 *)e.ex;
+		goto FINALLY_0020;
+	}
+
+FINALLY_0020:
+	{ // begin finally (depth: 1)
+		Object_t * L_4 = V_0;
+		Monitor_Exit_m1996(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(32)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(32)
+	{
+		IL2CPP_JUMP_TBL(0x27, IL_0027)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t492 *)
+	}
+
+IL_0027:
+	{
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/RoomSession::OnParticipantStatusChanged(GooglePlayGames.Native.PInvoke.NativeRealTimeRoom,GooglePlayGames.Native.PInvoke.MultiplayerParticipant)
+extern "C" void RoomSession_OnParticipantStatusChanged_m1014 (RoomSession_t239 * __this, NativeRealTimeRoom_t252 * ___room, MultiplayerParticipant_t350 * ___participant, const MethodInfo* method)
+{
+	Object_t * V_0 = {0};
+	Exception_t492 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t492 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Object_t * L_0 = (__this->___mLifecycleLock_0);
+		V_0 = L_0;
+		Object_t * L_1 = V_0;
+		Monitor_Enter_m1995(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+	}
+
+IL_000d:
+	try
+	{ // begin try (depth: 1)
+		State_t242 * L_2 = (__this->___mState_4);
+		il2cpp_codegen_memory_barrier();
+		NativeRealTimeRoom_t252 * L_3 = ___room;
+		MultiplayerParticipant_t350 * L_4 = ___participant;
+		NullCheck(L_2);
+		VirtActionInvoker2< NativeRealTimeRoom_t252 *, MultiplayerParticipant_t350 * >::Invoke(11 /* System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/State::OnParticipantStatusChanged(GooglePlayGames.Native.PInvoke.NativeRealTimeRoom,GooglePlayGames.Native.PInvoke.MultiplayerParticipant) */, L_2, L_3, L_4);
+		IL2CPP_LEAVE(0x28, FINALLY_0021);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t492 *)e.ex;
+		goto FINALLY_0021;
+	}
+
+FINALLY_0021:
+	{ // begin finally (depth: 1)
+		Object_t * L_5 = V_0;
+		Monitor_Exit_m1996(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(33)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(33)
+	{
+		IL2CPP_JUMP_TBL(0x28, IL_0028)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t492 *)
+	}
+
+IL_0028:
+	{
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/RoomSession::HandleRoomResponse(GooglePlayGames.Native.PInvoke.RealtimeManager/RealTimeRoomResponse)
+extern "C" void RoomSession_HandleRoomResponse_m1015 (RoomSession_t239 * __this, RealTimeRoomResponse_t375 * ___response, const MethodInfo* method)
+{
+	Object_t * V_0 = {0};
+	Exception_t492 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t492 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Object_t * L_0 = (__this->___mLifecycleLock_0);
+		V_0 = L_0;
+		Object_t * L_1 = V_0;
+		Monitor_Enter_m1995(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+	}
+
+IL_000d:
+	try
+	{ // begin try (depth: 1)
+		State_t242 * L_2 = (__this->___mState_4);
+		il2cpp_codegen_memory_barrier();
+		RealTimeRoomResponse_t375 * L_3 = ___response;
+		NullCheck(L_2);
+		VirtActionInvoker1< RealTimeRoomResponse_t375 * >::Invoke(4 /* System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/State::HandleRoomResponse(GooglePlayGames.Native.PInvoke.RealtimeManager/RealTimeRoomResponse) */, L_2, L_3);
+		IL2CPP_LEAVE(0x27, FINALLY_0020);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t492 *)e.ex;
+		goto FINALLY_0020;
+	}
+
+FINALLY_0020:
+	{ // begin finally (depth: 1)
+		Object_t * L_4 = V_0;
+		Monitor_Exit_m1996(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(32)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(32)
+	{
+		IL2CPP_JUMP_TBL(0x27, IL_0027)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t492 *)
+	}
+
+IL_0027:
+	{
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/RoomSession::OnDataReceived(GooglePlayGames.Native.PInvoke.NativeRealTimeRoom,GooglePlayGames.Native.PInvoke.MultiplayerParticipant,System.Byte[],System.Boolean)
+extern "C" void RoomSession_OnDataReceived_m1016 (RoomSession_t239 * __this, NativeRealTimeRoom_t252 * ___room, MultiplayerParticipant_t350 * ___sender, ByteU5BU5D_t20* ___data, bool ___isReliable, const MethodInfo* method)
+{
+	{
+		State_t242 * L_0 = (__this->___mState_4);
+		il2cpp_codegen_memory_barrier();
+		NativeRealTimeRoom_t252 * L_1 = ___room;
+		MultiplayerParticipant_t350 * L_2 = ___sender;
+		ByteU5BU5D_t20* L_3 = ___data;
+		bool L_4 = ___isReliable;
+		NullCheck(L_0);
+		VirtActionInvoker4< NativeRealTimeRoom_t252 *, MultiplayerParticipant_t350 *, ByteU5BU5D_t20*, bool >::Invoke(12 /* System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/State::OnDataReceived(GooglePlayGames.Native.PInvoke.NativeRealTimeRoom,GooglePlayGames.Native.PInvoke.MultiplayerParticipant,System.Byte[],System.Boolean) */, L_0, L_1, L_2, L_3, L_4);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/RoomSession::SendMessageToAll(System.Boolean,System.Byte[])
+extern "C" void RoomSession_SendMessageToAll_m1017 (RoomSession_t239 * __this, bool ___reliable, ByteU5BU5D_t20* ___data, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___reliable;
+		ByteU5BU5D_t20* L_1 = ___data;
+		ByteU5BU5D_t20* L_2 = ___data;
+		NullCheck(L_2);
+		RoomSession_SendMessageToAll_m1018(__this, L_0, L_1, 0, (((int32_t)((int32_t)(((Array_t *)L_2)->max_length)))), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/RoomSession::SendMessageToAll(System.Boolean,System.Byte[],System.Int32,System.Int32)
+extern "C" void RoomSession_SendMessageToAll_m1018 (RoomSession_t239 * __this, bool ___reliable, ByteU5BU5D_t20* ___data, int32_t ___offset, int32_t ___length, const MethodInfo* method)
+{
+	{
+		State_t242 * L_0 = (__this->___mState_4);
+		il2cpp_codegen_memory_barrier();
+		ByteU5BU5D_t20* L_1 = ___data;
+		int32_t L_2 = ___offset;
+		int32_t L_3 = ___length;
+		bool L_4 = ___reliable;
+		NullCheck(L_0);
+		VirtActionInvoker4< ByteU5BU5D_t20*, int32_t, int32_t, bool >::Invoke(14 /* System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/State::SendToAll(System.Byte[],System.Int32,System.Int32,System.Boolean) */, L_0, L_1, L_2, L_3, L_4);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/RoomSession::SendMessage(System.Boolean,System.String,System.Byte[])
+extern "C" void RoomSession_SendMessage_m1019 (RoomSession_t239 * __this, bool ___reliable, String_t* ___participantId, ByteU5BU5D_t20* ___data, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___reliable;
+		String_t* L_1 = ___participantId;
+		ByteU5BU5D_t20* L_2 = ___data;
+		ByteU5BU5D_t20* L_3 = ___data;
+		NullCheck(L_3);
+		RoomSession_SendMessage_m1020(__this, L_0, L_1, L_2, 0, (((int32_t)((int32_t)(((Array_t *)L_3)->max_length)))), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/RoomSession::SendMessage(System.Boolean,System.String,System.Byte[],System.Int32,System.Int32)
+extern "C" void RoomSession_SendMessage_m1020 (RoomSession_t239 * __this, bool ___reliable, String_t* ___participantId, ByteU5BU5D_t20* ___data, int32_t ___offset, int32_t ___length, const MethodInfo* method)
+{
+	{
+		State_t242 * L_0 = (__this->___mState_4);
+		il2cpp_codegen_memory_barrier();
+		String_t* L_1 = ___participantId;
+		ByteU5BU5D_t20* L_2 = ___data;
+		int32_t L_3 = ___offset;
+		int32_t L_4 = ___length;
+		bool L_5 = ___reliable;
+		NullCheck(L_0);
+		VirtActionInvoker5< String_t*, ByteU5BU5D_t20*, int32_t, int32_t, bool >::Invoke(13 /* System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/State::SendToSpecificRecipient(System.String,System.Byte[],System.Int32,System.Int32,System.Boolean) */, L_0, L_1, L_2, L_3, L_4, L_5);
+		return;
+	}
+}
+// System.Collections.Generic.List`1<GooglePlayGames.BasicApi.Multiplayer.Participant> GooglePlayGames.Native.NativeRealtimeMultiplayerClient/RoomSession::GetConnectedParticipants()
+extern "C" List_1_t21 * RoomSession_GetConnectedParticipants_m1021 (RoomSession_t239 * __this, const MethodInfo* method)
+{
+	{
+		State_t242 * L_0 = (__this->___mState_4);
+		il2cpp_codegen_memory_barrier();
+		NullCheck(L_0);
+		List_1_t21 * L_1 = (List_1_t21 *)VirtFuncInvoker0< List_1_t21 * >::Invoke(15 /* System.Collections.Generic.List`1<GooglePlayGames.BasicApi.Multiplayer.Participant> GooglePlayGames.Native.NativeRealtimeMultiplayerClient/State::GetConnectedParticipants() */, L_0);
+		return L_1;
+	}
+}
+// GooglePlayGames.BasicApi.Multiplayer.Participant GooglePlayGames.Native.NativeRealtimeMultiplayerClient/RoomSession::GetSelf()
+extern "C" Participant_t9 * RoomSession_GetSelf_m1022 (RoomSession_t239 * __this, const MethodInfo* method)
+{
+	{
+		State_t242 * L_0 = (__this->___mState_4);
+		il2cpp_codegen_memory_barrier();
+		NullCheck(L_0);
+		Participant_t9 * L_1 = (Participant_t9 *)VirtFuncInvoker0< Participant_t9 * >::Invoke(16 /* GooglePlayGames.BasicApi.Multiplayer.Participant GooglePlayGames.Native.NativeRealtimeMultiplayerClient/State::GetSelf() */, L_0);
+		return L_1;
+	}
+}
+// GooglePlayGames.BasicApi.Multiplayer.Participant GooglePlayGames.Native.NativeRealtimeMultiplayerClient/RoomSession::GetParticipant(System.String)
+extern "C" Participant_t9 * RoomSession_GetParticipant_m1023 (RoomSession_t239 * __this, String_t* ___participantId, const MethodInfo* method)
+{
+	{
+		State_t242 * L_0 = (__this->___mState_4);
+		il2cpp_codegen_memory_barrier();
+		String_t* L_1 = ___participantId;
+		NullCheck(L_0);
+		Participant_t9 * L_2 = (Participant_t9 *)VirtFuncInvoker1< Participant_t9 *, String_t* >::Invoke(17 /* GooglePlayGames.BasicApi.Multiplayer.Participant GooglePlayGames.Native.NativeRealtimeMultiplayerClient/State::GetParticipant(System.String) */, L_0, L_1);
+		return L_2;
+	}
+}
+// System.Boolean GooglePlayGames.Native.NativeRealtimeMultiplayerClient/RoomSession::IsRoomConnected()
+extern "C" bool RoomSession_IsRoomConnected_m1024 (RoomSession_t239 * __this, const MethodInfo* method)
+{
+	{
+		State_t242 * L_0 = (__this->___mState_4);
+		il2cpp_codegen_memory_barrier();
+		NullCheck(L_0);
+		bool L_1 = (bool)VirtFuncInvoker0< bool >::Invoke(18 /* System.Boolean GooglePlayGames.Native.NativeRealtimeMultiplayerClient/State::IsRoomConnected() */, L_0);
+		return L_1;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/OnGameThreadForwardingListener/<RoomSetupProgress>c__AnonStorey2E::.ctor()
+extern "C" void U3CRoomSetupProgressU3Ec__AnonStorey2E__ctor_m1025 (U3CRoomSetupProgressU3Ec__AnonStorey2E_t243 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1915(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/OnGameThreadForwardingListener/<RoomSetupProgress>c__AnonStorey2E::<>m__30()
+extern TypeInfo* RealTimeMultiplayerListener_t250_il2cpp_TypeInfo_var;
+extern "C" void U3CRoomSetupProgressU3Ec__AnonStorey2E_U3CU3Em__30_m1026 (U3CRoomSetupProgressU3Ec__AnonStorey2E_t243 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		RealTimeMultiplayerListener_t250_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(167);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		OnGameThreadForwardingListener_t240 * L_0 = (__this->___U3CU3Ef__this_1);
+		NullCheck(L_0);
+		Object_t * L_1 = (L_0->___mListener_0);
+		float L_2 = (__this->___percent_0);
+		NullCheck(L_1);
+		InterfaceActionInvoker1< float >::Invoke(0 /* System.Void GooglePlayGames.BasicApi.Multiplayer.RealTimeMultiplayerListener::OnRoomSetupProgress(System.Single) */, RealTimeMultiplayerListener_t250_il2cpp_TypeInfo_var, L_1, L_2);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/OnGameThreadForwardingListener/<RoomConnected>c__AnonStorey2F::.ctor()
+extern "C" void U3CRoomConnectedU3Ec__AnonStorey2F__ctor_m1027 (U3CRoomConnectedU3Ec__AnonStorey2F_t244 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1915(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/OnGameThreadForwardingListener/<RoomConnected>c__AnonStorey2F::<>m__31()
+extern TypeInfo* RealTimeMultiplayerListener_t250_il2cpp_TypeInfo_var;
+extern "C" void U3CRoomConnectedU3Ec__AnonStorey2F_U3CU3Em__31_m1028 (U3CRoomConnectedU3Ec__AnonStorey2F_t244 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		RealTimeMultiplayerListener_t250_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(167);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		OnGameThreadForwardingListener_t240 * L_0 = (__this->___U3CU3Ef__this_1);
+		NullCheck(L_0);
+		Object_t * L_1 = (L_0->___mListener_0);
+		bool L_2 = (__this->___success_0);
+		NullCheck(L_1);
+		InterfaceActionInvoker1< bool >::Invoke(1 /* System.Void GooglePlayGames.BasicApi.Multiplayer.RealTimeMultiplayerListener::OnRoomConnected(System.Boolean) */, RealTimeMultiplayerListener_t250_il2cpp_TypeInfo_var, L_1, L_2);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/OnGameThreadForwardingListener/<PeersConnected>c__AnonStorey30::.ctor()
+extern "C" void U3CPeersConnectedU3Ec__AnonStorey30__ctor_m1029 (U3CPeersConnectedU3Ec__AnonStorey30_t245 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1915(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/OnGameThreadForwardingListener/<PeersConnected>c__AnonStorey30::<>m__33()
+extern TypeInfo* RealTimeMultiplayerListener_t250_il2cpp_TypeInfo_var;
+extern "C" void U3CPeersConnectedU3Ec__AnonStorey30_U3CU3Em__33_m1030 (U3CPeersConnectedU3Ec__AnonStorey30_t245 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		RealTimeMultiplayerListener_t250_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(167);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		OnGameThreadForwardingListener_t240 * L_0 = (__this->___U3CU3Ef__this_1);
+		NullCheck(L_0);
+		Object_t * L_1 = (L_0->___mListener_0);
+		StringU5BU5D_t246* L_2 = (__this->___participantIds_0);
+		NullCheck(L_1);
+		InterfaceActionInvoker1< StringU5BU5D_t246* >::Invoke(4 /* System.Void GooglePlayGames.BasicApi.Multiplayer.RealTimeMultiplayerListener::OnPeersConnected(System.String[]) */, RealTimeMultiplayerListener_t250_il2cpp_TypeInfo_var, L_1, L_2);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/OnGameThreadForwardingListener/<PeersDisconnected>c__AnonStorey31::.ctor()
+extern "C" void U3CPeersDisconnectedU3Ec__AnonStorey31__ctor_m1031 (U3CPeersDisconnectedU3Ec__AnonStorey31_t247 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1915(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Native.NativeRealtimeMultiplayerClient/OnGameThreadForwardingListener/<PeersDisconnected>c__AnonStorey31::<>m__34()
+extern TypeInfo* RealTimeMultiplayerListener_t250_il2cpp_TypeInfo_var;
+extern "C" void U3CPeersDisconnectedU3Ec__AnonStorey31_U3CU3Em__34_m1032 (U3CPeersDisconnectedU3Ec__AnonStorey31_t247 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		RealTimeMultiplayerListener_t250_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(167);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		OnGameThreadForwardingListener_t240 * L_0 = (__this->___U3CU3Ef__this_1);
+		NullCheck(L_0);
+		Object_t * L_1 = (L_0->___mListener_0);
+		StringU5BU5D_t246* L_2 = (__this->___participantIds_0);
+		NullCheck(L_1);
+		InterfaceActionInvoker1< StringU5BU5D_t246* >::Invoke(5 /* System.Void GooglePlayGames.BasicApi.Multiplayer.RealTimeMultiplayerListener::OnPeersDisconnected(System.String[]) */, RealTimeMultiplayerListener_t250_il2cpp_TypeInfo_var, L_1, L_2);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
